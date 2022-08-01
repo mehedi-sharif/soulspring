@@ -1,0 +1,126 @@
+.header {
+  z-index: 9999;
+  padding: 15px 0;
+  transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+  .navbar-toggler {
+    background-color: $color-primary;
+    color: $white;
+    box-shadow: none;
+    padding: 0;
+    height: 42px;
+    width: 42px;
+    line-height: 43px;
+    .btn-open {
+      display: inline-block;
+    }
+    .btn-close {
+      display: none;
+    }
+    &[aria-expanded="true"] {
+      .btn-open {
+        display: none;
+      }
+      .btn-close {
+        display: inline-block;
+      }
+    }
+  }
+
+  @include desktop {
+    .navbar-collapse {
+      background-color: $white;
+      border-radius: 5px;
+      margin-top: 10px;
+      box-shadow: 0px 23px 60px rgba($black, 0.1) !important;
+    }
+    .navbar-nav {
+      width: 100%;
+      max-width: 320px;
+      margin-left: auto !important;
+      margin-right: auto !important;
+    }
+  }
+
+  .nav-item {
+    .nav-link {
+      padding: 20px 15px;
+      @include desktop-lg {
+        padding: 20px 12px;
+      }
+      @include desktop {
+        padding: 6px 12px;
+        text-align: center;
+      }
+      color: $black;
+      font-weight: 400;
+      transition: 0.2s;
+      &:hover {
+        opacity: 0.75;
+      }
+    }
+  }
+
+  .dropdown {
+    &-toggle {
+      &::after {
+        display: none;
+      }
+    }
+    svg {
+      transform: translateY(-1px);
+    }
+    &-menu {
+      border: 0;
+      padding: 0.65rem 0;
+      border-radius: 5px;
+      box-shadow: rgba(17, 12, 46, 0.15) 0px 28px 80px 0px;
+      text-align: center;
+      margin-bottom: 15px;
+    }
+    @media screen and (min-width: 991px) {
+      &-menu {
+        display: block;
+        text-align: left;
+        width: 250px;
+        margin-left: -50%;
+        transform: scaleY(0);
+        transform-origin: top;
+        opacity: 0;
+        visibility: hidden;
+        margin-top: 0;
+        transition: 0.3s cubic-bezier(0.165, 0.84, 0.44, 1);
+        li {
+          transform: translateY(30px);
+          opacity: 0;
+          display: block;
+        }
+      }
+      &:hover .dropdown-menu {
+        opacity: 1;
+        visibility: visible;
+        transform: scaleY(1);
+        li {
+          opacity: 1;
+          transform: translate(0);
+          transition: 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
+        }
+        $base-time: 0.06;
+        $max-menu-item: 10;
+        @for $i from 1 through $max-menu-item {
+          li:nth-child(#{$i}) {
+            transition-delay: 0.05 + $i * $base-time + s;
+          }
+        }
+      }
+    }
+    &-item {
+      color: rgba($text-color, 0.9);
+      display: block;
+      padding: 5px 20px;
+      &:hover {
+        color: $black;
+        background-color: transparent;
+      }
+    }
+  }
+}

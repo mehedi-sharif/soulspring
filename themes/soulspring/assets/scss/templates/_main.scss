@@ -1,0 +1,117 @@
+// banner
+.banner {
+  width: 1600px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  .banner-slider {
+    height: 710px;
+    .swiper-slide {
+      background-attachment: fixed;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        background-color: rgba($black, 0.3);
+        z-index: 1;
+      }
+    }
+  }
+  .block {
+    position: absolute;
+    top: 50%;
+    left: 0;
+    z-index: 1;
+    width: 100%;
+    transform: translateY(-50%);
+
+    .quick-links {
+      user-select: none;
+      width: 75%;
+      margin-top: 50px !important;
+      position: relative;
+      @include desktop-xl {
+        width: 85%;
+      }
+      @include desktop-lg {
+        width: 100%;
+      }
+      @include tablet {
+        border-radius: 8px !important;
+        margin-top: 80px !important;
+        padding-left: 4px !important;
+        padding-right: 6px !important;
+        .btn {
+          border-radius: 4px !important;
+        }
+      }
+      @include mobile {
+        flex-wrap: wrap;
+        .btn {
+          margin: 6px;
+          margin-bottom: 8px;
+          margin-top: 0;
+          width: 100%;
+        }
+        .button-block {
+          width: 100%;
+        }
+      }
+
+      .title-block {
+        padding-right: 10px;
+        border-right: 1px solid #e4e4e4;
+        @include tablet {
+          position: absolute;
+          top: -44px;
+          color: $white;
+          border-right: 0 !important;
+          margin-left: 0 !important;
+          .text-black {
+            color: $white !important;
+          }
+        }
+      }
+
+      .dropdown {
+        height: 62px;
+        line-height: 1.2;
+        &-menu {
+          padding: 14px 0;
+          box-shadow: 0px 4px 15px 5px rgba($black, 0.1);
+          &[data-popper-placement="top-start"] {
+            bottom: -3px !important;
+          }
+          &[data-popper-placement="bottom-start"] {
+            top: -3px !important;
+          }
+          li a {
+            padding: 7px 22px;
+            &:focus,
+            &:hover {
+              color: $black;
+              background-color: rgba($color-primary, 0.1);
+            }
+          }
+        }
+      }
+    }
+  }
+
+  // swiper-pagination bullet
+  .swiper-pagination {
+    bottom: 20px;
+    z-index: 55;
+  }
+  .swiper-pagination-bullet {
+    background-color: $dark;
+    opacity: 1;
+    transition: 0.3s;
+    &-active {
+      background-color: $white;
+    }
+  }
+}

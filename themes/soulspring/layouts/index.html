@@ -1,0 +1,56 @@
+{{ define "main" }}
+
+{{ with .Params.banner }}
+<section class="banner">
+  {{ with .slider }}
+  <div class="banner-slider">
+    <div class="swiper h-100">
+      <div class="swiper-wrapper">
+        {{ range . }}
+        <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
+        {{ end }}
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+  </div>
+  {{ end }}
+
+  <div class="block">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-9">
+          <h1 class="text-white mb-4">{{ .title | markdownify }}</h1>
+          <p class="h5 font-secondary fw-light fst-italic text-white">{{ .description | markdownify }}</p>
+
+          {{ with .quick_link }}
+          <div class="quick-links d-flex bg-white rounded-pill px-2">
+            <div class="title-block d-flex align-items-center ms-3">
+              <i class="fa-solid fa-search me-2"></i>
+              <span class="text-black me-2">{{ .title | markdownify }}</span>
+            </div>
+            <div class="flex-grow-1 dropdown">
+              <span class="h-100 px-3 d-flex justify-content-between align-items-center" type="button" id="dmenu" data-bs-toggle="dropdown" aria-expanded="false">
+                {{.placeholder | markdownify}} <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+              <ul class="dropdown-menu w-100 rounded-0 border-0" aria-labelledby="dmenu">
+                {{ range .topics }}
+                <li><a class="dropdown-item" href="{{.link | relURL}}">{{.title | markdownify}}</a></li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="button-block d-flex align-items-center">
+              <a class="btn btn-primary" href="{{ .button.link }}">{{ .button.label }}</a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+
+{{ end }}
