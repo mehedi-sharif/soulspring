@@ -6,6 +6,12 @@
   position: relative;
   .banner-slider {
     height: 710px;
+    @include tablet {
+      height: 780px;
+    }
+    @include mobile {
+      height: 620px;
+    }
     .swiper-slide {
       background-attachment: fixed;
       &::after {
@@ -24,7 +30,7 @@
     position: absolute;
     top: 50%;
     left: 0;
-    z-index: 1;
+    z-index: 5;
     width: 100%;
     transform: translateY(-50%);
 
@@ -50,13 +56,19 @@
       }
       @include mobile {
         flex-wrap: wrap;
+        background-color: transparent !important;
         .btn {
           margin: 6px;
           margin-bottom: 8px;
-          margin-top: 0;
-          width: 100%;
+          margin-left: auto;
+          margin-right: auto;
         }
         .button-block {
+          width: 100%;
+        }
+      }
+      @include mobile-xs {
+        .btn {
           width: 100%;
         }
       }
@@ -79,6 +91,10 @@
       .dropdown {
         height: 62px;
         line-height: 1.2;
+        @include mobile {
+          background-color: $white;
+          border-radius: 6px;
+        }
         &-menu {
           padding: 14px 0;
           box-shadow: 0px 4px 15px 5px rgba($black, 0.1);
@@ -89,7 +105,7 @@
             top: -3px !important;
           }
           li a {
-            padding: 7px 22px;
+            padding: 12px 22px;
             &:focus,
             &:hover {
               color: $black;
@@ -97,6 +113,46 @@
             }
           }
         }
+      }
+    }
+  }
+  .chakra {
+    z-index: 2;
+    @include desktop {
+      opacity: 0.5;
+    }
+  }
+
+  // review-block
+  .review-block {
+    padding: 32px 16px;
+    position: absolute;
+    bottom: 40px;
+    right: 40px;
+    width: 285px;
+    z-index: 5;
+    @include desktop-lg {
+      position: static;
+      width: auto;
+      margin-top: 30px;
+    }
+    .rating {
+      --percent: calc(var(--rating) / 5 * 100%);
+      display: inline-block;
+      font-size: 25px;
+      font-family: Times;
+      line-height: 1;
+      margin-bottom: 18px;
+      &::before {
+        content: "★★★★★";
+        letter-spacing: 3px;
+        background: linear-gradient(
+          90deg,
+          #fafafa var(--percent),
+          #6a6a6a var(--percent)
+        );
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
       }
     }
   }
@@ -114,4 +170,82 @@
       background-color: $white;
     }
   }
+}
+
+// facts
+.facts {
+  .block {
+    > div {
+      padding: 40px;
+      @include desktop-lg {
+        padding: 50px 40px 45px;
+      }
+      @include tablet {
+        padding: 50px 30px 45px;
+      }
+      @include mobile {
+        padding: 50px 20px 45px;
+      }
+    }
+    &:nth-child(1) > div {
+      background-color: $color-secondary;
+    }
+    &:nth-child(2) > div {
+      background-color: $color-primary;
+    }
+    &:nth-child(3) > div {
+      background-color: $color-tertiary;
+    }
+  }
+}
+
+// wellness-solutions
+.wellness-solutions {
+  .block {
+    box-shadow: 0px 5px 10px 5px rgba($black, 0.05);
+    position: relative;
+    transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+    &::after {
+      position: absolute;
+      content: "";
+      height: 3px;
+      width: calc(100% - 32px);
+      background-color: $color-primary;
+      left: 16px;
+      bottom: -20px;
+      transition: inherit;
+      transform: scaleX(0);
+      border-radius: 5px;
+    }
+    img {
+      transition: inherit;
+      &.image-active {
+        opacity: 0;
+      }
+    }
+    &:hover {
+      transform: translateY(10px);
+      &::after {
+        transform: scaleX(1);
+      }
+      .image-fade {
+        opacity: 0;
+      }
+      .image-active {
+        opacity: 1;
+      }
+    }
+  }
+}
+
+// how it works
+.how-it-works {
+  width: 1600px;
+  max-width: 100%;
+  margin: 0 auto;
+  position: relative;
+  background-color: lighten(
+    desaturate(adjust-hue($color-primary, -11), 22.14),
+    38.43
+  );
 }

@@ -47,10 +47,152 @@
           </div>
           {{ end }}
         </div>
+
+        {{ with .review_block }}
+        <div class="col-lg-3 d-none d-sm-block d-xl-none">
+          <div class="review-block bg-dark rounded text-white text-center">
+            <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+            <p class="mb-4">{{ .content | markdownify }}</p>
+            {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="chakra position-absolute top-0 end-0 zindex-3">
+    {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+  </div>
+
+  {{ with .review_block }}
+  <div class="review-block bg-dark rounded text-white text-center d-none d-xl-block">
+    <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+    <p class="mb-4">{{ .content | markdownify }}</p>
+    {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+  </div>
+  {{ end }}
+</section>
+{{ end }}
+
+{{ with .Params.facts }}
+{{ if .enable }}
+<section class="section facts">
+  <div class="container">
+    <div class="row gy-4 justify-content-center align-content-stretch">
+      {{ range .blocks }}
+      <div class="block col-lg-4 col-md-6">
+        <div class="text-white text-center rounded h-100 d-flex flex-column justify-content-center">
+          <h2 class="h3 text-white mb-3">{{.title | markdownify}}</h2>
+          <p class="mb-0">{{.content | markdownify}}</p>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.wellness_solutions }}
+{{ if .enable }}
+<section class="section wellness-solutions">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h4 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4 justify-content-center align-content-stretch">
+      {{ range .solutions }}
+      <div class="col-auto">
+        <a href="{{.link | relURL}}" class="block text-center rounded d-block mx-auto p-4">
+          <div class="image position-relative">
+            {{ partial "image.html" (dict `Src` .image `alt` .title `Class` `image-fade position-absolute top-50 start-50 translate-middle`) }}
+            {{ partial "image.html" (dict `Src` .image_active `alt` .title `Class` `image-active`) }}
+          </div>
+          <p class="mb-0 text-uppercase text-muted">{{.title | markdownify}}</p>
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.how_it_works }}
+{{ if .enable }}
+<section class="how-it-works section">
+  <div class="container">
+    <div class="row g-0 flex-nowrap align-items-center">
+      <div class="col-lg-4">
+        <div class="bg-white rounded-lg px-4 px-md-5 py-5">
+          <h2 class="h4">{{.title | markdownify}}</h2>
+          <p>{{.subtitle | markdownify}}</p>
+          {{ with .button }}
+          <a class="btn btn-primary" href="{{.link | relURL}}">{{.label | markdownify}}</a>
+          {{end}}
+        </div>
+      </div>
+      <div class="col-lg-8">
+        {{ $videoPath := "" }}
+        {{ with .slider }}
+        <div class="how-it-works-slider swiper">
+          <div class="swiper-wrapper">
+            {{ range . }}
+            <div class="swiper-slide">
+
+              {{ with .video }}
+                {{ $videoPath = . }}
+                {{ if hasPrefix $videoPath "http" }}
+                  {{ $videoPath = $videoPath }}
+                {{ else if fileExists (add `assets/` $videoPath) }}
+                  {{ $videoPath = (resources.Get $videoPath).RelPermalink }}
+                {{ else }}
+                  {{ $videoPath = (print "/" $videoPath) }}
+                {{ end }}
+              {{ end }}
+
+              <div class="image-block position-relative">
+                {{ with .video }}
+                <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{.}}">
+                  <svg class="text-primary" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <circle cx="56" cy="56" r="56" fill="currentColor"/>
+                    <path d="M75 56L46.5 72.4545L46.5 39.5455L75 56Z" fill="white"/>
+                  </svg>                    
+                </div>
+                {{ end }}
+                {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` false `Resize` false `Class` "w-100" )}}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          <div class="swiper-pagination"></div>
+        </div>
+        {{ end }}
       </div>
     </div>
   </div>
 </section>
+
+{{ if $videoPath }}
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <button id="modalClose" type="button" class="btn-close position-absolute end-0 shadow-none" style="top:-35px" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-0">
+        <video id="modalVideo" controls autoplay class="ratio ratio-16x9">
+          Your browser does not support the video tag.
+        </video>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+
+{{ end }}
 {{ end }}
 
 {{ end }}
