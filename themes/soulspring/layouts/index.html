@@ -100,7 +100,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-5">
-        <h2 class="h4 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
@@ -129,7 +129,7 @@
     <div class="row g-0 align-items-center">
       <div class="col-lg-4">
         <div class="left-block bg-white rounded-lg px-4 px-md-5 py-5">
-          <h2 class="h4">{{.title | markdownify}}</h2>
+          <h2 class="h3">{{.title | markdownify}}</h2>
           <p class="mb-4">{{.subtitle | markdownify}}</p>
           {{ with .button }}
           <a class="btn btn-primary" href="{{.link | relURL}}">{{.label | markdownify}}</a>
@@ -209,7 +209,51 @@
   </div>
 </div>
 {{ end }}
+{{ end }}
+{{ end }}
 
+{{ with .Params.testimonials }}
+{{ if .enable }}
+<section class="section testimonials">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 mx-auto">
+        <div class="testimonial-swiper swiper pt-4 pb-3">
+          <div class="swiper-wrapper">
+            {{ range .reviews }}
+            <div class="swiper-slide h-auto">
+              <div class="testimonial-item rounded overflow-hidden card h-100">
+                <div class="pt-5 px-4">
+                  <p class="h5 mb-2 font-secondary fw-light">{{.name | markdownify}}</p>
+                  <p class="lh-base text-dark">{{.designation | markdownify}}</p>
+                  <p class="opacity-75">{{.content | markdownify}}</p>
+                </div>
+                <div class="d-flex align-items-center justify-content-between mt-auto">
+                  <div class="flex-grow-1 px-1 text-center">
+                    {{ partial "image.html" (dict "Src" .logo "Alt" "logo" "Class" "img-fluid" "Webp" false "Resize" false) }}
+                  </div>
+                  <div class="flex-shrink-0 reviewer-image">
+                    {{ partial "image.html" (dict "Src" .reviewer_image "Alt" (.name | markdownify) "Class" "img-fluid" "Webp" false "Resize" false) }}
+                  </div>
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+            
+          <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
 {{ end }}
 {{ end }}
 

@@ -24,7 +24,7 @@
     loop: true,
     spaceBetween: 0,
     speed: 1500,
-    autoHeight: true,
+    // autoHeight: true,
     grabCursor: true,
     autoplay: {
       delay: 4000,
@@ -35,6 +35,36 @@
       clickable: true,
       renderBullet: function (index, className) {
         return '<span class="' + className + '"></span>';
+      },
+    },
+  });
+
+  // testimonial-swiper
+  new Swiper(".testimonial-swiper.swiper", {
+    slidesPerView: 1,
+    loop: true,
+    spaceBetween: 24,
+    speed: 1000,
+    grabCursor: true,
+    autoplay: {
+      delay: 4000,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    breakpoints: {
+      575: {
+        slidesPerView: 2,
+      },
+      767: {
+        slidesPerView: 2,
+      },
+      991: {
+        slidesPerView: 3,
+      },
+      1400: {
+        slidesPerView: 4,
       },
     },
   });

@@ -274,3 +274,54 @@
     }
   }
 }
+
+// testimonials
+.testimonial-swiper {
+  .testimonial-item {
+    border: 1px solid #ddd;
+    box-shadow: 0 7px 10px rgba($black, 0.03);
+  }
+  .reviewer-image {
+    position: relative;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      left: 0;
+      right: 0;
+      z-index: 2;
+      background: linear-gradient(
+        90deg,
+        $white 0%,
+        rgba(255, 255, 255, 0) 100%
+      );
+    }
+  }
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: $white;
+  border: 1px solid #ddd;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px;
+  @include mobile {
+    margin-top: 0;
+  }
+  &::after {
+    font-size: 18px;
+    color: #888;
+  }
+  &:hover::after {
+    color: $color-primary;
+  }
+}
+.swiper-button-prev {
+  left: -19px;
+}
+.swiper-button-next {
+  right: -19px;
+}

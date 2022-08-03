@@ -136,6 +136,26 @@ testimonials:
   reviews:
     - name: "Dr. Alan Pope, PhD"
       designation: "Distinguished Research Associate, NASA"
+      reviewer_image: "images/testimonials/01.jpg"
+      logo: "images/testimonials/01-logo.png"
+      content: "Some people may skeptical now, but in 5-10 years no one will be."
+
+    - name: "Dr. Terry Rector, PhD"
+      designation: "Distinguished Research Associate, NASA"
+      reviewer_image: "images/testimonials/02.jpg"
+      logo: "images/testimonials/02-logo.png"
+      content: "Some people may skeptical now, but in 5-10 years no one will be."
+      
+    - name: "Dr. Lauren Silbert, PhD"
+      designation: "Distinguished Research Associate, NASA"
+      reviewer_image: "images/testimonials/03.jpg"
+      logo: "images/testimonials/01-logo.png"
+      content: "Some people may skeptical now, but in 5-10 years no one will be."
+      
+    - name: "Dr. Alan Pope, PhD"
+      designation: "Distinguished Research Associate, NASA"
+      reviewer_image: "images/testimonials/04.jpg"
+      logo: "images/testimonials/02-logo.png"
       content: "Some people may skeptical now, but in 5-10 years no one will be."
 
 

@@ -7504,6 +7504,48 @@ a:hover {
       .how-it-works .quote {
         margin-top: -10px;
         padding: 30px 20px; } }
+.testimonial-swiper .testimonial-item {
+  border: 1px solid #ddd;
+  box-shadow: 0 7px 10px rgba(0, 0, 0, 0.03); }
+
+.testimonial-swiper .reviewer-image {
+  position: relative; }
+  .testimonial-swiper .reviewer-image::after {
+    position: absolute;
+    content: "";
+    height: 100%;
+    width: 100%;
+    left: 0;
+    right: 0;
+    z-index: 2;
+    background: linear-gradient(90deg, #fff 0%, rgba(255, 255, 255, 0) 100%); }
+
+.swiper-button-prev,
+.swiper-button-next {
+  background-color: #fff;
+  border: 1px solid #ddd;
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  margin-top: 8px; }
+  @media (max-width: 575px) {
+    .swiper-button-prev,
+    .swiper-button-next {
+      margin-top: 0; } }
+  .swiper-button-prev::after,
+  .swiper-button-next::after {
+    font-size: 18px;
+    color: #888; }
+  .swiper-button-prev:hover::after,
+  .swiper-button-next:hover::after {
+    color: #D87058; }
+
+.swiper-button-prev {
+  left: -19px; }
+
+.swiper-button-next {
+  right: -19px; }
+
 .notices {
   margin: 2rem 0;
   position: relative;
