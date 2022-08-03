@@ -102,30 +102,41 @@ how_it_works:
     - image: "images/how-it-works/image-01.jpg"
       video: "images/how-it-works/video-01.mp4"
       quote: 
+        enable: true
         content: 'can never go back to a "normal" doctor again.'
-        designation: "Member, San Francisco Yelp"
-        date: "• Oct 2019 •"
+        description: "Member, San Francisco Yelp  • Oct 2019 •"
 
     - image: "images/how-it-works/image-01.jpg"
       video: ""
       quote: 
-        content: 'can never go back to a "normal" doctor again.'
-        designation: "Member, San Francisco Yelp"
-        date: "• Oct 2019 •"
+        enable: false
+        content: ''
+        description: ""
 
     - image: "images/how-it-works/image-01.jpg"
       video: ""
       quote: 
-        content: 'can never go back to a "normal" doctor again.'
-        designation: "Member, San Francisco Yelp"
-        date: "• Oct 2019 •"
+        enable: false
+        content: ''
+        description: ""
 
     - image: "images/how-it-works/image-01.jpg"
       video: ""
       quote: 
-        content: 'can never go back to a "normal" doctor again.'
-        designation: "Member, San Francisco Yelp"
-        date: "• Oct 2019 •"
+        enable: false
+        content: ''
+        description: ""
+
+
+# Testimonials
+testimonials:
+  enable: true
+  title: "What They Are Saying..."
+  subtitle: "Transformational success stories "
+  reviews:
+    - name: "Dr. Alan Pope, PhD"
+      designation: "Distinguished Research Associate, NASA"
+      content: "Some people may skeptical now, but in 5-10 years no one will be."
 
 
 ---

@@ -24,14 +24,18 @@
     loop: true,
     spaceBetween: 0,
     speed: 1500,
-    allowTouchMove: false,
-    // autoplay: {
-    //   delay: 4000,
-    // },
+    autoHeight: true,
+    grabCursor: true,
+    autoplay: {
+      delay: 4000,
+    },
     pagination: {
-      el: ".swiper-pagination",
+      el: ".pagination",
       type: "bullets",
       clickable: true,
+      renderBullet: function (index, className) {
+        return '<span class="' + className + '"></span>';
+      },
     },
   });
 

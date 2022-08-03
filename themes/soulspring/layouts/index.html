@@ -10,7 +10,7 @@
         <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
         {{ end }}
       </div>
-      <div class="swiper-pagination"></div>
+      <div class="swiper-pagination pagination-light"></div>
     </div>
   </div>
   {{ end }}
@@ -77,7 +77,7 @@
 
 {{ with .Params.facts }}
 {{ if .enable }}
-<section class="section facts">
+<section class="section pb-4 facts">
   <div class="container">
     <div class="row gy-4 justify-content-center align-content-stretch">
       {{ range .blocks }}
@@ -106,7 +106,7 @@
     </div>
     <div class="row gy-4 justify-content-center align-content-stretch">
       {{ range .solutions }}
-      <div class="col-auto">
+      <div class="col-6 col-sm-4 col-md-3 col-lg-2">
         <a href="{{.link | relURL}}" class="block text-center rounded d-block mx-auto p-4">
           <div class="image position-relative">
             {{ partial "image.html" (dict `Src` .image `alt` .title `Class` `image-fade position-absolute top-50 start-50 translate-middle`) }}
@@ -126,15 +126,17 @@
 {{ if .enable }}
 <section class="how-it-works section">
   <div class="container">
-    <div class="row g-0 flex-nowrap align-items-center">
+    <div class="row g-0 align-items-center">
       <div class="col-lg-4">
-        <div class="bg-white rounded-lg px-4 px-md-5 py-5">
+        <div class="left-block bg-white rounded-lg px-4 px-md-5 py-5">
           <h2 class="h4">{{.title | markdownify}}</h2>
-          <p>{{.subtitle | markdownify}}</p>
+          <p class="mb-4">{{.subtitle | markdownify}}</p>
           {{ with .button }}
           <a class="btn btn-primary" href="{{.link | relURL}}">{{.label | markdownify}}</a>
           {{end}}
         </div>
+        
+        <div class="pagination ms-4 ms-md-5 justify-content-start pb-0 mb-5 mb-lg-0"></div>
       </div>
       <div class="col-lg-8">
         {{ $videoPath := "" }}
@@ -166,10 +168,26 @@
                 {{ end }}
                 {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` false `Resize` false `Class` "w-100" )}}
               </div>
+
+              {{ with .quote }}
+              {{ if .enable }}
+              <div class="quote bg-white rounded-lg mx-auto text-center">
+          
+                <svg class="mb-4" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 19.9987C21.6667 19.0782 22.4129 18.332 23.3334 18.332L30.0001 18.332C31.841 18.332 33.3334 19.8244 33.3334 21.6654L33.3334 26.6654C33.3334 28.5063 31.841 29.9987 30.0001 29.9987L25.0001 29.9987C23.1591 29.9987 21.6667 28.5063 21.6667 26.6654L21.6667 19.9987ZM25.0001 21.6654L25.0001 26.6654L30.0001 26.6654L30.0001 21.6654L25.0001 21.6654Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66675 19.9987C6.66675 19.0782 7.41294 18.332 8.33341 18.332L15.0001 18.332C16.841 18.332 18.3334 19.8244 18.3334 21.6654L18.3334 26.6654C18.3334 28.5063 16.841 29.9987 15.0001 29.9987L10.0001 29.9987C8.15913 29.9987 6.66675 28.5063 6.66675 26.6654L6.66675 19.9987ZM10.0001 21.6654L10.0001 26.6654L15.0001 26.6654L15.0001 21.6654L10.0001 21.6654Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M28.3333 13.3333C26.4923 13.3333 25 14.8257 25 16.6667V20C25 20.9205 24.2538 21.6667 23.3333 21.6667C22.4128 21.6667 21.6666 20.9205 21.6666 20L21.6666 16.6667C21.6666 12.9848 24.6514 10 28.3333 10C29.2538 10 30 10.7462 30 11.6667C30 12.5871 29.2538 13.3333 28.3333 13.3333Z" fill="black"/>
+                  <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 13.3333C11.4923 13.3333 9.99996 14.8257 9.99996 16.6667V20C9.99996 20.9205 9.25377 21.6667 8.33329 21.6667C7.41282 21.6667 6.66663 20.9205 6.66663 20L6.66663 16.6667C6.66663 12.9848 9.6514 10 13.3333 10C14.2538 10 15 10.7462 15 11.6667C15 12.5871 14.2538 13.3333 13.3333 13.3333Z" fill="black"/>
+                </svg>
+
+                <p class="h5 lh-base text-capitalize">{{.content | markdownify}}</p>
+                <p class="mb-0">{{.description | markdownify}}</p>
+              </div>
+              {{ end }}
+              {{ end }}
             </div>
             {{ end }}
           </div>
-          <div class="swiper-pagination"></div>
         </div>
         {{ end }}
       </div>

@@ -6735,7 +6735,7 @@ h5,
 .h5,
 h6,
 .h6 {
-  font-family: "Arvo", serif;
+  font-family: "Crimson Text", serif;
   font-weight: 700;
   color: #222222; }
 
@@ -6968,9 +6968,6 @@ select {
 a:hover {
   color: #D87058; }
 
-.slick-slide {
-  outline: 0; }
-
 .section {
   padding-top: 7rem;
   padding-bottom: 7rem; }
@@ -6994,6 +6991,20 @@ a:hover {
 
 .btn-close {
   background: transparent url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 16 16' fill='%23fff'%3e%3cpath d='M.293.293a1 1 0 011.414 0L8 6.586 14.293.293a1 1 0 111.414 1.414L9.414 8l6.293 6.293a1 1 0 01-1.414 1.414L8 9.414l-6.293 6.293a1 1 0 01-1.414-1.414L6.586 8 .293 1.707a1 1 0 010-1.414z'/%3e%3c/svg%3e") center/1em auto no-repeat; }
+
+.play-btn svg {
+  transition: 0.1s; }
+  @media (max-width: 991px) {
+    .play-btn svg {
+      transform: scale(0.7); } }
+  @media (max-width: 767px) {
+    .play-btn svg {
+      transform: scale(0.6); } }
+  @media (max-width: 400px) {
+    .play-btn svg {
+      transform: scale(0.5); } }
+.play-btn:hover svg {
+  color: #49A6D7 !important; }
 
 /* overlay */
 .overlay {
@@ -7037,6 +7048,13 @@ a:hover {
 
 .font-secondary {
   font-family: "Inter", sans-serif; }
+
+.swiper-pagination.pagination-light .swiper-pagination-bullet {
+  background-color: #3D3D3D;
+  opacity: 1;
+  transition: 0.3s; }
+  .swiper-pagination.pagination-light .swiper-pagination-bullet-active {
+    background-color: #fff; }
 
 .swiper-pagination-bullet {
   border-radius: 0;
@@ -7402,12 +7420,6 @@ a:hover {
   .banner .swiper-pagination {
     bottom: 20px;
     z-index: 55; }
-  .banner .swiper-pagination-bullet {
-    background-color: #3D3D3D;
-    opacity: 1;
-    transition: 0.3s; }
-    .banner .swiper-pagination-bullet-active {
-      background-color: #fff; }
 
 .facts .block > div {
   padding: 40px; }
@@ -7440,7 +7452,7 @@ a:hover {
     width: calc(100% - 32px);
     background-color: #D87058;
     left: 16px;
-    bottom: -20px;
+    bottom: -10px;
     transition: inherit;
     transform: scaleX(0);
     border-radius: 5px; }
@@ -7450,6 +7462,9 @@ a:hover {
       opacity: 0; }
   .wellness-solutions .block:hover {
     transform: translateY(10px); }
+    @media (max-width: 767px) {
+      .wellness-solutions .block:hover {
+        transform: translateY(7px); } }
     .wellness-solutions .block:hover::after {
       transform: scaleX(1); }
     .wellness-solutions .block:hover .image-fade {
@@ -7463,7 +7478,32 @@ a:hover {
   margin: 0 auto;
   position: relative;
   background-color: #fcf8f8; }
-
+  .how-it-works .left-block {
+    margin-right: -50px;
+    z-index: 9;
+    position: relative; }
+    @media (max-width: 991px) {
+      .how-it-works .left-block {
+        margin-top: 0;
+        margin-right: 0; } }
+  .how-it-works .quote {
+    max-width: 75%;
+    padding: 30px 60px;
+    margin-top: -100px;
+    z-index: 5;
+    position: relative; }
+    @media (max-width: 991px) {
+      .how-it-works .quote {
+        margin-top: -50px;
+        max-width: 95%;
+        border-radius: 16px !important; } }
+    @media (max-width: 767px) {
+      .how-it-works .quote {
+        padding: 30px; } }
+    @media (max-width: 575px) {
+      .how-it-works .quote {
+        margin-top: -10px;
+        padding: 30px 20px; } }
 .notices {
   margin: 2rem 0;
   position: relative;

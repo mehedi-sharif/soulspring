@@ -162,14 +162,6 @@
     bottom: 20px;
     z-index: 55;
   }
-  .swiper-pagination-bullet {
-    background-color: $dark;
-    opacity: 1;
-    transition: 0.3s;
-    &-active {
-      background-color: $white;
-    }
-  }
 }
 
 // facts
@@ -212,7 +204,7 @@
       width: calc(100% - 32px);
       background-color: $color-primary;
       left: 16px;
-      bottom: -20px;
+      bottom: -10px;
       transition: inherit;
       transform: scaleX(0);
       border-radius: 5px;
@@ -225,6 +217,9 @@
     }
     &:hover {
       transform: translateY(10px);
+      @include tablet {
+        transform: translateY(7px);
+      }
       &::after {
         transform: scaleX(1);
       }
@@ -248,4 +243,34 @@
     desaturate(adjust-hue($color-primary, -11), 22.14),
     38.43
   );
+
+  .left-block {
+    margin-right: -50px;
+    z-index: 9;
+    position: relative;
+    @include desktop {
+      margin-top: 0;
+      margin-right: 0;
+    }
+  }
+
+  .quote {
+    max-width: 75%;
+    padding: 30px 60px;
+    margin-top: -100px;
+    z-index: 5;
+    position: relative;
+    @include desktop {
+      margin-top: -50px;
+      max-width: 95%;
+      border-radius: 16px !important;
+    }
+    @include tablet {
+      padding: 30px;
+    }
+    @include mobile {
+      margin-top: -10px;
+      padding: 30px 20px;
+    }
+  }
 }
