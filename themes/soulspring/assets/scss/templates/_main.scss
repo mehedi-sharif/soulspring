@@ -298,30 +298,127 @@
       );
     }
   }
+
+  .swiper-button-prev,
+  .swiper-button-next {
+    background-color: $white;
+    border: 1px solid #ddd;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    margin-top: 8px;
+    @include mobile {
+      margin-top: 0;
+    }
+    &::after {
+      font-size: 18px;
+      color: #888;
+    }
+    &:hover::after {
+      color: $color-primary;
+    }
+  }
+  .swiper-button-prev {
+    left: -19px;
+  }
+  .swiper-button-next {
+    right: -19px;
+  }
 }
 
-.swiper-button-prev,
-.swiper-button-next {
-  background-color: $white;
-  border: 1px solid #ddd;
-  height: 50px;
-  width: 50px;
-  border-radius: 50%;
-  margin-top: 8px;
+// lifetime_of_wellness
+.lifetime_of_wellness {
+  background-repeat: repeat !important;
+  background-size: 750px !important;
+  animation: 25s bgMove infinite linear;
+  @include tablet {
+    animation-duration: 35s;
+  }
   @include mobile {
-    margin-top: 0;
-  }
-  &::after {
-    font-size: 18px;
-    color: #888;
-  }
-  &:hover::after {
-    color: $color-primary;
+    animation-duration: 45s;
   }
 }
-.swiper-button-prev {
-  left: -19px;
+@keyframes bgMove {
+  100% {
+    background-position: 1500px 0;
+  }
 }
-.swiper-button-next {
-  right: -19px;
+
+// holistic-doctors
+.holistic-doctors-block {
+  padding: 45px 40px;
+  box-shadow: 0px 5px 10px 5px rgba($black, 0.05);
+  @include tablet {
+    padding: 40px 25px;
+  }
+}
+
+// faq
+.faq {
+  .accordion-item {
+    padding: 7px;
+    box-shadow: 0px 5px 10px 5px rgba($black, 0.05);
+    @include mobile {
+      padding: 0;
+    }
+    .accordion-button {
+      font-weight: 400 !important;
+      span {
+        color: rgba($text-color, 0.7);
+        transition: 0.3s;
+      }
+      &:not(.collapsed) {
+        span {
+          color: $dark;
+        }
+      }
+    }
+  }
+}
+
+// footer
+footer {
+  background-color: #1d4885;
+}
+.footer-links {
+  li {
+    &:not(:last-child) {
+      margin-bottom: 9px;
+      font-weight: 400;
+    }
+  }
+  a {
+    display: inline-block;
+    color: rgba($white, 0.8);
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
+}
+.social-links {
+  li {
+    margin-right: 18px !important;
+    a {
+      display: inline-block;
+      padding: 3px;
+      color: $white;
+      &:hover {
+        opacity: 0.7;
+      }
+    }
+  }
+}
+.footer-bottom .border-top {
+  border-color: rgba(#c0bcbc, 0.2) !important;
+}
+.copyright {
+  color: #ddd;
+  a {
+    color: $white;
+    &:hover {
+      color: $white;
+      text-decoration: underline;
+    }
+  }
 }

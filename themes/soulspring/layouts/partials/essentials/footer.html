@@ -1,1 +1,75 @@
-<p class="d-none">{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | Theme by <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>{{end}}</p>
+<footer>
+  <div class="section-sm pb-5 mb-3">
+    <div class="container">
+      <div class="row gy-5 flex-wrap flex-xl-nowrap row-cols-5 justify-content-lg-end">
+        <div class="col-xl-3 col-lg-4 col-md-12 col-12">
+          <div class="me-0 pe-0 pe-md-5 me-md-5">
+            <a href="{{ site.BaseURL | relLangURL }}">
+              {{ partial "logo.html" . }}
+            </a>
+          </div>
+        </div>
+        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="me-5 pe-4">
+            <h3 class="font-secondary fw-light h6 text-white mb-4">Company</h3>
+            <ul class="footer-links list-unstyled mb-0">
+              {{ range site.Menus.company }}
+              <li>
+                <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}} href="{{if findRE `^#` .URL}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="me-5 pe-4">
+            <h3 class="font-secondary fw-light h6 text-white mb-4">Quick Links</h3>
+            <ul class="footer-links list-unstyled mb-0">
+              {{ range site.Menus.quick_links }}
+              <li>
+                <a {{if findRE `^http` .URL}}target="_blank" rel="noopener" {{end}} href="{{if findRE `^#` .URL}}{{.URL}}{{else}}{{.URL | relLangURL}}{{end}}">{{.Name}}</a>
+              </li>
+              {{ end }}
+            </ul>
+          </div>
+        </div>
+        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
+          <div class="me-5 pe-4">
+            <h3 class="font-secondary fw-light h6 text-white mb-4">Contact Us</h3>
+            {{ with site.Params.contact_info }}
+            <ul class="footer-links list-unstyled mb-0">
+              <li>
+                <a href="tel:{{.mobile}}">{{.mobile}}</a>
+              </li>
+              <li>
+                <a href="mailto:{{.email}}">{{.email}}</a>
+              </li>
+            </ul>
+            {{ end }}
+          </div>
+        </div>
+        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
+          <h3 class="font-secondary fw-light h6 text-white mb-4">Social</h3>
+          <ul class="social-links list-unstyled list-inline mb-0">
+            {{ range site.Params.social }}
+            <li class="list-inline-item">
+              <a target="_blank" rel="noopener" href="{{.link}}" title="{{.title}}"><i class="{{.icon}}"></i></a>
+            </li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="footer-bottom container pb-4 text-center">
+    <div class="row">
+      <div class="col-12">
+        <div class="border-top pt-4"></div>
+      </div>
+      <div class="col-12">
+        <p class="mb-0 copyright">{{site.Params.copyright | markdownify}} {{if site.Params.theme_copyright}} | Theme by <a target="_blank" rel="noopener noreferrer" href="https://gethugothemes.com/">GetHugoThemes</a>{{end}}</p>
+      </div>
+    </div>
+  </div>
+</footer>

@@ -163,7 +163,7 @@
                   <svg class="text-primary" width="112" height="112" viewBox="0 0 112 112" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle cx="56" cy="56" r="56" fill="currentColor"/>
                     <path d="M75 56L46.5 72.4545L46.5 39.5455L75 56Z" fill="white"/>
-                  </svg>                    
+                  </svg>
                 </div>
                 {{ end }}
                 {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` false `Resize` false `Class` "w-100" )}}
@@ -172,7 +172,6 @@
               {{ with .quote }}
               {{ if .enable }}
               <div class="quote bg-white rounded-lg mx-auto text-center">
-          
                 <svg class="mb-4" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 19.9987C21.6667 19.0782 22.4129 18.332 23.3334 18.332L30.0001 18.332C31.841 18.332 33.3334 19.8244 33.3334 21.6654L33.3334 26.6654C33.3334 28.5063 31.841 29.9987 30.0001 29.9987L25.0001 29.9987C23.1591 29.9987 21.6667 28.5063 21.6667 26.6654L21.6667 19.9987ZM25.0001 21.6654L25.0001 26.6654L30.0001 26.6654L30.0001 21.6654L25.0001 21.6654Z" fill="black"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66675 19.9987C6.66675 19.0782 7.41294 18.332 8.33341 18.332L15.0001 18.332C16.841 18.332 18.3334 19.8244 18.3334 21.6654L18.3334 26.6654C18.3334 28.5063 16.841 29.9987 15.0001 29.9987L10.0001 29.9987C8.15913 29.9987 6.66675 28.5063 6.66675 26.6654L6.66675 19.9987ZM10.0001 21.6654L10.0001 26.6654L15.0001 26.6654L15.0001 21.6654L10.0001 21.6654Z" fill="black"/>
@@ -223,7 +222,7 @@
       </div>
     </div>
     <div class="row">
-      <div class="col-sm-12 mx-auto">
+      <div class="col-sm-12">
         <div class="testimonial-swiper swiper pt-4 pb-3">
           <div class="swiper-wrapper">
             {{ range .reviews }}
@@ -249,6 +248,109 @@
             
           <div class="swiper-button-prev"></div>
           <div class="swiper-button-next"></div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.holistic_doctors }}
+{{ if .enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4">
+      {{ range .doctors_list }}
+      <div class="col-lg-6">
+        <div class="holistic-doctors-block rounded">
+          <div class="d-block d-sm-flex">
+            <div class="flex-shrink-0 me-4">
+              {{ partial "image.html" (dict "Src" .image "Alt" .name "Webp" false "Size" "120x120" "Class" "rounded-circle") }}
+            </div>
+            <div class="flex-grow-1 mt-4 mt-sm-0">
+              <h3 class="h5 font-secondary fw-medium mb-2">{{.name | markdownify}}</h3>
+              {{ range $i, $e := .qualifications }}
+              <p class="mb-0 d-flex {{if ne $i 0}}mt-2{{end}}"><i class="fa-solid fa-graduation-cap text-black me-2" style="padding-top:6px"></i> {{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          </div>
+          {{ with .quote }}
+          <div class="border-top mt-4 pt-4">
+            <div class="d-flex mb-2">
+              <svg class="flex-shrink-0 text-primary me-2" width="32" height="32" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg" style="margin-top:-4px">
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 19.9987C21.6667 19.0782 22.4129 18.332 23.3334 18.332L30.0001 18.332C31.841 18.332 33.3334 19.8244 33.3334 21.6654L33.3334 26.6654C33.3334 28.5063 31.841 29.9987 30.0001 29.9987L25.0001 29.9987C23.1591 29.9987 21.6667 28.5063 21.6667 26.6654L21.6667 19.9987ZM25.0001 21.6654L25.0001 26.6654L30.0001 26.6654L30.0001 21.6654L25.0001 21.6654Z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66675 19.9987C6.66675 19.0782 7.41294 18.332 8.33341 18.332L15.0001 18.332C16.841 18.332 18.3334 19.8244 18.3334 21.6654L18.3334 26.6654C18.3334 28.5063 16.841 29.9987 15.0001 29.9987L10.0001 29.9987C8.15913 29.9987 6.66675 28.5063 6.66675 26.6654L6.66675 19.9987ZM10.0001 21.6654L10.0001 26.6654L15.0001 26.6654L15.0001 21.6654L10.0001 21.6654Z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M28.3333 13.3333C26.4923 13.3333 25 14.8257 25 16.6667V20C25 20.9205 24.2538 21.6667 23.3333 21.6667C22.4128 21.6667 21.6666 20.9205 21.6666 20L21.6666 16.6667C21.6666 12.9848 24.6514 10 28.3333 10C29.2538 10 30 10.7462 30 11.6667C30 12.5871 29.2538 13.3333 28.3333 13.3333Z" fill="currentColor"/>
+                <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 13.3333C11.4923 13.3333 9.99996 14.8257 9.99996 16.6667V20C9.99996 20.9205 9.25377 21.6667 8.33329 21.6667C7.41282 21.6667 6.66663 20.9205 6.66663 20L6.66663 16.6667C6.66663 12.9848 9.6514 10 13.3333 10C14.2538 10 15 10.7462 15 11.6667C15 12.5871 14.2538 13.3333 13.3333 13.3333Z" fill="currentColor"/>
+              </svg>
+              <span class="flex-grow-1 h6 fw-medium font-secondary mb-0">{{ .title | markdownify }}</span>
+            </div>
+            <p class="mb-0">{{ .content | markdownify }}</p>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.lifetime_of_wellness }}
+{{ if .enable }}
+<section class="section pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4">
+      <div class="col-12">
+        <div class="lifetime_of_wellness" {{ partial `bg-image.html` (dict `Src` .lifetime_of_wellness_background ) | safeHTMLAttr }}>
+          {{ partial "image.html" (dict "Src" .lifetime_of_wellness_image "Alt" "image" "Webp" false "Resize" false "Class" "img-fluid") }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.frequently_asked_questions }}
+{{ if .enable }}
+<section class="section faq pt-0">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="accordion" id="faq">
+          {{ range $i, $e := .faq_list }}
+          <div class="accordion-item bg-white rounded-3 overflow-hidden border-0 mb-3">
+            <button class="h6 accordion-button bg-white text-dark shadow-none font-secondary mb-0 {{if ne $i 0 }}collapsed{{end}}" id="heading-{{ sha1 .title | urlize }}_" type="button" data-bs-toggle="collapse" data-bs-target="#id-{{ sha1 .title | urlize }}_" aria-expanded="{{if eq $i 0 }}true{{else}}false{{end}}" aria-controls="id-{{ sha1 .title | urlize }}_">
+              <span class="pe-3">{{.title | markdownify}}</span>
+            </button>
+            <div id="id-{{ sha1 .title | urlize }}_" class="accordion-collapse collapse {{if eq $i 0 }}show{{end}}" aria-labelledby="heading-{{ sha1 .title | urlize }}_" data-bs-parent="#faq">
+              <div class="accordion-body pt-0 content">
+                {{.content | markdownify}}
+              </div>
+            </div>
+          </div>
+          {{end}}
         </div>
       </div>
     </div>

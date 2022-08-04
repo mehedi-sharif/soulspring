@@ -159,4 +159,79 @@ testimonials:
       content: "Some people may skeptical now, but in 5-10 years no one will be."
 
 
+# Holistic doctors
+holistic_doctors:
+  enable: true
+  title: "Holistic Doctors"
+  subtitle: "Our medical clinics and living wellness resorts"
+
+  doctors_list:
+    - name: "Ronald Richards"
+      image: "images/holistic-doctors/01.jpg"
+      qualifications:
+        - "Albert Einstein College of Medicine"
+        - "Internal Medicine at NYU Langone"
+      quote:
+        title: "Why I practice at Soul Spring"
+        content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+
+    - name: "Arlene McCoy"
+      image: "images/holistic-doctors/02.jpg"
+      qualifications:
+        - "Albert Einstein College of Medicine"
+        - "Internal Medicine at NYU Langone"
+      quote:
+        title: "Why I practice at Soul Spring"
+        content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+
+    - name: "Darlene Robertson"
+      image: "images/holistic-doctors/03.jpg"
+      qualifications:
+        - "Albert Einstein College of Medicine"
+        - "Internal Medicine at NYU Langone"
+      quote:
+        title: "Why I practice at Soul Spring"
+        content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+
+    - name: "Floyd Miles"
+      image: "images/holistic-doctors/04.jpg"
+      qualifications:
+        - "Albert Einstein College of Medicine"
+        - "Internal Medicine at NYU Langone"
+      quote:
+        title: "Why I practice at Soul Spring"
+        content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+
+
+# lifetime_of_wellness
+lifetime_of_wellness:
+  enable: true
+  title: "A Lifetime of Wellness"
+  subtitle: "Live a life of vitality and longevity"
+  lifetime_of_wellness_image: "images/lifetime_of_wellness/wellness.png"
+  lifetime_of_wellness_background: "images/lifetime_of_wellness/wellness-bg.jpg"
+
+
+# frequently asked questions
+frequently_asked_questions:
+  enable: true
+  title: "Frequently Asked Questions"
+  subtitle: ""
+
+  faq_list:
+    - title: "How is Soul Spring different?"
+      content: "A further If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions"
+
+    - title: "What is it going to cost me?"
+      content: "A further If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions"
+
+    - title: "How long before I see results?"
+      content: "A further If you enter into this agreement on behalf of a company, you hereby agree that the company is responsible under this Agreement for all actions and omissions"
+
+    - title: "Do you Accept Insurance?"
+      content: "The difference between and premium product consist number of components, plugins, page in each. The Free versions contain only a few elements and pages that."
+
+    - title: "What can I do if no Location is Close to me?"
+      content: "The difference between and premium product consist number of components, plugins, page in each. The Free versions contain only a few elements and pages that."
+
 ---

@@ -112,7 +112,7 @@ link = "#"
 
 [[social]]
 title = "twitter"
-icon = "fab fa-twitter-alt" # fontawesome icon pack : https://fontawesome.com/icons/
+icon = "fab fa-twitter" # fontawesome icon pack : https://fontawesome.com/icons/
 link = "#"
 
 [[social]]

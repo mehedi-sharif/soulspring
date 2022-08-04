@@ -44,3 +44,38 @@ weight = 3
 name = "Therapies"
 url = "therapies/"
 weight = 4
+
+[[company]]
+name = "About"
+url = "about/"
+weight = 1
+
+[[company]]
+name = "Press Relaases"
+url = "about/"
+weight = 2
+
+[[company]]
+name = "Environment"
+url = "environment/"
+weight = 3
+
+[[company]]
+name = "Privacy Policy"
+url = "privacy/"
+weight = 4
+
+[[quick_links]]
+name = "Lift Tickets"
+url = "#!"
+weight = 1
+
+[[quick_links]]
+name = "Season Passes"
+url = "#!"
+weight = 2
+
+[[quick_links]]
+name = "Vacation Packages"
+url = "#!"
+weight = 3
