@@ -159,6 +159,13 @@ testimonials:
       content: "Some people may skeptical now, but in 5-10 years no one will be."
 
 
+# Our Locations
+our_locations:
+  enable: true
+  title: "Our Locations"
+  subtitle: "Our clinics and living wellness resorts"
+
+
 # Holistic doctors
 holistic_doctors:
   enable: true
@@ -208,7 +215,7 @@ lifetime_of_wellness:
   enable: true
   title: "A Lifetime of Wellness"
   subtitle: "Live a life of vitality and longevity"
-  lifetime_of_wellness_image: "images/lifetime_of_wellness/wellness.png"
+  lifetime_of_wellness_image: "images/lifetime_of_wellness/wellness.svg"
   lifetime_of_wellness_background: "images/lifetime_of_wellness/wellness-bg.jpg"
 
 

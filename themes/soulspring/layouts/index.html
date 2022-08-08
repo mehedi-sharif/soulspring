@@ -1,77 +1,89 @@
 {{ define "main" }}
 
 {{ with .Params.banner }}
-<section class="banner">
-  {{ with .slider }}
-  <div class="banner-slider">
-    <div class="swiper h-100">
-      <div class="swiper-wrapper">
-        {{ range . }}
-        <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
-        {{ end }}
+<section class="banner-section">
+  <div class="banner">
+    {{ with .slider }}
+    <div class="banner-slider">
+      <div class="swiper h-100">
+        <div class="swiper-wrapper">
+          {{ range . }}
+          <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
+          {{ end }}
+        </div>
+        <div class="swiper-pagination pagination-light"></div>
       </div>
-      <div class="swiper-pagination pagination-light"></div>
     </div>
-  </div>
-  {{ end }}
+    {{ end }}
 
-  <div class="block">
-    <div class="container h-100">
-      <div class="row h-100 align-items-center">
-        <div class="col-lg-9">
-          <h1 class="text-white mb-4">{{ .title | markdownify }}</h1>
-          <p class="h5 font-secondary fw-light fst-italic text-white">{{ .description | markdownify }}</p>
+    <div class="block">
+      <div class="container h-100">
+        <div class="row h-100 align-items-center">
+          <div class="col-lg-9">
+            <h1 class="text-white mb-4 pb-2">{{ .title | markdownify }}</h1>
+            <p class="h4 font-tertiary fw-light text-white">{{ .description | markdownify }}</p>
 
-          {{ with .quick_link }}
-          <div class="quick-links d-flex bg-white rounded-pill px-2">
-            <div class="title-block d-flex align-items-center ms-3">
-              <i class="fa-solid fa-search me-2"></i>
-              <span class="text-black me-2">{{ .title | markdownify }}</span>
+            <hr class="text-primary opacity-100 mt-4" style="width:120px;height:3px;">
+
+            {{ with .quick_link }}
+            <div class="quick-links d-flex bg-white rounded-pill px-2">
+              <div class="title-block d-flex align-items-center ms-3">
+                <i class="fa-solid fa-search me-2"></i>
+                <span class="text-black me-2">{{ .title | markdownify }}</span>
+              </div>
+              <div class="flex-grow-1 dropdown">
+                <span class="h-100 px-3 d-flex justify-content-between align-items-center" type="button" id="dmenu" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+                  {{.placeholder | markdownify}} <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                    <polyline points="6 9 12 15 18 9"></polyline>
+                  </svg>
+                </span>
+                <ul class="dropdown-menu w-100 rounded-0 border-0" aria-labelledby="dmenu">
+                  {{ range .topics }}
+                  <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="{{.link | relURL}}">
+                    <span class="flex-grow-1">{{.title | markdownify}}</span>
+                    <i class="icon flex-shrink-0 fa fa-arrow-right"></i>
+                  </a></li>
+                  {{ end }}
+                </ul>
+              </div>
+              <div class="button-block d-flex align-items-center">
+                <a class="btn btn-primary" href="{{ .button.link }}">{{ .button.label }}</a>
+              </div>
             </div>
-            <div class="flex-grow-1 dropdown">
-              <span class="h-100 px-3 d-flex justify-content-between align-items-center" type="button" id="dmenu" data-bs-toggle="dropdown" aria-expanded="false">
-                {{.placeholder | markdownify}} <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                  <polyline points="6 9 12 15 18 9"></polyline>
-                </svg>
-              </span>
-              <ul class="dropdown-menu w-100 rounded-0 border-0" aria-labelledby="dmenu">
-                {{ range .topics }}
-                <li><a class="dropdown-item" href="{{.link | relURL}}">{{.title | markdownify}}</a></li>
-                {{ end }}
-              </ul>
-            </div>
-            <div class="button-block d-flex align-items-center">
-              <a class="btn btn-primary" href="{{ .button.link }}">{{ .button.label }}</a>
+            {{ end }}
+          </div>
+
+          {{ with .review_block }}
+          <div class="col-lg-3 d-none d-sm-block d-xl-none">
+            <div class="review-block bg-dark rounded text-white text-center">
+              <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+              <p class="mb-4">{{ .content | markdownify }}</p>
+              {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
             </div>
           </div>
           {{ end }}
         </div>
-
-        {{ with .review_block }}
-        <div class="col-lg-3 d-none d-sm-block d-xl-none">
-          <div class="review-block bg-dark rounded text-white text-center">
-            <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
-            <p class="mb-4">{{ .content | markdownify }}</p>
-            {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
-          </div>
-        </div>
-        {{ end }}
       </div>
     </div>
-  </div>
 
-  <div class="chakra position-absolute top-0 end-0 zindex-3">
-    {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
-  </div>
+    <div class="chakra position-absolute top-0 end-0 zindex-3">
+      {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+    </div>
 
-  {{ with .review_block }}
-  <div class="review-block bg-dark rounded text-white text-center d-none d-xl-block">
-    <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
-    <p class="mb-4">{{ .content | markdownify }}</p>
-    {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+    {{ with .review_block }}
+    <div class="review-block bg-dark rounded text-white text-center d-none d-xl-block">
+      <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+      <p class="mb-4 fst-italic">{{ .content | markdownify }}</p>
+      {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+    </div>
+    {{ end }}
+
+    <svg class="position-absolute shape-top text-primary" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="658.5" y="1.5" width="1405" height="657" transform="rotate(90 658.5 1.5)" stroke="currentColor" stroke-width="3"/></svg>
+
+    <svg class="position-absolute shape-bottom text-primary" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="-566.5" y="90.5" width="1405" height="657" transform="rotate(-90 -566.5 90.5)" stroke="currentColor" stroke-width="3"/></svg>
+    
   </div>
-  {{ end }}
 </section>
 {{ end }}
 
@@ -83,9 +95,9 @@
       {{ range .blocks }}
       <div class="block col-lg-4 col-md-6">
         <div class="text-white text-center rounded h-100 d-flex flex-column justify-content-center">
-          <h2 class="h3 text-white mb-3">{{.title | markdownify}}</h2>
+          <h2 class="h3 text-white mb-1 font-secondary">{{.title | markdownify}}</h2>
+          <hr class="text-white opacity-100 mb-4 mx-auto" style="width:28px;height:2px;">
           <p class="mb-0">{{.content | markdownify}}</p>
-        </div>
       </div>
       {{ end }}
     </div>
@@ -94,25 +106,30 @@
 {{ end }}
 {{ end }}
 
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
 {{ with .Params.wellness_solutions }}
 {{ if .enable }}
-<section class="section wellness-solutions">
+<section class="section has-overlay wellness-solutions">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-5">
-        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="row gy-4 justify-content-center align-content-stretch">
       {{ range .solutions }}
       <div class="col-6 col-sm-4 col-md-3 col-lg-2">
-        <a href="{{.link | relURL}}" class="block text-center rounded d-block mx-auto p-4">
+        <a href="{{.link | relURL}}" class="block text-center rounded-sm d-block mx-auto p-4 bg-white">
           <div class="image position-relative">
             {{ partial "image.html" (dict `Src` .image `alt` .title `Class` `image-fade position-absolute top-50 start-50 translate-middle`) }}
             {{ partial "image.html" (dict `Src` .image_active `alt` .title `Class` `image-active`) }}
           </div>
-          <p class="mb-0 text-uppercase text-muted">{{.title | markdownify}}</p>
+          <p class="mb-0 text-capitalize text-muted">{{.title | markdownify}}</p>
         </a>
       </div>
       {{ end }}
@@ -122,14 +139,19 @@
 {{ end }}
 {{ end }}
 
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
 {{ with .Params.how_it_works }}
 {{ if .enable }}
-<section class="how-it-works section">
+<section class="how-it-works has-overlay has-overlay-bgi section">
   <div class="container">
     <div class="row g-0 align-items-center">
       <div class="col-lg-4">
         <div class="left-block bg-white rounded-lg px-4 px-md-5 py-5">
-          <h2 class="h3">{{.title | markdownify}}</h2>
+          <h2 class="h3 mb-4">{{.title | markdownify}}</h2>
+          <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
           <p class="mb-4">{{.subtitle | markdownify}}</p>
           {{ with .button }}
           <a class="btn btn-primary" href="{{.link | relURL}}">{{.label | markdownify}}</a>
@@ -171,7 +193,7 @@
 
               {{ with .quote }}
               {{ if .enable }}
-              <div class="quote bg-white rounded-lg mx-auto text-center">
+              <div class="quote bg-white rounded-lg mx-auto text-center shadow">
                 <svg class="mb-4" width="40" height="40" viewBox="0 0 40 40" fill="none" xmlns="http://www.w3.org/2000/svg">
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M21.6667 19.9987C21.6667 19.0782 22.4129 18.332 23.3334 18.332L30.0001 18.332C31.841 18.332 33.3334 19.8244 33.3334 21.6654L33.3334 26.6654C33.3334 28.5063 31.841 29.9987 30.0001 29.9987L25.0001 29.9987C23.1591 29.9987 21.6667 28.5063 21.6667 26.6654L21.6667 19.9987ZM25.0001 21.6654L25.0001 26.6654L30.0001 26.6654L30.0001 21.6654L25.0001 21.6654Z" fill="black"/>
                   <path fill-rule="evenodd" clip-rule="evenodd" d="M6.66675 19.9987C6.66675 19.0782 7.41294 18.332 8.33341 18.332L15.0001 18.332C16.841 18.332 18.3334 19.8244 18.3334 21.6654L18.3334 26.6654C18.3334 28.5063 16.841 29.9987 15.0001 29.9987L10.0001 29.9987C8.15913 29.9987 6.66675 28.5063 6.66675 26.6654L6.66675 19.9987ZM10.0001 21.6654L10.0001 26.6654L15.0001 26.6654L15.0001 21.6654L10.0001 21.6654Z" fill="black"/>
@@ -211,26 +233,34 @@
 {{ end }}
 {{ end }}
 
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
 {{ with .Params.testimonials }}
 {{ if .enable }}
-<section class="section testimonials">
+<section class="section has-overlay testimonials">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
-        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="row">
       <div class="col-sm-12">
         <div class="testimonial-swiper swiper pt-4 pb-3">
-          <div class="swiper-wrapper">
+          <div class="swiper-wrapper pb-5">
             {{ range .reviews }}
             <div class="swiper-slide h-auto">
-              <div class="testimonial-item rounded overflow-hidden card h-100">
-                <div class="pt-5 px-4">
+              <div class="testimonial-item rounded overflow-hidden card border-0 h-100">
+                <div class="block">
                   <p class="h5 mb-2 font-secondary fw-light">{{.name | markdownify}}</p>
                   <p class="lh-base text-dark">{{.designation | markdownify}}</p>
+
+                  <hr class="text-muted">
+
                   <p class="opacity-75">{{.content | markdownify}}</p>
                 </div>
                 <div class="d-flex align-items-center justify-content-between mt-auto">
@@ -246,8 +276,9 @@
             {{ end }}
           </div>
             
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
+          <!-- <div class="swiper-button-prev"></div>
+          <div class="swiper-button-next"></div> -->
+          <div class="swiper-pagination"></div>
         </div>
       </div>
     </div>
@@ -256,26 +287,58 @@
 {{ end }}
 {{ end }}
 
-{{ with .Params.holistic_doctors }}
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.our_locations }}
 {{ if .enable }}
-<section class="section pt-0">
+<section class="section pb-0 has-overlay has-overlay-bgi our-locations">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
-        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-lg-10 mx-auto">
+        <div class="map-block bg-white rounded-lg shadow">
+          {{ partial "image.html" ( dict "Src" "images/map.png" "Alt" "map-image" "Class" "img-fluid" "Webp" false "Resize" false ) }}
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.holistic_doctors }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay holistic-doctors">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="row gy-4">
       {{ range .doctors_list }}
       <div class="col-lg-6">
-        <div class="holistic-doctors-block rounded">
+        <div class="holistic-doctors-block rounded-sm bg-white">
           <div class="d-block d-sm-flex">
             <div class="flex-shrink-0 me-4">
               {{ partial "image.html" (dict "Src" .image "Alt" .name "Webp" false "Size" "120x120" "Class" "rounded-circle") }}
             </div>
             <div class="flex-grow-1 mt-4 mt-sm-0">
-              <h3 class="h5 font-secondary fw-medium mb-2">{{.name | markdownify}}</h3>
+              <h3 class="h5 font-secondary fw-medium mb-2 text-black">{{.name | markdownify}}</h3>
               {{ range $i, $e := .qualifications }}
               <p class="mb-0 d-flex {{if ne $i 0}}mt-2{{end}}"><i class="fa-solid fa-graduation-cap text-black me-2" style="padding-top:6px"></i> {{ . | markdownify }}</p>
               {{ end }}
@@ -290,7 +353,7 @@
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M28.3333 13.3333C26.4923 13.3333 25 14.8257 25 16.6667V20C25 20.9205 24.2538 21.6667 23.3333 21.6667C22.4128 21.6667 21.6666 20.9205 21.6666 20L21.6666 16.6667C21.6666 12.9848 24.6514 10 28.3333 10C29.2538 10 30 10.7462 30 11.6667C30 12.5871 29.2538 13.3333 28.3333 13.3333Z" fill="currentColor"/>
                 <path fill-rule="evenodd" clip-rule="evenodd" d="M13.3333 13.3333C11.4923 13.3333 9.99996 14.8257 9.99996 16.6667V20C9.99996 20.9205 9.25377 21.6667 8.33329 21.6667C7.41282 21.6667 6.66663 20.9205 6.66663 20L6.66663 16.6667C6.66663 12.9848 9.6514 10 13.3333 10C14.2538 10 15 10.7462 15 11.6667C15 12.5871 14.2538 13.3333 13.3333 13.3333Z" fill="currentColor"/>
               </svg>
-              <span class="flex-grow-1 h6 fw-medium font-secondary mb-0">{{ .title | markdownify }}</span>
+              <span class="flex-grow-1 h6 fw-medium font-secondary mb-0 text-black">{{ .title | markdownify }}</span>
             </div>
             <p class="mb-0">{{ .content | markdownify }}</p>
           </div>
@@ -304,20 +367,25 @@
 {{ end }}
 {{ end }}
 
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
 {{ with .Params.lifetime_of_wellness }}
 {{ if .enable }}
-<section class="section pt-0">
+<section class="section pb-4 has-overlay has-overlay-bgi lifetime_of_wellness">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
-        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="row gy-4">
       <div class="col-12">
-        <div class="lifetime_of_wellness" {{ partial `bg-image.html` (dict `Src` .lifetime_of_wellness_background ) | safeHTMLAttr }}>
-          {{ partial "image.html" (dict "Src" .lifetime_of_wellness_image "Alt" "image" "Webp" false "Resize" false "Class" "img-fluid") }}
+        <div class="block rounded shadow" {{ partial `bg-image.html` (dict `Src` .lifetime_of_wellness_background ) | safeHTMLAttr }}>
+          {{ partial "image.html" (dict "Src" .lifetime_of_wellness_image "Alt" "image" "Webp" false "Resize" false "Class" "w-100 rounded") }}
         </div>
       </div>
     </div>
@@ -326,13 +394,18 @@
 {{ end }}
 {{ end }}
 
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
 {{ with .Params.frequently_asked_questions }}
 {{ if .enable }}
-<section class="section faq pt-0">
+<section class="section faq has-overlay">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
-        <h2 class="h3 text-primary fw-medium">{{.title | markdownify}}</h2>
+        <h2 class="h3 text-primary fw-medium mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
@@ -358,5 +431,11 @@
 </section>
 {{ end }}
 {{ end }}
+
+<!-- divider -->
+<div class="section-sm pt-0">
+  {{ partial "components/divider.html" . }}
+</div>
+<!-- end divider -->
 
 {{ end }}

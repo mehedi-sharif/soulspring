@@ -1,9 +1,22 @@
 // banner
+.banner-section {
+  padding-bottom: 20px;
+}
 .banner {
   width: 1600px;
-  max-width: 100%;
-  margin: 0 auto;
+  max-width: calc(100% - 20px);
+  margin: 30px auto;
   position: relative;
+  &::after {
+    position: absolute;
+    content: "";
+    height: 70%;
+    width: calc(100% + 60px);
+    left: -30px;
+    bottom: -30px;
+    background-color: rgba($color-primary, 0.15);
+    z-index: -1;
+  }
   .banner-slider {
     height: 710px;
     @include tablet {
@@ -13,7 +26,6 @@
       height: 620px;
     }
     .swiper-slide {
-      background-attachment: fixed;
       &::after {
         position: absolute;
         content: "";
@@ -91,25 +103,43 @@
       .dropdown {
         height: 62px;
         line-height: 1.2;
+        font-size: 15px;
         @include mobile {
           background-color: $white;
           border-radius: 6px;
         }
         &-menu {
-          padding: 14px 0;
+          padding: 10px 20px;
           box-shadow: 0px 4px 15px 5px rgba($black, 0.1);
+          &[data-bs-popper] {
+            margin-top: -3px;
+          }
           &[data-popper-placement="top-start"] {
             bottom: -3px !important;
           }
           &[data-popper-placement="bottom-start"] {
             top: -3px !important;
           }
+          li:not(:last-child) a {
+            border-bottom: 1px solid #eee;
+          }
           li a {
-            padding: 12px 22px;
+            padding: 15px 0;
+            font-size: 15px;
+            .icon {
+              opacity: 0;
+              transform: translateX(-4px);
+              transition: 0.25s;
+              color: $color-primary;
+            }
             &:focus,
             &:hover {
-              color: $black;
-              background-color: rgba($color-primary, 0.1);
+              color: $color-primary;
+              background-color: transparent;
+              .icon {
+                opacity: 1;
+                transform: translateX(0px);
+              }
             }
           }
         }
@@ -118,6 +148,7 @@
   }
   .chakra {
     z-index: 2;
+    top: 20px;
     @include desktop {
       opacity: 0.5;
     }
@@ -162,6 +193,20 @@
     bottom: 20px;
     z-index: 55;
   }
+
+  // shape
+  .shape-top,
+  .shape-bottom {
+    z-index: 5;
+  }
+  .shape-top {
+    top: -20px;
+    left: -20px;
+  }
+  .shape-bottom {
+    bottom: -50px;
+    right: -50px;
+  }
 }
 
 // facts
@@ -204,10 +249,14 @@
       width: calc(100% - 32px);
       background-color: $color-primary;
       left: 16px;
-      bottom: -10px;
+      bottom: -20px;
       transition: inherit;
       transform: scaleX(0);
       border-radius: 5px;
+      @include desktop {
+        bottom: -8px;
+        height: 2px;
+      }
     }
     img {
       transition: inherit;
@@ -229,6 +278,9 @@
       .image-active {
         opacity: 1;
       }
+      .text-muted {
+        color: $black !important;
+      }
     }
   }
 }
@@ -239,10 +291,14 @@
   max-width: 100%;
   margin: 0 auto;
   position: relative;
-  background-color: lighten(
-    desaturate(adjust-hue($color-primary, -11), 22.14),
-    38.43
-  );
+  &::before {
+    height: calc(100% - (7rem + 80px));
+    top: calc(7rem + 80px);
+    @include tablet {
+      height: calc(100% - (5.5rem + 80px));
+      top: calc(5.5rem + 80px);
+    }
+  }
 
   .left-block {
     margin-right: -50px;
@@ -280,6 +336,10 @@
   .testimonial-item {
     border: 1px solid #ddd;
     box-shadow: 0 7px 10px rgba($black, 0.03);
+    .block {
+      padding: 30px;
+      padding-bottom: 0;
+    }
   }
   .reviewer-image {
     position: relative;
@@ -328,14 +388,22 @@
 
 // lifetime_of_wellness
 .lifetime_of_wellness {
-  background-repeat: repeat !important;
-  background-size: 750px !important;
-  animation: 25s bgMove infinite linear;
-  @include tablet {
-    animation-duration: 35s;
+  &::before {
+    height: calc(100% - (7rem + 40%));
+    @include tablet {
+      height: calc(100% - (5.5rem + 40%));
+    }
   }
-  @include mobile {
-    animation-duration: 45s;
+  .block {
+    background-repeat: repeat !important;
+    background-size: 850px !important;
+    animation: 25s bgMove infinite linear;
+    @include tablet {
+      animation-duration: 35s;
+    }
+    @include mobile {
+      animation-duration: 45s;
+    }
   }
 }
 @keyframes bgMove {
@@ -344,12 +412,51 @@
   }
 }
 
+// our locations
+.our-locations {
+  &::before {
+    height: calc(100% - (7rem + 35%));
+    @include tablet {
+      height: calc(100% - (5.5rem + 35%));
+    }
+  }
+  .map-block {
+    padding: 80px;
+    @include tablet {
+      padding: 40px;
+    }
+    @include mobile {
+      padding: 40px 20px;
+    }
+  }
+}
+
 // holistic-doctors
-.holistic-doctors-block {
-  padding: 45px 40px;
-  box-shadow: 0px 5px 10px 5px rgba($black, 0.05);
-  @include tablet {
-    padding: 40px 25px;
+.holistic-doctors {
+  &::before {
+    height: calc(100% - (7rem + 27%));
+    @include tablet {
+      height: calc(100% - (5.5rem + 27%));
+    }
+  }
+  .holistic-doctors-block {
+    padding: 45px 40px;
+    box-shadow: 0px 5px 10px 5px rgba($black, 0.05);
+    transition: 0.15s;
+    @include tablet {
+      padding: 40px 25px;
+    }
+    &:hover {
+      background-color: $color-primary !important;
+      color: rgba($white, 0.85);
+      .text-black,
+      .text-primary {
+        color: $white !important;
+      }
+      .border-top {
+        border-top-color: rgba($white, 0.3) !important;
+      }
+    }
   }
 }
 

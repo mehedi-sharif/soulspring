@@ -23,17 +23,17 @@
     slidesPerView: 1,
     loop: true,
     spaceBetween: 0,
-    speed: 1500,
-    // autoHeight: true,
+    speed: 500,
+    autoHeight: true,
     grabCursor: true,
-    autoplay: {
-      delay: 4000,
-    },
+    // autoplay: {
+    //   delay: 4000,
+    // },
     pagination: {
       el: ".pagination",
       type: "bullets",
       clickable: true,
-      renderBullet: function (index, className) {
+      renderBullet: function (i, className) {
         return '<span class="' + className + '"></span>';
       },
     },
@@ -44,14 +44,19 @@
     slidesPerView: 1,
     loop: true,
     spaceBetween: 24,
-    speed: 1000,
+    speed: 500,
     grabCursor: true,
     autoplay: {
       delay: 4000,
     },
-    navigation: {
-      nextEl: ".swiper-button-next",
-      prevEl: ".swiper-button-prev",
+    // navigation: {
+    //   nextEl: ".swiper-button-next",
+    //   prevEl: ".swiper-button-prev",
+    // },
+    pagination: {
+      el: ".swiper-pagination",
+      type: "bullets",
+      clickable: true,
     },
     breakpoints: {
       575: {

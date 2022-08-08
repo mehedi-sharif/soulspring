@@ -12,9 +12,9 @@ color_primary = "#D87058"
 color_secondary = "#519830"
 color_tertiary = "#49A6D7"
 body_color = "#fff"
-text_color = "#666666"
+text_color = "#726464"
 text_dark = "#222222"
-text_light = "#959595"
+text_light = "#FFF9F9"
 border_color = "#ACB9C4"
 black = "#000"
 white = "#fff"
@@ -39,9 +39,11 @@ font_scale = "1.28" # default is "majorThird": 1.25
 # go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
 # example: "Work+Sans:wght@400;500;600"
 font_primary = "Crimson+Text:wght@600"
-font_primary_type = "serif"            # [serif/sans-serif]
+font_primary_type = "serif"            # [serif/sans-serif/cursive]
 font_secondary = "Inter:wght@400;500;600;700;800"
-font_secondary_type = "sans-serif"     # [serif/sans-serif]
+font_secondary_type = "sans-serif"     # [serif/sans-serif/cursive]
+font_tertiary = "Satisfy"
+font_tertiary_type = "cursive"         # [serif/sans-serif/cursive]
 font_icon = "Font Awesome 6 Free"      # https://fontawesome.com/v6.0/icons/
 
 
