@@ -19,11 +19,6 @@
 {{ end }}
 {{ end }}
 
-<!-- google map key -->
-{{ if site.Params.google_map.enable }}
-{{ $scripts = $scripts | append (resources.Get "plugins/maps/google-map.js" ) }}
-{{ end }}
-
 <!-- main script -->
 {{ $scripts = $scripts | append (resources.Get "js/script.js") }}
 {{ $scripts = $scripts | resources.Concat "js/scripts.js" }}

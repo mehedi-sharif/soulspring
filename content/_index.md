@@ -18,12 +18,14 @@ banner:
   quick_link:
     enanle: true
     title: "I'd like to find out"
-    placeholder: "I’d like to find out... and the options are"
+    placeholder: "Why people choose SoulSpring?"
     button:
-      link: "doctors/"
+      link: "why-soulspring/"
       label: "Learn more"
 
     topics:
+      - title: "Why people choose SoulSpring?"
+        link: "why-soulspring/"
       - title: "Who are the doctors"
         link: "doctors/"
       - title: "What will I experience"
@@ -42,13 +44,19 @@ banner:
 facts:
   enable: true
   blocks:
-    - title: "08"
+    - number: "8"
+      prefix: "0"
+      suffix: ""
       content: "Minutes to complete advanced bio scanning to reveal your individual bio wellness report."
 
-    - title: "96%"
+    - number: "96"
+      prefix: ""
+      suffix: "%"
       content: "Client satisfaction rating after experiencing modalities led-by board certified Medical Doctors. "
       
-    - title: "76%"
+    - number: "76"
+      prefix: ""
+      suffix: "%"
       content: "Refer friends and family that actually become new clients and continue the circle of gifting wellness."
 
 

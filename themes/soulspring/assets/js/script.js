@@ -2,6 +2,16 @@
 (function () {
   "use strict";
 
+  // Odometer init
+  function playOdometer() {
+    let el = document.querySelectorAll(".odometer");
+    el.forEach((data) => {
+      let dataCount = data.getAttribute("data-count");
+      data.textContent = dataCount;
+    });
+  }
+  inView(".odometer").on("enter", playOdometer);
+
   // banner slider
   new Swiper(".banner-slider .swiper", {
     slidesPerView: 1,

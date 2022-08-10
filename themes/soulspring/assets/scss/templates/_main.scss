@@ -5,7 +5,7 @@
 .banner {
   width: 1600px;
   max-width: calc(100% - 20px);
-  margin: 30px auto;
+  margin: 0 auto 30px;
   position: relative;
   &::after {
     position: absolute;
@@ -14,16 +14,19 @@
     width: calc(100% + 60px);
     left: -30px;
     bottom: -30px;
-    background-color: rgba($color-primary, 0.15);
+    background-color: rgba($color-secondary, 0.15);
     z-index: -1;
   }
   .banner-slider {
-    height: 710px;
+    height: 760px;
+    @include desktop {
+      height: 800px;
+    }
     @include tablet {
-      height: 780px;
+      height: 840px;
     }
     @include mobile {
-      height: 620px;
+      height: 760px;
     }
     .swiper-slide {
       &::after {
@@ -44,7 +47,13 @@
     left: 0;
     z-index: 5;
     width: 100%;
-    transform: translateY(-50%);
+    transform: translateY(-35%);
+    @include desktop {
+      transform: translateY(-40%);
+    }
+    @include tablet {
+      transform: translateY(-38%);
+    }
 
     .quick-links {
       user-select: none;

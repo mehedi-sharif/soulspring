@@ -77,8 +77,8 @@ a:hover {
     transform: translateX(-50%);
     z-index: -1;
     background-color: lighten(
-      desaturate(adjust-hue($color-primary, -11), 22.14),
-      38.43
+      desaturate(adjust-hue($color-primary, -9), 36.65),
+      36.67
     );
     &.has-overlay-bgi {
       @extend .pattern-bg;
@@ -130,20 +130,33 @@ a:hover {
 .outline-0 {
   outline: 0 !important;
 }
-
-.bg-primary {
-  background: $color-primary !important;
-}
 .bg-dark {
   background: $dark !important;
+}
+
+.text-default {
+  color: $text-color !important;
 }
 
 .text-primary {
   color: $color-primary !important;
 }
+.bg-primary {
+  background: $color-primary !important;
+}
 
-.text-default {
-  color: $text-color !important;
+.text-secondary {
+  color: $color-secondary !important;
+}
+.bg-secondary {
+  background: $color-secondary !important;
+}
+
+.text-tertiary {
+  color: $color-tertiary !important;
+}
+.bg-tertiary {
+  background: $color-tertiary !important;
 }
 
 .zindex-1 {

@@ -8,9 +8,9 @@
 ######################### site variables ##############################
 # customize your color and font from here.
 [params.variables]
-color_primary = "#D87058"
-color_secondary = "#519830"
-color_tertiary = "#49A6D7"
+color_primary = "#E86851"
+color_secondary = "#5AA836"
+color_tertiary = "#58CDE2"
 body_color = "#fff"
 text_color = "#726464"
 text_dark = "#222222"
@@ -58,6 +58,8 @@ link = "plugins/font-awesome/v6/brands.css"
 link = "plugins/font-awesome/v6/solid.css"
 [[params.plugins.css]]
 link = "plugins/font-awesome/v6/icons.css"
+[[params.plugins.css]]
+link = "plugins/odometer/odometer.css"
 
 # JS Plugins
 # [[params.plugins.js]]
@@ -68,6 +70,8 @@ link = "plugins/swiper/swiper-bundle.js"
 link = "plugins/webfont/webfont-loader-2.js"
 [[params.plugins.js]]
 link = "plugins/glightbox.js"
+[[params.plugins.js]]
+link = "plugins/odometer/odometer.js"
 [[params.plugins.js]]
 link = "plugins/cookie.js"
 [[params.plugins.js]]

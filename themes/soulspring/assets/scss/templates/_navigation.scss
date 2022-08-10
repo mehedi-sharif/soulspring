@@ -1,7 +1,17 @@
 .header {
   z-index: 9999;
-  padding: 15px 0;
+  padding: 30px 0;
+  @include tablet {
+    padding: 20px 0;
+  }
+  @include mobile {
+    padding: 2px 0;
+  }
   transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+  .navbar {
+    padding-left: 25px;
+    padding-right: 25px;
+  }
   .navbar-toggler {
     background-color: $color-primary;
     color: $white;
@@ -9,18 +19,19 @@
     padding: 0;
     height: 42px;
     width: 42px;
-    line-height: 43px;
-    .btn-open {
+    line-height: 46px;
+    font-size: 18px;
+    .navbar-open {
       display: inline-block;
     }
-    .btn-close {
+    .navbar-close {
       display: none;
     }
     &[aria-expanded="true"] {
-      .btn-open {
+      .navbar-open {
         display: none;
       }
-      .btn-close {
+      .navbar-close {
         display: inline-block;
       }
     }
@@ -28,16 +39,14 @@
 
   @include desktop {
     .navbar-collapse {
-      background-color: $white;
       border-radius: 5px;
-      margin-top: 10px;
-      box-shadow: 0px 23px 60px rgba($black, 0.1) !important;
     }
     .navbar-nav {
       width: 100%;
       max-width: 320px;
       margin-left: auto !important;
       margin-right: auto !important;
+      padding-top: 15px;
     }
   }
 
@@ -71,7 +80,7 @@
     }
     &-menu {
       border: 0;
-      padding: 0.65rem 0;
+      padding: 0.75rem 0.5rem;
       border-radius: 5px;
       box-shadow: rgba(17, 12, 46, 0.15) 0px 28px 80px 0px;
       text-align: center;

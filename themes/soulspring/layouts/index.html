@@ -56,7 +56,7 @@
 
           {{ with .review_block }}
           <div class="col-lg-3 d-none d-sm-block d-xl-none">
-            <div class="review-block bg-dark rounded text-white text-center">
+            <div class="review-block bg-tertiary rounded text-white text-center">
               <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
               <p class="mb-4">{{ .content | markdownify }}</p>
               {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
@@ -72,14 +72,12 @@
     </div>
 
     {{ with .review_block }}
-    <div class="review-block bg-dark rounded text-white text-center d-none d-xl-block">
+    <div class="review-block bg-tertiary rounded text-white text-center d-none d-xl-block">
       <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
       <p class="mb-4 fst-italic">{{ .content | markdownify }}</p>
       {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
     </div>
     {{ end }}
-
-    <svg class="position-absolute shape-top text-primary" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="658.5" y="1.5" width="1405" height="657" transform="rotate(90 658.5 1.5)" stroke="currentColor" stroke-width="3"/></svg>
 
     <svg class="position-absolute shape-bottom text-primary" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="-566.5" y="90.5" width="1405" height="657" transform="rotate(-90 -566.5 90.5)" stroke="currentColor" stroke-width="3"/></svg>
     
@@ -95,7 +93,9 @@
       {{ range .blocks }}
       <div class="block col-lg-4 col-md-6">
         <div class="text-white text-center rounded h-100 d-flex flex-column justify-content-center">
-          <h2 class="h3 text-white mb-1 font-secondary">{{.title | markdownify}}</h2>
+          <h2 class="text-white mb-1 font-secondary d-flex align-items-center justify-content-center">
+            <span>{{.prefix}}</span><span class="odometer" data-count="{{.number}}">0</span><span>{{.suffix}}</span>
+          </h2>
           <hr class="text-white opacity-100 mb-4 mx-auto" style="width:28px;height:2px;">
           <p class="mb-0">{{.content | markdownify}}</p>
         </div>
