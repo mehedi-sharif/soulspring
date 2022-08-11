@@ -40,7 +40,7 @@ facts:
   - number: "8"
     prefix: "0"
     suffix: ''
-    content: Minutes to complete advanced bio scanning to reveal your individual bio
+    content: Minutes to complete advanced bio scanning revealing your individual bio
       wellness report.
   - number: "76"
     prefix: ''
