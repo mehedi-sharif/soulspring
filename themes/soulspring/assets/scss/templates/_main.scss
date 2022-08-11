@@ -1,7 +1,4 @@
 // banner
-.banner-section {
-  padding-bottom: 20px;
-}
 .banner {
   width: 1600px;
   max-width: calc(100% - 20px);
@@ -14,11 +11,16 @@
     width: calc(100% + 60px);
     left: -30px;
     bottom: -30px;
-    background-color: rgba($color-secondary, 0.15);
+    background-color: rgba($color-secondary, 0.1);
     z-index: -1;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
   }
   .banner-slider {
     height: 760px;
+    border-bottom-left-radius: 16px;
+    border-bottom-right-radius: 16px;
+    overflow: hidden;
     @include desktop {
       height: 800px;
     }
@@ -201,20 +203,6 @@
   .swiper-pagination {
     bottom: 20px;
     z-index: 55;
-  }
-
-  // shape
-  .shape-top,
-  .shape-bottom {
-    z-index: 5;
-  }
-  .shape-top {
-    top: -20px;
-    left: -20px;
-  }
-  .shape-bottom {
-    bottom: -50px;
-    right: -50px;
   }
 }
 
@@ -494,7 +482,9 @@
 
 // footer
 footer {
-  background-color: #1d4885;
+  background-color: rgba($color-secondary, 0.1);
+  color: $text-color;
+  position: relative;
 }
 .footer-links {
   li {
@@ -505,9 +495,9 @@ footer {
   }
   a {
     display: inline-block;
-    color: rgba($white, 0.8);
+    color: rgba($dark, 0.8);
     &:hover {
-      color: $white;
+      color: $dark;
       text-decoration: underline;
     }
   }
@@ -518,22 +508,49 @@ footer {
     a {
       display: inline-block;
       padding: 3px;
-      color: $white;
+      color: $dark;
       &:hover {
         opacity: 0.7;
       }
     }
   }
 }
+.footer-left-image,
+.footer-right-image {
+  position: absolute;
+  bottom: 0;
+  z-index: -1;
+  pointer-events: none;
+  transform: scale(0.8);
+  transform-origin: bottom;
+  @include desktop-xl {
+    opacity: 0.4;
+  }
+}
+.footer-left-image {
+  left: 50px;
+  @include desktop {
+    left: 10px;
+  }
+}
+.footer-right-image {
+  right: 50px;
+  @include desktop-xl {
+    right: 0;
+  }
+  @include mobile {
+    display: none;
+  }
+}
 .footer-bottom .border-top {
-  border-color: rgba(#c0bcbc, 0.2) !important;
+  border-color: rgba($color-primary, 0.1) !important;
 }
 .copyright {
-  color: #ddd;
+  color: rgba($dark, 0.8);
   a {
-    color: $white;
+    color: $dark;
     &:hover {
-      color: $white;
+      color: $dark;
       text-decoration: underline;
     }
   }

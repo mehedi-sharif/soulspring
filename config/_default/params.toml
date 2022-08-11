@@ -24,6 +24,9 @@ custom_script = ""
 theme_copyright = true
 copyright = "Copyright by your company"
 
+# footer_content
+footer_content = "Cras ultricies ligula  magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a Nulla quis l."
+
 # Preloader
 [preloader]
 enable = false

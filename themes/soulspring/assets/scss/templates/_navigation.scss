@@ -11,6 +11,10 @@
   .navbar {
     padding-left: 25px;
     padding-right: 25px;
+    @include mobile {
+      padding-left: 15px;
+      padding-right: 15px;
+    }
   }
   .navbar-toggler {
     background-color: $color-primary;

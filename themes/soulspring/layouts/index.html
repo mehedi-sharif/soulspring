@@ -1,88 +1,87 @@
 {{ define "main" }}
 
 {{ with .Params.banner }}
-<section class="banner-section">
-  <div class="banner">
-    {{ with .slider }}
-    <div class="banner-slider">
-      <div class="swiper h-100">
-        <div class="swiper-wrapper">
-          {{ range . }}
-          <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
-          {{ end }}
-        </div>
-        <div class="swiper-pagination pagination-light"></div>
+<div class="banner">
+  {{ with .slider }}
+  <div class="banner-slider">
+    <div class="swiper h-100">
+      <div class="swiper-wrapper">
+        {{ range . }}
+        <div class="swiper-slide" {{ partial `bg-image.html` (dict `Src` . `Webp` false `Resize` false ) | safeHTMLAttr }}></div>
+        {{ end }}
       </div>
+      <div class="swiper-pagination pagination-light"></div>
     </div>
-    {{ end }}
-
-    <div class="block">
-      <div class="container h-100">
-        <div class="row h-100 align-items-center">
-          <div class="col-lg-9">
-            <h1 class="text-white mb-4 pb-2">{{ .title | markdownify }}</h1>
-            <p class="h4 font-tertiary fw-light text-white">{{ .description | markdownify }}</p>
-
-            <hr class="text-primary opacity-100 mt-4" style="width:120px;height:3px;">
-
-            {{ with .quick_link }}
-            <div class="quick-links d-flex bg-white rounded-pill px-2">
-              <div class="title-block d-flex align-items-center ms-3">
-                <i class="fa-solid fa-search me-2"></i>
-                <span class="text-black me-2">{{ .title | markdownify }}</span>
-              </div>
-              <div class="flex-grow-1 dropdown">
-                <span class="h-100 px-3 d-flex justify-content-between align-items-center" type="button" id="dmenu" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
-                  {{.placeholder | markdownify}} <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <polyline points="6 9 12 15 18 9"></polyline>
-                  </svg>
-                </span>
-                <ul class="dropdown-menu w-100 rounded-0 border-0" aria-labelledby="dmenu">
-                  {{ range .topics }}
-                  <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="{{.link | relURL}}">
-                    <span class="flex-grow-1">{{.title | markdownify}}</span>
-                    <i class="icon flex-shrink-0 fa fa-arrow-right"></i>
-                  </a></li>
-                  {{ end }}
-                </ul>
-              </div>
-              <div class="button-block d-flex align-items-center">
-                <a class="btn btn-primary" href="{{ .button.link }}">{{ .button.label }}</a>
-              </div>
-            </div>
-            {{ end }}
-          </div>
-
-          {{ with .review_block }}
-          <div class="col-lg-3 d-none d-sm-block d-xl-none">
-            <div class="review-block bg-tertiary rounded text-white text-center">
-              <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
-              <p class="mb-4">{{ .content | markdownify }}</p>
-              {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
-            </div>
-          </div>
-          {{ end }}
-        </div>
-      </div>
-    </div>
-
-    <div class="chakra position-absolute top-0 end-0 zindex-3">
-      {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
-    </div>
-
-    {{ with .review_block }}
-    <div class="review-block bg-tertiary rounded text-white text-center d-none d-xl-block">
-      <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
-      <p class="mb-4 fst-italic">{{ .content | markdownify }}</p>
-      {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
-    </div>
-    {{ end }}
-
-    <svg class="position-absolute shape-bottom text-primary" width="92" height="92" viewBox="0 0 92 92" fill="none" xmlns="http://www.w3.org/2000/svg"><rect x="-566.5" y="90.5" width="1405" height="657" transform="rotate(-90 -566.5 90.5)" stroke="currentColor" stroke-width="3"/></svg>
-    
   </div>
-</section>
+  {{ end }}
+
+  <div class="block">
+    <div class="container h-100">
+      <div class="row h-100 align-items-center">
+        <div class="col-lg-9">
+          <svg class="position-absolute start-0" style="z-index:-1" width="69" height="76" viewBox="0 0 69 76" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path opacity="0.8" fill-rule="evenodd" clip-rule="evenodd" d="M-9.68336 48.5574C-13.3847 45.0849 -17.564 40.9657 -20.9993 39.085C-20.9716 39.085 -20.9494 39.085 -20.923 39.0899C-19.9461 39.1809 -18.9692 39.2719 -18.0033 39.4308C-17.0264 39.5497 -16.0758 39.7608 -15.1154 39.9441C-13.2211 40.3711 -11.349 40.8929 -9.54756 41.5735C-7.7445 42.2655 -6.0045 43.0772 -4.34275 44.0014C-2.67571 44.9308 -1.10289 45.9815 0.428342 47.0941C6.40917 51.712 12.3304 56.5895 18.9958 60.5607C22.3285 62.542 25.894 64.2443 29.6493 65.4952C33.4213 66.7231 37.3235 67.5481 41.2424 68.2579C37.3457 67.462 33.4698 66.5459 29.7629 65.2368C26.0672 63.9082 22.5932 62.1428 19.3478 60.1057C16.1079 58.0625 13.0468 55.7936 10.073 53.4434C9.31782 52.8683 8.5917 52.2592 7.84756 51.6695C7.10896 51.075 6.3773 50.4792 5.64979 49.8714C4.19477 48.6726 2.76191 47.4302 1.22098 46.2691C-0.31045 45.0932 -1.92578 44.0039 -3.61524 43.0077C-5.32084 42.0224 -7.10942 41.152 -8.96556 40.4039C-10.828 39.665 -12.7708 39.0899 -14.7357 38.6106C-15.7293 38.4092 -16.7173 38.1738 -17.7262 38.0355C-18.7253 37.8523 -19.7341 37.7419 -20.7443 37.6315C-21.7531 37.5114 -22.7744 37.4738 -23.7832 37.3973L-24.3209 37.3828C-26.5519 36.3175 -28 35.7812 -28 35.7812C-28 35.7812 15.185 36.3854 27.6677 38.0161C47.6957 40.6344 63.0982 53.3002 63.5762 53.6933C63.0607 53.3718 46.4416 42.9458 32.5469 41.3199C18.6909 39.699 0.232946 40.5531 0.232946 40.5531C0.232946 40.5531 9.83331 41.3151 26.2515 48.9311C44.1344 57.2277 55.9117 75.1398 55.9117 75.1398C55.9117 75.1398 27.9656 77.5373 9.01989 65.9805C0.745671 60.9331 -1.66135 56.086 -9.68336 48.5574ZM55.8771 39.045C55.8738 38.3289 56.1954 37.641 56.7713 37.1324C57.3471 36.6239 58.13 36.3365 58.9479 36.3332C59.3528 36.3348 59.7534 36.4062 60.1267 36.5434C60.5001 36.6805 60.839 36.8807 61.124 37.1325C61.409 37.3843 61.6346 37.6828 61.7879 38.011C61.9412 38.3391 62.0191 38.6905 62.0173 39.045C62.0173 40.5434 60.6426 41.758 58.9479 41.758C58.5428 41.7564 58.142 41.6849 57.7685 41.5477C57.3949 41.4105 57.0559 41.2103 56.7708 40.9583C56.4856 40.7064 56.2599 40.4078 56.1066 40.0795C55.9533 39.7512 55.8753 39.3997 55.8771 39.045ZM65.641 35.53C65.6391 35.1383 65.815 34.7619 66.1299 34.4837C66.4449 34.2055 66.8731 34.0481 67.3205 34.0461C68.2475 34.0461 69 34.711 69 35.53C69 36.349 68.2475 37.0139 67.3205 37.0139C66.3934 37.0139 65.641 36.349 65.641 35.53ZM45.7737 38.3498C42.078 38.3498 39.082 35.7023 39.082 32.4361C39.082 29.1711 42.078 26.5236 45.7737 26.5236C49.4695 26.5236 52.4654 29.1711 52.4654 32.4361C52.4654 35.7023 49.4695 38.3498 45.7737 38.3498ZM36.9868 25.0616C36.6999 25.2727 27.4349 32.0782 12.4773 33.8095C4.51488 34.7305 -13.3943 35.1381 -22.4862 35.2922C-21.9827 35.227 -21.4814 35.1501 -20.9826 35.0617C-19.9724 34.9222 -18.9858 34.6868 -17.9922 34.4805C-16.0273 34.0061 -14.0845 33.431 -12.222 32.6872C-10.3674 31.9396 -8.58064 31.0691 -6.87725 30.0835C-5.1728 29.0958 -3.57644 27.9881 -2.04105 26.8269C-0.494562 25.6609 0.938292 24.4246 2.39332 23.2258C3.11786 22.6189 3.85049 22.0195 4.59109 21.4277C5.33522 20.8368 6.05581 20.2277 6.81103 19.6526C9.79036 17.3024 12.8514 15.0347 16.0913 12.9867C19.3367 10.9483 22.8107 9.1878 26.5065 7.85437C30.2133 6.55127 34.0892 5.634 37.9859 4.83322C34.067 5.54301 30.1593 6.36806 26.3928 7.59593C22.632 8.85292 19.072 10.5503 15.7338 12.5305C9.07394 16.5065 3.14715 21.384 -2.83368 25.997C-4.35937 27.1096 -5.93773 28.1652 -7.59922 29.091C-9.26135 30.0143 -11.0013 30.8255 -12.804 31.5176C-14.6055 32.2031 -16.4776 32.7212 -18.3775 33.1531C-19.3378 33.3351 -20.2884 33.5414 -21.2598 33.6615C-22.2256 33.8193 -23.2026 33.9103 -24.1795 34.0061C-24.2557 34.0158 -24.3306 34.0207 -24.4068 34.0255C-21.0741 32.6399 -15.7695 29.4028 -12.6682 25.4171C-7.19874 18.3883 -2.08538 11.4907 5.98098 6.58403C22.6971 -3.57382 45.7737 1.05011 45.7737 1.05011C45.7737 1.05011 38.1674 14.6271 19.9228 23.8919C7.3875 30.2582 -2.74637 31.1912 -2.74637 31.1912C-2.74637 31.1912 4.65621 32.5101 16.7758 31.412C25.9688 30.5821 36.65 25.2302 36.9868 25.0616Z" fill="#E86851"/>
+          </svg>
+          <h1 class="text-white mb-4 pb-2">{{ .title | markdownify }}</h1>
+          <p class="h4 font-tertiary fw-light text-white">{{ .description | markdownify }}</p>
+
+          <hr class="text-primary opacity-100 mt-4" style="width:120px;height:3px;">
+
+          {{ with .quick_link }}
+          <div class="quick-links d-flex bg-white rounded-pill px-2">
+            <div class="title-block d-flex align-items-center ms-3">
+              <i class="fa-solid fa-search me-2"></i>
+              <span class="text-black me-2">{{ .title | markdownify }}</span>
+            </div>
+            <div class="flex-grow-1 dropdown">
+              <span class="h-100 px-3 d-flex justify-content-between align-items-center" type="button" id="dmenu" data-bs-display="static" data-bs-toggle="dropdown" aria-expanded="false">
+                {{.placeholder | markdownify}} <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                  <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                  <polyline points="6 9 12 15 18 9"></polyline>
+                </svg>
+              </span>
+              <ul class="dropdown-menu w-100 rounded-0 border-0" aria-labelledby="dmenu">
+                {{ range .topics }}
+                <li><a class="dropdown-item d-flex justify-content-between align-items-center" href="{{.link | relURL}}">
+                  <span class="flex-grow-1">{{.title | markdownify}}</span>
+                  <i class="icon flex-shrink-0 fa fa-arrow-right"></i>
+                </a></li>
+                {{ end }}
+              </ul>
+            </div>
+            <div class="button-block d-flex align-items-center">
+              <a class="btn btn-primary" href="{{ .button.link }}">{{ .button.label }}</a>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+
+        {{ with .review_block }}
+        <div class="col-lg-3 d-none d-sm-block d-xl-none">
+          <div class="review-block rounded text-white text-center" style="background-color:#8C8C8C;">
+            <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+            <p class="mb-4">{{ .content | markdownify }}</p>
+            {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="chakra position-absolute top-0 end-0 zindex-3">
+    {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+  </div>
+
+  {{ with .review_block }}
+  <div class="review-block rounded text-white text-center d-none d-xl-block" style="background-color:#8C8C8C;">
+    <div class="rating" style="--rating: {{.rating}};" title="Rating of this product is {{.rating}} out of 5"></div>
+    <p class="mb-4 fst-italic">{{ .content | markdownify }}</p>
+    {{ partial "image.html" (dict `Src` .brand_logo `Webp` false `Size` `99x36` )}}
+  </div>
+  {{ end }}
+  
+</div>
 {{ end }}
 
 {{ with .Params.facts }}

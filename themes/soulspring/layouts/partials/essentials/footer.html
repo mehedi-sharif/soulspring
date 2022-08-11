@@ -1,17 +1,25 @@
 <footer>
-  <div class="section-sm pb-5 mb-3">
+  <div class="section pb-5 mb-3">
+    <div class="footer-left-image">
+      {{ partial "image.html" (dict "Src" "images/footer-left.svg" "Alt" "footer-image" "Resize" false "Webp" false) }}
+    </div>
+
     <div class="container">
       <div class="row gy-5 flex-wrap flex-xl-nowrap row-cols-5 justify-content-lg-end">
-        <div class="col-xl-3 col-lg-4 col-md-12 col-12">
+        <div class="col-xl-4 col-md-12 col-12">
           <div class="me-0 pe-0 pe-md-5 me-md-5">
             <a href="{{ site.BaseURL | relLangURL }}">
               {{ partial "logo.html" . }}
             </a>
+
+            {{ with site.Params.footer_content }}
+            <p class="mt-4">{{. | markdownify}}</p>
+            {{ end }}
           </div>
         </div>
-        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
-          <div class="me-5 pe-4">
-            <h3 class="font-secondary fw-light h6 text-white mb-4">Company</h3>
+        <div class="col-xl col-lg-4 col-md-4 col-6">
+          <div class="me-0 pe-0 me-sm-5 pe-sm-4">
+            <h3 class="font-secondary fw-light h6 text-dark mb-4">Company</h3>
             <ul class="footer-links list-unstyled mb-0">
               {{ range site.Menus.company }}
               <li>
@@ -21,9 +29,9 @@
             </ul>
           </div>
         </div>
-        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
-          <div class="me-5 pe-4">
-            <h3 class="font-secondary fw-light h6 text-white mb-4">Quick Links</h3>
+        <div class="col-xl-3 col-lg-4 col-md-4 col-6">
+          <div class="me-0 pe-0 me-sm-5 pe-sm-4">
+            <h3 class="font-secondary fw-light h6 text-dark mb-4">Quick Links</h3>
             <ul class="footer-links list-unstyled mb-0">
               {{ range site.Menus.quick_links }}
               <li>
@@ -33,24 +41,19 @@
             </ul>
           </div>
         </div>
-        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
-          <div class="me-5 pe-4">
-            <h3 class="font-secondary fw-light h6 text-white mb-4">Contact Us</h3>
-            {{ with site.Params.contact_info }}
-            <ul class="footer-links list-unstyled mb-0">
-              <li>
-                <a href="tel:{{.mobile}}">{{.mobile}}</a>
-              </li>
-              <li>
-                <a href="mailto:{{.email}}">{{.email}}</a>
-              </li>
-            </ul>
-            {{ end }}
-          </div>
-        </div>
-        <div class="col-xl col-lg-4 col-md-4 col-sm-6 col-12">
-          <h3 class="font-secondary fw-light h6 text-white mb-4">Social</h3>
-          <ul class="social-links list-unstyled list-inline mb-0">
+        <div class="col-xl-3 col-lg-4 col-md-4 col-sm-6 col-12">
+          <h3 class="font-secondary fw-light h6 text-dark mb-4">Contact Us</h3>
+          {{ with site.Params.contact_info }}
+          <ul class="footer-links list-unstyled mb-0">
+            <li>
+              <i class="fas fa-phone text-dark me-3"></i><a href="tel:{{.mobile}}">{{.mobile}}</a>
+            </li>
+            <li>
+              <i class="fas fa-envelope text-dark me-3"></i><a href="mailto:{{.email}}">{{.email}}</a>
+            </li>
+          </ul>
+          {{ end }}
+          <ul class="social-links list-unstyled list-inline mb-0 mt-3">
             {{ range site.Params.social }}
             <li class="list-inline-item">
               <a target="_blank" rel="noopener" href="{{.link}}" title="{{.title}}"><i class="{{.icon}}"></i></a>
@@ -59,6 +62,10 @@
           </ul>
         </div>
       </div>
+    </div>
+    
+    <div class="footer-right-image">
+      {{ partial "image.html" (dict "Src" "images/footer-right.png" "Alt" "footer-image" "Resize" false "Webp" false) }}
     </div>
   </div>
 
