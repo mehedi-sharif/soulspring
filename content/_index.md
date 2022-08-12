@@ -153,16 +153,16 @@ holistic_doctors:
   title: Holistic Doctors
   subtitle: Our medical clinics and living wellness resorts
   doctors_list:
-  - name: Ronald Richards
+  - name: Dr. Cheryl Perlis
     image: images/holistic-doctors/01.jpg
     qualifications:
-    - Albert Einstein College of Medicine
-    - Internal Medicine at NYU Langone
+    - Founder and Medical Director, Perlis Wellness Center
     quote:
       title: Why I practice at Soul Spring
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      content: |-
+        Soul Spring brings unique modalities to my practice that have not been available in the past. My patients leave the office feeling better right away.
+
+        With Soul Spring, I can help my patients reach another level of health and live life fully, with more vitality and more energy.
   - name: Arlene McCoy
     image: images/holistic-doctors/02.jpg
     qualifications:
