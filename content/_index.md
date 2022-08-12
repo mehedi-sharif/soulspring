@@ -54,7 +54,7 @@ facts:
       led-by board certified Medical Doctors. '
 wellness_solutions:
   enable: true
-  title: Doctor-led, Individualized Bio Wellness Solutions
+  title: Doctor-led, Bio-Individualized Wellness Solutions
   subtitle: We bring you the best-of modern and ancient modalities for holistic health
     care.
   solutions:
