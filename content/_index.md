@@ -64,19 +64,19 @@ wellness_solutions:
     link: gut/
     image: images/wellness-solutions/gut.svg
     image_active: images/wellness-solutions/gut-active.svg
-  - title: heart
+  - title: Heart
     link: heart/
     image: images/wellness-solutions/heart.svg
     image_active: images/wellness-solutions/heart-active.svg
-  - title: sleep
+  - title: Sleep
     link: sleep/
     image: images/wellness-solutions/sleep.svg
     image_active: images/wellness-solutions/sleep-active.svg
-  - title: mind
+  - title: Mind
     link: mind/
     image: images/wellness-solutions/mind.svg
     image_active: images/wellness-solutions/mind-active.svg
-  - title: mood
+  - title: Mood
     link: mood/
     image: images/wellness-solutions/mood.svg
     image_active: images/wellness-solutions/mood-active.svg
