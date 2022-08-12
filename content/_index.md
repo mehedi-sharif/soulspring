@@ -205,9 +205,12 @@ frequently_asked_questions:
       Bio-individualized detoxification and regeneration therapies are then designed
       to regenerate the body and awaken its innate healing abilities. '
   - title: What is it going to cost me?
-    content: A further If you enter into this agreement on behalf of a company, you
-      hereby agree that the company is responsible under this Agreement for all actions
-      and omissions
+    content: "The cost of the non-invasive diagnostic tests, assessment and initial
+      consultation is $250. \n\nThe total cost of your wellness journey is determined
+      by the therapies designed specifically for you. Most clients invest $1200-$2500
+      in their healing journey with us over first 3 months. \n\nOnce your Personalized
+      Therapy Plan has been developed, we are happy to discuss the various packages
+      and payment plans we offer. "
   - title: How long before I see results?
     content: A further If you enter into this agreement on behalf of a company, you
       hereby agree that the company is responsible under this Agreement for all actions
