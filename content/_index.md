@@ -218,10 +218,10 @@ frequently_asked_questions:
       feel the immediate benefits and alleviation of many symptoms, most therapy plans
       are implemented over a 3–6-month period. Please know we will be with you throughout
       your journey, helping you to improve your overall well-being.  "
-  - title: Do you Accept Insurance?
-    content: The difference between and premium product consist number of components,
-      plugins, page in each. The Free versions contain only a few elements and pages
-      that.
+  - title: Do you accept insurance?
+    content: 'Soul Spring Centers are primarily cash pay centers and not contracted
+      with insurance; therefore, we are unable to accept any form of medical insurance
+      or Medicare/Medicaid.  '
   - title: What can I do if no Location is Close to me?
     content: The difference between and premium product consist number of components,
       plugins, page in each. The Free versions contain only a few elements and pages
