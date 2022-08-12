@@ -184,8 +184,8 @@ holistic_doctors:
     quote:
       title: Why I chose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
-        their biology is re-established and reset to a better-balanced life, profoundly
-        impacting their overall health and wellbeing.
+        their biology is reset to a better-balanced life, profoundly impacting their
+        overall health and wellbeing.
 lifetime_of_wellness:
   enable: true
   title: A Lifetime of Wellness
