@@ -50,8 +50,8 @@ facts:
   - number: "92"
     prefix: ''
     suffix: "%"
-    content: 'Client satisfaction rating after experiencing modalities led-by board
-      certified Medical Doctors. '
+    content: 'Client satisfaction rating after experiencing bio-individualized modalities
+      led-by board certified Medical Doctors. '
 wellness_solutions:
   enable: true
   title: Doctor-led, Individualized Bio Wellness Solutions
