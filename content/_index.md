@@ -22,17 +22,15 @@ banner:
     topics:
     - title: Why people choose SoulSpring?
       link: why-soulspring/
-    - title: Who are the doctors
+    - title: Who are the doctors?
       link: doctors/
-    - title: What will I experience
+    - title: What will I experience?
       link: what-will-i-experience/
-    - title: Where are the location
+    - title: Where are the locations?
       link: location/
-    - title: Why people choose soulspring
+    - title: Why people choose Soul Spring?
       link: why-choose-soulspring/
-    - title: When are wellness retreats
-      link: wellness-retreats/
-    - title: How much does it cost
+    - title: How much does it cost?
       link: pricing/
 facts:
   enable: true
