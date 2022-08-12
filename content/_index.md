@@ -149,7 +149,7 @@ our_locations:
 holistic_doctors:
   enable: true
   title: Holistic Doctors
-  subtitle: Our centers and living wellness resorts
+  subtitle: Meet the amazing doctors hand-picked for Soul Spring
   doctors_list:
   - name: Dr. Cheryl Perlis
     image: images/holistic-doctors/01.jpg
