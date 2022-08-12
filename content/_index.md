@@ -168,7 +168,7 @@ holistic_doctors:
     qualifications:
     - 'R.N./Manager, Woodlands Natural Health (Soul Spring Woodlands) '
     quote:
-      title: Why I practice at Soul Spring
+      title: Why I chose Soul Spring
       content: "At Woodlands Natural Health, we believe the body was designed to heal
         itself. Combining our existing innovative services with the integrative modalities
         of Soul Spring allow us to create powerful bio-individualized therapies under
