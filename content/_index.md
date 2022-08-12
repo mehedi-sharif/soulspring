@@ -149,7 +149,7 @@ our_locations:
 holistic_doctors:
   enable: true
   title: Holistic Doctors
-  subtitle: Our medical clinics and living wellness resorts
+  subtitle: Our centers and living wellness resorts
   doctors_list:
   - name: Dr. Cheryl Perlis
     image: images/holistic-doctors/01.jpg
