@@ -120,11 +120,12 @@ testimonials:
   title: What They Are Saying...
   subtitle: 'Transformational success stories '
   reviews:
-  - name: Dr. Alan Pope, PhD
-    designation: Distinguished Research Associate, NASA
+  - name: S.T.
+    designation: CEO of Financial Services Company, Houston, USA
     reviewer_image: images/testimonials/01.jpg
     logo: images/testimonials/01-logo.png
-    content: Some people may skeptical now, but in 5-10 years no one will be.
+    content: Everything about my health is much better now. I have more energy and
+      focus, with no aches and pains.
   - name: Dr. Terry Rector, PhD
     designation: Distinguished Research Associate, NASA
     reviewer_image: images/testimonials/02.jpg
