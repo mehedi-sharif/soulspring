@@ -212,7 +212,7 @@ frequently_asked_questions:
   - title: How long before I see results?
     content: "Each client’s wellness journey is different. Our bio-individualized
       therapies provide a holistic pathway for your body to experience relief, healing,
-      and rejuvenation as quickly as possible.  \n\nWhile vast majority of our clients
+      and rejuvenation as quickly as possible.  \n\nWhile a vast majority of our clients
       feel the immediate benefits and alleviation of many symptoms, most therapy plans
       are implemented over a 3–6-month period. Please know we will be with you throughout
       your journey, helping you to improve your overall well-being.  "
@@ -221,9 +221,9 @@ frequently_asked_questions:
       with insurance; therefore, we are unable to accept any form of medical insurance
       or Medicare/Medicaid.  '
   - title: What can I do if no location is close to me?
-    content: 'You are welcome to visit our residential locations or plan a 2.5-day
-      to 5-day visit using our “Outstation Client Packages.” All our locations have
-      a substantial number of clients who fly in from outstation, including overseas,
-      for their healing journeys with us.  '
+    content: 'You are welcome to visit our residential locations or plan a 2.5-5 day
+      visit using our “Outstation Client Packages.” All our locations have a substantial
+      number of clients who fly in from outstation, including overseas, for their
+      healing journeys with us.  '
 
 ---
