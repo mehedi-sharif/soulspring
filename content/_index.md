@@ -212,9 +212,12 @@ frequently_asked_questions:
       Therapy Plan has been developed, we are happy to discuss the various packages
       and payment plans we offer. "
   - title: How long before I see results?
-    content: A further If you enter into this agreement on behalf of a company, you
-      hereby agree that the company is responsible under this Agreement for all actions
-      and omissions
+    content: "Each client’s wellness journey is different. Our bio-individualized
+      therapies provide a holistic pathway for your body to experience relief, healing,
+      and rejuvenation as quickly as possible.  \n\nWhile vast majority of our clients
+      feel the immediate benefits and alleviation of many symptoms, most therapy plans
+      are implemented over a 3–6-month period. Please know we will be with you throughout
+      your journey, helping you to improve your overall well-being.  "
   - title: Do you Accept Insurance?
     content: The difference between and premium product consist number of components,
       plugins, page in each. The Free versions contain only a few elements and pages
