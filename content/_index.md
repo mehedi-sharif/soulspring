@@ -188,16 +188,16 @@ holistic_doctors:
         and improve their overall wellness. \n\nSoul Spring allows me to create a
         healing space that rejuvenates the emotional, physical, and mental well-being
         of my patients."
-  - name: Floyd Miles
+  - name: Dr. Stephany González
     image: images/holistic-doctors/04.jpg
     qualifications:
-    - Albert Einstein College of Medicine
-    - Internal Medicine at NYU Langone
+    - 'Medical Director, Soul Spring Cuernavaca Center '
     quote:
-      title: Why I practice at Soul Spring
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      title: Why I chose Soul Spring
+      content: |-
+        In Soul Spring, I found the physical space to perform both my life mission and my greatest passion. This is the place where the new world will heal from a place of light, with science and technology, on the shoulders of ancestral wisdom and the beauty of healing with a purpose.
+
+        I’ve observed deep transformation in my patients.... With Soul Spring, their biology is re-established and reset to a new, better-balanced life, profoundly impacting their overall health and wellbeing.
 lifetime_of_wellness:
   enable: true
   title: A Lifetime of Wellness
