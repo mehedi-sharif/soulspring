@@ -145,7 +145,7 @@ testimonials:
 our_locations:
   enable: true
   title: Our Locations
-  subtitle: Our clinics and living wellness resorts
+  subtitle: Our centers and living wellness resorts
 holistic_doctors:
   enable: true
   title: Holistic Doctors
