@@ -139,11 +139,11 @@ testimonials:
     logo: images/testimonials/01-logo.png
     content: I was looking for something different when I found Soul Spring. I feel
       stronger and more resilient than before.
-  - name: Dr. Alan Pope, PhD
-    designation: Distinguished Research Associate, NASA
+  - name: C.R.A.
+    designation: CEO, Mexico City, MX
     reviewer_image: images/testimonials/04.jpg
     logo: images/testimonials/02-logo.png
-    content: Some people may skeptical now, but in 5-10 years no one will be.
+    content: Soul Spring has helped in a profound way in all aspects of my health.
 our_locations:
   enable: true
   title: Our Locations
