@@ -158,7 +158,7 @@ holistic_doctors:
     qualifications:
     - Founder and Medical Director, Perlis Wellness Center
     quote:
-      title: Why I practice at Soul Spring
+      title: Why I chose Soul Spring
       content: |-
         Soul Spring brings unique modalities to my practice that have not been available in the past. My patients leave the office feeling better right away.
 
