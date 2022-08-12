@@ -198,9 +198,12 @@ frequently_asked_questions:
   subtitle: ''
   faq_list:
   - title: How is Soul Spring different?
-    content: A further If you enter into this agreement on behalf of a company, you
-      hereby agree that the company is responsible under this Agreement for all actions
-      and omissions
+    content: 'Soul Spring is a one-of-a-kind bio individualized holistic wellness
+      center that goes beyond treating symptoms and helps the body naturally heal
+      itself. Our innovative approach starts with non-invasive diagnostics and assessments
+      which explore the deeper causes of symptoms, ailments, and chronic health conditions.
+      Bio-individualized detoxification and regeneration therapies are then designed
+      to regenerate the body and awaken its innate healing abilities. '
   - title: What is it going to cost me?
     content: A further If you enter into this agreement on behalf of a company, you
       hereby agree that the company is responsible under this Agreement for all actions
