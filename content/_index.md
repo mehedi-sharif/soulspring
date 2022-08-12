@@ -174,16 +174,20 @@ holistic_doctors:
         of Soul Spring allow us to create powerful bio-individualized therapies under
         one roof.  \n\nSoul Spring has elevated my practice and empowered me to change
         my clients’ lives by awakening the innate healing ability within their bodies."
-  - name: Darlene Robertson
+  - name: Dr. Klever Bastar
     image: images/holistic-doctors/03.jpg
     qualifications:
-    - Albert Einstein College of Medicine
-    - Internal Medicine at NYU Langone
+    - Medical Director, Soul Spring Lomas CDMX Center
     quote:
-      title: Why I practice at Soul Spring
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      title: Why I chose Soul Spring
+      content: "I have always believed the level of support and care a patient receives
+        – spiritually, mentally, and physically – has a deep impact on their wellness
+        journey. Soul Spring empowers me to help my clients achieve a meaningful lifestyle
+        with more clarity, fullness, and joy. Using our innovative detoxification
+        and regeneration therapies, I can help my patients heal, build resilience,
+        and improve their overall wellness. \n\nSoul Spring allows me to create a
+        healing space that rejuvenates the emotional, physical, and mental well-being
+        of my patients."
   - name: Floyd Miles
     image: images/holistic-doctors/04.jpg
     qualifications:
