@@ -183,7 +183,7 @@ holistic_doctors:
     - 'Medical Director, Soul Spring Cuernavaca Center '
     quote:
       title: Why I chose Soul Spring
-      content: I’ve observed deep transformation in my patients.... With Soul Spring,
+      content: I’ve observed deep transformation in my patients....With Soul Spring,
         their biology is re-established and reset to a new, better-balanced life,
         profoundly impacting their overall health and wellbeing.
 lifetime_of_wellness:
