@@ -223,9 +223,9 @@ frequently_asked_questions:
       with insurance; therefore, we are unable to accept any form of medical insurance
       or Medicare/Medicaid.  '
   - title: What can I do if no location is close to me?
-    content: 'You are welcome to visit our residential locations or plan a 2.5-5day
-      visit using our “Outstation Client Packages.” All our locations have a substantial
-      number of clients who fly in from outstation, including overseas, for their
-      healing journeys with us.  '
+    content: 'You are welcome to visit our residential locations or plan a 2.5-day
+      to 5-day visit using our “Outstation Client Packages.” All our locations have
+      a substantial number of clients who fly in from outstation, including overseas,
+      for their healing journeys with us.  '
 
 ---
