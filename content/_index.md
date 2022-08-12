@@ -198,7 +198,7 @@ frequently_asked_questions:
   subtitle: ''
   faq_list:
   - title: How is Soul Spring different?
-    content: 'Soul Spring is a one-of-a-kind bio individualized holistic wellness
+    content: 'Soul Spring is a one-of-a-kind bio-individualized holistic wellness
       center that goes beyond treating symptoms and helps the body naturally heal
       itself. Our innovative approach starts with non-invasive diagnostics and assessments
       which explore the deeper causes of symptoms, ailments, and chronic health conditions.
