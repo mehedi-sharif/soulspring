@@ -206,7 +206,7 @@ frequently_asked_questions:
     content: "The cost of the non-invasive diagnostic tests, assessment and initial
       consultation is $250. \n\nThe total cost of your wellness journey is determined
       by the therapies designed specifically for you. Most clients invest $1200-$2500
-      in their healing journey with us over first 3 months. \n\nOnce your Personalized
+      in their healing journey with us over the first 3 months. \n\nOnce your Personalized
       Therapy Plan has been developed, we are happy to discuss the various packages
       and payment plans we offer. "
   - title: How long before I see results?
