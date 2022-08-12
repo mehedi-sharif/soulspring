@@ -20,7 +20,7 @@ banner:
       link: why-soulspring/
       label: Learn more
     topics:
-    - title: Why people choose SoulSpring?
+    - title: Why people choose Soul Spring?
       link: why-soulspring/
     - title: Who are the doctors?
       link: doctors/
