@@ -42,12 +42,12 @@ facts:
     suffix: ''
     content: Minutes to complete advanced bio scanning revealing your individual bio
       wellness report.
-  - number: "76"
+  - number: "72"
     prefix: ''
     suffix: "%"
     content: Refer friends and family that actually become new clients and continue
       the circle of gifting wellness.
-  - number: "96"
+  - number: "92"
     prefix: ''
     suffix: "%"
     content: 'Client satisfaction rating after experiencing modalities led-by board
