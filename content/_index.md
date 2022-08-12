@@ -137,7 +137,8 @@ testimonials:
     designation: Author and Entrepreneur, Chicago, USA
     reviewer_image: images/testimonials/03.jpg
     logo: images/testimonials/01-logo.png
-    content: Some people may skeptical now, but in 5-10 years no one will be.
+    content: I was looking for something different when I found Soul Spring. I feel
+      stronger and more resilient than before.
   - name: Dr. Alan Pope, PhD
     designation: Distinguished Research Associate, NASA
     reviewer_image: images/testimonials/04.jpg
