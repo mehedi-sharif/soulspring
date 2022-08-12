@@ -159,45 +159,33 @@ holistic_doctors:
     - Founder and Medical Director, Perlis Wellness Center
     quote:
       title: Why I chose Soul Spring
-      content: |-
-        Soul Spring brings unique modalities to my practice that have not been available in the past. My patients leave the office feeling better right away.
-
-        With Soul Spring, I can help my patients reach another level of health and live life fully, with more vitality and more energy.
+      content: With Soul Spring, I can help my patients reach another level of health
+        and live life fully, with more vitality and more energy.
   - name: Mike Riippa
     image: images/holistic-doctors/02.jpg
     qualifications:
     - 'R.N./Manager, Woodlands Natural Health (Soul Spring Woodlands) '
     quote:
       title: Why I chose Soul Spring
-      content: "At Woodlands Natural Health, we believe the body was designed to heal
-        itself. Combining our existing innovative services with the integrative modalities
-        of Soul Spring allow us to create powerful bio-individualized therapies under
-        one roof.  \n\nSoul Spring has elevated my practice and empowered me to change
-        my clients’ lives by awakening the innate healing ability within their bodies."
+      content: Soul Spring has elevated my practice and empowered me to change my
+        clients’ lives by awakening the innate healing ability within their bodies.
   - name: Dr. Klever Bastar
     image: images/holistic-doctors/03.jpg
     qualifications:
     - Medical Director, Soul Spring Lomas CDMX Center
     quote:
       title: Why I chose Soul Spring
-      content: "I have always believed the level of support and care a patient receives
-        – spiritually, mentally, and physically – has a deep impact on their wellness
-        journey. Soul Spring empowers me to help my clients achieve a meaningful lifestyle
-        with more clarity, fullness, and joy. Using our innovative detoxification
-        and regeneration therapies, I can help my patients heal, build resilience,
-        and improve their overall wellness. \n\nSoul Spring allows me to create a
-        healing space that rejuvenates the emotional, physical, and mental well-being
-        of my patients."
+      content: Soul Spring allows me to create a healing space that rejuvenates the
+        emotional, physical, and mental well-being of my patients.
   - name: Dr. Stephany González
     image: images/holistic-doctors/04.jpg
     qualifications:
     - 'Medical Director, Soul Spring Cuernavaca Center '
     quote:
       title: Why I chose Soul Spring
-      content: |-
-        In Soul Spring, I found the physical space to perform both my life mission and my greatest passion. This is the place where the new world will heal from a place of light, with science and technology, on the shoulders of ancestral wisdom and the beauty of healing with a purpose.
-
-        I’ve observed deep transformation in my patients.... With Soul Spring, their biology is re-established and reset to a new, better-balanced life, profoundly impacting their overall health and wellbeing.
+      content: I’ve observed deep transformation in my patients.... With Soul Spring,
+        their biology is re-established and reset to a new, better-balanced life,
+        profoundly impacting their overall health and wellbeing.
 lifetime_of_wellness:
   enable: true
   title: A Lifetime of Wellness
