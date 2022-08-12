@@ -126,11 +126,13 @@ testimonials:
     logo: images/testimonials/01-logo.png
     content: Everything about my health is much better now. I have more energy and
       focus, with no aches and pains.
-  - name: Dr. Terry Rector, PhD
-    designation: Distinguished Research Associate, NASA
+  - name: S.M.A.
+    designation: IT Project Manager, Atlanta, USA
     reviewer_image: images/testimonials/02.jpg
     logo: images/testimonials/02-logo.png
-    content: Some people may skeptical now, but in 5-10 years no one will be.
+    content: It has been 3 months since my first visit, and I feel amazing! The therapies
+      designed specifically for me have given me more energy and I genuinely feel
+      happier overall.
   - name: Dr. Lauren Silbert, PhD
     designation: Distinguished Research Associate, NASA
     reviewer_image: images/testimonials/03.jpg
