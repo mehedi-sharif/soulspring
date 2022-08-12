@@ -164,7 +164,7 @@ holistic_doctors:
   - name: Mike Riippa
     image: images/holistic-doctors/02.jpg
     qualifications:
-    - 'R.N./Manager, Woodlands Natural Health (Soul Spring Woodlands) '
+    - 'R.N. / Manager, Woodlands Natural Health (Soul Spring Woodlands) '
     quote:
       title: Why I chose Soul Spring
       content: Soul Spring has elevated my practice and empowered me to change my
