@@ -173,6 +173,7 @@
     right: 40px;
     width: 285px;
     z-index: 5;
+    background-color: #949177;
     @include desktop-lg {
       position: static;
       width: auto;
@@ -222,13 +223,13 @@
       }
     }
     &:nth-child(1) > div {
-      background-color: $color-secondary;
+      background-color: $color-tertiary;
     }
     &:nth-child(2) > div {
       background-color: $color-primary;
     }
     &:nth-child(3) > div {
-      background-color: $color-tertiary;
+      background-color: $color-secondary;
     }
   }
 }
@@ -280,6 +281,12 @@
       }
     }
   }
+  .overlay-block {
+    .leaf {
+      bottom: 5px;
+      right: -30px;
+    }
+  }
 }
 
 // how it works
@@ -288,12 +295,27 @@
   max-width: 100%;
   margin: 0 auto;
   position: relative;
-  &::before {
-    height: calc(100% - (7rem + 80px));
-    top: calc(7rem + 80px);
+  .overlay-block {
+    height: calc(100% - (7rem + 90px));
+    top: calc(7rem + 90px);
     @include tablet {
-      height: calc(100% - (5.5rem + 80px));
-      top: calc(5.5rem + 80px);
+      height: calc(100% - (5.5rem + 90px));
+      top: calc(5.5rem + 90px);
+    }
+  }
+
+  .image-block {
+    z-index: -1;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      background-color: rgba($black, 0.2);
+      top: 0;
+      left: 0;
+      @extend .rounded;
+      z-index: 1;
     }
   }
 
@@ -313,6 +335,7 @@
     margin-top: -100px;
     z-index: 5;
     position: relative;
+    margin-bottom: 15px;
     @include desktop {
       margin-top: -50px;
       max-width: 95%;
@@ -329,6 +352,12 @@
 }
 
 // testimonials
+.testimonials {
+  .leaf {
+    bottom: 20%;
+    left: -20px;
+  }
+}
 .testimonial-swiper {
   .testimonial-item {
     border: 1px solid #ddd;
@@ -385,16 +414,17 @@
 
 // lifetime_of_wellness
 .lifetime_of_wellness {
-  &::before {
-    height: calc(100% - (7rem + 40%));
+  .overlay-block {
+    height: calc(100% - (7rem + 35%));
     @include tablet {
-      height: calc(100% - (5.5rem + 40%));
+      height: calc(100% - (5.5rem + 35%));
     }
   }
   .block {
     background-repeat: repeat !important;
-    background-size: 850px !important;
+    background-size: 1296px !important;
     animation: 25s bgMove infinite linear;
+    background-color: $dark;
     @include tablet {
       animation-duration: 35s;
     }
@@ -405,16 +435,16 @@
 }
 @keyframes bgMove {
   100% {
-    background-position: 1500px 0;
+    background-position: 1296px 0;
   }
 }
 
 // our locations
 .our-locations {
-  &::before {
-    height: calc(100% - (7rem + 35%));
+  .overlay-block {
+    height: calc(100% - (7rem + 25%));
     @include tablet {
-      height: calc(100% - (5.5rem + 35%));
+      height: calc(100% - (5.5rem + 25%));
     }
   }
   .map-block {
@@ -430,11 +460,19 @@
 
 // holistic-doctors
 .holistic-doctors {
-  &::before {
+  .overlay-block {
     height: calc(100% - (7rem + 27%));
     @include tablet {
       height: calc(100% - (5.5rem + 27%));
     }
+  }
+  .leaf {
+    bottom: -20px;
+    right: -20px;
+  }
+  .chakra-1 {
+    bottom: 30px;
+    left: 30px;
   }
   .holistic-doctors-block {
     padding: 45px 40px;
@@ -477,6 +515,14 @@
         }
       }
     }
+  }
+  .flower-1 {
+    left: -22px;
+    top: 30%;
+  }
+  .flower-2 {
+    bottom: 25%;
+    right: -68px;
   }
 }
 

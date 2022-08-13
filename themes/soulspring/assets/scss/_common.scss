@@ -63,7 +63,7 @@ a:hover {
 .has-overlay {
   position: relative;
   z-index: 1;
-  &::before {
+  .overlay-block {
     position: absolute;
     content: "";
     width: 1600px;
@@ -80,9 +80,9 @@ a:hover {
     transform: translateX(-50%);
     z-index: -1;
     background-color: rgba($color-secondary, 0.1);
-    &.has-overlay-bgi {
-      @extend .pattern-bg;
-    }
+  }
+  &.has-overlay-bgi .overlay-block {
+    @extend .pattern-bg;
   }
 }
 
@@ -110,20 +110,62 @@ a:hover {
 }
 
 .play-btn {
+  position: relative;
+  z-index: 77;
   svg {
-    transition: 0.1s;
+    transition: 0.3s;
     @include desktop {
-      transform: scale(0.7);
-    }
-    @include tablet {
-      transform: scale(0.6);
-    }
-    @include mobile-xs {
-      transform: scale(0.5);
+      transform: scale(0.8);
     }
   }
   &:hover svg {
-    color: $color-tertiary !important;
+    transform: scale(1.1);
+    @include desktop {
+      transform: scale(0.9);
+    }
+  }
+  .animate {
+    transform: scale(0.7);
+    opacity: 0;
+    animation-name: pulsate;
+    transform-origin: 50% 50%;
+    animation-duration: 2.5s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: infinite;
+  }
+  .animate[r="56"] {
+    animation-delay: 0.1s;
+  }
+  .animate[r="55.5"] {
+    animation-delay: 0.2s;
+  }
+  .animate[r="48"] {
+    animation-delay: 0.3s;
+  }
+  .animate[r="47.5"] {
+    animation-delay: 0.4s;
+  }
+  @keyframes pulsate {
+    0% {
+      transform: scale(0);
+      opacity: 0;
+    }
+    25% {
+      transform: scale(0.7);
+      opacity: 0;
+    }
+    40% {
+      transform: scale(1);
+      opacity: 1;
+    }
+    85% {
+      transform: scale(1.1);
+      opacity: 0;
+    }
+    100% {
+      transform: scale(0);
+      opacity: 0;
+    }
   }
 }
 

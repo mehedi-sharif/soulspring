@@ -12,77 +12,79 @@
   }
   inView(".odometer").on("enter", playOdometer);
 
-  // banner slider
-  new Swiper(".banner-slider .swiper", {
-    slidesPerView: 1,
-    loop: true,
-    spaceBetween: 0,
-    speed: 1500,
-    autoplay: {
-      delay: 4000,
-    },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-  });
+  window.onload = () => {
+    // banner slider
+    new Swiper(".banner-slider .swiper", {
+      slidesPerView: 1,
+      loop: true,
+      spaceBetween: 0,
+      speed: 1500,
+      autoplay: {
+        delay: 4000,
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+    });
 
-  // how-it-works slider
-  new Swiper(".how-it-works-slider.swiper", {
-    slidesPerView: 1,
-    loop: true,
-    spaceBetween: 0,
-    speed: 500,
-    autoHeight: true,
-    grabCursor: true,
-    // autoplay: {
-    //   delay: 4000,
-    // },
-    pagination: {
-      el: ".pagination",
-      type: "bullets",
-      clickable: true,
-      renderBullet: function (i, className) {
-        return '<span class="' + className + '"></span>';
+    // how-it-works slider
+    new Swiper(".how-it-works-slider.swiper", {
+      slidesPerView: 1,
+      loop: true,
+      spaceBetween: 0,
+      speed: 500,
+      autoHeight: true,
+      grabCursor: true,
+      // autoplay: {
+      //   delay: 4000,
+      // },
+      pagination: {
+        el: ".pagination",
+        type: "bullets",
+        clickable: true,
+        renderBullet: function (i, className) {
+          return '<span class="' + className + '"></span>';
+        },
       },
-    },
-  });
+    });
 
-  // testimonial-swiper
-  new Swiper(".testimonial-swiper.swiper", {
-    slidesPerView: 1,
-    loop: true,
-    spaceBetween: 24,
-    speed: 500,
-    grabCursor: true,
-    autoplay: {
-      delay: 4000,
-    },
-    // navigation: {
-    //   nextEl: ".swiper-button-next",
-    //   prevEl: ".swiper-button-prev",
-    // },
-    pagination: {
-      el: ".swiper-pagination",
-      type: "bullets",
-      clickable: true,
-    },
-    breakpoints: {
-      575: {
-        slidesPerView: 2,
+    // testimonial-swiper
+    new Swiper(".testimonial-swiper.swiper", {
+      slidesPerView: 1,
+      loop: true,
+      spaceBetween: 24,
+      speed: 500,
+      grabCursor: true,
+      autoplay: {
+        delay: 4000,
       },
-      767: {
-        slidesPerView: 2,
+      // navigation: {
+      //   nextEl: ".swiper-button-next",
+      //   prevEl: ".swiper-button-prev",
+      // },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
       },
-      991: {
-        slidesPerView: 3,
+      breakpoints: {
+        575: {
+          slidesPerView: 2,
+        },
+        767: {
+          slidesPerView: 2,
+        },
+        991: {
+          slidesPerView: 3,
+        },
+        1400: {
+          slidesPerView: 4,
+        },
       },
-      1400: {
-        slidesPerView: 4,
-      },
-    },
-  });
+    });
+  };
 
   // Video Modal
   let modalEl = document.getElementById("videoModal");

@@ -38,18 +38,15 @@ facts:
   - number: "8"
     prefix: "0"
     suffix: ''
-    content: Minutes to complete advanced bio scanning revealing your individual bio
-      wellness report.
+    content: Minutes to complete advanced bio scanning revealing your individual bio wellness report.
   - number: "72"
     prefix: ''
     suffix: "%"
-    content: Refer friends and family that actually become new clients and continue
-      the circle of gifting wellness.
+    content: Refer friends and family that actually become new clients and continue the circle of gifting wellness.
   - number: "92"
     prefix: ''
     suffix: "%"
-    content: 'Client satisfaction rating after experiencing bio-individualized modalities
-      led-by board certified Medical Doctors. '
+    content: 'Client satisfaction rating after experiencing bio-individualized modalities led-by board certified Medical Doctors. '
 wellness_solutions:
   enable: true
   title: Doctor-led, Bio-Individualized Wellness Solutions

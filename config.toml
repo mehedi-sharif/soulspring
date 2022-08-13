@@ -9,8 +9,8 @@
 # customize your color and font from here.
 [params.variables]
 color_primary = "#E86851"
-color_secondary = "#5AA836"
-color_tertiary = "#58CDE2"
+color_secondary = "#6AB547"
+color_tertiary = "#808B98"
 body_color = "#fff"
 text_color = "#726464"
 text_dark = "#222222"
@@ -38,7 +38,7 @@ font_scale = "1.28" # default is "majorThird": 1.25
 
 # go to https://fonts.google.com/ to find the font you want to use. select your font and copy only the bold part from the URL. and paste it here.
 # example: "Work+Sans:wght@400;500;600"
-font_primary = "Crimson+Text:wght@600"
+font_primary = "Crimson+Text:wght@400;600"
 font_primary_type = "serif"            # [serif/sans-serif/cursive]
 font_secondary = "Inter:wght@400;500;600;700;800"
 font_secondary_type = "sans-serif"     # [serif/sans-serif/cursive]
