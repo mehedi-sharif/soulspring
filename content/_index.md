@@ -143,6 +143,33 @@ our_locations:
   enable: true
   title: Our Locations
   subtitle: Our centers and living wellness resorts
+  map_marker: "images/map-marker.png"
+  locations:
+    - title: "Minerva Clinic - Texas, USA"
+      map_url: "https://goo.gl/maps/WCYU42mZPiD8uRBA6"
+      latitude: 42.18446369835495
+      longitude: -87.80176854578761
+    - title: "Perlis MedSpa & Wellness Center - Illinois, USA"
+      map_url: "https://goo.gl/maps/Du3HjRszoBZyWS256"
+      latitude: 43.184439847540055
+      longitude: -82.80155396890271
+    - title: "Ez-Living M.D./DPT - Texas, USA"
+      map_url: "https://goo.gl/maps/KPMsvAa1Q4bAqQMB9"
+      latitude: 30.07818178685244
+      longitude: -94.57507986089168
+    - title: "SoulSpring Cuernavaca Center - Morelos, MEX"
+      map_url: "https://goo.gl/maps/Du3HjRszoBZyWS256"
+      latitude: 18.738266700731753
+      longitude: -99.2459295907586
+    - title: "SoulSpring Lomas CDMX Center - Mexico City, MEX"
+      map_url: "https://goo.gl/maps/Zwm2guRWx9KK8LGJ8"
+      latitude: 20.424506965640838
+      longitude: -102.20141386622002
+    - title: "SoulSpring Woodlands - Texas, USA"
+      map_url: "https://goo.gl/maps/U2yrBUSDbfpxTENM7"
+      latitude: 35.13077012499836
+      longitude: -95.55154634780018
+ 
 holistic_doctors:
   enable: true
   title: Holistic Doctors
