@@ -169,9 +169,9 @@ our_locations:
     latitude: "19.42392"
     longitude: "-99.20344"
   - title: SoulSpring Woodlands - Texas, USA
-    map_url: https://goo.gl/maps/U2yrBUSDbfpxTENM7
-    latitude: "35.13077012499836"
-    longitude: "-95.55154634780018"
+    map_url: https://goo.gl/maps/wSmouNKZLusETG4W7
+    latitude: "30.13089"
+    longitude: "-95.55194"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
