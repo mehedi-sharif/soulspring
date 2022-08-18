@@ -92,18 +92,12 @@ how_it_works:
   - image: images/how-it-works/image-01.jpg
     video: images/how-it-works/video-01.mp4
     quote:
-      enable: false
-      content: can never go back to a "normal" doctor again.
-      description: Member, San Francisco Yelp  • Oct 2019 •
-  - image: images/how-it-works/image-01.jpg
-    video: ''
-    quote:
       enable: true
-      content: Onboarding   >   Holistic Diagnostics and Assessment
-      description: The journey begins by understanding the cause rather than focusing
+      content: 'Onboarding   >   Holistic Diagnostics and Assessment '
+      description: 'The journey begins by understanding the cause rather than focusing
         on the symptoms. Non-invasive diagnostic tests and assessments allow us to
         look for stressors, toxins, dysregulations, and imbalances so that we can
-        isolate the root cause(s) of your health challenge(s).
+        isolate the root cause(s) of your health challenge(s).  '
   - image: images/how-it-works/image-01.jpg
     video: ''
     quote:
