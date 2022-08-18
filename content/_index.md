@@ -99,7 +99,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: 'Onboarding: Holistic Diagnostics and Assessment'
+      content: Onboarding   >   Holistic Diagnostics and Assessment
       description: The journey begins by understanding the cause rather than focusing
         on the symptoms. Non-invasive diagnostic tests and assessments allow us to
         look for stressors, toxins, dysregulations, and imbalances so that we can
