@@ -157,9 +157,9 @@ our_locations:
     latitude: '42.18450'
     longitude: "-87.80213"
   - title: Ez-Living M.D./DPT - Texas, USA
-    map_url: https://goo.gl/maps/KPMsvAa1Q4bAqQMB9
-    latitude: "30.07818178685244"
-    longitude: "-94.57507986089168"
+    map_url: https://goo.gl/maps/Qo5CKJt9S8JWA997A
+    latitude: '29.93660'
+    longitude: "-95.24497"
   - title: SoulSpring Cuernavaca Center - Morelos, MEX
     map_url: https://goo.gl/maps/Du3HjRszoBZyWS256
     latitude: "18.738266700731753"
