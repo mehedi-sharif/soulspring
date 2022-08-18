@@ -38,15 +38,18 @@ facts:
   - number: "8"
     prefix: "0"
     suffix: ''
-    content: Minutes to complete advanced bio scanning revealing your individual bio wellness report.
+    content: Minutes to complete advanced bio scanning revealing your individual bio
+      wellness report.
   - number: "72"
     prefix: ''
     suffix: "%"
-    content: Refer friends and family that actually become new clients and continue the circle of gifting wellness.
+    content: Refer friends and family that actually become new clients and continue
+      the circle of gifting wellness.
   - number: "92"
     prefix: ''
     suffix: "%"
-    content: 'Client satisfaction rating after experiencing bio-individualized modalities led-by board certified Medical Doctors. '
+    content: 'Client satisfaction rating after experiencing bio-individualized modalities
+      led-by board certified Medical Doctors. '
 wellness_solutions:
   enable: true
   title: Doctor-led, Bio-Individualized Wellness Solutions
@@ -143,33 +146,32 @@ our_locations:
   enable: true
   title: Our Locations
   subtitle: Our centers and living wellness resorts
-  map_marker: "images/map-marker.png"
+  map_marker: images/map-marker.png
   locations:
-    - title: "Minerva Clinic - Texas, USA"
-      map_url: "https://goo.gl/maps/WCYU42mZPiD8uRBA6"
-      latitude: 42.18446369835495
-      longitude: -87.80176854578761
-    - title: "Perlis MedSpa & Wellness Center - Illinois, USA"
-      map_url: "https://goo.gl/maps/Du3HjRszoBZyWS256"
-      latitude: 43.184439847540055
-      longitude: -82.80155396890271
-    - title: "Ez-Living M.D./DPT - Texas, USA"
-      map_url: "https://goo.gl/maps/KPMsvAa1Q4bAqQMB9"
-      latitude: 30.07818178685244
-      longitude: -94.57507986089168
-    - title: "SoulSpring Cuernavaca Center - Morelos, MEX"
-      map_url: "https://goo.gl/maps/Du3HjRszoBZyWS256"
-      latitude: 18.738266700731753
-      longitude: -99.2459295907586
-    - title: "SoulSpring Lomas CDMX Center - Mexico City, MEX"
-      map_url: "https://goo.gl/maps/Zwm2guRWx9KK8LGJ8"
-      latitude: 20.424506965640838
-      longitude: -102.20141386622002
-    - title: "SoulSpring Woodlands - Texas, USA"
-      map_url: "https://goo.gl/maps/U2yrBUSDbfpxTENM7"
-      latitude: 35.13077012499836
-      longitude: -95.55154634780018
- 
+  - title: Minerva Clinic - Texas, USA
+    map_url: https://goo.gl/maps/WCYU42mZPiD8uRBA6
+    latitude: "42.18446369835495"
+    longitude: "-87.80176854578761"
+  - title: Perlis MedSpa & Wellness Center - Illinois, USA
+    map_url: https://goo.gl/maps/Du3HjRszoBZyWS256
+    latitude: "43.184439847540055"
+    longitude: "-82.80155396890271"
+  - title: Ez-Living M.D./DPT - Texas, USA
+    map_url: https://goo.gl/maps/KPMsvAa1Q4bAqQMB9
+    latitude: "30.07818178685244"
+    longitude: "-94.57507986089168"
+  - title: SoulSpring Cuernavaca Center - Morelos, MEX
+    map_url: https://goo.gl/maps/Du3HjRszoBZyWS256
+    latitude: "18.738266700731753"
+    longitude: "-99.2459295907586"
+  - title: SoulSpring Lomas CDMX Center - Mexico City, MEX
+    map_url: https://goo.gl/maps/Zwm2guRWx9KK8LGJ8
+    latitude: "20.424506965640838"
+    longitude: "-102.20141386622002"
+  - title: SoulSpring Woodlands - Texas, USA
+    map_url: https://goo.gl/maps/U2yrBUSDbfpxTENM7
+    latitude: "35.13077012499836"
+    longitude: "-95.55154634780018"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
@@ -180,7 +182,7 @@ holistic_doctors:
     qualifications:
     - Founder and Medical Director, Perlis Wellness Center
     quote:
-      title: Why I chose Soul Spring
+      title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
         and live life fully, with more vitality and more energy.
   - name: Mike Riippa
@@ -188,7 +190,7 @@ holistic_doctors:
     qualifications:
     - 'R.N. / Manager, Woodlands Natural Health (Soul Spring Woodlands) '
     quote:
-      title: Why I chose Soul Spring
+      title: Why I choose Soul Spring
       content: Soul Spring has elevated my practice and empowered me to change my
         clients’ lives by awakening the innate healing ability within their bodies.
   - name: Dr. Klever Bastar
@@ -196,7 +198,7 @@ holistic_doctors:
     qualifications:
     - Medical Director, Soul Spring Lomas CDMX Center
     quote:
-      title: Why I chose Soul Spring
+      title: Why I choose Soul Spring
       content: Soul Spring allows me to create a healing space that rejuvenates the
         emotional, physical, and mental well-being of my patients.
   - name: Dr. Stephany González
@@ -204,7 +206,7 @@ holistic_doctors:
     qualifications:
     - 'MSC PHD-C, Medical Director, Soul Spring Cuernavaca Center '
     quote:
-      title: Why I chose Soul Spring
+      title: Why I choose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
         their biology is reset to a better-balanced life, profoundly impacting their
         overall health and wellbeing.
