@@ -99,8 +99,11 @@ how_it_works:
     video: ''
     quote:
       enable: false
-      content: ''
-      description: ''
+      content: Onboarding - Holistic Diagnostics and Assessment
+      description: 'The journey begins by understanding the cause rather than focusing
+        on the symptoms. Non-invasive diagnostic tests and assessments allow us to
+        look for stressors, toxins, dysregulations, and imbalances so that we can
+        isolate the root cause(s) of your health challenge(s).  '
   - image: images/how-it-works/image-01.jpg
     video: ''
     quote:
