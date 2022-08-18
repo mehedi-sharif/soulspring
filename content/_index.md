@@ -161,9 +161,9 @@ our_locations:
     latitude: '29.93660'
     longitude: "-95.24497"
   - title: SoulSpring Cuernavaca Center - Morelos, MEX
-    map_url: https://goo.gl/maps/Du3HjRszoBZyWS256
-    latitude: "18.738266700731753"
-    longitude: "-99.2459295907586"
+    map_url: https://goo.gl/maps/TUWifH2GhfmHjhky8
+    latitude: "18.73795"
+    longitude: "-99.24890"
   - title: SoulSpring Lomas CDMX Center - Mexico City, MEX
     map_url: https://goo.gl/maps/Zwm2guRWx9KK8LGJ8
     latitude: "20.424506965640838"
