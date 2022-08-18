@@ -107,9 +107,13 @@ how_it_works:
   - image: images/how-it-works/image-01.jpg
     video: ''
     quote:
-      enable: false
-      content: ''
-      description: ''
+      enable: true
+      content: Initial Consultations  >  Development of a Personalized Therapy Plan
+      description: 'The results of the diagnostics and assessment provide a roadmap
+        to underlying imbalances and/or dysregulations and allow the Medical Doctor
+        to immediately start addressing your concerns. A personalized therapy plan
+        is strategically created from this roadmap to address root cause(s) and deliver
+        an integrative approach to your unique healing journey. '
   - image: images/how-it-works/image-01.jpg
     video: ''
     quote:
