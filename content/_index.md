@@ -149,9 +149,9 @@ our_locations:
   map_marker: images/map-marker.png
   locations:
   - title: Minerva Clinic - Texas, USA
-    map_url: https://goo.gl/maps/8NunEBGbsqeiFxZC6
-    latitude: "30.13077010717701"
-    longitude: "-95.55161072402817"
+    map_url: https://goo.gl/maps/1u4pMtLEMKkZDKzs6
+    latitude: "30.130885127801275"
+    longitude: "-95.55157163991444"
   - title: Perlis MedSpa & Wellness Center - Illinois, USA
     map_url: https://goo.gl/maps/KK6xn9s2NjCQAomj7
     latitude: "42.18457497709774"
