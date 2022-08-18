@@ -154,8 +154,8 @@ our_locations:
     longitude: "-95.55161072402817"
   - title: Perlis MedSpa & Wellness Center - Illinois, USA
     map_url: https://goo.gl/maps/KK6xn9s2NjCQAomj7
-    latitude: '42.18450'
-    longitude: "-87.80213"
+    latitude: "42.18457497709774"
+    longitude: "-87.80158615864545"
   - title: Ez-Living M.D./DPT - Texas, USA
     map_url: https://goo.gl/maps/Qo5CKJt9S8JWA997A
     latitude: '29.93660'
