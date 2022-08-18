@@ -125,6 +125,15 @@ how_it_works:
         healing capacity of the body’s cells and organs. Additionally, emotional-mental
         harmonization, self-therapy and integration programs may also be included
         in your therapy journey. '
+  - image: images/how-it-works/image-01.jpg
+    video: ''
+    quote:
+      enable: true
+      content: Mid-Journey Revisit  >  Assessment for Any Adjustment
+      description: 'As your wellness partner, it is important for us to stay in touch.
+        A personalized follow-up consultation will be scheduled for you to revisit
+        and assess your progress mid-journey and make any necessary adjustments to
+        your therapy plan.  '
 testimonials:
   enable: true
   title: What They Are Saying...
