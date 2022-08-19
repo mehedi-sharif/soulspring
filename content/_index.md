@@ -179,6 +179,10 @@ our_locations:
     map_url: ''
     latitude: ''
     longitude: ''
+  - title: Soul Spring Lomas CDMX Center - Mexico City, MEX
+    map_url: ''
+    latitude: ''
+    longitude: ''
 holistic_doctors:
   enable: true
   title: Holistic Doctors
