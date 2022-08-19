@@ -162,7 +162,11 @@ our_locations:
   title: Our Locations
   subtitle: Our centers and living wellness resorts
   map_marker: images/map-marker.png
-  locations: []
+  locations:
+  - title: Minerva Clinic, Texas USA
+    map_url: https://goo.gl/maps/B8A8WKdkaq8idKUh9
+    latitude: ''
+    longitude: ''
 holistic_doctors:
   enable: true
   title: Holistic Doctors
