@@ -175,6 +175,10 @@ our_locations:
     map_url: https://goo.gl/maps/StgA7vMfNAsKoA83A
     longitude: "-87.8018972948808"
     latitude: "42.184527277614855"
+  - title: SoulSpring Cuernavaca Center - Morelos, MEX
+    map_url: ''
+    latitude: ''
+    longitude: ''
 holistic_doctors:
   enable: true
   title: Holistic Doctors
