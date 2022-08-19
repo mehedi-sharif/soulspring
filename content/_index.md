@@ -171,6 +171,10 @@ our_locations:
     map_url: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
     latitude: "29.936497540185822"
     longitude: "-95.24526254916817"
+  - title: Perlis MedSpa & Wellness Center - Illinois, USA
+    map_url: https://goo.gl/maps/StgA7vMfNAsKoA83A
+    longitude: "-87.8018972948808"
+    latitude: "42.184527277614855"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
