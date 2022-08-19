@@ -165,8 +165,8 @@ our_locations:
   locations:
   - title: Minerva Clinic, Texas USA
     map_url: https://goo.gl/maps/B8A8WKdkaq8idKUh9
-    latitude: ''
-    longitude: ''
+    latitude: "30.130875848634997"
+    longitude: "-95.55194714916402"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
