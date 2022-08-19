@@ -112,7 +112,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: The Therapy Journey   >   Your Path to Wellness
+      content: "[ The Therapy Journey ]   Your Path to Wellness"
       description: 'Your Personalized Therapy Plan will include bio-individualized
         detoxification and regeneration therapies designed to correct dysfunctional
         biological processes within the body, restoring and strengthening the natural
