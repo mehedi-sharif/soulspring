@@ -163,7 +163,7 @@ our_locations:
   subtitle: Our centers and living wellness resorts
   map_marker: images/map-marker.png
   locations:
-  - title: Minerva Clinic, Texas USA
+  - title: Minerva Clinic - Texas, USA
     map_url: https://goo.gl/maps/U6V7Lv3wXFw7GHPT8
     latitude: "30.130875848634997"
     longitude: "-95.55194714916402"
