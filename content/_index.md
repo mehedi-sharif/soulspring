@@ -181,8 +181,8 @@ our_locations:
     longitude: "-99.24803271921293"
   - title: SoulSpring Lomas CDMX Center - Mexico City, MEX
     map_url: https://goo.gl/maps/p2EFvXstwP5gR4yg8
-    latitude: ''
-    longitude: ''
+    latitude: "19.423950469035198"
+    longitude: "-99.20348454749812"
   - title: SoulSpring Woodlands - Texas, USA
     map_url: https://goo.gl/maps/HXX78YCZpk6BJsBK6
     latitude: "30.130714432101545"
