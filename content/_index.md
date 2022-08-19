@@ -168,9 +168,9 @@ our_locations:
     latitude: "30.130875848634997"
     longitude: "-95.55194714916402"
   - title: Ez-Living M.D./DPT - Texas, USA
-    map_url: ''
-    latitude: ''
-    longitude: ''
+    map_url: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
+    latitude: "29.936497540185822"
+    longitude: "-95.24526254916817"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
