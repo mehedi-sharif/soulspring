@@ -102,7 +102,8 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: Initial Consultations   >   Development of a Personalized Therapy Plan
+      content: "[ Initial Consultations]    Development of a Personalized Therapy
+        Plan"
       description: 'The results of the diagnostics and assessment provide a roadmap
         to underlying imbalances and/or dysregulations and allow the Medical Doctor
         to immediately start addressing your concerns. A personalized therapy plan
