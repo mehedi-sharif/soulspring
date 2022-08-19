@@ -167,14 +167,14 @@ our_locations:
     map_url: https://goo.gl/maps/1u4pMtLEMKkZDKzs6
     latitude: "30.130885127801275"
     longitude: "-95.55157163991444"
-  - title: Perlis MedSpa & Wellness Center - Illinois, USA
-    map_url: https://goo.gl/maps/KK6xn9s2NjCQAomj7
-    latitude: "42.18457497709774"
-    longitude: "-87.80158615864545"
   - title: Ez-Living M.D./DPT - Texas, USA
     map_url: https://goo.gl/maps/vH861tC2yJHxPnRP8
     latitude: "29.936469648029266"
     longitude: "-95.24530546451099"
+  - title: Perlis MedSpa & Wellness Center - Illinois, USA
+    map_url: https://goo.gl/maps/KK6xn9s2NjCQAomj7
+    latitude: "42.18457497709774"
+    longitude: "-87.80158615864545"
   - title: SoulSpring Cuernavaca Center - Morelos, MEX
     map_url: https://goo.gl/maps/TUWifH2GhfmHjhky8
     latitude: "18.737951751264696"
