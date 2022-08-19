@@ -179,10 +179,14 @@ our_locations:
     map_url: ''
     latitude: ''
     longitude: ''
-  - title: Soul Spring Lomas CDMX Center - Mexico City, MEX
+  - title: SoulSpring Lomas CDMX Center - Mexico City, MEX
     map_url: ''
     latitude: ''
     longitude: ''
+  - title: SoulSpring Woodlands - Texas, USA
+    map_url: https://goo.gl/maps/HXX78YCZpk6BJsBK6
+    latitude: "30.130714432101545"
+    longitude: "-95.55142833382124"
 holistic_doctors:
   enable: true
   title: Holistic Doctors
