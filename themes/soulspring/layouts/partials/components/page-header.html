@@ -1,0 +1,30 @@
+<section class="section page-header position-relative">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-8 mx-auto text-center">
+        <div class="section pb-0">
+          <h1 class="h2 mb-0">{{ .Title }}</h1>
+          <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+          {{ with .Params.subtitle }} <p class="fw-bold mt-3" style="font-size: 18px">{{.}}</p> {{ end }}
+          <ul class="list-inline mt-4 mb-0 fw-semibold">
+            <li class="list-inline-item m-0">
+              <a class="text-primary fw-medium" href="{{ site.BaseURL | relLangURL }}">
+              <svg class="me-2 d-inline-block" style="transform:translateY(-3px)" width="18" height="18" viewBox="0 0 18 18" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M17.7563 8.12544L13.5054 4.03282V0.775648C13.5054 0.35608 13.1594 0.0101212 12.7399 0.0101212C12.3203 0.0101212 11.9743 0.35608 11.9743 0.775648V2.56065L9.52317 0.201503C9.2545 -0.0671676 8.79445 -0.0671676 8.48897 0.201503L0.259562 8.12544C-0.0459123 8.43091 -0.0863968 8.89097 0.222758 9.19644C0.531913 9.50192 0.988285 9.5424 1.29376 9.23325L1.40785 9.12283V17.2345C1.40785 17.654 1.75381 18 2.17338 18H15.8793C16.2988 18 16.608 17.654 16.6448 17.2713V9.20012L16.7221 9.27373C17.2815 9.66017 17.679 9.38782 17.7931 9.19644C18.0617 8.89097 18.0617 8.39411 17.7563 8.12544ZM10.366 16.5094H7.68664V12.4131H10.366V16.5094ZM15.1137 16.5094H11.8602V11.6476C11.8602 11.228 11.5143 10.8821 11.0947 10.8821H6.92112C6.50155 10.8821 6.15559 11.228 6.15559 11.6476V16.5094H2.93891V9.00506H15.1137V16.5094ZM3.08612 7.51449L9.02632 1.80984L14.9076 7.51449H3.08612Z" fill="black"/>
+              </svg>Home</a>
+            </li>
+            <li class="list-inline-item mx-1 fw-medium">/</li>
+            <li class="list-inline-item m-0 fw-medium">{{ .Title }}</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+    
+  <div class="image-left">
+    {{ partial "image.html" (dict "Src" "images/page-header-left.svg" "Alt" "page-header-image" "Resize" false "Webp" false) }}
+  </div>
+  <div class="image-right">
+    {{ partial "image.html" (dict "Src" "images/page-header-right.svg" "Alt" "page-header-image" "Resize" false "Webp" false) }}
+  </div>
+</section>

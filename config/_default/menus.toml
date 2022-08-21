@@ -1,4 +1,8 @@
 # main menu
+[[main]]
+name = "How it Works"
+url = "how-it-works/"
+weight = 1
 
 [[main]]
 name = "Solution"

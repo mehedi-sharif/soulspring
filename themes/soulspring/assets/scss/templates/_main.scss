@@ -351,6 +351,65 @@
   }
 }
 
+// wellness-journey
+.wellness-journey {
+  .overlay-block {
+    height: calc(100% - (12rem + 25%));
+    @include desktop-lg {
+      height: calc(100% - (7rem + 25%));
+    }
+  }
+  .leaf {
+    right: -40px;
+    top: 40%;
+    @include tablet {
+      transform: scale(0.5);
+    }
+  }
+  .journey-steps {
+    position: relative;
+    z-index: 5;
+    padding: 55px 40px;
+    max-width: calc(100% - 120px);
+    margin: 0 auto;
+    margin-top: -60px;
+    @include tablet {
+      max-width: calc(100% - 60px);
+    }
+    @include mobile {
+      padding: 30px 20px;
+      max-width: calc(100% - 30px);
+      margin-top: -20px;
+      .lead {
+        font-size: 16px !important;
+      }
+      img {
+        height: 46px;
+        width: 46px;
+      }
+    }
+    @extend .shadow;
+    .d-flex {
+      padding: 0 30px;
+      @include tablet {
+        padding: 0 15px;
+      }
+      &:not(:last-child) {
+        border-right: 1px solid $color-primary;
+      }
+      @include desktop-lg {
+        &:nth-child(2),
+        &:nth-child(4) {
+          border-right: 0;
+        }
+      }
+      @include desktop {
+        border-right: 0 !important;
+      }
+    }
+  }
+}
+
 // testimonials
 .testimonials {
   .leaf {
@@ -524,6 +583,35 @@
     right: -68px;
   }
 }
+
+// approach-steps
+.approach-steps {
+  .overlay-block {
+    top: 0;
+  }
+}
+
+// body-cell
+.body-cell {
+  .image-block {
+    padding: 50px 20px;
+    background-color: rgba($color-secondary, 0.1);
+    @extend .pattern-bg;
+  }
+  .block {
+    margin-left: -80px;
+    @include desktop-lg {
+      margin-left: -50px;
+    }
+    @include desktop {
+      margin-left: 0;
+    }
+  }
+}
+
+// power-of-biological-medicine
+// .power-of-biological-medicine {
+// }
 
 // footer
 footer {

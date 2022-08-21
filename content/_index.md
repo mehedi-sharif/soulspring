@@ -229,8 +229,8 @@ lifetime_of_wellness:
   enable: true
   title: A Lifetime of Wellness
   subtitle: Live a life of vitality and longevity
-  lifetime_of_wellness_image: images/lifetime_of_wellness/wellness.svg
-  lifetime_of_wellness_background: images/lifetime_of_wellness/wellness-bg.jpg
+  lifetime_of_wellness_image: images/lifetime-of-wellness/wellness.svg
+  lifetime_of_wellness_background: images/lifetime-of-wellness/wellness-bg.jpg
 frequently_asked_questions:
   enable: true
   title: Frequently Asked Questions

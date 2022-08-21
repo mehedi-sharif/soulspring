@@ -1,0 +1,165 @@
+{{ define "main" }}
+
+{{ partial "components/page-header.html" . }}
+
+{{ with .Params.wellness_journey }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay wellness-journey overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 text-primary fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-12">
+        <div class="position-relative">
+          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-sm" "Webp" false "Resize" false ) }}
+          {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+        </div>
+
+        <div class="journey-steps bg-white rounded-sm">
+          <div class="row gy-5">
+            {{ range .journey_steps }}
+            <div class="col-xl-4 col-lg-6 d-flex">
+              <div class="flex-shrink-0 me-3">
+                {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
+              </div>
+              <div class="flex-grow-1">
+                <p class="text-dark mb-0 lead lh-base">{{ .title | markdownify }}</p>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+<section class="section pt-0">
+{{ partial "components/divider.html" . }}
+</section>
+<!-- end divider -->
+
+{{ with .Params.approach_steps }}
+{{ if .enable }}
+<section class="section pb-4 approach-steps has-overlay overflow-hidden">
+  <div class="container">
+    <div class="row gy-4 gx-lg-5 justify-content-center">
+      <div class="col-lg-6">
+        <h2 class="h3 text-dark fw-bold mb-4 mt-0 mt-lg-5 lh-sm">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+      <div class="col-lg-6">
+        <div class="row gy-4">
+          {{ range .steps }}
+          <div class="col-xl-12">
+            <div class="d-flex bg-white p-4 shadow rounded-sm">
+              <div class="flex-shrink-0 me-4">
+                {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
+              </div>
+              <div class="flex-grow-1">
+                <p class="h5 mb-2 text-dark lh-base">{{ .title | markdownify }}</p>
+                <p class="mb-0">{{ .description | markdownify }}</p>
+              </div>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.body_cell }}
+{{ if .enable }}
+<section class="section body-cell overflow-hidden">
+  <div class="container">
+    <div class="row gx-0 gy-4 align-items-center justify-content-center">
+      <div class="col-lg-6">
+        <div class="image-block text-center rounded-sm">
+          {{ partial "image.html" (dict "Src" .image "Alt" "body-cell" "Webp" false "Resize" false) }}
+        </div>
+      </div>
+      <div class="col-lg-5">
+        <div class="block bg-white p-5 rounded-sm shadow">
+          <h2 class="h3 text-dark lh-sm fw-bold mb-4 mt-0 mt-lg-5">{{.title | markdownify}}</h2>
+          <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
+          <p>{{.subtitle | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.power_of_biological_medicine }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay power-of-biological-medicine overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 text-primary fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+      </div>
+    </div>
+    <div class="section-sm pt-0">
+      <div class="row gy-4 justify-content-center">
+        {{ range $i, $e := .features }}
+        <div class="col-lg-3 col-md-6">
+          <div class="features-item text-center bg-white">
+            <div class="block">
+              <span class="h3 text-primary">{{if lt $i 9}}0{{end}}{{add $i 1}}</span>
+              <p class="mb-0">{{.title | markdownify}}</p>
+            </div>
+  
+            {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
+            <p class="mb-0">{{ .description | markdownify }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden">
+    {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/shape-01.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/shape-02.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ end }}
