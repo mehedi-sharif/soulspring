@@ -5,39 +5,46 @@ url = "how-it-works/"
 weight = 1
 
 [[main]]
-name = "Solution"
+name = "Solutions"
 weight = 2
 hasChildren = true
 
 [[main]]
-parent = "Solution"
+parent = "Solutions"
 weight = 1
 name = "Anti Aging"
 url = "anti-aging/"
 
 [[main]]
-parent = "Solution"
+parent = "Solutions"
 weight = 2
 name = "Brain Behavioral Health"
 url = "brain-behavioral-health/"
 
 [[main]]
-parent = "Solution"
+parent = "Solutions"
 weight = 3
 name = "Hormonal Balance"
 url = "hormonal-balance/"
 
 [[main]]
-parent = "Solution"
+parent = "Solutions"
 weight = 4
 name = "Pain Relief"
 url = "pain-relief/"
 
 [[main]]
-parent = "Solution"
+parent = "Solutions"
 weight = 5
 name = "Cellular Detoxification"
 url = "cellular-detoxification/"
+
+[[main]]
+parent = "Solutions"
+weight = 7
+name = "All Solutions"
+post = "<i class='fa fa-arrow-right ms-auto'></i>"
+url = "solutions/"
 
 [[main]]
 name = "Centers"

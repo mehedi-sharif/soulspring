@@ -8,7 +8,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-5">
-        <h2 class="h3 text-primary fw-bold mb-4">{{.title | markdownify}}</h2>
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
@@ -56,8 +56,8 @@
 {{ if .enable }}
 <section class="section pb-4 approach-steps has-overlay overflow-hidden">
   <div class="container">
-    <div class="row gy-4 gx-lg-5 justify-content-center">
-      <div class="col-lg-6">
+    <div class="row gy-4 gx-lg-5 justify-content-between">
+      <div class="col-lg-5">
         <h2 class="h3 text-dark fw-bold mb-4 mt-0 mt-lg-5 lh-sm">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
@@ -65,10 +65,10 @@
       <div class="col-lg-6">
         <div class="row gy-4">
           {{ range .steps }}
-          <div class="col-xl-12">
+          <div class="col-xl-12 approach-steps-item">
             <div class="d-flex bg-white p-4 shadow rounded-sm">
               <div class="flex-shrink-0 me-4">
-                {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
+                {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-circle" ) }}
               </div>
               <div class="flex-grow-1">
                 <p class="h5 mb-2 text-dark lh-base">{{ .title | markdownify }}</p>
@@ -127,7 +127,7 @@
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-5">
-        <h2 class="h3 text-primary fw-bold mb-4">{{.title | markdownify}}</h2>
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
       </div>
     </div>
@@ -135,14 +135,18 @@
       <div class="row gy-4 justify-content-center">
         {{ range $i, $e := .features }}
         <div class="col-lg-3 col-md-6">
-          <div class="features-item text-center bg-white">
-            <div class="block">
-              <span class="h3 text-primary">{{if lt $i 9}}0{{end}}{{add $i 1}}</span>
-              <p class="mb-0">{{.title | markdownify}}</p>
+          <div class="features-item text-center bg-white rounded shadow h-100 overflow-hidden">
+            <div class="block mx-auto rounded-circle position-relative" title="{{.title | markdownify}}">
+              <div class="d-flex flex-column justify-content-center align-items-center text-center pt-5 px-3">
+                <span class="h3 text-primary mb-2">{{if lt $i 9}}0{{end}}{{add $i 1}}</span>
+                <p class="mb-0 text-black lh-base">{{.title | markdownify}}</p>
+              </div>
             </div>
   
-            {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
-            <p class="mb-0">{{ .description | markdownify }}</p>
+            <div class="content-block px-4 position-relative">
+              {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "mb-4" ) }}
+              <p class="mb-0">{{ .description | markdownify }}</p>
+            </div>
           </div>
         </div>
         {{ end }}

@@ -75,6 +75,16 @@
       }
     }
   }
+  .dropdown:hover {
+    .nav-link {
+      opacity: 0.75;
+      color: rgba($black, 0.7);
+    }
+  }
+  .dropdown-item.active,
+  .dropdown-item:active {
+    background-color: transparent;
+  }
 
   .dropdown {
     &-toggle {
@@ -92,6 +102,22 @@
       box-shadow: rgba(17, 12, 46, 0.15) 0px 28px 80px 0px;
       text-align: center;
       margin-bottom: 15px;
+      li:last-child .dropdown-item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        color: $black;
+        &:hover {
+          opacity: 0.6;
+          i {
+            transform: translateX(2px);
+          }
+        }
+        i {
+          font-size: 14px;
+          transition: 0.25s;
+        }
+      }
     }
     @media screen and (min-width: 991px) {
       &-menu {

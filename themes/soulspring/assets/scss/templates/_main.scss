@@ -589,6 +589,14 @@
   .overlay-block {
     top: 0;
   }
+  &-item {
+    &:nth-child(2) {
+      margin-left: -70px;
+      @include desktop {
+        margin-left: 0;
+      }
+    }
+  }
 }
 
 // body-cell
@@ -610,8 +618,118 @@
 }
 
 // power-of-biological-medicine
-// .power-of-biological-medicine {
-// }
+.power-of-biological-medicine {
+  .features-item {
+    padding: 40px 0;
+    .content-block {
+      margin-top: 60px;
+      &::after {
+        position: absolute;
+        content: "";
+        height: 140px;
+        width: 500%;
+        left: -250px;
+        bottom: calc(100% + 25px);
+        background-color: #f5faf2;
+        border-top: 1px dashed rgba($color-primary, 0.6);
+        border-bottom: 1px dashed rgba($color-primary, 0.6);
+      }
+    }
+    .block {
+      height: 210px;
+      width: 210px;
+      padding: 30px 30px 10px 30px;
+      background-color: #f5faf2;
+      z-index: 1;
+      &::before {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 100%;
+        left: 0;
+        top: 0;
+        border: 1px dashed rgba($color-primary, 0.6);
+        border-bottom-color: transparent;
+        border-right-color: transparent;
+        border-radius: inherit;
+        transform: rotate(45deg);
+      }
+      > div {
+        background-color: lighten(saturate($color-primary, 23.35), 32.16);
+        border-radius: 50%;
+        height: 100%;
+        width: 100%;
+        position: relative;
+        z-index: 1;
+        .text-black {
+          display: -webkit-box;
+          -webkit-line-clamp: 2;
+          -webkit-box-orient: vertical;
+          overflow: hidden;
+        }
+        &::after {
+          position: absolute;
+          content: "";
+          height: calc(100% + 20px);
+          width: 100%;
+          left: 0;
+          bottom: -20px;
+          border-radius: 110px;
+          background-color: lighten(saturate($color-primary, 23.35), 32.16);
+          z-index: -1;
+        }
+      }
+    }
+  }
+}
+
+// wellness-approach
+.wellness-approach {
+  .overlay-block {
+    height: calc(100% - (7rem + 27%));
+    @include desktop {
+      height: 100%;
+    }
+  }
+  .image-block {
+    padding: 40px;
+    @include mobile {
+      padding: 40px 25px;
+    }
+  }
+}
+
+// soulspring-solutions
+.soulspring-solutions {
+  .soulspring-solutions-link {
+    font-size: 20px;
+    padding: 15px 28px;
+    border-color: #dedede !important;
+    .icon {
+      height: 38px;
+      width: 38px;
+      font-size: 16px;
+      background-color: #ffedea;
+      transition: 0.2s;
+    }
+    &:hover {
+      @extend .shadow;
+      .icon {
+        color: $white;
+        background-color: $color-primary;
+      }
+    }
+  }
+}
+.solutions-blocks {
+  .overlay-block {
+    height: calc(100% - (7rem + 10%));
+    top: calc(3rem + 22px);
+    @include tablet {
+      height: calc(100% - (5.5rem + 10%));
+    }
+  }
+}
 
 // footer
 footer {
