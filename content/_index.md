@@ -278,7 +278,7 @@ frequently_asked_questions:
       therapies and treatments. \n\nSoul Spring's non-invasive diagnostic tests and
       assessments provide a roadmap to underlying imbalances and/or dysregulations
       in your body. A personalized therapy plan is strategically created from this
-      roadmap to address to address root cause(s) with bio-individualized therapies
-      designed for your unique healing journey."
+      roadmap to address root cause(s) with bio-individualized therapies designed
+      for your unique healing journey."
 
 ---
