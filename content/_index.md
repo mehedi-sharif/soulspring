@@ -136,13 +136,13 @@ testimonials:
   - name: S.T.
     designation: CEO of Financial Services Company, Houston, USA
     reviewer_image: images/testimonials/01.jpg
-    logo: images/testimonials/01-logo.png
+    logo: ''
     content: Everything about my health is much better now. I have more energy and
       focus, with no aches and pains.
   - name: S.M.A.
     designation: IT Project Manager, Atlanta, USA
     reviewer_image: images/testimonials/02.jpg
-    logo: images/testimonials/02-logo.png
+    logo: ''
     content: It has been 3 months since my first visit, and I feel amazing! The therapies
       designed specifically for me have given me more energy and I genuinely feel
       happier overall.
@@ -155,7 +155,7 @@ testimonials:
   - name: Carlos R.
     designation: CEO, Mexico City, MX
     reviewer_image: images/testimonials/04.jpg
-    logo: images/testimonials/02-logo.png
+    logo: ''
     content: Soul Spring has helped in a profound way in all aspects of my health.
 our_locations:
   enable: true
