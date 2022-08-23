@@ -39,10 +39,6 @@
 {{ end }}
 {{ end }}
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
-
 {{ with .Params.soulspring_solutions }}
 {{ if .enable }}
 <section class="section-sm pb-0 soulspring-solutions has-overlay">
@@ -51,6 +47,7 @@
       <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
         <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="row justify-content-center">
@@ -87,21 +84,45 @@
 <section id="{{.title | urlize | lower}}" class="pt-5 mt-3 has-overlay has-overlay-bgi solutions-blocks">
   <div class="container">
     <div class="row">
-      <div class="col-xl-5 mx-auto text-center mb-4">
+      <div class="col-xl-5 mx-auto text-center mb-5">
         <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p class="mb-0">{{.subtitle | markdownify}}</p>
       </div>
     </div>
     <div class="rounded overflow-hidden bg-white shadow">
-      <div class="row align-items-center">
-        <div class="col-lg-6">
+      <div class="row gx-0 align-items-center">
+        <div class="col-lg-6 {{ if not (modBool $i 2) }}order-0 order-lg-1{{end}}">
           {{ partial "image.html" (dict "Src" .image "Alt" (.title | markdownify) "Resize" false "Class" "w-100" ) }}
         </div>
-        <div class="col-lg-6">
+        <div class="col-lg-6 text-center py-5 py-lg-0">
           {{ with .additional_info }}
-          <h3 class="h4 fw-bold mb-4 text-center">{{.title | markdownify}}</h3>
+          <h3 class="h4 fw-bold mb-4">{{.title | markdownify}}</h3>
           <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+          <div class="additional-info position-relative my-4 pt-2 pb-3">
+            {{ partial "image.html" (dict "Src" "images/solutions/soulspring.svg" "Alt" "*" "Class" "position-absolute h-100" )}}
+
+            <div class="features-lists d-block d-sm-flex justify-content-center">
+              {{ $listRange := math.Round (div (len .lists) 2.0) }}
+
+              <ul class="list-unstyled px-2 list-left mb-3 mb-md-0 text-center text-sm-end">
+                {{ range first $listRange .lists }}
+                <li>{{. | markdownify}}</li>
+                {{ end }}
+              </ul>
+
+              <ul class="list-unstyled px-2 list-right mb-0 text-center text-sm-start">
+                {{ range $i, $e := .lists }}
+                  {{ if gt $i (sub $listRange 1) }}
+                  <li>{{. | markdownify}}</li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+          {{ with .button }}
+          <a class="btn btn-primary" href="{{.link | relURL }}">{{.label | markdownify}}</a>
+          {{ end }}
           {{ end }}
         </div>
       </div>
@@ -116,7 +137,9 @@
 {{ end }}
 
 <!-- divider -->
-{{ partial "components/divider.html" . }}
+<section class="section-sm pt-0">
+  {{ partial "components/divider.html" . }}
+</section>
 <!-- end divider -->
 
 {{ end }}

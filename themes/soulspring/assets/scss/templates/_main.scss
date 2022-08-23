@@ -686,7 +686,7 @@
 // wellness-approach
 .wellness-approach {
   .overlay-block {
-    height: calc(100% - (7rem + 27%));
+    height: calc(100% - (7rem + 18%));
     @include desktop {
       height: 100%;
     }
@@ -714,6 +714,7 @@
     }
     &:hover {
       @extend .shadow;
+      border-color: transparent !important;
       .icon {
         color: $white;
         background-color: $color-primary;
@@ -721,12 +722,66 @@
     }
   }
 }
+
+// solutions-blocks
 .solutions-blocks {
   .overlay-block {
     height: calc(100% - (7rem + 10%));
     top: calc(3rem + 22px);
     @include tablet {
       height: calc(100% - (5.5rem + 10%));
+    }
+  }
+  .additional-info {
+    z-index: 1;
+    img {
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%, -50%);
+      z-index: -1;
+      max-height: 150px;
+    }
+    ul {
+      width: 50%;
+      @include mobile {
+        width: 100%;
+      }
+      li {
+        position: relative;
+        &::after {
+          position: absolute;
+          content: "";
+          height: 14px;
+          width: 14px;
+          background-color: $white;
+          border: 4px solid $color-primary;
+          border-radius: 50%;
+          top: 8px;
+          right: -22px;
+          @include mobile {
+            display: none;
+          }
+        }
+        &:not(:last-child) {
+          margin-bottom: 8px;
+        }
+      }
+      &.list-left {
+        padding-right: 40px !important;
+        @include mobile {
+          padding-right: 0 !important;
+        }
+      }
+      &.list-right {
+        padding-left: 40px !important;
+        @include mobile {
+          padding-left: 0 !important;
+        }
+        li::after {
+          right: auto;
+          left: -22px;
+        }
+      }
     }
   }
 }
