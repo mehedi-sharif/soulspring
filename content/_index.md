@@ -149,7 +149,7 @@ testimonials:
   - name: W.J.E.
     designation: Author and Entrepreneur, Chicago, USA
     reviewer_image: images/testimonials/03.jpg
-    logo: images/testimonials/01-logo.png
+    logo: ''
     content: I was looking for something different when I found Soul Spring. I feel
       stronger and more resilient than before.
   - name: Carlos R.
