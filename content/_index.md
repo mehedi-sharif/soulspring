@@ -152,7 +152,7 @@ testimonials:
     logo: images/testimonials/01-logo.png
     content: I was looking for something different when I found Soul Spring. I feel
       stronger and more resilient than before.
-  - name: C.R.A.
+  - name: Carlos R.
     designation: CEO, Mexico City, MX
     reviewer_image: images/testimonials/04.jpg
     logo: images/testimonials/02-logo.png
