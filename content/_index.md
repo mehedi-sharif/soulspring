@@ -267,11 +267,11 @@ frequently_asked_questions:
       number of clients who fly in from outstation, including overseas, for their
       healing journeys with us.  '
   - title: Can treatment happen before illness, not after?
-    content: With the onset of new diseases and chronic conditions, it is important
+    content: "With the onset of new diseases and chronic conditions, it is important
       to move from conventional, reactive care to preventative, regenerative care.
-      Soul Spring's bio-individualized therapies are dynamic alternatives to conventional
+      \n\nSoul Spring's bio-individualized therapies are dynamic alternatives to conventional
       medicine. We can help restore and rejuvenate the natural healing capacity of
-      your body's cells and organs, creating a stronger, more resilient you.
+      your body's cells and organs, creating a stronger, more resilient you."
   - title: Can therapies be customized, not customary?
     content: "To optimize heath and restore balance, it is important to understand
       that each person's stress factors are different - leading to the need for personalized
