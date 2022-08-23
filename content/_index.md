@@ -272,5 +272,13 @@ frequently_asked_questions:
       Soul Spring's bio-individualized therapies are dynamic alternatives to conventional
       medicine. We can help restore and rejuvenate the natural healing capacity of
       your body's cells and organs, creating a stronger, more resilient you.
+  - title: Can therapies be customized, not customary?
+    content: "To optimize heath and restore balance, it is important to understand
+      that each person's stress factors are different - leading to the need for personalized
+      therapies and treatments. \n\nSoul Spring's non-invasive diagnostic tests and
+      assessments provide a roadmap to underlying imbalances and/or dysregulations
+      in your body. A personalized therapy plan is strategically created from this
+      roadmap to address to address root cause(s) with bio-individualized therapies
+      designed for your unique healing journey."
 
 ---
