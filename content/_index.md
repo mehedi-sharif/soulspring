@@ -266,5 +266,11 @@ frequently_asked_questions:
       visit using our “Outstation Client Packages.” All our locations have a substantial
       number of clients who fly in from outstation, including overseas, for their
       healing journeys with us.  '
+  - title: Can treatment happen before illness, not after?
+    content: With the onset of new diseases and chronic conditions, it is important
+      to move from conventional, reactive care to preventative, regenerative care.
+      Soul Spring's bio-individualized therapies are dynamic alternatives to conventional
+      medicine. We can help restore and rejuvenate the natural healing capacity of
+      your body's cells and organs, creating a stronger, more resilient you.
 
 ---
