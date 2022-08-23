@@ -15,13 +15,13 @@ name = "Privacy Policy"
 url = "privacy/"
 weight = 4
 [[main]]
-name = "How it Works"
-url = "how-it-works/"
-weight = 1
-[[main]]
 hasChildren = true
 name = "Solutions"
 weight = 2
+[[main]]
+name = "How it Works"
+url = "how-it-works/"
+weight = 1
 [[quick_links]]
 name = "Lift Tickets"
 url = "#!"
