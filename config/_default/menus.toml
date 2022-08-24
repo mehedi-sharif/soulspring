@@ -16,7 +16,7 @@ url = "privacy/"
 weight = 4
 [[main]]
 hasChildren = true
-name = "Solutions"
+name = "Bio-Wellness Solutions"
 url = "solutions/"
 weight = 2
 [[main]]
