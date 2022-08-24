@@ -17,7 +17,7 @@ weight = 4
 [[main]]
 hasChildren = true
 name = "Solutions"
-url = "https://tf-soulspring.netlify.app/solutions/"
+url = "solutions/"
 weight = 2
 [[main]]
 name = "How it Works"

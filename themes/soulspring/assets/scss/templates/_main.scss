@@ -223,13 +223,13 @@
       }
     }
     &:nth-child(1) > div {
-      background-color: $color-tertiary;
+      background-color: #80a9da;
     }
     &:nth-child(2) > div {
-      background-color: $color-primary;
+      background-color: #6fc3a3;
     }
     &:nth-child(3) > div {
-      background-color: #9bc152;
+      background-color: #a6ca61;
     }
   }
 }
@@ -320,6 +320,7 @@
   }
 
   .left-block {
+    margin-top: 160px;
     margin-right: -50px;
     z-index: 9;
     position: relative;
@@ -518,7 +519,7 @@
 }
 #chartdiv {
   width: 100%;
-  height: 400px;
+  height: 500px;
 }
 
 // holistic-doctors
@@ -590,6 +591,14 @@
     top: 0;
   }
   &-item {
+    .count {
+      background-color: #fae1dc;
+      height: 80px;
+      width: 80px;
+      line-height: 80px;
+      text-align: center;
+      border-radius: 50%;
+    }
     &:nth-child(2) {
       margin-left: -70px;
       @include desktop {
@@ -620,65 +629,78 @@
 // power-of-biological-medicine
 .power-of-biological-medicine {
   .features-item {
-    padding: 40px 0;
-    .content-block {
-      margin-top: 60px;
-      &::after {
-        position: absolute;
-        content: "";
-        height: 140px;
-        width: 500%;
-        left: -250px;
-        bottom: calc(100% + 25px);
-        background-color: #f5faf2;
-        border-top: 1px dashed rgba($color-primary, 0.6);
-        border-bottom: 1px dashed rgba($color-primary, 0.6);
-      }
-    }
-    .block {
-      height: 210px;
-      width: 210px;
-      padding: 30px 30px 10px 30px;
-      background-color: #f5faf2;
-      z-index: 1;
-      &::before {
-        position: absolute;
-        content: "";
-        height: 100%;
-        width: 100%;
-        left: 0;
-        top: 0;
-        border: 1px dashed rgba($color-primary, 0.6);
-        border-bottom-color: transparent;
-        border-right-color: transparent;
-        border-radius: inherit;
-        transform: rotate(45deg);
-      }
-      > div {
-        background-color: lighten(saturate($color-primary, 23.35), 32.16);
-        border-radius: 50%;
-        height: 100%;
-        width: 100%;
-        position: relative;
-        z-index: 1;
-        .text-black {
-          display: -webkit-box;
-          -webkit-line-clamp: 2;
-          -webkit-box-orient: vertical;
-          overflow: hidden;
-        }
+    &-inner {
+      padding: 40px 0;
+      .content-block {
+        margin-top: 60px;
         &::after {
           position: absolute;
           content: "";
-          height: calc(100% + 20px);
-          width: 100%;
-          left: 0;
-          bottom: -20px;
-          border-radius: 110px;
-          background-color: lighten(saturate($color-primary, 23.35), 32.16);
-          z-index: -1;
+          height: 140px;
+          width: 500%;
+          left: -250px;
+          bottom: calc(100% + 25px);
+          background-color: #f5faf2;
+          border-top: 1px dashed #dedede;
+          border-bottom: 1px dashed #dedede;
         }
       }
+      .block {
+        height: 210px;
+        width: 210px;
+        padding: 30px 30px 10px 30px;
+        background-color: #f5faf2;
+        z-index: 1;
+        &::before {
+          position: absolute;
+          content: "";
+          height: 100%;
+          width: 100%;
+          left: 0;
+          top: 0;
+          border: 1px dashed #dedede;
+          border-bottom-color: transparent;
+          border-right-color: transparent;
+          border-radius: inherit;
+          transform: rotate(45deg);
+        }
+        > div {
+          border-radius: 50%;
+          height: 100%;
+          width: 100%;
+          position: relative;
+          z-index: 1;
+          .text-black {
+            display: -webkit-box;
+            -webkit-line-clamp: 2;
+            -webkit-box-orient: vertical;
+            overflow: hidden;
+          }
+          &::after {
+            position: absolute;
+            content: "";
+            height: calc(100% + 20px);
+            width: 100%;
+            left: 0;
+            bottom: -20px;
+            border-radius: 110px;
+            background-color: lighten(saturate($color-primary, 23.35), 32.16);
+            z-index: -1;
+          }
+        }
+      }
+    }
+    &:nth-child(1) .block > div::after {
+      background-color: #dce6f1;
+    }
+    &:nth-child(2) .block > div::after {
+      background-color: #cfede0;
+    }
+    &:nth-child(3) .block > div::after {
+      background-color: #e2f3c4;
+    }
+    &:nth-child(4) .block > div::after {
+      background-color: #ffe3de;
     }
   }
 }
@@ -704,6 +726,10 @@
   .soulspring-solutions-link {
     font-size: 20px;
     padding: 15px 28px;
+    @include mobile {
+      padding: 15px;
+      font-size: 16px;
+    }
     border-color: #dedede !important;
     .icon {
       height: 38px;
@@ -786,6 +812,111 @@
   }
 }
 
+// wellness-id
+.wellness-id {
+  .left-block {
+    margin-right: -50px;
+    position: relative;
+    z-index: 5;
+    @include desktop {
+      margin-right: 0;
+    }
+  }
+  .wellness-id-feature {
+    position: relative;
+    padding-top: 80px;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 50px;
+      width: 80%;
+      left: 10%;
+      border: 1px solid #dedede;
+      border-bottom: 0;
+      border-top-left-radius: 8px;
+      border-top-right-radius: 8px;
+      @include desktop {
+        height: 40px;
+      }
+    }
+  }
+  .wellness-id-feature-item {
+    margin-top: 50px;
+    position: relative;
+    @include desktop {
+      margin-top: 40px;
+    }
+    &::after {
+      position: absolute;
+      content: "";
+      height: 50px;
+      width: 1px;
+      background-color: #dedede;
+      left: 50%;
+      bottom: 100%;
+      @include desktop {
+        height: 40px;
+      }
+    }
+    &::before {
+      position: absolute;
+      content: "";
+      height: 12px;
+      width: 12px;
+      background-color: $color-primary;
+      left: calc(50% - 5px);
+      top: -56px;
+      border-radius: 50%;
+      z-index: 4;
+      @include desktop {
+        top: -46px;
+      }
+    }
+    &:first-child::before,
+    &:last-child::before,
+    &:first-child::after,
+    &:last-child::after {
+      display: none;
+      @include desktop {
+        display: block;
+      }
+    }
+    .border {
+      transition: 0.3s;
+      border-color: #dedede !important;
+      background-color: rgba($white, 0.4);
+      &:hover {
+        background-color: $white;
+        @extend .shadow;
+      }
+    }
+  }
+}
+
+// call-to-action
+.call-to-action {
+  .block {
+    position: relative;
+    z-index: 1;
+    &::after {
+      position: absolute;
+      content: "";
+      height: 100%;
+      width: 100%;
+      left: 0;
+      top: 0;
+      border-radius: 16px;
+      background: linear-gradient(
+        180deg,
+        rgba($black, 0.7) 0%,
+        rgba(0, 0, 0, 0) 100%
+      );
+      transform: rotateX(180deg);
+      z-index: -1;
+    }
+  }
+}
+
 // footer
 footer {
   background-color: rgba($color-secondary, 0.1);
@@ -858,6 +989,38 @@ footer {
     &:hover {
       color: $dark;
       text-decoration: underline;
+    }
+  }
+}
+
+// scroll-to-position
+.scroll-to-position {
+  position: fixed;
+  bottom: -40px;
+  right: 30px;
+  z-index: 9999;
+  transition: 0.2s;
+  &.visible {
+    bottom: 40px;
+    display: block;
+  }
+  button {
+    height: 40px;
+    width: 40px;
+    border-radius: 4px;
+    box-shadow: 2px 8px 25px -4px rgba(#2a2e2e, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 0;
+    color: $white;
+    background-color: $color-primary;
+    outline: none;
+    &.show {
+      display: block;
+    }
+    svg {
+      display: inline;
     }
   }
 }

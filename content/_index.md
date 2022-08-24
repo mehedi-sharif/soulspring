@@ -7,6 +7,7 @@ banner:
   - images/banner/02.jpg
   - images/banner/03.jpg
   - images/banner/04.jpg
+  - images/banner/05.png
   review_block:
     rating: "5"
     brand_logo: images/banner/review/brand.png
@@ -89,41 +90,41 @@ how_it_works:
     label: Learn More
     link: how-it-works/
   slider:
-  - image: images/how-it-works/image-01.jpg
+  - image: images/how-it-works/01.jpg
     video: images/how-it-works/video-01.mp4
     quote:
       enable: true
-      content: "[ Onboarding ]   Holistic Diagnostics and Assessment"
+      content: "[ Onboarding ] <br/> Holistic Diagnostics and Assessment"
       description: The journey begins by understanding the cause rather than focusing
         on the symptoms. Non-invasive diagnostic tests and assessments allow us to
         look for stressors, toxins, dysregulations, and imbalances so that we can
         isolate the root cause(s) of your health challenge(s).
-  - image: images/how-it-works/image-01.jpg
+  - image: images/how-it-works/02.jpg
     video: ''
     quote:
       enable: true
-      content: "[ Initial Consultation]   Development of a Personalized Therapy Plan"
+      content: "[ Initial Consultation] <br/> Development of a Personalized Therapy Plan"
       description: 'The results of the diagnostics and assessment provide a roadmap
         to underlying imbalances and/or dysregulations and allow the Medical Doctor
         to immediately start addressing your concerns. A personalized therapy plan
         is strategically created from this roadmap to address root cause(s) and deliver
         an integrative approach to your unique healing journey. '
-  - image: images/how-it-works/image-01.jpg
+  - image: images/how-it-works/03.jpg
     video: ''
     quote:
       enable: true
-      content: "[ The Therapy Journey ]   Your Path to Wellness"
+      content: "[ The Therapy Journey ] <br/> Your Path to Wellness"
       description: 'Your Personalized Therapy Plan will include bio-individualized
         detoxification and regeneration therapies designed to correct dysfunctional
         biological processes within the body, restoring and strengthening the natural
         healing capacity of the body’s cells and organs. Additionally, emotional-mental
         harmonization, self-therapy and integration programs may also be included
         in your therapy journey. '
-  - image: images/how-it-works/image-01.jpg
+  - image: images/how-it-works/04.jpg
     video: ''
     quote:
       enable: true
-      content: "[ Mid-Journey Revisit ]   Assessment for Any Adjustment"
+      content: "[ Mid-Journey Revisit ] <br/> Assessment for Any Adjustment"
       description: 'As your wellness partner, it is important for us to stay in touch.
         A personalized follow-up consultation will be scheduled for you to revisit
         and assess your progress mid-journey and make any necessary adjustments to

@@ -20,6 +20,7 @@ soulspring_solutions:
   solutions:
     - title: "Anti Ageing"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/anti-ageing.svg"
       image: "images/solutions/anti-ageing.jpg"
       additional_info:
         title: "Rejuvenated Skin"
@@ -36,6 +37,7 @@ soulspring_solutions:
 
     - title: "Athelete Recovery"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/athelete-recovery.svg"
       image: "images/solutions/athelete-recovery.jpg"
       additional_info:
         title: "Athletical Wellbeing"
@@ -52,6 +54,7 @@ soulspring_solutions:
 
     - title: "Beauty"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/beauty.svg"
       image: "images/solutions/beauty.jpg"
       additional_info:
         title: "Beautiful Glowing Skin"
@@ -68,6 +71,7 @@ soulspring_solutions:
 
     - title: "Brain Health"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/brain-health.svg"
       image: "images/solutions/brain-health.jpg"
       additional_info:
         title: "Improved Mental Wellbeing"
@@ -84,6 +88,7 @@ soulspring_solutions:
 
     - title: "Hormonal Balance"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/hormonal-balance.svg"
       image: "images/solutions/hormonal-balance.jpg"
       additional_info:
         title: "Optimized Hormone Levels"
@@ -100,6 +105,7 @@ soulspring_solutions:
 
     - title: "Pain Relief"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/pain-relief.svg"
       image: "images/solutions/pain-relief.jpg"
       additional_info:
         title: "Pain Management"
@@ -116,6 +122,7 @@ soulspring_solutions:
 
     - title: "Post Covid Recovery"
       subtitle: "While visible signs of aging can be witnessed throughout the body, your skin is the most revealing sign. Skin cells."
+      icon: "images/solutions/icons/post-covid-recovery.svg"
       image: "images/solutions/post-covid-recovery.jpg"
       additional_info:
         title: "Better Immunity"

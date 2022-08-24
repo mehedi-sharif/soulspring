@@ -23,6 +23,15 @@ button = "I Accept"
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 enable = false
 expire_days = 2
+
+[call_to_action]
+enable = true
+title = "Questions in mind? We're Ready"
+description = "We'll help out if you're unsure which insurance you need."
+bg_image = "images/call-to-action.jpg"
+button_label = "Launch Chat Now"
+button_link = "#!"
+
 [counter]
 enable = false
 username = ""
@@ -40,8 +49,9 @@ image = "images/favicon.png"
 keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
 [navigation_button]
 enable = true
-label = "get a quote"
-link = "contact"
+label = "Free Consultation"
+hubspotPortalId = "21439971"
+hubspotFormId = "b5c47a27-5574-4611-a600-dc94aa6b18f3"
 [plausible]
 domain = ""
 enable = false

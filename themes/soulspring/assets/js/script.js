@@ -2,6 +2,22 @@
 (function () {
   "use strict";
 
+  window.addEventListener(
+    "scroll",
+    () => {
+      var target = document.querySelector(".scroll-to-position");
+      if (window.pageYOffset > 150) {
+        target.classList.add("visible");
+      } else if (window.pageYOffset < 150) {
+        target.classList.remove("visible");
+      }
+      target.addEventListener("click", () => {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      });
+    },
+    false
+  );
+
   // Odometer init
   function playOdometer() {
     let el = document.querySelectorAll(".odometer");
@@ -53,7 +69,7 @@
     // testimonial-swiper
     new Swiper(".testimonial-swiper.swiper", {
       slidesPerView: 1,
-      loop: true,
+      loop: false,
       spaceBetween: 24,
       speed: 500,
       grabCursor: true,

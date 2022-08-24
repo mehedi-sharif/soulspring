@@ -1,4 +1,8 @@
 <!-- navigation -->
+{{ if not .IsHome }}
+<div class="section pb-0"></div>
+{{end}}
+
 <header class="header position-absolute w-100 top-0">
   <div class="container">
     <!-- navbar -->
@@ -58,12 +62,32 @@
 
         {{ if site.Params.navigation_button.enable }}
         <!-- navigation btn -->
-        <a href="{{ site.Params.navigation_button.link | relLangURL }}" class="btn btn-primary ms-lg-4 mt-2 mt-lg-0 mb-3 mb-lg-0">
+        <button class="btn btn-primary ms-lg-4 mt-2 mt-lg-0 mb-3 mb-lg-0" type="button" data-bs-toggle="modal" data-bs-target="#hubspotModal">
           {{- site.Params.navigation_button.label -}}
-        </a>
+        </button>
         {{ end }}
       </div>
     </nav>
   </div>
 </header>
 <!-- /navigation -->
+
+{{ with site.Params.navigation_button }}
+<div class="modal fade" id="hubspotModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
+    <div class="modal-content">
+      <div class="modal-body">
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js?pre=1"></script>
+        <script>
+          hbspt.forms.create({
+            region: "na1",
+            portalId: "{{.hubspotPortalId}}",
+            formId: "{{.hubspotFormId}}"
+          });
+        </script>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
