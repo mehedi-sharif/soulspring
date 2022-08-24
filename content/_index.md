@@ -285,5 +285,11 @@ frequently_asked_questions:
       Conventional medicines and drugs are increasingly proving to have short-term effects on illness, without treating the root cause. To deal with lifestyle issues, chronic conditions and environmental complications, the focus needs to shift to detoxification and rejuvenation from within.
 
       Soul Spring’s personalized therapy plans include detoxification and regeneration treatments designed to eliminate toxins, stressors, and imbalances within the body, restoring and strengthening the body’s natural ability to heal itself.
+  - title: Can health solutions be ancient, not obsolete?
+    content: "Soul Spring combines the wisdom of natural medicine with cutting-edge
+      technology to create a holistic wellness experience designed around you.\n\nBacked
+      by 20+ years of clinical research and development, our bio-individualized therapies
+      and protocols stimulate the innate healing ability of your body, enabling detoxification
+      and rejuvenation of your body’s cells and organs. \n"
 
 ---
