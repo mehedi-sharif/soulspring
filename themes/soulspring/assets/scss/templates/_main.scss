@@ -726,6 +726,11 @@
   .soulspring-solutions-link {
     font-size: 20px;
     padding: 15px 28px;
+    background-color: #f5faf2;
+    hr {
+      background-color: transparent;
+      border-top: 1px dashed #e6e6e6;
+    }
     @include mobile {
       padding: 15px;
       font-size: 16px;
@@ -740,10 +745,50 @@
     }
     &:hover {
       @extend .shadow;
+      @extend .bg-white;
       border-color: transparent !important;
+      hr {
+        border-top-color: rgba($color-primary, 0.5);
+      }
       .icon {
         color: $white;
         background-color: $color-primary;
+      }
+    }
+  }
+}
+// soulspring-therapies-and-treatments
+.soulspring-therapies-and-treatments {
+  .soulspring-solutions-link {
+    .icon {
+      background-color: transparent;
+    }
+    .shape-overlay {
+      opacity: 0;
+      transition: 0.2s;
+    }
+    &:hover {
+      .shape-overlay {
+        opacity: 1;
+      }
+    }
+  }
+  .therapies-and-treatments-info-card {
+    border-color: #dedede !important;
+    transition: 0.3s;
+    padding: 15px 28px;
+    background-color: #f5faf2;
+    .shape-overlay {
+      opacity: 0;
+      transition: 0.2s;
+    }
+    &.active,
+    &:hover {
+      @extend .shadow;
+      @extend .bg-white;
+      border-color: transparent !important;
+      .shape-overlay {
+        opacity: 1;
       }
     }
   }

@@ -39,7 +39,7 @@
 
 {{ with .Params.soulspring_solutions }}
 {{ if .enable }}
-<section class="section pb-0 soulspring-solutions has-overlay">
+<section class="section soulspring-solutions has-overlay has-overlay-bgi">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
@@ -51,14 +51,14 @@
     <div class="row justify-content-center">
       <div class="col-lg-10">
         <div class="row gy-4">
-          {{ range .solutions }}
+          {{ range sort .solutions "title" }}
           <div class="col-md-6">
             <a class="soulspring-solutions-link d-flex align-items-center text-dark rounded-sm border mb-0 mb-lg-2" href="#{{.title | urlize | lower}}">
               <span class="d-flex align-items-center flex-shrink-0">
                 {{ partial "image.html" (dict "Src" .icon "Alt" "*") }}
                 <span class="lh-1 ms-2">{{ .title | markdownify }}</span>
               </span>
-              <span class="flex-grow-1 px-3"><hr class="opacity-50" style="background:#DEDEDE"></span>
+              <span class="flex-grow-1 px-3"><hr class="opacity-100"></span>
               <i class="flex-shrink-0 icon rounded-circle fas fa-arrow-down d-flex align-items-center justify-content-center"></i>
             </a>
           </div>
@@ -67,13 +67,57 @@
       </div>
     </div>
   </div>
+  <div class="overlay-block"></div>
 </section>
+{{ end }}
+{{ end }}
 
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ range $i, $e := .solutions }}
+{{ with .Params.soulspring_therapies_and_treatments }}
+{{ if .enable }}
+<section class="section soulspring-solutions soulspring-therapies-and-treatments has-overlay">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{with .subtitle}}<p>{{. | markdownify}}</p>{{end}}
+      </div>
+    </div>
+    <div class="row justify-content-center gy-4">
+      {{ range sort .therapies_and_treatments "title" }}
+      <div class="col-lg-3 col-md-4 col-sm-6">
+        <a class="scroll-link soulspring-solutions-link d-flex flex-column justify-content-center text-dark rounded-sm border mb-0 mb-lg-2 pt-3 py-4 h-100 position-relative" href="#{{.title | urlize | lower}}" style="font-size:18px">
+          <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
+          <span class="d-flex align-items-center">
+            <span class="lh-base me-2 flex-grow-1">{{ .title | markdownify }}</span>
+            <i class="flex-shrink-0 icon rounded-circle fas fa-arrow-down d-flex align-items-center justify-content-center"></i>
+          </span>
+          {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/overlay.svg" "Alt" "*" "Class" "shape-overlay position-absolute top-0 end-0" ) }}
+        </a>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="overlay-block">
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.soulspring_solutions }}
+{{ if .enable }}
+
+{{ range $i, $e := sort .solutions "title" }}
 {{ if gt $i 0 }}
 {{ partial "components/divider-vertical.html" }}
 {{ end }}
@@ -128,6 +172,45 @@
 </section>
 {{ end }}
 
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.soulspring_therapies_and_treatments }}
+{{ if .enable }}
+
+<section class="section soulspring-therapies-and-treatments has-overlay">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
+        <h2 class="h3 fw-bold mb-4">{{.title_details | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{with .subtitle}}<p>{{. | markdownify}}</p>{{end}}
+      </div>
+    </div>
+    <div class="row justify-content-center gy-4">
+      {{ range sort .therapies_and_treatments "title" }}
+      <div class="col-lg-6">
+        <div id="{{.title | urlize | lower}}" class="therapies-and-treatments-info-card rounded-sm border p-4 h-100 position-relative">
+          <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
+          <p class="lead text-dark fw-medium mt-2">{{ .title | markdownify }}</p>
+          <p>{{.content | markdownify}}</p>
+          {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/overlay.svg" "Alt" "*" "Class" "shape-overlay position-absolute top-0 end-0" ) }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="overlay-block">
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-3.svg" "Alt" "*" "Class" "position-absolute top-50 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-4.svg" "Alt" "*" "Class" "position-absolute bottom-50 end-0" ) }}
+  </div>
+</section>
 
 {{ end }}
 {{ end }}
@@ -137,5 +220,38 @@
   {{ partial "components/divider.html" . }}
 </section>
 <!-- end divider -->
+
+<script>
+
+  const links = document.querySelectorAll(".scroll-link");
+  for (let link of links) {
+    link.addEventListener("click", clickHandler);
+  }
+  
+  function clickHandler(e) {
+    e.preventDefault();
+    let href = this.getAttribute("href");
+    let offsetTop = offset(href);
+
+    scroll({
+      top: divOffset.top,
+      behavior: "smooth"
+    });
+
+    console.log(getPosition(href))
+  
+    sections = document.querySelectorAll(".therapies-and-treatments-info-card");
+    let sectionId;
+    
+    sections.forEach((item)=>{
+      sectionId = item.getAttribute("id");
+      if (href == ("#"+sectionId)) {
+        item.classList.add("active");
+      } else {
+        item.classList.remove("active");
+      }
+    });
+  }
+  </script>
 
 {{ end }}
