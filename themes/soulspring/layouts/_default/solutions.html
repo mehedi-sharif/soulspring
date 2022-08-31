@@ -193,7 +193,7 @@
     </div>
     <div class="row justify-content-center gy-4">
       {{ range sort .therapies_and_treatments "title" }}
-      <div class="col-lg-6">
+      <div class="col-lg-10">
         <div id="{{.title | urlize | lower}}" class="therapies-and-treatments-info-card rounded-sm border p-4 h-100 position-relative">
           <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
           <p class="lead text-dark fw-medium mt-2">{{ .title | markdownify }}</p>
@@ -221,8 +221,7 @@
 </section>
 <!-- end divider -->
 
-<script>
-
+<!-- <script>
   const links = document.querySelectorAll(".scroll-link");
   for (let link of links) {
     link.addEventListener("click", clickHandler);
@@ -252,6 +251,6 @@
       }
     });
   }
-  </script>
+</script> -->
 
 {{ end }}
