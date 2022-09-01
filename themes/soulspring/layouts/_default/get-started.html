@@ -1,0 +1,193 @@
+{{ define "main" }}
+
+{{ with .Params.soulspring_experience }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay soulspring-experience overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-12">
+        <div class="position-relative">
+          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-sm" "Webp" false "Resize" false ) }}
+          {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+
+          {{ with .review_block }}
+          <div class="review-block rounded text-white text-center">
+            <p class="mb-4 fst-italic">{{ .content | markdownify }}</p>
+            <h6 class="text-white font-secondary mb-0">{{.reviewer}}</h6>
+          </div>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:70%">
+    {{ partial "image.html" (dict "Src" "images/get-started/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/get-started/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.cause_of_problem }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    {{ with .we_look_deeper }}
+    <div class="block bg-white rounded shadow">
+      <div class="row gy-4 justify-content-between">
+        <div class="col-lg-7">
+          <h3 class="h4 fw-bold mb-4">{{.title | markdownify}}</h3>
+          <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
+          <div class="content">{{.content | markdownify}}</div>
+          <hr class="text-light opacity-100 my-4" style="height:1px;">
+          <div class="my-4 pt-2 pb-3">
+            <div class="d-block d-md-flex d-lg-block d-xl-flex text-dark">
+              {{ $listRange := math.Round (div (len .features) 2.0) }}
+              <ul class="list-unstyled mb-3 mb-md-0 me-0 me-md-4">
+                {{ range first $listRange .features }}
+                <li class="mb-3"><i class="fas fa-check text-primary me-2"></i> {{. | markdownify}}</li>
+                {{ end }}
+              </ul>
+              <ul class="list-unstyled mb-0">
+                {{ range $i, $e := .features }}
+                  {{ if gt $i (sub $listRange 1) }}
+                  <li class="mb-3"><i class="fas fa-check text-primary me-2"></i> {{. | markdownify}}</li>
+                  {{ end }}
+                {{ end }}
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-4 text-center">
+          {{ partial "image.html" (dict "Src" .image "Alt" .title) }}
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:70%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.understanding_bio }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay understanding-bio overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4 pb-1">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    {{ with .block }}
+    <div class="block bg-white rounded shadow">
+      <div class="row gy-4 justify-content-between">
+        <div class="col-lg-4 text-center">
+          <h3 class="h4 fw-bold mb-4">{{.title | markdownify}}</h3>
+          {{ with .button }}
+          <a class="btn btn-primary" href="{{.link | relURL }}">{{.label | markdownify}}</a>
+          {{ end }}
+          <div class="d-block">
+            {{ partial "image.html" (dict "Src" .image "Alt" .title "Webp" false "Class" "mt-5") }}
+          </div>
+        </div>
+        <div class="col-lg-7">
+          <div class="content">{{.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block" style="height:60%">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+
+    {{ partial "image.html" (dict "Src" "images/leaf.svg" "Alt" "*" "Class" "leaf position-absolute top-50 start-100 translate-middle" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.wellness_report }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi wellness-report overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row gy-4 justify-content-center">
+      <div class="col-lg-12">
+        <div class="position-relative">
+          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-sm" "Webp" false "Resize" false ) }}
+        </div>
+
+        {{ with .block }}
+        <div class="block bg-white rounded-sm shadow">
+          <div class="row">
+            <div class="col-12 text-center pb-2">
+              <h2 class="h4 fw-bold mb-4 lh-sm">{{.title | markdownify}}</h2>
+              <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+            </div>
+            {{ range .links }}
+            <div class="col-xl-6 mt-4">
+              <a class="report-link d-flex align-items-center text-dark rounded-sm border mb-0 mb-lg-2" href="{{.link | relURL}}">
+                <span class="d-flex align-items-center flex-shrink-0">
+                  <span class="lh-1 ms-2">{{ .label | markdownify }}</span>
+                </span>
+                <span class="flex-grow-1 px-3"><hr class="opacity-100"></span>
+                <i class="flex-shrink-0 icon rounded-circle fas fa-link d-flex align-items-center justify-content-center"></i>
+              </a>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block" style="height:40%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ end }}

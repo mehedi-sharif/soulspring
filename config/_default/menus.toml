@@ -14,15 +14,48 @@ weight = 3
 name = "Privacy Policy"
 url = "privacy/"
 weight = 4
+
 [[main]]
-hasChildren = true
-name = "Bio-Wellness Solutions"
-url = "solutions/"
-weight = 2
+name = "Get Started"
+url = "get-started/"
+weight = 1
 [[main]]
 name = "How it Works"
 url = "how-it-works/"
-weight = 1
+weight = 2
+[[main]]
+name = "Solutions"
+url = "solutions/"
+weight = 5
+[[main]]
+name = "Doctors"
+url = "doctors/"
+weight = 10
+[[main]]
+name = "Technology"
+url = "technology/"
+weight = 15
+[[main]]
+name = "About"
+url = "#"
+hasChildren = true
+weight = 15
+  [[main]]
+  parent = "About"
+  name = "Why Us"
+  url = "why-us/"
+  weight = 10
+  [[main]]
+  parent = "About"
+  name = "About Us"
+  url = "about-us/"
+  weight = 15
+  [[main]]
+  parent = "About"
+  name = "Locations"
+  url = "locations/"
+  weight = 25
+
 [[quick_links]]
 name = "Lift Tickets"
 url = "#!"

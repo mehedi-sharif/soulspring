@@ -165,45 +165,45 @@
     }
   }
 
-  // review-block
-  .review-block {
-    padding: 32px 16px;
-    position: absolute;
-    bottom: 40px;
-    right: 40px;
-    width: 285px;
-    z-index: 5;
-    background-color: #96a8a1;
-    @include desktop-lg {
-      position: static;
-      width: auto;
-      margin-top: 30px;
-    }
-    .rating {
-      --percent: calc(var(--rating) / 5 * 100%);
-      display: inline-block;
-      font-size: 25px;
-      font-family: Times;
-      line-height: 1;
-      margin-bottom: 18px;
-      &::before {
-        content: "★★★★★";
-        letter-spacing: 3px;
-        background: linear-gradient(
-          90deg,
-          #fafafa var(--percent),
-          #6a6a6a var(--percent)
-        );
-        -webkit-background-clip: text;
-        -webkit-text-fill-color: transparent;
-      }
-    }
-  }
-
   // swiper-pagination bullet
   .swiper-pagination {
     bottom: 20px;
     z-index: 55;
+  }
+}
+
+// review-block
+.review-block {
+  padding: 32px 16px;
+  position: absolute;
+  bottom: 40px;
+  right: 40px;
+  width: 285px;
+  z-index: 5;
+  background-color: #96a8a1;
+  @include desktop-lg {
+    position: static;
+    width: auto;
+    margin-top: 30px;
+  }
+  .rating {
+    --percent: calc(var(--rating) / 5 * 100%);
+    display: inline-block;
+    font-size: 25px;
+    font-family: Times;
+    line-height: 1;
+    margin-bottom: 18px;
+    &::before {
+      content: "★★★★★";
+      letter-spacing: 3px;
+      background: linear-gradient(
+        90deg,
+        #fafafa var(--percent),
+        #6a6a6a var(--percent)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
   }
 }
 
@@ -782,7 +782,7 @@
       opacity: 0;
       transition: 0.2s;
     }
-    &.active,
+    &:focus,
     &:hover {
       @extend .shadow;
       @extend .bg-white;
@@ -958,6 +958,74 @@
       );
       transform: rotateX(180deg);
       z-index: -1;
+    }
+  }
+}
+
+// get started
+.soulspring-experience {
+  .leaf {
+    left: -60px;
+    top: 45%;
+  }
+}
+.understanding-bio,
+.cause-of-problem {
+  .block {
+    padding: 70px;
+    @include tablet {
+      padding: 70px 30px;
+    }
+    @include mobile {
+      padding: 60px 20px;
+    }
+  }
+}
+
+// wellness-report
+.wellness-report {
+  .block {
+    position: relative;
+    z-index: 5;
+    padding: 55px 80px;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    margin-top: -100px;
+    @include desktop {
+      max-width: calc(100% - 100px);
+    }
+    @include tablet {
+      min-width: 100%;
+      margin-top: 30px;
+      padding: 55px 40px;
+    }
+    @include mobile {
+      padding: 55px 20px;
+    }
+  }
+  .report-link {
+    font-size: 18px;
+    padding: 15px 28px;
+    hr {
+      background-color: transparent;
+      border-top: 1px dashed $color-primary;
+    }
+    @include mobile {
+      padding: 15px;
+      font-size: 16px;
+    }
+    border-color: #dedede !important;
+    .icon {
+      height: 38px;
+      width: 38px;
+      font-size: 16px;
+      background-color: $color-primary;
+      transition: 0.2s;
+      color: $white;
+    }
+    &:hover {
+      @extend .shadow;
+      border-color: transparent !important;
     }
   }
 }

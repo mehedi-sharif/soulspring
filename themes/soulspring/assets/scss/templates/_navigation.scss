@@ -1,6 +1,7 @@
 .header {
   z-index: 555;
   padding: 30px 0;
+  transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
   @include tablet {
     padding: 20px 0;
   }
@@ -10,7 +11,19 @@
       padding: 0;
     }
   }
-  transition: all 0.3s cubic-bezier(0.36, 0.03, 0, 0.91);
+  .block {
+    width: 1400px;
+    max-width: calc(100% - 100px);
+    @include desktop {
+      max-width: calc(100% - 80px);
+    }
+    @include tablet {
+      max-width: calc(100% - 50px);
+    }
+    @include mobile {
+      max-width: 100%;
+    }
+  }
   .navbar {
     padding-left: 25px;
     padding-right: 25px;
@@ -60,12 +73,17 @@
   .nav-item {
     .nav-link {
       padding: 20px 15px;
+      line-height: 1.2;
+      @include desktop-xl {
+        padding: 20px 10px;
+      }
       @include desktop-lg {
-        padding: 20px 12px;
+        padding: 20px 8px;
       }
       @include desktop {
         padding: 6px 12px;
         text-align: center;
+        line-height: 1.5;
       }
       color: $black;
       font-weight: 400;
@@ -102,22 +120,6 @@
       box-shadow: rgba(17, 12, 46, 0.15) 0px 28px 80px 0px;
       text-align: center;
       margin-bottom: 15px;
-      li:last-child .dropdown-item {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        color: $black;
-        &:hover {
-          opacity: 0.6;
-          i {
-            transform: translateX(2px);
-          }
-        }
-        i {
-          font-size: 14px;
-          transition: 0.25s;
-        }
-      }
     }
     @media screen and (min-width: 991px) {
       &-menu {

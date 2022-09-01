@@ -90,14 +90,14 @@
     <div class="row justify-content-center gy-4">
       {{ range sort .therapies_and_treatments "title" }}
       <div class="col-lg-3 col-md-4 col-sm-6">
-        <a class="scroll-link soulspring-solutions-link d-flex flex-column justify-content-center text-dark rounded-sm border mb-0 mb-lg-2 pt-3 py-4 h-100 position-relative" href="#{{.title | urlize | lower}}" style="font-size:18px">
+        <button class="soulspring-solutions-link w-100 text-start d-flex flex-column justify-content-center text-dark rounded-sm border mb-0 mb-lg-2 pt-3 py-4 h-100 position-relative" onclick="(location.href='#{{.title | urlize | lower}}')[0]" style="font-size:18px">
           <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
-          <span class="d-flex align-items-center">
+          <span class="d-flex align-items-center w-100">
             <span class="lh-base me-2 flex-grow-1">{{ .title | markdownify }}</span>
-            <i class="flex-shrink-0 icon rounded-circle fas fa-arrow-down d-flex align-items-center justify-content-center"></i>
+            <i class="ms-auto flex-shrink-0 icon rounded-circle fas fa-arrow-down d-flex align-items-center justify-content-center"></i>
           </span>
           {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/overlay.svg" "Alt" "*" "Class" "shape-overlay position-absolute top-0 end-0" ) }}
-        </a>
+        </button>
       </div>
       {{ end }}
     </div>
@@ -193,8 +193,8 @@
     </div>
     <div class="row justify-content-center gy-4">
       {{ range sort .therapies_and_treatments "title" }}
-      <div class="col-lg-10">
-        <div id="{{.title | urlize | lower}}" class="therapies-and-treatments-info-card rounded-sm border p-4 h-100 position-relative">
+      <div class="col-lg-6">
+        <div id="{{.title | urlize | lower}}" tabindex="1" class="therapies-and-treatments-info-card rounded-sm border p-4 h-100 position-relative">
           <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
           <p class="lead text-dark fw-medium mt-2">{{ .title | markdownify }}</p>
           <p>{{.content | markdownify}}</p>
@@ -220,37 +220,5 @@
   {{ partial "components/divider.html" . }}
 </section>
 <!-- end divider -->
-
-<!-- <script>
-  const links = document.querySelectorAll(".scroll-link");
-  for (let link of links) {
-    link.addEventListener("click", clickHandler);
-  }
-  
-  function clickHandler(e) {
-    e.preventDefault();
-    let href = this.getAttribute("href");
-    let offsetTop = offset(href);
-
-    scroll({
-      top: divOffset.top,
-      behavior: "smooth"
-    });
-
-    console.log(getPosition(href))
-  
-    sections = document.querySelectorAll(".therapies-and-treatments-info-card");
-    let sectionId;
-    
-    sections.forEach((item)=>{
-      sectionId = item.getAttribute("id");
-      if (href == ("#"+sectionId)) {
-        item.classList.add("active");
-      } else {
-        item.classList.remove("active");
-      }
-    });
-  }
-</script> -->
 
 {{ end }}
