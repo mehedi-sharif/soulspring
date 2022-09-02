@@ -141,7 +141,7 @@ testimonials:
     logo: ''
     content: Everything about my health is much better now. I have more energy and
       focus, with no aches and pains.
-  - name: S.M.A.
+  - name: Sonali
     designation: IT Project Manager, Atlanta, USA
     reviewer_image: images/testimonials/02.jpg
     logo: ''
