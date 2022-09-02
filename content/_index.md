@@ -103,7 +103,8 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: "[ Initial Consultation] <br/> Development of a Personalized Therapy Plan"
+      content: "[ Initial Consultation] <br/> Development of a Personalized Therapy
+        Plan"
       description: 'The results of the diagnostics and assessment provide a roadmap
         to underlying imbalances and/or dysregulations and allow the Medical Doctor
         to immediately start addressing your concerns. A personalized therapy plan
@@ -134,7 +135,7 @@ testimonials:
   title: What They Are Saying...
   subtitle: 'Transformational success stories '
   reviews:
-  - name: S.T.
+  - name: Susanne
     designation: CEO of Financial Services Company, Houston, USA
     reviewer_image: images/testimonials/01.jpg
     logo: ''
