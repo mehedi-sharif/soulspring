@@ -148,7 +148,7 @@ testimonials:
     content: It has been 3 months since my first visit, and I feel amazing! The therapies
       designed specifically for me have given me more energy and I genuinely feel
       happier overall.
-  - name: W.J.E.
+  - name: Wendi
     designation: Author and Entrepreneur, Chicago, USA
     reviewer_image: images/testimonials/03.jpg
     logo: ''
