@@ -14,7 +14,9 @@
     <div class="row gy-4 justify-content-center">
       <div class="col-lg-12">
         <div class="position-relative">
-          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-sm" "Webp" false "Resize" false ) }}
+          <video src="{{(resources.Get .video).RelPermalink}}" controls autoplay muted loop class="ratio ratio-16x9 rounded-sm overflow-hidden">
+            Your browser does not support the video tag.
+          </video>
           {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
         </div>
 
@@ -156,6 +158,63 @@
     {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/shape-01.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
     {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/shape-02.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
   </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.unlock_power_of_biological_medicine }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi power-of-biological-medicine-2 overflow-hidden">
+  <div class="container">
+    <div class="row mb-5">
+      <div class="col-lg-5 mx-auto text-center">
+        <h2 class="h3 fw-bold mb-4 lh-sm">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+      </div>
+      <div class="col-lg-8 mx-auto text-center mb-5">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="section-sm pt-0 position-relative">
+      <div class="row justify-content-center">
+        {{ range $i, $e := .features }}
+        <div class="col-xl-10 features-item">
+          <div class="row {{if not (modBool $i 2)}}justify-content-end{{end}}">
+            <div class="col-md-6 position-relative">
+              <div class="block bg-white rounded-sm shadow position-relative">
+                <div class="icon">
+                  {{ partial "image.html" (dict "Src" .image "Alt" "*" ) }}
+                </div>
+                <p class="h3 text-primary mb-3">{{if lt $i 9}}0{{end}}{{add $i 1}}</p>
+                <span class="h5 lh-sm text-black mb-3">{{.title | markdownify}}</span>
+                <hr class="text-primary opacity-100 mb-4" style="width:38px;height:2px;">
+                <p class="mb-0">{{ .description | markdownify }}</p>
+              </div>
+
+              {{if modBool $i 2}}
+              <svg class="text-primary line-right" width="268" height="420" viewBox="0 0 268 417" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 1H259C263.418 1 267 4.58172 267 9V417" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/>
+              </svg>
+              {{else}}
+              <svg class="text-primary line-left" width="268" height="420" viewBox="0 0 268 319" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M268 1H9C4.58172 1 1 4.58172 1 9V319" stroke="currentColor" stroke-width="2" stroke-dasharray="3 3"/>
+              </svg>
+              {{end}}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+      {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/flower-1.svg" "Alt" "*" "Class" "position-absolute flower-1" ) }}
+      {{ partial "image.html" (dict "Src" "images/power-of-biological-medicine/flower-2.svg" "Alt" "*" "Class" "position-absolute flower-2" ) }}
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden"></div>
 </section>
 {{ end }}
 {{ end }}

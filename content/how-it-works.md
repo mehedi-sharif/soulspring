@@ -8,7 +8,7 @@ wellness_journey:
   enable: true
   title: Your Whole Wellness Journey
   subtitle: Bio-individualized wellness solutions tailored just for you
-  image: "images/how-it-works/wellness-journey.jpg"
+  video: "images/how-it-works/video-01.mp4"
 
   journey_steps:
     - title: Move from reactive to preventative care
@@ -57,6 +57,28 @@ power_of_biological_medicine:
     - title: "Harmonization & Awareness"
       image: "images/power-of-biological-medicine/04.svg"
       description: "Encourage active participation across all programs to make wellness a 360° habit."
+
+unlock_power_of_biological_medicine:
+  enable: true
+  title: Unlock the power of biological medicine
+  subtitle: "The natural state of the body is health. Its regulatory systems maintain that wellness despite occasional threats. But those systems are often impaired by outside factors. At Minerva Clinic, we help you rekindle your body's natural power to heal and regenerate by combining the best of biological medicine, innovative medical technologies, and the wisdom of ancient holistic approaches."
+
+  features:
+    - title: "Diagnosis of Root Causes"
+      image: "images/power-of-biological-medicine/05.svg"
+      description: "We begin by understanding the cause rather than the symptoms. Accounting for stressors, toxins, and source of dysregulation & imbalance, we identify and isolate the cause."
+
+    - title: "Purification & Release"
+      image: "images/power-of-biological-medicine/05.svg"
+      description: "We begin by understanding the cause rather than the symptoms. Accounting for stressors, toxins, and source of dysregulation & imbalance, we identify and isolate the cause."
+      
+    - title: "Regeneration & Rejuvenation"
+      image: "images/power-of-biological-medicine/05.svg"
+      description: "We begin by understanding the cause rather than the symptoms. Accounting for stressors, toxins, and source of dysregulation & imbalance, we identify and isolate the cause."
+      
+    - title: "Harmonization & Awareness"
+      image: "images/power-of-biological-medicine/05.svg"
+      description: "We begin by understanding the cause rather than the symptoms. Accounting for stressors, toxins, and source of dysregulation & imbalance, we identify and isolate the cause."
 
 world_of_wellbeing:
   enable: true

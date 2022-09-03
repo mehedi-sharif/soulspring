@@ -2,7 +2,7 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        {{ partial "image.html" (dict "Src" "images/divider-vertical.svg" "Alt" "divider" "Class" "mx-auto" ) }}
+        <img src="{{(resources.Get `images/divider-vertical.svg`).RelPermalink}}" alt="divider" class="mx-auto">
       </div>
     </div>
   </div>

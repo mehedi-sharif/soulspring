@@ -58,27 +58,27 @@ wellness_solutions:
     care.
   solutions:
   - title: Energy
-    link: energy/
+    link: "#!"
     image: images/wellness-solutions/energy.svg
     image_active: images/wellness-solutions/energy-active.svg
   - title: Gut
-    link: gut/
+    link: "#!"
     image: images/wellness-solutions/gut.svg
     image_active: images/wellness-solutions/gut-active.svg
   - title: Heart
-    link: heart/
+    link: "#!"
     image: images/wellness-solutions/heart.svg
     image_active: images/wellness-solutions/heart-active.svg
   - title: Sleep
-    link: sleep/
+    link: "#!"
     image: images/wellness-solutions/sleep.svg
     image_active: images/wellness-solutions/sleep-active.svg
   - title: Mind
-    link: mind/
+    link: "#!"
     image: images/wellness-solutions/mind.svg
     image_active: images/wellness-solutions/mind-active.svg
   - title: Mood
-    link: mood/
+    link: "#!"
     image: images/wellness-solutions/mood.svg
     image_active: images/wellness-solutions/mood-active.svg
 how_it_works:
