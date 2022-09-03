@@ -79,4 +79,124 @@ wellness_report:
         link: "#"
       - label: Energetic Health
         link: "#"
+        
+
+initially_expects:
+  enable: true
+  title: What You Can Initially Expect
+  subtitle: We listen, learn and begin treatments to quickly recaliberate what’s best for you.  
+  block:
+    title: What Can You Expect When You Visit Minerva Clinic?
+    content: "DR. Richa Joy, Founder and Medical Director at Minerva Clinic, will personally work with you to understand your health concerns and design a treatment plan. She completed her AFMCP Certification from the Institute of Functional Medicine and received Advanced Nutrient Therapy (ANT) training for Brain health directly under Dr. William Walsh & Dr. Albert Mensah. Though each individual's treatment plan is unique, it is broadly divided into 3 steps."
+
+    clinic_features:
+      - title: First/Initial visit (60mins)
+        image: "images/initially-expects/01.svg"
+        lists:
+          - "Detailed biological/functional assessment, advanced biofeedback/neurofeedback testing"
+          - "HRV testing for appropriate cases"
+          - "Review of any past lab results and investigations Special labs ordered"
+
+      - title: Second visit/Consultation (45mins)
+        image: "images/initially-expects/02.svg"
+        lists:
+          - "Reviewing of Lab results (old & new) and providing necessary education and handouts"
+          - "Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene, stress management, mindfulness practices etc. ForChronic /complex conditions, Personalized Detox-therapy plan and/orRegeneration oxidative therapies plan is made."
+          
+      - title: Third visit/Consultation
+        image: "images/initially-expects/03.svg"
+        lists:
+          - "Assessment of your progress and response to therapies and treatment protocols till then"
+          - "Any adjustment or additions that may need to be made are assessed"
+          - "Personalized compounding prescriptions (for brain and behavioral health / WALSH protocol) are discussed in this visit"
+        
+
+medical_treatments:
+  enable: true
+  title: Sample Menu of Medical Treatments
+  subtitle: Bio-individualized wellness solutions, therapiest and treaments tailored just for you
+
+  therapies_and_treatments:
+    - title: "Audio Colour Therapy"
+      icon: "images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+
+    - title: "Brain Entrainment Technology"
+      icon: "images/therapies-and-treatments/icons/Brain-Entrainment-Technology.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Bio Resonance Suite"
+      icon: "images/therapies-and-treatments/icons/Bio-Resonance-Suite.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Brain Entrainment"
+      icon: "images/therapies-and-treatments/icons/Brain-Entrainment.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Bio Impedance Suite"
+      icon: "images/therapies-and-treatments/icons/Bio-Impedance-Suite.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Detox Foot Bath"
+      icon: "images/therapies-and-treatments/icons/Detox-Foot-Bath.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Heart Rate Variability"
+      icon: "images/therapies-and-treatments/icons/Heart-Rate-Variability.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "IV Nutrition"
+      icon: "images/therapies-and-treatments/icons/IV-Nutrition.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Information Field Technology"
+      icon: "images/therapies-and-treatments/icons/Information-Field-Technology.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Mindfulness Programs"
+      icon: "images/therapies-and-treatments/icons/Mindfulness-Programs.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Matrix Regeneration"
+      icon: "images/therapies-and-treatments/icons/Matrix-Regeneration.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Matrix Regeneration Therapy"
+      icon: "images/therapies-and-treatments/icons/Matrix-Regeneration-Therapy.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Nutrition & Lifestyle Coaching"
+      icon: "images/therapies-and-treatments/icons/Nutrition-and-Lifestyle-Coaching.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Shirodhara"
+      icon: "images/therapies-and-treatments/icons/Shirodhara.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+      
+    - title: "Voice Bio"
+      icon: "images/therapies-and-treatments/icons/Voice-Bio.svg"
+      content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
+        
+
+top_doctors:
+  enable: true
+  title: Top Medical Doctors & Expert Practioners
+  subtitle: Every Soul Spring clinic has a top board-certified Medical Doctor and practioners who exist to bring balance your mind-body-soul 
+  image: "images/banner/05.png"
+        
+
+holistic_health:
+  enable: true
+  title: This Is the Way of Holistic Health.
+  subtitle: Every Soul Spring clinic has a top board-certified Medical Doctor and practioners who exist to bring balance your mind-body-soul 
+  image: "images/holistic-health/holistic-health.png"
+
+
+call_to_action:
+  enable : true
+  title : "Ready to Experince Our Diffence?"
+  description : "Get a free consultation by filling out a 2-minute form online or visit a center in-person."
+  bg_image : "images/call-to-action-2.jpg"
+  button_label : "Free Consultation"
+  button_link : "#!"
 ---

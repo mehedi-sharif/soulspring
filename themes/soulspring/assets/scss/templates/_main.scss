@@ -1030,6 +1030,80 @@
   }
 }
 
+// initially-expects
+.initially-expects {
+  .block {
+    position: relative;
+    z-index: 5;
+    padding: 55px 60px;
+    max-width: calc(100% - 200px);
+    margin: 0 auto;
+    @include desktop {
+      max-width: calc(100% - 100px);
+    }
+    @include tablet {
+      min-width: 100%;
+      margin-top: 30px;
+      padding: 55px 20px;
+    }
+    @include mobile {
+      padding: 55px 20px;
+    }
+  }
+  .leaf {
+    right: -50px;
+  }
+  .feature-item {
+    > div {
+      padding: 0 10px;
+      position: relative;
+      @include mobile {
+        padding: 0;
+      }
+      &::after {
+        position: absolute;
+        content: "";
+        height: 100%;
+        width: 1px;
+        right: -12px;
+        bottom: 0;
+        background-color: #dadada;
+        @include desktop-lg {
+          height: 1px;
+          width: 100%;
+          right: 0;
+          bottom: -15px;
+        }
+      }
+    }
+    &:last-child > div {
+      &::after {
+        display: none;
+      }
+    }
+  }
+}
+
+// holistic_health
+.holistic-health {
+  .image-block {
+    padding: 0 20px;
+    background-color: rgba($color-secondary, 0.1);
+    @extend .pattern-bg;
+  }
+  .block {
+    position: relative;
+    z-index: 5;
+    margin-right: -80px;
+    @include desktop-lg {
+      margin-right: -50px;
+    }
+    @include desktop {
+      margin-right: 0;
+    }
+  }
+}
+
 // footer
 footer {
   background-color: rgba($color-secondary, 0.1);

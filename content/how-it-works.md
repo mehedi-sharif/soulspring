@@ -97,4 +97,12 @@ wellness_id:
       - Bio Scanning and Therapeutic Modalities
 
 
+# call_to_action
+call_to_action:
+  enable : true
+  title : "Questions in mind? We're Ready"
+  description : "We'll help out if you're unsure which insurance you need."
+  bg_image : "images/call-to-action.jpg"
+  button_label : "Launch Chat Now"
+  button_link : "#!"
 ---

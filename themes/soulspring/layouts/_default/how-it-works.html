@@ -245,7 +245,7 @@
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with site.Params.call_to_action }}
+{{ with .Params.call_to_action }}
 {{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
@@ -259,10 +259,10 @@
             <h2 class="text-white mb-4 pb-2 fw-normal lh-sm">{{ .title | markdownify }}</h2>
             <hr class="text-primary opacity-100 mt-4 mx-auto" style="width:48px;height:2px;">
 
-            <p class="text-white mb-4">{{ .description | markdownify }}</p>
+            <p class="text-white mb-4 pb-2">{{ .description | markdownify }}</p>
 
             {{ if .button_link }}
-            <a class="btn btn-primary" href="{{.button_link}}">{{.button_label}}</a>
+            <a class="btn btn-primary hover-light" href="{{.button_link}}">{{.button_label}}</a>
             {{ end }}
           </div>
 

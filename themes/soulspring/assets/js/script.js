@@ -2,21 +2,14 @@
 (function () {
   "use strict";
 
-  window.addEventListener(
-    "scroll",
-    () => {
-      var target = document.querySelector(".scroll-to-position");
-      if (window.pageYOffset > 150) {
-        target.classList.add("visible");
-      } else if (window.pageYOffset < 150) {
-        target.classList.remove("visible");
-      }
-      target.addEventListener("click", () => {
-        window.scrollTo({ top: 0, behavior: "smooth" });
-      });
-    },
-    false
-  );
+  window.addEventListener("scroll", () => {
+    const target = document.querySelector(".scroll-to-position");
+    const isVisible = window.pageYOffset > 150;
+    target.classList.toggle("visible", isVisible);
+    target.addEventListener("click", () => {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    });
+  });
 
   // Odometer init
   function playOdometer() {
