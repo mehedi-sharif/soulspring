@@ -92,6 +92,9 @@
         opacity: 0.75;
       }
     }
+    &.active .nav-link {
+      color: $color-primary;
+    }
   }
   .dropdown:hover {
     .nav-link {
@@ -99,8 +102,15 @@
       color: rgba($black, 0.7);
     }
   }
+  .dropdown.active:hover {
+    .nav-link {
+      opacity: 1;
+      color: rgba($color-primary, 0.7);
+    }
+  }
   .dropdown-item.active,
   .dropdown-item:active {
+    color: $color-primary;
     background-color: transparent;
   }
 

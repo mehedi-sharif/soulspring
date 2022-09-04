@@ -1200,6 +1200,128 @@
   }
 }
 
+// why-soulspring
+.why-soulspring {
+  .review-block {
+    bottom: 140px;
+  }
+  .leaf {
+    left: -60px;
+    top: 45%;
+  }
+  .soulspring-features {
+    position: relative;
+    z-index: 5;
+    padding: 55px;
+    max-width: calc(100% - 160px);
+    margin: 0 auto;
+    margin-top: -100px;
+    transition: 0.25s;
+    @include desktop-lg {
+      margin-top: 30px;
+      max-width: 100%;
+    }
+    @include tablet {
+      padding: 55px 40px;
+    }
+    .block {
+      padding: 0 30px;
+      &:not(:last-child) {
+        border-right: 1px solid #ddd;
+      }
+      @include desktop-lg {
+        &:nth-child(2) {
+          border-right: 0;
+        }
+      }
+      @include desktop {
+        padding: 0;
+        border: 0 !important;
+      }
+    }
+  }
+}
+
+// individual-bio-wellness-solutions
+.individual-bio-wellness-solutions {
+  .block {
+    .image {
+      background-color: #f5faf2;
+    }
+  }
+}
+
+// comparison-table
+.comparison-table {
+  background-color: #f5faf2;
+  .c-row {
+    &:not(:last-child) {
+      border-bottom: 1px solid #ececec;
+    }
+    display: flex;
+    .c-column {
+      padding: 20px 10px;
+      flex-basis: calc(72% / 5);
+      &:nth-child(1) {
+        padding: 20px 25px;
+        flex-basis: 28%;
+      }
+      &:not(:last-child) {
+        border-right: 1px solid #ececec;
+      }
+      &:not(:nth-child(1)) {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+      }
+      .percentage {
+        border-radius: 6px;
+        padding: 8px 5px;
+        text-align: center;
+        min-width: 90px;
+        font-weight: 600;
+      }
+    }
+  }
+}
+
+// ancient-healing
+.ancient-healing {
+  .block {
+    padding: 60px 20px;
+  }
+  .content-block {
+    @include mobile {
+      padding: 30px 20px !important;
+    }
+  }
+  .leaf-image {
+    max-width: 150px;
+    margin-left: -16px;
+    @include mobile {
+      max-width: 100px;
+      margin-left: -10px;
+    }
+  }
+  .leaf-rotate {
+    margin: auto;
+    max-width: 200px;
+    margin-top: -12px;
+  }
+  .reviews {
+    padding: 50px;
+    svg {
+      position: absolute;
+      margin-left: -30px;
+      margin-top: -40px;
+    }
+    .rounded-circle {
+      overflow: hidden;
+      border: 2px solid $color-primary;
+    }
+  }
+}
+
 // footer
 footer {
   background-color: rgba($color-secondary, 0.1);
