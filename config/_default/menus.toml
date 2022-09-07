@@ -59,8 +59,8 @@ name = "Get Started"
 url = "get-started/"
 weight = 1
 [[quick_links]]
-name = "Season Passes"
-url = "#!"
+name = "How It Works"
+url = "how-it-works/"
 weight = 2
 [[quick_links]]
 name = "Vacation Packages"
