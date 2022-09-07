@@ -23,8 +23,8 @@ name = "How it Works"
 url = "how-it-works/"
 weight = 2
 [[main]]
-name = "Solutions"
-url = "solutions/"
+name = "Offering"
+url = "offering/"
 weight = 5
 [[main]]
 name = "Doctors"

@@ -1252,19 +1252,40 @@
 }
 
 // comparison-table
+.pie {
+  width: 56px;
+  height: 56px;
+  border-radius: 50%;
+  box-shadow: 0 4px 25px #ddd;
+  &.zero {
+    background-color: #ffdcdc;
+  }
+}
 .comparison-table {
   background-color: #f5faf2;
+  .pie {
+    @include desktop {
+      width: 36px;
+      height: 36px;
+    }
+  }
   .c-row {
     &:not(:last-child) {
       border-bottom: 1px solid #ececec;
     }
     display: flex;
+    @include desktop {
+      flex-wrap: wrap;
+    }
     .c-column {
-      padding: 20px 10px;
+      padding: 15px 10px;
       flex-basis: calc(72% / 5);
       &:nth-child(1) {
-        padding: 20px 25px;
+        padding: 15px 25px;
         flex-basis: 28%;
+        @include desktop {
+          flex-basis: 100%;
+        }
       }
       &:not(:last-child) {
         border-right: 1px solid #ececec;
@@ -1273,13 +1294,23 @@
         display: flex;
         align-items: center;
         justify-content: center;
+        @include desktop {
+          flex-basis: 50%;
+        }
+        @include tablet {
+          flex-basis: 100%;
+        }
       }
-      .percentage {
-        border-radius: 6px;
-        padding: 8px 5px;
-        text-align: center;
-        min-width: 90px;
-        font-weight: 600;
+      @include desktop {
+        &-inner {
+          width: 90%;
+          img {
+            max-width: 100px;
+          }
+        }
+        padding: 10px;
+        border-right: 1px solid #ececec;
+        border-bottom: 1px solid #ececec;
       }
     }
   }

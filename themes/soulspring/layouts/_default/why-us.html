@@ -104,24 +104,37 @@
 <section class="section pb-3 has-overlay comparison-of-soulspring overflow-hidden">
   <div class="container">
     <div class="row">
-      <div class="col-lg-9 mx-auto text-center mb-5">
+      <div class="col-lg-9 mx-auto text-center mb-4">
         <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
         <p>{{.subtitle | markdownify}}</p>
       </div>
 
+      <div class="col-12 mb-5">
+        <div class="d-flex flex-wrap align-items-center justify-content-center">
+          <div class="mx-2 mb-1 pie zero d-inline-flex justify-content-center align-items-center text-primary small fw-bold">00%</div>
+          <div class="mx-2 mb-1 pie" style="background-image: conic-gradient(#e86851 25%, white 17%, white)"></div>
+          <div class="mx-2 mb-1 pie" style="background-image: conic-gradient(#e86851 50%, white 17%, white)"></div>
+          <div class="mx-2 mb-1 pie" style="background-image: conic-gradient(#e86851 75%, white 17%, white)"></div>
+          <div class="mx-2 mb-1 pie d-inline-flex justify-content-center align-items-center text-white small fw-bold" style="background-image: conic-gradient(#e86851 100%, white 17%, white)">100%</div>
+        </div>
+      </div>
+
       <div class="col-12">
         <div class="comparison-table shadow rounded overflow-hidden">
-          <div class="c-row">
+          <div class="c-row d-none d-lg-flex">
             <div class="c-column bg-white">&nbsp;</div>
             {{ range .competitors}}
             <div class="c-column lh-base text-center text-black">
-              {{if eq . "Soulspring" }}
+              {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
               <span class="px-2 px-xl-4">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
               {{else}}{{.}}{{end}}
             </div>
             {{ end }}
           </div>
+
+          {{ $competitors := .competitors }}
+
           {{ range .features}}
           <div class="c-row">
             <div class="c-column">
@@ -129,80 +142,110 @@
               <small class="lh-1">{{.subtitle}}</small>
             </div>
 
-            <div class="c-column bg-white"><span class="percentage" 
-              style="
-                {{- if and (gt (int (replaceRE `%` `` .soulspring)) 75) (lt (int (replaceRE `%` `` .soulspring)) 101) -}}
-                background:#E86851;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .soulspring)) 50) (lt (int (replaceRE `%` `` .soulspring)) 76) -}}
-                background:#ee8e7d;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .soulspring)) 25) (lt (int (replaceRE `%` `` .soulspring)) 51) -}}
-                background:#f4b4a8;color:#333
-                {{- else if and (gt (int (replaceRE `%` `` .soulspring)) 0) (lt (int (replaceRE `%` `` .soulspring)) 26) -}}
-                background:#f9d9d4;color:#333
-                {{- else -}}border:1px dashed #f4b4a8;color:#E86851
-                {{- end -}}
-              "
-            >{{.soulspring}}</span></div>
+            <div class="c-column bg-white">
+              <div class="c-column-inner d-flex align-items-center justify-content-between">
+                <div class="block d-block d-lg-none flex-grow-0">
+                  {{ range $i, $e := $competitors}}
+                  {{ if eq $i 0 }}
+                  <div class="lh-base text-black me-2">
+                    {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    {{else}}{{.}}{{end}}
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if lt (int (replaceRE `%` `` .soulspring)) 25}}
+                <div class="pie zero flex-shrink-0"></div>
+                {{ else }}
+                <div class="pie flex-shrink-0" style="background-image: conic-gradient(#e86851 {{.soulspring}}, white 17%, white)"></div>
+                {{ end }}
+              </div>
+            </div>
 
-            <div class="c-column bg-white"><span class="percentage" 
-              style="
-                {{- if and (gt (int (replaceRE `%` `` .conventional_medicine)) 75) (lt (int (replaceRE `%` `` .conventional_medicine)) 101) -}}
-                background:#E86851;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .conventional_medicine)) 50) (lt (int (replaceRE `%` `` .conventional_medicine)) 76) -}}
-                background:#ee8e7d;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .conventional_medicine)) 25) (lt (int (replaceRE `%` `` .conventional_medicine)) 51) -}}
-                background:#f4b4a8;color:#333
-                {{- else if and (gt (int (replaceRE `%` `` .conventional_medicine)) 0) (lt (int (replaceRE `%` `` .conventional_medicine)) 26) -}}
-                background:#f9d9d4;color:#333
-                {{- else -}}border:1px dashed #f4b4a8;color:#E86851
-                {{- end -}}
-              "
-            >{{.conventional_medicine}}</span></div>
+            <div class="c-column bg-white">
+              <div class="c-column-inner d-flex align-items-center justify-content-between">
+                <div class="block d-block d-lg-none flex-grow-0">
+                  {{ range $i, $e := $competitors}}
+                  {{ if eq $i 1 }}
+                  <div class="lh-base text-black me-2">
+                    {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    {{else}}{{.}}{{end}}
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if lt (int (replaceRE `%` `` .conventional_medicine)) 25}}
+                <div class="pie zero flex-shrink-0"></div>
+                {{ else }}
+                <div class="pie flex-shrink-0" style="background-image: conic-gradient(#e86851 {{.conventional_medicine}}, white 17%, white)"></div>
+                {{ end }}
+              </div>
+            </div>
 
-            <div class="c-column bg-white"><span class="percentage" 
-              style="
-                {{- if and (gt (int (replaceRE `%` `` .med_spa)) 75) (lt (int (replaceRE `%` `` .med_spa)) 101) -}}
-                background:#E86851;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .med_spa)) 50) (lt (int (replaceRE `%` `` .med_spa)) 76) -}}
-                background:#ee8e7d;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .med_spa)) 25) (lt (int (replaceRE `%` `` .med_spa)) 51) -}}
-                background:#f4b4a8;color:#333
-                {{- else if and (gt (int (replaceRE `%` `` .med_spa)) 0) (lt (int (replaceRE `%` `` .med_spa)) 26) -}}
-                background:#f9d9d4;color:#333
-                {{- else -}}border:1px dashed #f4b4a8;color:#E86851
-                {{- end -}}
-              "
-            >{{.med_spa}}</span></div>
+            <div class="c-column bg-white">
+              <div class="c-column-inner d-flex align-items-center justify-content-between">
+                <div class="block d-block d-lg-none flex-grow-0">
+                  {{ range $i, $e := $competitors}}
+                  {{ if eq $i 2 }}
+                  <div class="lh-base text-black me-2">
+                    {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    {{else}}{{.}}{{end}}
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if lt (int (replaceRE `%` `` .med_spa)) 25}}
+                <div class="pie zero flex-shrink-0"></div>
+                {{ else }}
+                <div class="pie flex-shrink-0" style="background-image: conic-gradient(#e86851 {{.med_spa}}, white 17%, white)"></div>
+                {{ end }}
+              </div>
+            </div>
 
-            <div class="c-column bg-white"><span class="percentage" 
-              style="
-                {{- if and (gt (int (replaceRE `%` `` .alternative_practitioner)) 75) (lt (int (replaceRE `%` `` .alternative_practitioner)) 101) -}}
-                background:#E86851;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .alternative_practitioner)) 50) (lt (int (replaceRE `%` `` .alternative_practitioner)) 76) -}}
-                background:#ee8e7d;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .alternative_practitioner)) 25) (lt (int (replaceRE `%` `` .alternative_practitioner)) 51) -}}
-                background:#f4b4a8;color:#333
-                {{- else if and (gt (int (replaceRE `%` `` .alternative_practitioner)) 0) (lt (int (replaceRE `%` `` .alternative_practitioner)) 26) -}}
-                background:#f9d9d4;color:#333
-                {{- else -}}border:1px dashed #f4b4a8;color:#E86851
-                {{- end -}}
-              "
-            >{{.alternative_practitioner}}</span></div>
+            <div class="c-column bg-white">
+              <div class="c-column-inner d-flex align-items-center justify-content-between">
+                <div class="block d-block d-lg-none flex-grow-0">
+                  {{ range $i, $e := $competitors}}
+                  {{ if eq $i 3 }}
+                  <div class="lh-base text-black me-2">
+                    {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    {{else}}{{.}}{{end}}
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if lt (int (replaceRE `%` `` .alternative_practitioner)) 25}}
+                <div class="pie zero flex-shrink-0"></div>
+                {{ else }}
+                <div class="pie flex-shrink-0" style="background-image: conic-gradient(#e86851 {{.alternative_practitioner}}, white 17%, white)"></div>
+                {{ end }}
+              </div>
+            </div>
 
-            <div class="c-column bg-white"><span class="percentage" 
-              style="
-                {{- if and (gt (int (replaceRE `%` `` .supplements)) 75) (lt (int (replaceRE `%` `` .supplements)) 101) -}}
-                background:#E86851;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .supplements)) 50) (lt (int (replaceRE `%` `` .supplements)) 76) -}}
-                background:#ee8e7d;color:white
-                {{- else if and (gt (int (replaceRE `%` `` .supplements)) 25) (lt (int (replaceRE `%` `` .supplements)) 51) -}}
-                background:#f4b4a8;color:#333
-                {{- else if and (gt (int (replaceRE `%` `` .supplements)) 0) (lt (int (replaceRE `%` `` .supplements)) 26) -}}
-                background:#f9d9d4;color:#333
-                {{- else -}}border:1px dashed #f4b4a8;color:#E86851
-                {{- end -}}
-              "
-            >{{.supplements}}</span></div>
+            <div class="c-column bg-white">
+              <div class="c-column-inner d-flex align-items-center justify-content-between">
+                <div class="block d-block d-lg-none flex-grow-0">
+                  {{ range $i, $e := $competitors}}
+                  {{ if eq $i 4 }}
+                  <div class="lh-base text-black me-2">
+                    {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    {{else}}{{.}}{{end}}
+                  </div>
+                  {{ end }}
+                  {{ end }}
+                </div>
+                {{ if lt (int (replaceRE `%` `` .supplements)) 25}}
+                <div class="pie zero flex-shrink-0"></div>
+                {{ else }}
+                <div class="pie flex-shrink-0" style="background-image: conic-gradient(#e86851 {{.supplements}}, white 17%, white)"></div>
+                {{ end }}
+              </div>
+            </div>
           </div>
           {{ end }}
         </div>
@@ -214,6 +257,121 @@
     {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
     {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
   </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.superior_results }}
+{{ if .enable }}
+<section class="section pb-3 has-overlay has-overlay-bgi ancient-healing overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center ">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <div class="row"><div class="col-lg-9 mx-auto">
+          <p>{{.subtitle | markdownify}}</p>
+        </div></div>
+      </div>
+    </div>
+
+    {{ with .features }}
+    <div class="row gy-4">
+      <div class="col-12">
+        <div class="block bg-white shadow rounded">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-12 text-center mb-5">
+              <h3 class="h4 fw-bold mb-4">{{.title | markdownify}}</h3>
+              <p class="text-primary">{{.subtitle | markdownify}}</p>
+              <hr class="text-primary opacity-100 mb-2 mx-auto" style="width:48px;height:1px;">
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+          
+          <div class="position-relative" style="z-index:1">
+            <div class="position-absolute w-100 h-100 translateX-middle translateY-middle d-none d-lg-block" style="z-index:-1">
+              <div class="row align-items-center justify-content-between h-100 pt-5">
+                <div class="col-lg-7 text-center mx-auto mt-5">
+                  {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false "Class" "mt-0 mt-xl-3") }}
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-between align-items-end gy-4" style="margin-bottom:30px">
+            {{ range first 2 .features_lists }}
+              <div class="col-xl-4 col-lg-5 text-center">
+                <div class="py-5 px-4 px-lg-5 shadow rounded-sm bg-white">
+                  {{ partial "image.html" (dict "Src" .image "Alt" .title ) }}
+                  <p class="text-black h6 fw-light font-secondary mb-2 mt-4">{{.title | markdownify}}</p>
+                  <hr class="text-muted opacity-25 mb-4 mx-auto" style="height:1px;">
+        
+                  {{ range $i, $e := .lists }}
+                  {{ if gt $i 0}}<hr class="text-muted opacity-100 mt-1 mb-2 mx-auto" style="width:18px;height:2px;">{{end}}
+                  <p>{{.}}</p>
+                  {{ end }}
+                </div>
+              </div>
+              {{ end }}
+            </div>
+
+            <div class="d-block d-lg-none mb-4">
+              <div class="row align-items-center justify-content-between h-100">
+                <div class="col-lg-7 text-center mx-auto">
+                  {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false) }}
+                </div>
+              </div>
+            </div>
+
+            <div class="row justify-content-between gy-4">
+            {{ range $i, $e:= .features_lists }}
+              {{ if gt $i 1}}
+                <div class="col-xl-4 col-lg-5 text-center">
+                  <div class="py-5 px-4 px-lg-5 shadow rounded-sm bg-white">
+                    {{ partial "image.html" (dict "Src" .image "Alt" .title ) }}
+                    <p class="text-black h6 fw-light font-secondary mb-2 mt-4">{{.title | markdownify}}</p>
+                    <hr class="text-muted opacity-25 mb-4 mx-auto" style="height:1px;">
+          
+                    {{ range $i, $e := .lists }}
+                    {{ if gt $i 0}}<hr class="text-muted opacity-100 mt-1 mb-2 mx-auto" style="width:18px;height:2px;">{{end}}
+                    <p>{{.}}</p>
+                    {{ end }}
+                  </div>
+                </div>
+                {{ end }}
+              {{ end }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ range .reviews }}
+      <div class="col-lg-6">
+        <div class="reviews rounded-sm bg-white shadow h-100">
+          <svg width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M56 78.8c0-4.4-1.2-8.1-3.5-11.1-1.6-2-3.8-3.4-6.6-4a17 17 0 0 0-7.7-.2c-.8-4.8.5-9.8 3.8-15.1 3.3-5.3 7.5-9.3 12.8-12l-8-11.4a53.4 53.4 0 0 0-27 31.4c-1.3 5-1.7 10.2-1 15.5a30 30 0 0 0 6.7 16.8c3.7 4.2 8.3 6.3 13.8 6.3a17 17 0 0 0 12-4.4c3-2.9 4.7-6.8 4.7-11.8Zm45.6 0c0-4.4-1.2-8.1-3.5-11.1a11.2 11.2 0 0 0-6.6-4c-2.8-.7-5.4-.7-7.7-.2-.8-4.7.4-9.7 3.7-15 3.3-5.4 7.6-9.4 12.8-12L92.5 25a54 54 0 0 0-20.8 18 41.9 41.9 0 0 0-7.3 29c.8 7 3 12.5 6.7 16.7 3.7 4.2 8.3 6.2 13.8 6.2a17 17 0 0 0 12-4.3c3.1-3 4.7-6.9 4.7-11.9Z" fill="#CDD3DD" fill-opacity=".4"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H120V120H0z"/></clipPath></defs></svg>
+
+          <p class="h5 text-black lh-base font-primary">{{ .content | markdownify }}</p>
+          <hr class="text-primary opacity-100 mb-3" style="width:48px;height:2px;">
+
+          <div class="d-flex justify-content-end align-items-center">
+            <div class="flex-grow-0 text-end me-4">
+              <p class="lead mb-0 text-black">{{.author | markdownify}}</p>
+              <p class="mb-0 small">{{.designation | markdownify}}</p>
+            </div>
+            <div class="flex-shrink-1">
+              {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false "Class" "rounded-circle") }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:45%"></div>
 </section>
 {{ end }}
 {{ end }}
@@ -234,48 +392,47 @@
           <p>{{.subtitle | markdownify}}</p>
         </div></div>
       </div>
+    </div>
 
-      <div class="row gy-4">
-        <div class="col-12">
-          <div class="block bg-white shadow rounded">
-            <div class="row align-items-center justify-content-center">
-              <div class="col-lg-5 text-center">
-                {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false) }}
-              </div>
-              <div class="col-xxl-5 col-lg-6">
-                <div class="d-block d-sm-flex align-items-center justify-content-center">
-                  <div class="content-block bg-white p-5 rounded-sm shadow">
-                    <h5 class="lh-base mb-0">{{.content | markdownify}}</h5>
-                  </div>
-                  {{ partial "image.html" (dict "Src" .leaf_image "Alt" .title "Resize" false "Webp" false "Class" "leaf-image d-none d-sm-block") }}
-                  {{ partial "image.html" (dict "Src" .leaf_rotate "Alt" .title "Resize" false "Webp" false "Class" "leaf-rotate d-block d-sm-none") }}
+    <div class="row gy-4">
+      <div class="col-12">
+        <div class="block bg-white shadow rounded">
+          <div class="row align-items-center justify-content-center">
+            <div class="col-lg-5 text-center">
+              {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false) }}
+            </div>
+            <div class="col-xxl-5 col-lg-6">
+              <div class="d-block d-sm-flex align-items-center justify-content-center">
+                <div class="content-block bg-white p-5 rounded-sm shadow">
+                  <h5 class="lh-base mb-0">{{.content | markdownify}}</h5>
                 </div>
+                {{ partial "image.html" (dict "Src" .leaf_image "Alt" .title "Resize" false "Webp" false "Class" "leaf-image d-none d-sm-block") }}
+                {{ partial "image.html" (dict "Src" .leaf_rotate "Alt" .title "Resize" false "Webp" false "Class" "leaf-rotate d-block d-sm-none") }}
               </div>
             </div>
           </div>
         </div>
-        {{ range .reviews }}
-        <div class="col-lg-6">
-          <div class="reviews rounded-sm bg-white shadow h-100">
-            <svg width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M56 78.8c0-4.4-1.2-8.1-3.5-11.1-1.6-2-3.8-3.4-6.6-4a17 17 0 0 0-7.7-.2c-.8-4.8.5-9.8 3.8-15.1 3.3-5.3 7.5-9.3 12.8-12l-8-11.4a53.4 53.4 0 0 0-27 31.4c-1.3 5-1.7 10.2-1 15.5a30 30 0 0 0 6.7 16.8c3.7 4.2 8.3 6.3 13.8 6.3a17 17 0 0 0 12-4.4c3-2.9 4.7-6.8 4.7-11.8Zm45.6 0c0-4.4-1.2-8.1-3.5-11.1a11.2 11.2 0 0 0-6.6-4c-2.8-.7-5.4-.7-7.7-.2-.8-4.7.4-9.7 3.7-15 3.3-5.4 7.6-9.4 12.8-12L92.5 25a54 54 0 0 0-20.8 18 41.9 41.9 0 0 0-7.3 29c.8 7 3 12.5 6.7 16.7 3.7 4.2 8.3 6.2 13.8 6.2a17 17 0 0 0 12-4.3c3.1-3 4.7-6.9 4.7-11.9Z" fill="#CDD3DD" fill-opacity=".4"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H120V120H0z"/></clipPath></defs></svg>
-
-            <p class="h5 text-black lh-base font-primary">{{ .content | markdownify }}</p>
-            <hr class="text-primary opacity-100 mb-3" style="width:48px;height:2px;">
-
-            <div class="d-flex justify-content-end align-items-center">
-              <div class="flex-grow-0 text-end me-4">
-                <p class="lead mb-0 text-black">{{.author | markdownify}}</p>
-                <p class="mb-0 small">{{.designation | markdownify}}</p>
-              </div>
-              <div class="flex-shrink-1">
-                {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false "Class" "rounded-circle") }}
-              </div>
-            </div>
-          </div>
-        </div>
-        {{ end }}
       </div>
+      {{ range .reviews }}
+      <div class="col-lg-6">
+        <div class="reviews rounded-sm bg-white shadow h-100">
+          <svg width="120" height="120" fill="none" xmlns="http://www.w3.org/2000/svg"><g clip-path="url(#a)"><path d="M56 78.8c0-4.4-1.2-8.1-3.5-11.1-1.6-2-3.8-3.4-6.6-4a17 17 0 0 0-7.7-.2c-.8-4.8.5-9.8 3.8-15.1 3.3-5.3 7.5-9.3 12.8-12l-8-11.4a53.4 53.4 0 0 0-27 31.4c-1.3 5-1.7 10.2-1 15.5a30 30 0 0 0 6.7 16.8c3.7 4.2 8.3 6.3 13.8 6.3a17 17 0 0 0 12-4.4c3-2.9 4.7-6.8 4.7-11.8Zm45.6 0c0-4.4-1.2-8.1-3.5-11.1a11.2 11.2 0 0 0-6.6-4c-2.8-.7-5.4-.7-7.7-.2-.8-4.7.4-9.7 3.7-15 3.3-5.4 7.6-9.4 12.8-12L92.5 25a54 54 0 0 0-20.8 18 41.9 41.9 0 0 0-7.3 29c.8 7 3 12.5 6.7 16.7 3.7 4.2 8.3 6.2 13.8 6.2a17 17 0 0 0 12-4.3c3.1-3 4.7-6.9 4.7-11.9Z" fill="#CDD3DD" fill-opacity=".4"/></g><defs><clipPath id="a"><path fill="#fff" d="M0 0H120V120H0z"/></clipPath></defs></svg>
 
+          <p class="h5 text-black lh-base font-primary">{{ .content | markdownify }}</p>
+          <hr class="text-primary opacity-100 mb-3" style="width:48px;height:2px;">
+
+          <div class="d-flex justify-content-end align-items-center">
+            <div class="flex-grow-0 text-end me-4">
+              <p class="lead mb-0 text-black">{{.author | markdownify}}</p>
+              <p class="mb-0 small">{{.designation | markdownify}}</p>
+            </div>
+            <div class="flex-shrink-1">
+              {{ partial "image.html" (dict "Src" .image "Alt" .title "Resize" false "Webp" false "Class" "rounded-circle") }}
+            </div>
+          </div>
+        </div>
+      </div>
+      {{ end }}
     </div>
   </div>
 
@@ -289,6 +446,48 @@
 
 <!-- divider -->
 {{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with site.GetPage "/offering" }}
+{{ with .Params.soulspring_therapies_and_treatments }}
+{{ if .enable }}
+<section class="section soulspring-therapies-and-treatments has-overlay">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
+        <h2 class="h3 fw-bold mb-4">{{.title_details | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{with .subtitle}}<p>{{. | markdownify}}</p>{{end}}
+      </div>
+    </div>
+    <div class="row justify-content-center gy-4">
+      {{ range sort .therapies_and_treatments "title" }}
+      <div class="col-lg-6">
+        <div id="{{.title | urlize | lower}}" tabindex="1" class="therapies-and-treatments-info-card rounded-sm border p-4 h-100 position-relative">
+          <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
+          <p class="lead text-dark fw-medium mt-2">{{ .title | markdownify }}</p>
+          <p>{{.content | markdownify}}</p>
+          {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/overlay.svg" "Alt" "*" "Class" "shape-overlay position-absolute top-0 end-0" ) }}
+        </div>
+      </div>
+      {{ end }}
+    </div>
+  </div>
+  <div class="overlay-block">
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-3.svg" "Alt" "*" "Class" "position-absolute top-50 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-4.svg" "Alt" "*" "Class" "position-absolute bottom-50 end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+<section class="section-sm pt-0">
+  {{ partial "components/divider.html" . }}
+</section>
 <!-- end divider -->
 
 {{ end }}

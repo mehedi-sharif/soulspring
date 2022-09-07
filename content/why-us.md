@@ -171,18 +171,29 @@ superior_results:
           - "6-month immersive Soul Spring Residency"
           - "Empowered to address root causes with preventative and regenerative modalities"
 
-      - title: "Third visit/Consultation"
-        image: "images/superior-results/01.svg"
+      - title: "Transformative MedTech"
+        image: "images/superior-results/02.svg"
         lists:
-          - "Top physicians (board -certified MDs)"
-          - "6-month immersive Soul Spring Residency"
-          - "Empowered to address root causes with preventative and regenerative modalities"
+          - "Bio-individualized, clinically-approved diagnostic, therapeutic and wellness devices"
+          - "Enables faster assessments and personalized treatments"
+
+      - title: "Proprietary Clinical Protocols"
+        image: "images/superior-results/03.svg"
+        lists:
+          - "20+ years of research and application of proprietary clinical protocols"
+          - "Environmental and lifestyle solutions optimizing holistic wellbeing"
+
+      - title: "Innovative Business Model"
+        image: "images/superior-results/04.svg"
+        lists:
+          - "Leverages doctors existing medical office and patient base for fast growth and profitability"
+          - "Co-ownership model with MDs"
 
 
 ancient_healing:
   enable: true
   title: "Blending the Best of Modern & Ancient Healing"
-  subtitle: "A bio-wellness and detox center, SoulSpring combines technology with ancient wisdom to create a holistic wellness experience for you."
+  content: "A bio-wellness and detox center, SoulSpring combines technology with ancient wisdom to create a holistic wellness experience for you."
   image: "images/ancient-healing/ancient-healing.png"
   leaf_image: "images/ancient-healing/leaf.png"
   leaf_rotate: "images/ancient-healing/leaf-rotate.png"
@@ -197,4 +208,36 @@ ancient_healing:
       designation: "Founder of Brownstone Research"
       image: "images/ancient-healing/reviewer-02.jpg"
       content: "There is no place on earth like it and it is a lens on the future, not only for our health but for the health of the industry."
+
+
+thrive_together:
+  enable: true
+  title: "We Believe Now Is the Time to Thrive Together"
+  subtitle: "Tired of not getting results? We get it. That’s why we do what we do. "
+  image: "images/thrive-together.jpg/thrive-together.jpg.png"
+
+  thrive_together_features:
+    - title: "People Want Higher Quality of Life"
+      image: ""
+
+    - title: "1 in 5 adults spend $ on alternative medicine"
+      image: ""
+      
+    - title: "People are living longer"
+      image: ""
+      
+    - title: "Health is the new wealth"
+      image: ""
+      
+    - title: "New Diseases, Lifestyle Issues and Chronic Conditions"
+      image: ""
+      
+    - title: "Individualized Wellbeing Requires Interplay of Mind-Body-Energy"
+      image: ""
+      
+    - title: "Does Not Address Root Problem Leading to Lifelong Drug Dependency & Major Side Effects"
+      image: ""
+      
+    - title: "Doctors Want to Go Beyond Reactive Care to Preven-tative Regenerative Care"
+      image: ""
 ---

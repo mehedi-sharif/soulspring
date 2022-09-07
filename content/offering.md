@@ -1,7 +1,7 @@
 ---
 title: "Solutions"
 description: "All solutions"
-layout: "solutions"
+layout: "offering"
 draft: false
 
 wellness_approach:
