@@ -63,6 +63,6 @@ name = "How It Works"
 url = "how-it-works/"
 weight = 2
 [[quick_links]]
-name = "Vacation Packages"
-url = "#!"
+name = "Offering"
+url = "offering/"
 weight = 3
