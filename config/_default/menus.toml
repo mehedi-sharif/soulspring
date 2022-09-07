@@ -70,3 +70,7 @@ weight = 3
 name = "Doctors"
 url = "doctors/"
 weight = "4"
+[[quick_links]]
+name = "About"
+url = "about-us/"
+weight = "5"
