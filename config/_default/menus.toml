@@ -56,7 +56,7 @@ url = "about-us/"
 weight = 15
 [[quick_links]]
 name = "Get Started"
-url = "#!"
+url = "get-started/"
 weight = 1
 [[quick_links]]
 name = "Season Passes"
