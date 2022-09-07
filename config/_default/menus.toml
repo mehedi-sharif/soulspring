@@ -55,7 +55,7 @@ parent = "About"
 url = "about-us/"
 weight = 15
 [[quick_links]]
-name = "Lift Tickets"
+name = "Get Started"
 url = "#!"
 weight = 1
 [[quick_links]]
