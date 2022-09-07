@@ -66,3 +66,7 @@ weight = 2
 name = "Offering"
 url = "offering/"
 weight = 3
+[[quick_links]]
+name = "Doctors"
+url = "doctors/"
+weight = "4"
