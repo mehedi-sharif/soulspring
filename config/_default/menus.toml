@@ -72,5 +72,5 @@ url = "doctors/"
 weight = "4"
 [[quick_links]]
 name = "About"
-url = "about-us/"
+url = "why-us/"
 weight = "5"
