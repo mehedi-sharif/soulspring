@@ -8,11 +8,11 @@ url = "about/"
 weight = 2
 [[company]]
 name = "Environment"
-url = "environment/"
+url = "#"
 weight = 3
 [[company]]
 name = "Privacy Policy"
-url = "privacy/"
+url = "#"
 weight = 4
 [[main]]
 name = "Get Started"
@@ -54,6 +54,11 @@ name = "About Us"
 parent = "About"
 url = "about-us/"
 weight = 15
+[[main]]
+name = "Supplements"
+parent = "About"
+url = "supplements/"
+weight = 50
 [[quick_links]]
 name = "Get Started"
 url = "get-started/"

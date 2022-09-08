@@ -11,8 +11,7 @@ banner:
   review_block:
     rating: "5"
     brand_logo: images/banner/review/brand.png
-    content: "“Soul Spring Medical Doctors reveal the root causes of mind-body-energy
-      imbalances and rapidly restore our natural ability to heal and live well beyond.”"
+    content: "“Soul Spring Medical Doctors reveal the root causes of mind-body-energy imbalances and rapidly restore our natural ability to heal and live well beyond.”"
   quick_link:
     enanle: true
     title: I'd like to find out

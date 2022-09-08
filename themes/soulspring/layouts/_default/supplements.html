@@ -1,0 +1,119 @@
+{{ define "main" }}
+
+{{ with .Params.personalized_supplement }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded" ) }}
+      </div>
+      <div class="col-11 col-lg-8 mx-auto" style="margin-top:-80px">
+        <div class="bg-white rounded shadow p-4 p-lg-5">
+          {{.content | markdownify}}
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:55%">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.supplement_bottle }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="row justify-content-center">
+      <div class="col-lg-12">
+        {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded" ) }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:55%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.supplement_feature }}
+{{ if .enable }}
+<section class="how-it-works has-overlay section">
+  <div class="container">
+    <div class="row g-0 align-items-center">
+      <div class="col-lg-5">
+        <div class="left-block bg-white rounded px-4 px-md-5 py-5 shadow mt-auto">
+          <h2 class="h3 mb-4">{{.title | markdownify}}</h2>
+          <hr class="text-primary opacity-100 mb-4" style="width:48px;height:2px;">
+          <p class="mb-0">{{.subtitle | markdownify}}</p>
+        </div>
+      </div>
+      <div class="col-lg-7">
+        {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` false `Resize` false `Class` "w-100 rounded" )}}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block" style="height:50%;top:50%;">
+    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-1.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-2.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+{{ with .Params.paramaceutical_grade }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <p>{{.subtitle | markdownify}}</p>
+      </div>
+    </div>
+    <div class="shadow bg-white p-4 p-lg-5 rounded">
+      <div class="row gy-4 align-items-center">
+        <div class="col-lg-6">
+          <div class="pe-0 pe-lg-4">
+            {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded w-100" ) }}
+          </div>
+        </div>
+        <div class="col-lg-5">
+          <div class="font-primary lh-base h6 text-dark text-center text-lg-start">{{.content | markdownify}}</div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:55%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+<section class="section pt-0">
+{{ partial "components/divider.html" . }}
+</section>
+<!-- end divider -->
+
+{{ end }}
