@@ -130,26 +130,159 @@
         </div>
       </div>
     </div>
-    <div class="row gy-4 justify-content-center">
-      {{ range .device_lists }}
-      <div class="col-lg-4 col-md-6">
-        <div class="shadow rounded h-100 overflow-hidden">
-          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "mb-0 w-100" ) }}
-          <div class="p-4">
-            <p class="text-black mb-2 mt-2 lh-base lead">{{ .title | markdownify }}</p>
-            {{ with .link }}
-            <a class="text-primary hover-underline" href="{{.url | safeURL}}">
-              {{.label | markdownify}}
-              <svg class="text-primary" width="20" height="20" viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path fill-rule="evenodd" clip-rule="evenodd" d="M12.3431 2.92961L18.7071 9.29357C19.0976 9.6841 19.0976 10.3173 18.7071 10.7078L12.3431 17.0717C11.9526 17.4623 11.3195 17.4623 10.9289 17.0717C10.5384 16.6812 10.5384 16.0481 10.9289 15.6575L15.5858 11.0007H2C1.44772 11.0007 1 10.553 1 10.0007C1 9.4484 1.44772 9.00068 2 9.00068H15.5858L10.9289 4.34383C10.5384 3.9533 10.5384 3.32014 10.9289 2.92961C11.3195 2.53909 11.9526 2.53909 12.3431 2.92961Z" fill="currentColor"/>
-              </svg>                  
-            </a>
+    {{ with .device_info }}
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="bg-white shadow rounded p-4 p-lg-5">
+          <ul class="nav nav-pills custom-nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+            {{ range $i, $e:= . }}
+            <li class="nav-item" role="presentation">
+              <button class="nav-link {{if eq $i 0}}active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}-tab" data-bs-toggle="pill" data-bs-target="#pills-{{.title|markdownify|lower|urlize}}" type="button" role="tab" aria-controls="pills-{{.title|markdownify|lower|urlize}}" aria-selected="{{if eq $i 0}}true{{else}}false{{end}}" aria-label="{{.title|markdownify}}">{{.title|markdownify}}</button>
+            </li>
+            {{ end }}
+          </ul>
+          <div class="tab-content border-0" id="pills-tabContent">
+            {{ range $i, $e:= . }}
+            <div class="tab-pane fade {{if eq $i 0}}show active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}" role="tabpanel" aria-labelledby="pills-{{.title|markdownify|lower|urlize}}-tab" tabindex="0">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                  <div class="content mb-4">{{.content | markdownify}}</div>
+                  {{ range .feature_lists }}
+                  <div class="d-flex align-items-center mt-2">
+                    <div class="flex-shrink-0 me-3">
+                      {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+                    </div>
+                    <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
+                  </div>
+                  {{ end }}
+
+                  {{ with .button }}
+                  <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+                  {{ end }}
+                </div>
+                <div class="col-lg-6">
+                  {{ partial "image.html" (dict `Src` .image `Alt` .title `Class` `rounded-sm` )}}
+                </div>
+              </div>
+            </div>
             {{ end }}
           </div>
         </div>
       </div>
-      {{ end }}
     </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:61%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.therapeutic_devices }}
+{{ if .enable }}
+<section id="therapeutic-devices" class="section pb-4 has-overlay overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p>{{.subtitle | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ with .device_info }}
+    <div class="row justify-content-center">
+      <div class="col-12">
+        <div class="bg-white shadow rounded p-4 p-lg-5">
+          <ul class="nav nav-pills custom-nav-pills mb-5 justify-content-center" id="pills-tab" role="tablist">
+            {{ range $i, $e:= . }}
+            <li class="nav-item" role="presentation">
+              <button class="nav-link {{if eq $i 0}}active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}-tab" data-bs-toggle="pill" data-bs-target="#pills-{{.title|markdownify|lower|urlize}}" type="button" role="tab" aria-controls="pills-{{.title|markdownify|lower|urlize}}" aria-selected="{{if eq $i 0}}true{{else}}false{{end}}" aria-label="{{.title|markdownify}}">{{.title|markdownify}}</button>
+            </li>
+            {{ end }}
+          </ul>
+          <div class="tab-content border-0" id="pills-tabContent">
+            {{ range $i, $e:= . }}
+            <div class="tab-pane fade {{if eq $i 0}}show active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}" role="tabpanel" aria-labelledby="pills-{{.title|markdownify|lower|urlize}}-tab" tabindex="0">
+              <div class="row align-items-center gy-4">
+                <div class="col-lg-6">
+                  <div class="content mb-4">{{.content | markdownify}}</div>
+                  {{ range .feature_lists }}
+                  <div class="d-flex align-items-center mt-2">
+                    <div class="flex-shrink-0 me-3">
+                      {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+                    </div>
+                    <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
+                  </div>
+                  {{ end }}
+
+                  {{ with .button }}
+                  <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+                  {{ end }}
+                </div>
+                <div class="col-lg-6">
+                  {{ partial "image.html" (dict `Src` .image `Alt` .title `Class` `rounded-sm` )}}
+                </div>
+              </div>
+            </div>
+            {{ end }}
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:61%">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.wegamed_and_soulspring }}
+{{ if .enable }}
+<section id="wegamed-and-soulspring" class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <div class="row">
+          <div class="col-lg-8 mx-auto">
+            <p>{{.subtitle | markdownify}}</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    {{ with .block }}
+    <div class="p-4 p-lg-5 bg-white rounded-sm shadow position-relative">
+      <div class="text-center mb-5">
+        <h3 class="h5 fw-bold mb-4">{{.title | markdownify}}</h3>
+        <hr class="text-primary opacity-100 mx-auto" style="width:28px;height:1px;">
+      </div>
+      <div class="row g-4 g-lg-5 align-items-center">
+        <div class="col-lg-6">
+          {{ partial "image.html" (dict "Src" .image "Alt" "*" "Class" "rounded-sm w-100" ) }}
+        </div>
+        <div class="col-lg-6">
+          <p>{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
   </div>
 
   <div class="overlay-block overflow-hidden" style="height:61%"></div>

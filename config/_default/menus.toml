@@ -54,6 +54,11 @@ name = "About Us"
 parent = "About"
 url = "about-us/"
 weight = 15
+[[main]]
+name = "Supplements"
+parent = "About"
+url = "supplements/"
+weight = 50
 [[quick_links]]
 name = "Get Started"
 url = "get-started/"
