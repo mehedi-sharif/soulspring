@@ -11,7 +11,8 @@ banner:
   review_block:
     rating: "5"
     brand_logo: images/banner/review/brand.png
-    content: "“Soul Spring Medical Doctors reveal the root causes of mind-body-energy imbalances and rapidly restore our natural ability to heal and live well beyond.”"
+    content: "“Soul Spring Medical Doctors reveal the root causes of mind-body-energy
+      imbalances and rapidly restore our natural ability to heal and live well beyond.”"
   quick_link:
     enanle: true
     title: I'd like to find out
@@ -292,14 +293,12 @@ frequently_asked_questions:
       Conventional medicines and drugs are increasingly proving to have short-term effects on illness, without treating the root cause. To deal with lifestyle issues, chronic conditions and environmental complications, the focus needs to shift to detoxification and rejuvenation from within.
 
       Soul Spring’s personalized therapy plans include detoxification and regeneration treatments designed to eliminate toxins, stressors, and imbalances within the body, restoring and strengthening the body’s natural ability to heal itself.
-
-
-
 call_to_action:
-  enable : true
-  title : "Want Us to Open A Location Near You?"
-  description : "Refer Soul Spring to Best-in-Class Hotels & Wellness Centers"
-  bg_image : "images/call-to-action-2.jpg"
-  button_label : "Refer Soul Spring"
-  button_link : "#!"
+  enable: true
+  title: Ready To Experience Our Difference?
+  description: Get a free consultation by completing this 2-minute online form
+  bg_image: images/call-to-action-1.jpg
+  button_label: Free Consultation
+  button_link: "#!"
+
 ---
