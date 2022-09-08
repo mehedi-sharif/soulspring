@@ -1,0 +1,315 @@
+{{ define "main" }}
+
+{{ with .Params.about_us }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay overflow-hidden about-us">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    <div class="bg-white rounded-sm shadow position-relative">
+      <div class="row g-0">
+        <div class="col-lg-6 h-100 p-xl-5 p-4 text-center align-self-center order-lg-0 order-1">
+          <h3 class="h4 px-lg-5 fw-medium">{{.content | markdownify}}</h3>
+          {{ with .button }}
+          {{ if .enable }}
+          <a class="btn me-2 mb-2 btn-primary" href="{{.link | absURL}}">{{.label}}</a>
+          {{ end }}
+          {{ end }}
+        </div>
+        <div class="col-lg-6 h-100 order-0 order-lg-1">
+          <div class="image-block position-relative">
+            {{ with .video_link }}
+            {{ $videoPath := . }}
+            {{ if hasPrefix $videoPath "http" }}
+              {{ $videoPath = $videoPath }}
+            {{ else if fileExists (add `assets/` $videoPath) }}
+              {{ $videoPath = (resources.Get $videoPath).RelPermalink }}
+            {{ else }}
+              {{ $videoPath = (print "/" $videoPath) }}
+            {{ end }}
+            <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{$videoPath}}">
+              <svg class="text-white" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle class="animate" cx="65" cy="65" r="56" fill="currentColor" fill-opacity="0.2"/>
+                <circle class="animate" cx="65" cy="65" r="55.5" stroke="currentColor" stroke-opacity="0.5"/>
+                <circle class="animate" cx="65" cy="65" r="48" fill="currentColor" fill-opacity="0.2"/>
+                <circle class="animate" cx="65" cy="65" r="47.5" stroke="currentColor" stroke-opacity="0.5"/>
+                <circle cx="65" cy="65" r="40" fill="currentColor"/>
+                <path class="text-primary" d="M81 63.2679C82.3333 64.0377 82.3333 65.9623 81 66.7321L58.5 79.7224C57.1667 80.4922 55.5 79.53 55.5 77.9904L55.5 52.0096C55.5 50.47 57.1667 49.5078 58.5 50.2776L81 63.2679Z" fill="currentColor"/>
+              </svg>
+            </div>
+            {{ end }}
+            {{ partial "image.html" (dict `Src` .video_thumbnail `Alt` `about doctors` `Webp` false `Resize` false `Class` "w-100 video-thumbnail" )}}
+          </div>
+        </div>
+      </div>
+      {{ partial "image.html" (dict "Src" "images/leaf-2.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height: 400px;">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+  </div>
+</section>
+
+{{ if .video_link }}
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <button id="modalClose" type="button" class="btn-close position-absolute end-0 shadow-none" style="top:-35px" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-0">
+        <iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen height="450px" id="modalVideo" class="ratio ratio-16x9 rounded-sm"></iframe>
+      </div>
+    </div>
+  </div>
+</div>
+{{ end }}
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.we_belive }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    {{ with .block }}
+    <div class="block bg-white rounded shadow">
+      <div class="row">
+        <div class="col-lg-6 col-md-8 text-center mx-auto">
+          <p class="h5 mt-4 pt-1">{{.title | markdownify}}</p>
+          <hr class="text-default opacity-100 mb-4 mx-auto" style="width:18px;height:2px;">
+          <p class="text-dark mb-4">{{.content | markdownify}}</p>
+        </div>
+      </div>
+    </div>
+    {{ end }}
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:50%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.mission }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay overflow-hidden mission">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    <div class="bg-white rounded-sm shadow position-relative">
+      <div class="row">
+        <div class="col-lg-6">
+          <div class="p-5">
+            {{ partial "image.html" (dict `Src` .image `Alt` `mission` `Webp` false `Resize` false `Class` "w-100 rounded-sm" )}}
+          </div>
+        </div>
+        <div class="col-lg-6 align-self-center">
+          <strong class="h5 fw-medium ps-lg-0 px-5 me-xl-5 d-block lh-base">{{.content | markdownify}}</strong>
+        </div>
+      </div>
+      {{ partial "image.html" (dict "Src" "images/holistic-doctors/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height: 400px;">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.purpose }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi purpose overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    <div class="overflow-hidden bg-white rounded shadow">
+      <div class="row">
+        {{ with .leftside }}
+        <div class="col-lg-6">
+          <div class="image-block">
+            {{ partial "image.html" (dict "Src" .image "Alt" "purpose" )}}
+            <p class="image-content">
+              {{.content | markdownify}}
+            </p>
+          </div>
+        </div>
+        {{ end }}
+        {{ with .rightside}}
+        <div class="col-lg-6 text-center">
+          <div class="p-5">
+            <h3 class="h4 fw-medium">{{.title | markdownify}}</h3>
+            <strong class="mb-4 lead">{{.content | markdownify}}</strong>
+            {{ partial "image.html" (dict "Src" .image "Alt" "purpose" "Size" "400x" )}}
+            </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:50%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.management_team }}
+{{ if .enable }}
+<section class="section pb-3 has-overlay overflow-hidden has-flower-between">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        <div class="row">
+          <div class="col-lg-8 mx-auto"><p>{{.subtitle | markdownify}}</p></div>
+        </div>
+      </div>
+    </div>
+    <div class="bg-white rounded-sm shadow position-relative p-5">
+      <div class="row">
+        {{ range .members }}
+        <div class="col-lg-4 col-md-6 team-card py-4">
+          <div class="card h-100 text-center border-0">
+            <div class="card-body">
+              {{ partial "image.html" (dict "Src" .image "Alt" .name "Class" "rounded-circle mb-4 shadow")}}
+              <h3 class="h5 fw-medium font-secondary mb-2">{{.name | markdownify}}</h3>
+              <span class="designation">{{.designation | markdownify}}</span>
+              <hr>
+              {{ range $i, $e:= .about }}
+              {{ if ne $i 0}}
+              <hr class="opacity-100 mx-auto my-2" style="width:18px;height:2px;">
+              {{ end }}
+              <p class="mb-0">{{ . | markdownify }}</p>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block" style="height:50%">
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.investors }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay has-overlay-bgi purpose overflow-hidden">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-4">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    <div class="overflow-hidden bg-white rounded shadow p-5">
+      <div class="row justify-content-center">
+        {{ range .members }}
+        <div class="col-xl col-lg-4 col-md-6 investor-card">
+          <div class="card h-100 text-center border-0">
+            <div class="card-body">
+              {{ partial "image.html" (dict "Src" .image "Alt" .name "Class" "rounded-circle mb-4 shadow")}}
+              <h3 class="h6 fw-medium font-secondary mb-2">{{.name | markdownify}}</h3>
+              <span class="text-primary">{{.designation | markdownify}}</span>
+              <p>{{.company | markdownify}}</p>
+              {{ partial "image.html" (dict "Src" .company_logo "Alt" .name "Class" "")}}
+            </div>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </div>
+  </div>
+
+  <div class="overlay-block overflow-hidden" style="height:50%"></div>
+</section>
+{{ end }}
+{{ end }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
+
+{{ with .Params.community }}
+{{ if .enable }}
+<section class="section pb-4 has-overlay overflow-hidden community">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-9 mx-auto text-center mb-5">
+        <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
+        <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
+        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
+      </div>
+    </div>
+    {{ partial "image.html" (dict "Src" .image "Class" "w-100 rounded-sm shadow")}}
+  </div>
+
+  <div class="overlay-block" style="height: 70%;">
+    {{ partial "image.html" (dict "Src" "images/leaf.svg" "Alt" "*" "Class" "leaf" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y start-0 d-none d-sm-block" ) }}
+    {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+  </div>
+</section>
+{{ end }}
+{{ end }}
+
+
+
+<!-- divider -->
+<section class="section-sm pt-0">
+  {{ partial "components/divider.html" . }}
+</section>
+<!-- end divider -->
+
+
+{{ end }}
