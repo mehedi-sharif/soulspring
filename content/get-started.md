@@ -115,7 +115,7 @@ medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
   subtitle: Bio-individualized wellness solutions, therapiest and treaments tailored just for you
-  section: "/solutions"
+  section: "/offering"
         
 
 top_doctors:

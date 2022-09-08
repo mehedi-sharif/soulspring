@@ -8,11 +8,11 @@ url = "about/"
 weight = 2
 [[company]]
 name = "Environment"
-url = "environment/"
+url = "#"
 weight = 3
 [[company]]
 name = "Privacy Policy"
-url = "privacy/"
+url = "#"
 weight = 4
 [[main]]
 name = "Get Started"

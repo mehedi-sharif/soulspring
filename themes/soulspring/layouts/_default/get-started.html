@@ -245,7 +245,7 @@
 
 {{ with .Params.medical_treatments }}
 {{ if .enable }}
-<section class="section soulspring-solutions soulspring-therapies-and-treatments has-overlay">
+<section class="section soulspring-solutions soulspring-therapies-and-treatments has-overlay has-overlay-bgi">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4 pb-2">
@@ -259,7 +259,7 @@
     <div class="row justify-content-center gy-4">
       {{ range sort .therapies_and_treatments "title" }}
       <div class="col-lg-3 col-md-4 col-sm-6">
-        <a class="soulspring-solutions-link w-100 text-start d-flex flex-column justify-content-center text-dark rounded-sm border mb-0 mb-lg-2 pt-3 py-4 h-100 position-relative" href="{{`/solutions` | relURL}}#{{.title | urlize | lower}}" style="font-size:18px">
+        <a class="soulspring-solutions-link w-100 text-start d-flex flex-column justify-content-center text-dark rounded-sm border mb-0 mb-lg-2 pt-3 py-4 h-100 position-relative" href="{{`/offering` | relURL}}#{{.title | urlize | lower}}" style="font-size:18px">
           <div>{{ partial "image.html" (dict "Src" .icon "Alt" "*") }}</div>
           <span class="d-flex align-items-center w-100">
             <span class="lh-base me-2 flex-grow-1">{{ .title | markdownify }}</span>
@@ -273,10 +273,7 @@
     {{ end }}
     {{ end }}
   </div>
-  <div class="overlay-block">
-    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/therapies-and-treatments/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
-  </div>
+  <div class="overlay-block"></div>
 </section>
 {{ end }}
 {{ end }}
