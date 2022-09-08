@@ -28,7 +28,7 @@ url = "offering/"
 weight = 5
 [[main]]
 name = "Doctors"
-url = "doctors/"
+url = "our-doctors/"
 weight = 10
 [[main]]
 name = "Locations"
