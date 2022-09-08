@@ -27,6 +27,10 @@ name = "Offering"
 url = "offering/"
 weight = 5
 [[main]]
+name = "Technology"
+url = "technology/"
+weight = 15
+[[main]]
 name = "Doctors"
 url = "our-doctors/"
 weight = 10
@@ -36,19 +40,15 @@ parent = "About"
 url = "locations/"
 weight = 25
 [[main]]
-name = "Technology"
-url = "technology/"
-weight = 15
+name = "Why Us"
+parent = "About"
+url = "why-us/"
+weight = 10
 [[main]]
 hasChildren = true
 name = "About"
 url = "#"
 weight = 15
-[[main]]
-name = "Why Us"
-parent = "About"
-url = "why-us/"
-weight = 10
 [[main]]
 name = "About Us"
 parent = "About"
