@@ -297,7 +297,7 @@ call_to_action:
   enable: true
   title: Ready To Experience Our Difference?
   description: Get a free consultation by completing this 2-minute online form
-  bg_image: images/call-to-action-1.jpg
+  bg_image: images/soulspring-clinics/soulspring-clinics.jpg
   button_label: Free Consultation
   button_link: "#!"
 
