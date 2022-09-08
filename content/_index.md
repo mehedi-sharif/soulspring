@@ -294,4 +294,13 @@ frequently_asked_questions:
 
       Soul Spring’s personalized therapy plans include detoxification and regeneration treatments designed to eliminate toxins, stressors, and imbalances within the body, restoring and strengthening the body’s natural ability to heal itself.
 
+
+
+call_to_action:
+  enable : true
+  title : "Want Us to Open A Location Near You?"
+  description : "Refer Soul Spring to Best-in-Class Hotels & Wellness Centers"
+  bg_image : "images/call-to-action-2.jpg"
+  button_label : "Refer Soul Spring"
+  button_link : "#!"
 ---

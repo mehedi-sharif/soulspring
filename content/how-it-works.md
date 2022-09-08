@@ -9,6 +9,7 @@ wellness_journey:
   title: Your Whole Wellness Journey
   subtitle: Bio-individualized wellness solutions tailored just for you
   video: "images/how-it-works/video-01.mp4"
+  video_thumbnail: "images/how-it-works/thumb.jpg"
 
   journey_steps:
     - title: Move from reactive to preventative care

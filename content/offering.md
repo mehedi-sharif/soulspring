@@ -205,4 +205,12 @@ soulspring_therapies_and_treatments:
       icon: "images/therapies-and-treatments/icons/Voice-Bio.svg"
       content: "Utilizing harmonious color spectrum and sound vibrations, this non- invasive method is designed to reinforce the overall constitution of your body. It reduces susceptibility to environmental pollution and stress factors by stimulating the autonomic nervous system and aiding in regulation of the circulatory system."
           
+
+call_to_action:
+  enable : true
+  title : "Want Us to Open A Location Near You?"
+  description : "Refer Soul Spring to Best-in-Class Hotels & Wellness Centers"
+  bg_image : "images/call-to-action-2.jpg"
+  button_label : "Refer Soul Spring"
+  button_link : "#!"
 ---

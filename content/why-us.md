@@ -214,30 +214,40 @@ thrive_together:
   enable: true
   title: "We Believe Now Is the Time to Thrive Together"
   subtitle: "Tired of not getting results? We get it. That’s why we do what we do. "
-  image: "images/thrive-together.jpg/thrive-together.jpg.png"
+  image: "images/thrive-together/thrive-together.jpg"
 
   thrive_together_features:
     - title: "People Want Higher Quality of Life"
-      image: ""
+      image: "images/thrive-together/01.svg"
 
     - title: "1 in 5 adults spend $ on alternative medicine"
-      image: ""
+      image: "images/thrive-together/02.svg"
       
     - title: "People are living longer"
-      image: ""
+      image: "images/thrive-together/03.svg"
       
     - title: "Health is the new wealth"
-      image: ""
+      image: "images/thrive-together/04.svg"
       
     - title: "New Diseases, Lifestyle Issues and Chronic Conditions"
-      image: ""
+      image: "images/thrive-together/05.svg"
       
     - title: "Individualized Wellbeing Requires Interplay of Mind-Body-Energy"
-      image: ""
+      image: "images/thrive-together/06.svg"
       
     - title: "Does Not Address Root Problem Leading to Lifelong Drug Dependency & Major Side Effects"
-      image: ""
+      image: "images/thrive-together/07.svg"
       
     - title: "Doctors Want to Go Beyond Reactive Care to Preven-tative Regenerative Care"
-      image: ""
+      image: "images/thrive-together/08.svg"
+
+      
+
+call_to_action:
+  enable : true
+  title : "Want Us to Open A Location Near You?"
+  description : "Refer Soul Spring to Best-in-Class Hotels & Wellness Centers"
+  bg_image : "images/call-to-action-2.jpg"
+  button_label : "Refer Soul Spring"
+  button_link : "#!"
 ---
