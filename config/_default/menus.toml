@@ -45,11 +45,6 @@ parent = "About"
 url = "why-us/"
 weight = 10
 [[main]]
-hasChildren = true
-name = "About"
-url = "#"
-weight = 15
-[[main]]
 name = "About Us"
 parent = "About"
 url = "about-us/"
