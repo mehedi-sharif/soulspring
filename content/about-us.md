@@ -136,7 +136,8 @@ investors:
 community:
   enable: true
   title: Our Community & Ecosystem
-  subtitle: We are ever expanding our global circle of meaningful worldwide
+  subtitle: We are continually expanding our global circle of meaningful relationships
+    worldwide
   image: images/about/community.jpg
 
 ---
