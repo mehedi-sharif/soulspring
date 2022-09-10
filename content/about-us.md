@@ -1,5 +1,5 @@
 ---
-title: Our Doctors
+title: Our Doctor
 description: All solutions
 layout: about-us
 about_us:
@@ -138,5 +138,6 @@ community:
   title: Our Community & Ecosystem
   subtitle: We are ever expanding our global circle of meaningful worldwide
   image: images/about/community.jpg
+draft: true
 
 ---
