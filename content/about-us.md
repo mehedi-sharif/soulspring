@@ -19,7 +19,7 @@ we_belive:
   subtitle: The human body is amazing and is capable of healing and regeneration.
   block:
     title: The Human Body Is Amazing.
-    content: It is capable of healing, and regeneration. With a greater understanding
+    content: It is capable of healing and regeneration. With a greater understanding
       of tools and therapy, we can greatly improve the health, wellness, and life
       of people throughout the world.
 mission:
