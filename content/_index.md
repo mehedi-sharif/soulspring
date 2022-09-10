@@ -103,8 +103,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: "[ Initial Consultation] <br/> Development of a Personalized Therapy
-        Plan"
+      content: Initial Consultation <br/> Development of a Personalized Therapy Plan
       description: 'The results of the diagnostics and assessment provide a roadmap
         to underlying imbalances and/or dysregulations and allow the Medical Doctor
         to immediately start addressing your concerns. A personalized therapy plan
@@ -114,7 +113,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: "[ The Therapy Journey ] <br/> Your Path to Wellness"
+      content: The Therapy Journey <br/> Your Path to Wellness
       description: 'Your Personalized Therapy Plan will include bio-individualized
         detoxification and regeneration therapies designed to correct dysfunctional
         biological processes within the body, restoring and strengthening the natural
@@ -125,7 +124,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: "[ Mid-Journey Revisit ] <br/> Assessment for Any Adjustment"
+      content: Mid-Journey Revisit <br/> Assessment for Any Adjustment
       description: 'As your wellness partner, it is important for us to stay in touch.
         A personalized follow-up consultation will be scheduled for you to revisit
         and assess your progress mid-journey and make any necessary adjustments to
