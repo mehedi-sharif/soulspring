@@ -8,7 +8,7 @@ why_soulspring:
   subtitle: Discover how Soul Spring can elevate your health and wellness
   image: images/why-soulspring/why-soulspring.jpg
   review_block:
-    reviewer: "- Dr. Peter Mölleney"
+    reviewer: "- Dr. Peter Mölleney, Wegamed"
     content: "“We offer the ability to understand the Human Being, not as a set of
       problems to fix, but as a system.”"
   soulspring_features:
