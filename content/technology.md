@@ -11,9 +11,9 @@ technology_banner:
   video_thumbnail: images/technology/thumb.jpg
 benefit_summary:
   enable: true
-  title: At-a-glance Benefit Summary
-  subtitle: State-of-the-art techonlogy enables insightst normal lab tests may miss
-    to identify hidden causes of root causes of diseases.
+  title: At-a-Glance Benefit Summary
+  subtitle: State-of-the-art technology identifies hidden root causes of disease traditional
+    lab tests may miss.
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/technology/thumb.jpg
   benefit_lists:
