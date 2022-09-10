@@ -1460,3 +1460,172 @@ footer {
     }
   }
 }
+
+.about-doctors {
+  .video-thumbnail {
+    border-radius: 0 0.5rem 0.5rem 0;
+    @include desktop {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+  }
+  .leaf {
+    top: 60%;
+    right: -50px;
+    z-index: 1;
+    @include desktop {
+      top: 30%;
+    }
+  }
+}
+
+.advisory-board {
+  .leaf {
+    bottom: 10%;
+    left: -30px;
+    z-index: 1;
+  }
+}
+
+.hiring {
+  .image {
+    border-radius: 0.5rem 0 0 0.5rem;
+    @include desktop {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+  }
+  .leaf {
+    top: 60%;
+    right: -50px;
+    z-index: -1;
+    @include desktop {
+      top: 30%;
+    }
+  }
+}
+
+.about-us {
+  .video-thumbnail {
+    border-radius: 0 0.5rem 0.5rem 0;
+    @include desktop {
+      border-radius: 0.5rem 0.5rem 0 0;
+    }
+  }
+  .leaf {
+    top: 60%;
+    left: -50px;
+    z-index: 1;
+    @include desktop {
+      top: 30%;
+    }
+  }
+}
+
+.mission {
+  .leaf {
+    top: 60%;
+    right: -50px;
+    z-index: 1;
+    @include desktop {
+      top: 30%;
+    }
+  }
+}
+
+.purpose {
+  .image-block {
+    position: relative;
+    height: 100%;
+    img {
+      height: 100%;
+      width: 100%;
+      object-fit: cover;
+    }
+  }
+  .image-content {
+    padding: 1rem;
+    border-radius: 0.5rem;
+    background-color: #96a8a1;
+    color: $white;
+    position: absolute;
+    left: 5%;
+    bottom: 5%;
+    width: 90%;
+    margin-bottom: 0;
+  }
+}
+
+.team-card {
+  &:not(:last-child) {
+    border-right: 1px solid #dedede;
+    border-bottom: 1px solid #dedede;
+  }
+  &:nth-child(3) {
+    border-right-color: transparent;
+  }
+  &:nth-child(4) {
+    border-bottom-color: transparent;
+  }
+  &:nth-child(5) {
+    border-bottom-color: transparent;
+  }
+  .designation {
+    color: $color-primary;
+    font-size: 0.8rem;
+  }
+  @include desktop {
+    &:nth-child(2) {
+      border-right-color: transparent;
+    }
+    &:nth-child(3) {
+      border-right-color: #dedede;
+    }
+    &:nth-child(4) {
+      border-right-color: transparent;
+      border-bottom-color: #dedede;
+    }
+  }
+  @include tablet {
+    border-right-color: transparent !important;
+  }
+}
+
+.investor-card {
+  margin-bottom: 3rem;
+  &:not(:last-child) {
+    border-right: 1px solid #dedede;
+  }
+  @include desktop-lg {
+    &:nth-child(3) {
+      border-right-color: transparent;
+    }
+  }
+  @include desktop {
+    &:nth-child(2) {
+      border-right-color: transparent;
+    }
+    &:nth-child(3) {
+      border-right-color: #dedede;
+    }
+    &:nth-child(4) {
+      border-right-color: transparent;
+    }
+  }
+  @include tablet {
+    border-right-color: transparent !important;
+    &:not(:last-child) {
+      border-bottom: 1px solid #dedede !important;
+    }
+  }
+}
+
+.community {
+  .leaf {
+    position: absolute;
+    top: 60%;
+    right: -20px;
+    z-index: 1;
+    @include desktop {
+      top: 30%;
+    }
+  }
+}
