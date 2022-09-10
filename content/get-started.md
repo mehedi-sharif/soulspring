@@ -43,11 +43,11 @@ understanding_bio:
       label: Read More Details
       link: "#!"
     content: |-
-      Simply stated, bio-individuality means we are all unique - biochemically, physically,emotionally, and mentally. So why would we accept a “universal” approach toaddressing our own unique health and nutritional needs?
+      Simply stated, bio-individuality means we are all unique - biochemically, physically, emotionally, and mentally. So why would we accept a “universal” approach to addressing our own unique health and nutritional needs?
 
-      At Soul Spring, we specialize in discovering what makes you...you. We understand that biological factors and stress factors influence your personality,behavior, mental health and immune system.
+      At Soul Spring, we specialize in discovering what makes you...you. We understand that biological factors and stress factors influence your personality, behavior, mental health and immune system.
 
-      There are about 60 chemical elements in our bodies, and each plays a key role in theexpression of our genes. We inherit characteristics from our parents, as well as from ancestors on both sides of our family. While diet and stressful life events can create **biochemical imbalances**, the root cause of health challenges often goes back to genetics and epigenetics (the influence of environmental factors in a person’s life that turns genes ‘on’ and ‘off’ without changing the DNA sequence). Additionally, **nutrient imbalances** -- both deficiencies and excess -- can alter brain levels of key neurotransmitters and in turn lead to brain and behavioral health issues.
+      There are about 60 chemical elements in our bodies, and each plays a key role in the expression of our genes. We inherit characteristics from our parents, as well as from ancestors on both sides of our family. While diet and stressful life events can create **biochemical imbalances**, the root cause of health challenges often goes back to genetics and epigenetics (the influence of environmental factors in a person’s life that turns genes ‘on’ and ‘off’ without changing the DNA sequence). Additionally, **nutrient imbalances** -- both deficiencies and excess -- can alter brain levels of key neurotransmitters and in turn lead to brain and behavioral health issues.
 
       Our bio-individualized therapies and treatments combine thousands of years of natural medicine wisdom with cutting-edge technology to address these imbalances and restore your body’s natural ability to heal itself. Find out how Soul Spring can design a bio-individualized experience for you....
 wellness_report:
