@@ -13,9 +13,9 @@ why_soulspring:
       problems to fix, but as a system.”"
   soulspring_features:
     title: Helping You Feel Your Best
-    subtitle: Our passion for improving the lives of people everywhere is what sets
-      us apart. We're here to make Hyper Wellness® accessible and affordable for people
-      committed to feeling their best.
+    subtitle: Our passion for improving people's lives is what sets us apart. We're
+      here to make Hyper Wellness® accessible and affordable for people committed
+      to feeling their best.
     features_list:
     - title: Top Doctors
       image: images/why-soulspring/icon/01.svg
