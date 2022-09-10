@@ -4,12 +4,12 @@ description: All solutions
 layout: get-started
 soulspring_experience:
   enable: true
-  title: Welcome to the Soulspring Experience
+  title: Welcome to the Soul Spring Experience
   subtitle: Restore the natural balance of your body with bio-individualized therapies
     uniquely designed for you.
   image: images/get-started/soulspring-experience.jpg
   review_block:
-    reviewer: "- Dr. Molleney"
+    reviewer: "- Dr. Peter Mölleney, Wegamed"
     content: "“We offer the ability to understand the Human Being, not as a set of
       problems to fix, but as a system.”"
 cause_of_problem:
