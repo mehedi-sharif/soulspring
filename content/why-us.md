@@ -28,7 +28,7 @@ why_soulspring:
       subtitle: Wellness made convenient & affordable
     - title: Results
       image: images/why-soulspring/icon/04.svg
-      subtitle: A fun & relaxing experience you'll love
+      subtitle: A caring environment and relaxing experience you'll love
 individual_bio_wellness_solutions:
   enable: true
   title: Individualized Bio-wellness Solutions
