@@ -203,7 +203,7 @@ holistic_doctors:
       content: With Soul Spring, I can help my patients reach another level of health
         and live life fully, with more vitality and more energy.
   - name: Mike Riippa
-    image: "/images/mike-rippa_sept2022_2.png"
+    image: "/images/picture3.png"
     qualifications:
     - 'R.N. / Manager, Woodlands Natural Health (Soul Spring Woodlands) '
     quote:
