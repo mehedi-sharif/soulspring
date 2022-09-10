@@ -23,6 +23,20 @@ about_doctors:
 meet_doctors:
   enable: true
   title: "Meet Your Doctor"
+  doctors:
+  - name: "Chesda Eng, MD"
+    image: "images/our-doctors/doctors/chesda.png"
+    location: "Brickell, Miami"
+    institute: "Albert Einstein College of Medicine"
+    internship: "Internal Medicine at NYU Langone"
+    bio: "Chesda has a special interest in preventive health and management of chronic diseases, with a keen interest in smoking cessation. He values getting to know his members on a personal level. Prior to Forward, Chesda practiced medicine at Providence St Joseph."
+    doctors_quote:
+      title: "Why I practice at Soul Spring"
+      content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+    patients_quote:
+      name: "Jackie L, Newport Beach Member"
+      star: "5"
+      content: "Dr. Chesda was wonderful and listened to me carefully. He spent over an hour going over my medical history and developed a care plan to meet my personal needs."
 
 
 advisory_board:

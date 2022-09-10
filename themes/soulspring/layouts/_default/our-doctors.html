@@ -85,12 +85,86 @@
         {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
       </div>
     </div>
-    {{ with .we_look_deeper }}
     <div class="block bg-white rounded shadow">
-      <div class="row gy-4 justify-content-between">
+      <div class="row gx-5">
+        <div class="col-lg-8 mx-auto text-center mb-5">
+          <h3 class="h6 fw-medium font-secondary">Serach Here For Doctors</h3>
+          <hr class="text-default opacity-100 mb-4 mx-auto" style="width:18px;height:2px;">
+          <select name="doctors" id="doctors" class="form-control">
+            <option value="chesdan" >Chesda</option>
+            <option value="chesdan" >Chesda</option>
+            <option value="chesdan" >Chesda</option>
+          </select>
+        </div>
+        {{ range .doctors }}
+        <div class="col-lg-6">
+          <div class="d-flex">
+            <div class="flex-shrink-0">
+              {{ partial "image.html" (dict "Src" .image "Alt" .name "Size" "100x100") }}
+            </div>
+            <div class="ms-4">
+              <h4 class="h5 fw-medium font-secondary mb-3 pb-2 border-bottom border-light">{{ .name | markdownify }}</h4>
+              {{ with .institute }}
+              <div class="d-flex mb-3 pb-3 border-bottom border-light">
+                <div class="flex-shrink-0 me-2 align-self-start">
+                  {{ partial "image.html" (dict "Src" "images/institute.svg" ) }}
+                </div>
+                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+              </div>
+              {{ end }}
+              {{ with .internship }}
+              <div class="d-flex mb-3 pb-3 border-bottom border-light">
+                <div class="flex-shrink-0 me-2 align-self-start">
+                {{ partial "image.html" (dict "Src" "images/internship.svg" ) }}
+              </div>
+                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+              </div>
+              {{ end }}
+              {{ with .bio }}
+              <div class="d-flex">
+                <div class="flex-shrink-0 me-2 align-self-start">
+                  {{ partial "image.html" (dict "Src" "images/user.svg" ) }}
+                </div>
+                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+              </div>
+              {{ end }}
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-6">
+          {{ with .doctors_quote }}
+          <div class="shadow rounded-3 p-4 d-flex mb-4">
+            <div class="align-self-start flex-shrink-0">
+              {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
+            </div>
+            <div class="ms-2">
+              <h4 class="h6 fw-medium font-secondary mb-3">{{ .title | markdownify}}</h4>
+              <p>{{.content | markdownify}}</p>
+            </div>
+          </div>
+          {{ end }}
+          {{ with .patients_quote }}
+          <div class="shadow rounded-3 p-4 d-flex">
+            <div class="align-self-start flex-shrink-0">
+              {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
+            </div>
+            <div class="ms-2">
+              <ul class="list-inline">
+                {{ range seq (int .star) }}
+                <li class="list-inline-item">
+                  {{ partial "image.html" (dict "Src" "images/star.svg" ) }}
+                </li>
+                {{ end }}
+              </ul>
+              <p class="mb-4">"{{.content | markdownify}}"</p>
+              <p class="mb-0">{{.name | markdownify}}</p>
+            </div>
+          </div>
+          {{ end }}
+        </div>
+        {{ end }}
       </div>
     </div>
-    {{ end }}
   </div>
 
   <div class="overlay-block overflow-hidden" style="height:70%"></div>
