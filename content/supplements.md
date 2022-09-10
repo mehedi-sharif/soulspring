@@ -21,8 +21,8 @@ supplement_bottle:
   image: images/supplements/supplements-2.jpg
 supplement_feature:
   enable: true
-  title: Your Ideal Mix Changes as You Do over Time
-  subtitle: Instead of buying dozens of vitamens and subscriptions we customize an
+  title: Your Ideal Mix Changes as You Do Over Time
+  subtitle: Instead of buying dozens of vitamins and subscriptions we customize an
     all-in-one for you
   image: images/supplements/supplements-3.jpg
 paramaceutical_grade:
