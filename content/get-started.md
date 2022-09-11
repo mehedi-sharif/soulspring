@@ -75,25 +75,22 @@ wellness_report:
 initially_expects:
   enable: true
   title: What You Can Initially Expect
-  subtitle: We listen, learn and begin treatments to quickly recaliberate what’s best
+  subtitle: We listen, learn and begin treatments to quickly recalibrate what’s best
     for you.
   block:
-    title: What Can You Expect When You Visit Minerva Clinic?
-    content: DR. Richa Joy, Founder and Medical Director at Minerva Clinic, will personally
-      work with you to understand your health concerns and design a treatment plan.
-      She completed her AFMCP Certification from the Institute of Functional Medicine
-      and received Advanced Nutrient Therapy (ANT) training for Brain health directly
-      under Dr. William Walsh & Dr. Albert Mensah. Though each individual's treatment
-      plan is unique, it is broadly divided into 3 steps.
+    title: What Can You Expect When You Visit Soul Spring?
+    content: Our Medical Directors and staff will personally work with you to understand
+      your health concerns and design a treatment plan. Although each individual's
+      treatment plan is unique, it is broadly divided into 3 steps.
     clinic_features:
-    - title: First/Initial visit (60mins)
+    - title: First/Initial Visit (60mins)
       image: images/initially-expects/01.svg
       lists:
       - Detailed biological/functional assessment, advanced biofeedback/neurofeedback
         testing
       - HRV testing for appropriate cases
       - Review of any past lab results and investigations Special labs ordered
-    - title: Second visit/Consultation (45mins)
+    - title: Second Visit/Consultation (45mins)
       image: images/initially-expects/02.svg
       lists:
       - Reviewing of Lab results (old & new) and providing necessary education and
@@ -102,7 +99,7 @@ initially_expects:
         stress management, mindfulness practices etc. ForChronic /complex conditions,
         Personalized Detox-therapy plan and/orRegeneration oxidative therapies plan
         is made.
-    - title: Third visit/Consultation
+    - title: Third Visit/Consultation
       image: images/initially-expects/03.svg
       lists:
       - Assessment of your progress and response to therapies and treatment protocols
