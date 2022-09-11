@@ -64,7 +64,7 @@ wellness_report:
       link: "#"
     - label: Biological Age
       link: "#"
-    - label: Food sensitivity
+    - label: Food Sensitivity
       link: "#"
     - label: Heart Health
       link: "#"
