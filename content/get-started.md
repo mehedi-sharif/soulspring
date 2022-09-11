@@ -34,7 +34,7 @@ cause_of_problem:
       vitals and blood work provide important markers for:'
 understanding_bio:
   enable: true
-  title: Your Individualzied Bio-wellness Report
+  title: Your Individualized Bio-Wellness Report
   subtitle: We design bio-individualized therapies around you.
   block:
     title: We are all Biochemically Unique
