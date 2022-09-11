@@ -94,12 +94,11 @@ initially_expects:
     - title: Second Visit/Consultation (45 mins)
       image: images/initially-expects/02.svg
       lists:
-      - Reviewing of Lab results (old & new) and providing necessary education and
-        handouts
+      - Lab results (old & new) are reviewed with insights, patient education and
+        necessary handouts provided by the Medical Director.
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
-        stress management, mindfulness practices etc. ForChronic /complex conditions,
-        Personalized Detox-therapy plan and/orRegeneration oxidative therapies plan
-        is made.
+        stress management, mindfulness practices, etc. For chronic and/or complex
+        conditions, a personalized detox therapy plan is made.
     - title: Third Visit/Consultation
       image: images/initially-expects/03.svg
       lists:
