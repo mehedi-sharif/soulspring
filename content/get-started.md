@@ -54,7 +54,7 @@ wellness_report:
   enable: true
   title: Understanding Your Bio-individuality
   subtitle: In 8-minutes we will complete a comprehensive biological assessments using
-    innovative technology
+    innovative technology.
   image: images/wellness-report/wellness-report.jpg
   block:
     title: 'Without drawing a single drop of blood or asking for a urine or stool
