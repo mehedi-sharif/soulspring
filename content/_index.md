@@ -141,20 +141,20 @@ testimonials:
       focus, with no aches and pains.
   - name: Sonali
     designation: IT Project Manager, Atlanta, USA
-    reviewer_image: ''
+    reviewer_image: "/images/solutions/soulspring.svg"
     logo: ''
     content: It has been 3 months since my first visit, and I feel amazing! The therapies
       designed specifically for me have given me more energy and I genuinely feel
       happier overall.
   - name: Wendi
     designation: Author and Entrepreneur, Chicago, USA
-    reviewer_image: ''
+    reviewer_image: "/images/solutions/soulspring.svg"
     logo: ''
     content: I was looking for something different when I found Soul Spring. I feel
       stronger and more resilient than before.
   - name: Carlos
     designation: CEO, Mexico City, MX
-    reviewer_image: ''
+    reviewer_image: "/images/solutions/soulspring.svg"
     logo: ''
     content: Soul Spring has helped in a profound way in all aspects of my health.
 our_locations:
