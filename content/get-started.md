@@ -83,14 +83,14 @@ initially_expects:
       your health concerns and design a treatment plan. Although each individual's
       treatment plan is unique, it is broadly divided into 3 steps.
     clinic_features:
-    - title: First/Initial Visit (60mins)
+    - title: First/Initial Visit (60 mins)
       image: images/initially-expects/01.svg
       lists:
       - Detailed biological/functional assessment, advanced biofeedback/neurofeedback
         testing
       - HRV testing for appropriate cases
       - Review of any past lab results and investigations Special labs ordered
-    - title: Second Visit/Consultation (45mins)
+    - title: Second Visit/Consultation (45 mins)
       image: images/initially-expects/02.svg
       lists:
       - Reviewing of Lab results (old & new) and providing necessary education and
