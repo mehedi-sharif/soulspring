@@ -52,7 +52,7 @@ understanding_bio:
       Our bio-individualized therapies and treatments combine thousands of years of natural medicine wisdom with cutting-edge technology to address these imbalances and restore your body’s natural ability to heal itself. Find out how Soul Spring can design a bio-individualized experience for you....
 wellness_report:
   enable: true
-  title: Understanding Your Bio-individuality
+  title: Understanding Your Bio-Individuality
   subtitle: In 8-minutes we will complete a comprehensive biological assessments using
     innovative technology.
   image: images/wellness-report/wellness-report.jpg
