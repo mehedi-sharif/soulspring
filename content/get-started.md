@@ -91,7 +91,7 @@ initially_expects:
       - HRV testing for appropriate cases
       - Review of any past lab results and investigations. Special labs ordered if
         necessary.
-    - title: Second Visit/Consultation (45 mins)
+    - title: Second Visit / Consultation (45 mins)
       image: images/initially-expects/02.svg
       lists:
       - Lab results (old & new) are reviewed with insights, patient education and
@@ -99,7 +99,7 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, a personalized detox therapy plan is made.
-    - title: Third Visit/Consultation
+    - title: Third Visit / Consultation
       image: images/initially-expects/03.svg
       lists:
       - Assessment of your progress and response to therapies and treatment protocols
