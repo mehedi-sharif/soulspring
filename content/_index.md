@@ -133,7 +133,7 @@ testimonials:
   title: What They Are Saying...
   subtitle: 'Transformational success stories '
   reviews:
-  - name: Susanne
+  - name: ''
     designation: CEO of Financial Services Company, Houston, USA
     reviewer_image: ''
     logo: ''
