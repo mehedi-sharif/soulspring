@@ -135,7 +135,7 @@ testimonials:
   reviews:
   - name: Susanne
     designation: CEO of Financial Services Company, Houston, USA
-    reviewer_image: ''
+    reviewer_image: "/images/ss-symbol.png"
     logo: ''
     content: Everything about my health is much better now. I have more energy and
       focus, with no aches and pains.
