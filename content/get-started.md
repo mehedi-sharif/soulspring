@@ -62,7 +62,7 @@ wellness_report:
     links:
     - label: Brain & Behavioral Health
       link: "#"
-    - label: Bilogical Age
+    - label: Biological Age
       link: "#"
     - label: Food sensitivity
       link: "#"
