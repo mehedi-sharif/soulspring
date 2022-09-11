@@ -209,7 +209,7 @@ holistic_doctors:
       content: Soul Spring has elevated my practice and empowered me to change my
         clients’ lives by awakening the innate healing ability within their bodies.
   - name: Dr. Klever Bastar
-    image: images/holistic-doctors/03.jpg
+    image: "/images/dr-klevar-bastar.png"
     qualifications:
     - Medical Director, Soul Spring Lomas CDMX Center
     quote:
