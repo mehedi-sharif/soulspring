@@ -217,7 +217,7 @@ holistic_doctors:
       content: Soul Spring allows me to create a healing space that rejuvenates the
         emotional, physical, and mental well-being of my patients.
   - name: Dr. Stephany González
-    image: images/holistic-doctors/04.jpg
+    image: "/images/dr-stephany.png"
     qualifications:
     - 'MSC PHD-C, Medical Director, Soul Spring Cuernavaca Center '
     quote:
