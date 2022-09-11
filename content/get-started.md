@@ -102,11 +102,10 @@ initially_expects:
     - title: Third Visit / Consultation
       image: images/initially-expects/03.svg
       lists:
-      - Assessment of your progress and response to therapies and treatment protocols
-        till then
-      - Any adjustment or additions that may need to be made are assessed
-      - Personalized compounding prescriptions (for brain and behavioral health /
-        WALSH protocol) are discussed in this visit
+      - Assessment of your progress and response to therapies and treatment protocols.
+      - Any adjustment or additions to your therapy plan are made.
+      - Personalized compounding prescriptions (for specific complex and/or chronic
+        conditions) are discussed in this visit.
 medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
