@@ -14,7 +14,7 @@
     <div class="bg-white rounded-sm shadow position-relative">
       <div class="row g-0">
         <div class="col-lg-6 h-100 p-xl-5 p-4 align-self-center order-lg-0 order-1">
-          <p>{{.content | markdownify}}</p>
+          <p class="mb-4">{{.content | markdownify}}</p>
           {{ range .buttons}}
           <a class="btn me-2 mb-2 btn-{{if eq .type "solid"}}primary{{else}}outline-primary{{end}}" href="{{.link | absURL}}">{{.label}}</a>
           {{ end }}
@@ -76,7 +76,7 @@
 
 {{ with .Params.meet_doctors }}
 {{ if .enable }}
-<section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem overflow-hidden">
+<section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem meet-doctors overflow-hidden">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
@@ -86,83 +86,105 @@
       </div>
     </div>
     <div class="block bg-white rounded shadow">
-      <div class="row gx-5">
-        <div class="col-lg-8 mx-auto text-center mb-5">
+      <div class="row">
+        <div class="col-lg-8 mx-auto text-center">
           <h3 class="h6 fw-medium font-secondary">Serach Here For Doctors</h3>
           <hr class="text-default opacity-100 mb-4 mx-auto" style="width:18px;height:2px;">
-          <select name="doctors" id="doctors" class="form-control">
-            <option value="chesdan" >Chesda</option>
-            <option value="chesdan" >Chesda</option>
-            <option value="chesdan" >Chesda</option>
+
+          <select id="selectLocation" name="doctors" class="form-select location-form-select shadow-none rounded-pill mb-5">
+            {{ range .doctors }}
+            <option value="{{.location | lower | urlize}}">{{.name | markdownify}} - {{.location | markdownify}}</option>
+            {{ end }}
           </select>
         </div>
-        {{ range .doctors }}
-        <div class="col-lg-6">
-          <div class="d-flex">
-            <div class="flex-shrink-0">
-              {{ partial "image.html" (dict "Src" .image "Alt" .name "Size" "100x100") }}
-            </div>
-            <div class="ms-4">
-              <h4 class="h5 fw-medium font-secondary mb-3 pb-2 border-bottom border-light">{{ .name | markdownify }}</h4>
-              {{ with .institute }}
-              <div class="d-flex mb-3 pb-3 border-bottom border-light">
-                <div class="flex-shrink-0 me-2 align-self-start">
-                  {{ partial "image.html" (dict "Src" "images/institute.svg" ) }}
+        <div class="col-12">
+          {{ range $i, $e:= .doctors }}
+          <div class="location-tab-pane fade {{if eq $i 0}}show{{else}}d-none{{end}}" id="{{.location | lower | urlize}}">
+            <div class="row gy-4 gx-lg-5">
+              <div class="col-lg-6">
+                <div class="d-sm-flex">
+                  <div class="flex-shrink-0 mb-3 mb-sm-0">
+                    {{ partial "image.html" (dict "Src" .image "Alt" .name "Size" "100x100") }}
+                  </div>
+                  <div class="ms-sm-4">
+                    <h4 class="h5 fw-medium font-secondary mb-3 pb-2 border-bottom border-light">{{ .name | markdownify }}</h4>
+                    {{ with .institute }}
+                    <div class="d-flex mb-3 pb-3 border-bottom border-light">
+                      <div class="flex-shrink-0 me-2 lh-sm" >
+                        {{ partial "image.html" (dict "Src" "images/institute.svg" ) }}
+                      </div>
+                      <p class="flex-grow-1 mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                    </div>
+                    {{ end }}
+                    {{ with .internship }}
+                    <div class="d-flex mb-3 pb-3 border-bottom border-light align-items-center">
+                      <div class="flex-shrink-0 me-2 align-self-start">
+                      {{ partial "image.html" (dict "Src" "images/internship.svg" ) }}
+                    </div>
+                      <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                    </div>
+                    {{ end }}
+                    {{ with .bio }}
+                    <div class="d-flex">
+                      <div class="flex-shrink-0 me-2 align-self-start">
+                        {{ partial "image.html" (dict "Src" "images/user.svg" ) }}
+                      </div>
+                      <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                    </div>
+                    {{ end }}
+                  </div>
                 </div>
-                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
               </div>
-              {{ end }}
-              {{ with .internship }}
-              <div class="d-flex mb-3 pb-3 border-bottom border-light">
-                <div class="flex-shrink-0 me-2 align-self-start">
-                {{ partial "image.html" (dict "Src" "images/internship.svg" ) }}
-              </div>
-                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
-              </div>
-              {{ end }}
-              {{ with .bio }}
-              <div class="d-flex">
-                <div class="flex-shrink-0 me-2 align-self-start">
-                  {{ partial "image.html" (dict "Src" "images/user.svg" ) }}
+              <div class="col-lg-6">
+                {{ with .doctors_quote }}
+                <div class="shadow rounded-3 p-4 d-sm-flex mb-4">
+                  <div class="align-self-start flex-shrink-0">
+                    {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
+                  </div>
+                  <div class="ms-sm-2">
+                    <h4 class="h6 fw-medium font-secondary mb-3">{{ .title | markdownify}}</h4>
+                    <p>{{.content | markdownify}}</p>
+                  </div>
                 </div>
-                <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
-              </div>
-              {{ end }}
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-6">
-          {{ with .doctors_quote }}
-          <div class="shadow rounded-3 p-4 d-flex mb-4">
-            <div class="align-self-start flex-shrink-0">
-              {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
-            </div>
-            <div class="ms-2">
-              <h4 class="h6 fw-medium font-secondary mb-3">{{ .title | markdownify}}</h4>
-              <p>{{.content | markdownify}}</p>
-            </div>
-          </div>
-          {{ end }}
-          {{ with .patients_quote }}
-          <div class="shadow rounded-3 p-4 d-flex">
-            <div class="align-self-start flex-shrink-0">
-              {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
-            </div>
-            <div class="ms-2">
-              <ul class="list-inline">
-                {{ range seq (int .star) }}
-                <li class="list-inline-item">
-                  {{ partial "image.html" (dict "Src" "images/star.svg" ) }}
-                </li>
                 {{ end }}
-              </ul>
-              <p class="mb-4">"{{.content | markdownify}}"</p>
-              <p class="mb-0">{{.name | markdownify}}</p>
+                {{ with .patients_quote }}
+                <div class="shadow rounded-3 p-4 d-sm-flex">
+                  <div class="align-self-start flex-shrink-0">
+                    {{ partial "image.html" (dict "Src" "images/quote.svg" ) }}
+                  </div>
+                  <div class="ms-sm-2">
+                    <div class="review-block position-static p-0 mt-0">
+                      <div class="rating" style="--rating: {{.rating}};" title="Rating is {{.rating}} out of 5"></div>
+                    </div>
+                    <p class="mb-4">"{{.content | markdownify}}"</p>
+                    <p class="mb-0">{{.name | markdownify}}</p>
+                  </div>
+                </div>
+                {{ end }}
+              </div>
             </div>
           </div>
           {{ end }}
         </div>
-        {{ end }}
+
+        <script>
+          const tabContent = document.querySelectorAll(".location-tab-pane");
+          document.getElementById("selectLocation").addEventListener("change", function (e) {
+            const selectValue = this.value;
+            [].forEach.call(tabContent, function (el) {
+              const contentId = el.getAttribute("id");
+              if (el.classList.contains("show")) {
+                el.classList.remove("show");
+                el.classList.add("d-none");
+              } else {
+                if (selectValue == contentId) {
+                  el.classList.remove("d-none");
+                  el.classList.add("show");
+                }
+              }
+            });
+          });
+        </script>
       </div>
     </div>
   </div>

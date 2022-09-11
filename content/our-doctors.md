@@ -34,8 +34,36 @@ meet_doctors:
       title: "Why I practice at Soul Spring"
       content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
     patients_quote:
+      rating: "2.5"
       name: "Jackie L, Newport Beach Member"
-      star: "5"
+      content: "Dr. Chesda was wonderful and listened to me carefully. He spent over an hour going over my medical history and developed a care plan to meet my personal needs."
+
+  - name: "Abul kalam Azad"
+    image: "images/our-doctors/doctors/chesda.png"
+    location: "Brickell 2, Miami 2"
+    institute: "Albert Einstein College of Medicine"
+    internship: "Internal Medicine at NYU Langone"
+    bio: "He values getting to know his members on a personal level. Prior to Forward, Chesda practiced medicine at Providence St Joseph. Chesda has a special interest in preventive health and management of chronic diseases, with a keen interest in smoking cessation."
+    doctors_quote:
+      title: "Practice at Soul Spring"
+      content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+    patients_quote:
+      rating: "5"
+      name: "Jackie L, Newport Beach Member"
+      content: "Dr. Chesda was wonderful and listened to me carefully. He spent over an hour going over my medical history and developed a care plan to meet my personal needs."
+
+  - name: "Rofiq Zobbar"
+    image: "images/our-doctors/doctors/chesda.png"
+    location: "Brickell 3, Miami 3"
+    institute: "Albert Einstein College of Medicine"
+    internship: "Internal Medicine at NYU Langone"
+    bio: "Prior to Forward, Chesda practiced medicine at Providence St Joseph. Chesda has a special interest in preventive health and management of chronic diseases, with a keen interest in smoking cessation. He values getting to know his members on a personal level."
+    doctors_quote:
+      title: "Why I practice"
+      content: "Wanted to be a part of rebuilding primary care from the ground up. I believe in Forward's mission of providing high quality, cost effective care as many people possible."
+    patients_quote:
+      rating: "4.5"
+      name: "Jackie L, Newport Beach Member"
       content: "Dr. Chesda was wonderful and listened to me carefully. He spent over an hour going over my medical history and developed a care plan to meet my personal needs."
 
 

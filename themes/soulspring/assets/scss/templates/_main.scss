@@ -1353,6 +1353,24 @@
   }
 }
 
+// meet-doctors
+.meet-doctors {
+  .review-block {
+    background-color: transparent;
+    .rating::before {
+      content: "★★★★★";
+      letter-spacing: 3px;
+      background: linear-gradient(
+        90deg,
+        $color-primary var(--percent),
+        #6a6a6a var(--percent)
+      );
+      -webkit-background-clip: text;
+      -webkit-text-fill-color: transparent;
+    }
+  }
+}
+
 // footer
 footer {
   background-color: rgba($color-secondary, 0.1);
