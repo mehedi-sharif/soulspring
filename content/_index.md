@@ -84,7 +84,7 @@ wellness_solutions:
 how_it_works:
   enable: true
   title: How It Works
-  subtitle: See how Soul Spring can make an incredible difference to your health today
+  subtitle: See how Soul Spring can make an incredible difference in your health today
     and for the future.
   button:
     label: Learn More
