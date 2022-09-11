@@ -1,6 +1,6 @@
 ---
 banner:
-  title: Health is the new wealth
+  title: Health is the New Wealth
   description: The ultimate luxury is your vitality and longevity
   slider:
   - images/banner/01.jpg
