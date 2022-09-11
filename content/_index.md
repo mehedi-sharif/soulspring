@@ -193,7 +193,7 @@ holistic_doctors:
   subtitle: Meet the amazing practitioners handpicked for Soul Spring
   doctors_list:
   - name: Dr. Cheryl Perlis
-    image: "/images/dr-cheryl-perlis_sept2022.png"
+    image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
     - Founder and Medical Director, Perlis Wellness Center
     quote:
