@@ -54,8 +54,7 @@ facts:
 wellness_solutions:
   enable: true
   title: Doctor-led, Bio-Individualized Wellness Solutions
-  subtitle: We bring you the best-of modern and ancient modalities for holistic health
-    care.
+  subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare.
   solutions:
   - title: Energy
     link: "#!"
