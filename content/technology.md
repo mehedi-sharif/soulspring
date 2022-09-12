@@ -6,7 +6,7 @@ technology_banner:
   enable: true
   title: Soul Spring Clinics Use Wegamed Medical Technology
   subtitle: Soul Spring clinics use a suite of medically proven wellness devices backed
-    by 25+ years of clinical research
+    by 20+ years of clinical research
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/technology/thumb.jpg
 benefit_summary:
