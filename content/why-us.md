@@ -165,7 +165,7 @@ superior_results:
 ancient_healing:
   enable: true
   title: Blending the Best of Modern & Ancient Healing
-  content: A bio-wellness and detox center, SoulSpring combines technology with ancient
+  content: A bio-wellness and detox center, Soul Spring combines technology with ancient
     wisdom to create a holistic wellness experience for you.
   image: images/ancient-healing/ancient-healing.png
   leaf_image: images/ancient-healing/leaf.png
@@ -173,7 +173,7 @@ ancient_healing:
   reviews:
   - author: Carlos Rojas
     designation: CEO of Rotoplas
-    image: images/ancient-healing/reviewer-01.jpg
+    image: images/ancient-healing/reviewer-02.jpg
     content: Soul Spring has helped in such a big way in all aspects of my health,
       that ever since I started with the process l have enjoyed life in a completely
       more wholesome way!
