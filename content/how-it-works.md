@@ -90,12 +90,8 @@ unlock_power_of_biological_medicine:
 world_of_wellbeing:
   enable: true
   title: A Whole New World of Well-Being
-  subtitle: 'Apart from the above biochemical imbalances, we also investigate hormonal
-    dysregulation, gut infections, malabsorption, leaky gut, heavy metal exposure,
-    air way assessment, environmental toxic overload, chronic infections, EMF stress,
-    torsion fields, trauma, interference fields, nutrition, lifestyle, sleep and stress
-    assessment, etc. Our unique treatment methodologies are designed to help you heal
-    and manage the following conditions:'
+  subtitle: 'Our unique treatment methodologies are designed to help you heal and
+    manage the following conditions:'
   lists:
   - Anxiety
   - Depression
