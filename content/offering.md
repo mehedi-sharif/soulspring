@@ -19,7 +19,7 @@ soulspring_solutions:
     icon: images/solutions/icons/anti-ageing.svg
     image: images/solutions/anti-ageing.jpg
     additional_info:
-      title: Beautiful skin, effortlessly achieve
+      title: Beautiful skin <br/> Effortlessly achieved
       lists:
       - Restore luster
       - Reduce wrinkles
