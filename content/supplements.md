@@ -17,7 +17,7 @@ supplement_bottle:
   enable: true
   title: One Soul Spring Supplement Bottle for Am & Pm
   subtitle: Instead of buying dozens of vitamins and subscriptions, we customize an
-    all-in-one for you
+    all-in-one for you.
   image: images/supplements/supplements-2.jpg
 supplement_feature:
   enable: true
