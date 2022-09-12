@@ -194,16 +194,18 @@ soulspring_therapies_and_treatments:
       towards better health and wellness outcomes.
   - title: Mindfulness Programs
     icon: images/therapies-and-treatments/icons/Mindfulness-Programs.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'Our mindfulness programs are specially crafted self-healing sessions
+      to reduce brain stressors and retrain your brain synapses to affect a positive
+      change in your life. With our mindfulness programs, you will experience a shift
+      in many areas of your life, like coping with stress, handling negative emotions,
+      combating sleep disorders, and improving focus. '
   - title: Matrix Regeneration
     icon: images/therapies-and-treatments/icons/Matrix-Regeneration.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'To combat environmental toxins, it is essential to strengthen the soft
+      connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
+      three stages: 1) Direct current treatment to free the matrix from toxins, 2)
+      Petechial suction massage to repair damaged cells, and 3) Bio Resonance Therapy
+      to locate and neutralize harmful toxins. '
   - title: Matrix Regeneration Therapy
     icon: images/therapies-and-treatments/icons/Matrix-Regeneration-Therapy.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
@@ -212,10 +214,11 @@ soulspring_therapies_and_treatments:
       the autonomic nervous system and aiding in regulation of the circulatory system.
   - title: Nutrition & Lifestyle Coaching
     icon: images/therapies-and-treatments/icons/Nutrition-and-Lifestyle-Coaching.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'Build a less toxic and more nutritionally abundant life. By improving
+      food, nutrition, and lifestyle choices, you can significantly improve your overall
+      well-being. Our qualified nutritional consultants can help you uncover food
+      sensitivities, improve your diet with better nutrition and help you remove hidden
+      toxins from your home. '
   - title: Shirodhara
     icon: images/therapies-and-treatments/icons/Shirodhara.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
