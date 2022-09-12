@@ -87,14 +87,14 @@ soulspring_solutions:
     icon: images/solutions/icons/hormonal-balance.svg
     image: images/solutions/hormonal-balance.jpg
     additional_info:
-      title: Optimize Hormone Levels
+      title: Better balance for better health
       lists:
-      - Restores luster
-      - Smoothens complexion
-      - Relieves Spinal/Joint Pain
-      - Reduces lymphatic congestion
-      - Reduces wrinkles
-      - Improves skin elasticity
+      - Reduce stress
+      - Boost metabolic rates
+      - Restore lost vitality
+      - Increase energy
+      - Combat toxins
+      - Improve sleep
       button:
         label: See More Details
         link: "#!"
