@@ -41,8 +41,8 @@ resort_clinics:
 signature_wellness_centers:
   enable: true
   title: Soul Spring Signature Wellness Centers
-  subtitle: We are a global network of holistic medicine clinics, resorts and wellness
-    centers
+  subtitle: Transformative wellness centers with a full suite of bio-individualized
+    treatments and therapies.
   gallery:
   - images/soulspring-clinics/signature-wellness-centers/01.jpg
   - images/soulspring-clinics/signature-wellness-centers/02.jpg
