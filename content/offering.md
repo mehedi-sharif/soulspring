@@ -136,7 +136,10 @@ soulspring_therapies_and_treatments:
   enable: true
   title: Biological Medicine Therapies & Treatments
   title_details: Biological Medicine Therapies & Treatments Details
-  subtitle: ''
+  subtitle: With therapies designed for complete rejuvenation and detoxification,
+    we help you rediscover your inner healing strength. Our deep therapeutic modalities
+    combine the best of natural science and new-age technology to ensure holistic
+    wellness.
   therapies_and_treatments:
   - title: Audio Color Therapy
     icon: images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg
@@ -221,9 +224,10 @@ soulspring_therapies_and_treatments:
       toxins from your home. '
   - title: Shirodhara
     icon: images/therapies-and-treatments/icons/Shirodhara.svg
-    content: Shirodhara involves dripping various herbal oils and/or herbal decoctions
-      on the forehead in continuous rhythmic motion, resulting in deep mental relaxation,
-      rejuvenation and stress relief.
+    content: We use herbal oils to help you resist stress, combat anxiety, and improve
+      sleep quality. Shirodhara soothes the hypothalamus, regulates the functions
+      of the pituitary gland, and stimulates the vital points by improving the blood
+      circulation of brain.
   - title: Voice Bio
     icon: images/therapies-and-treatments/icons/Voice-Bio.svg
     content: The sound and tone of your own voice is the key to understanding how
