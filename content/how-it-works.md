@@ -116,7 +116,7 @@ wellness_id:
     title: We are interested in YOU. <br/> Understanding the critical aspects of your
       life helps us in supporting you to achieve your wellness goals.
     description: 'We begin by listening to you and understanding the cause rather
-      than focusing on the symptoms. <br/>Non-invasive diagnostic tests and assessments
+      than focusing on the symptoms. <br/><br/>Non-invasive diagnostic tests and assessments
       allow us to look for stressors, toxins, dysregulations, and imbalances so that
       we can isolate the root cause(s) of your health challenge(s).  '
     image: images/wellness-id/wellness-id.jpg
