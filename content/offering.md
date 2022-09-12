@@ -136,10 +136,8 @@ soulspring_therapies_and_treatments:
   enable: true
   title: Biological Medicine Therapies & Treatments
   title_details: Biological Medicine Therapies & Treatments Details
-  subtitle: With therapies designed for complete rejuvenation and detoxification,
-    we help you rediscover your inner healing strength. Our deep therapeutic modalities
-    combine the best of natural science and new-age technology to ensure holistic
-    wellness.
+  subtitle: Our deep therapeutic modalities combine the best of natural science and
+    new-age technology to revive your inner healing strength.
   therapies_and_treatments:
   - title: Audio Color Therapy
     icon: images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg
