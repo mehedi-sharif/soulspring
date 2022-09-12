@@ -1,7 +1,7 @@
 ---
 title: Solutions
 description: All solutions
-layout: offerings
+layout: offering
 wellness_approach:
   enable: false
   title: A Holistic Wellness Approach
