@@ -38,12 +38,12 @@ soulspring_solutions:
     additional_info:
       title: Train smarter, recover faster
       lists:
-      - Reduces Stress
-      - Improves Sleep Cycle
-      - Regulates Emotions
-      - Resolves Conduct Disorders
-      - Reduces Anxiety
-      - Resolves Eating Disorders
+      - Assess fitness level
+      - Scan muscle systems
+      - Optimize training time
+      - Prevent injury
+      - Dietary improvements
+      - Pulse rate check
       button:
         label: See More Details
         link: "#!"
