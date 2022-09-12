@@ -31,9 +31,9 @@ soulspring_clinics:
       programs intend to make 360° wellness a habit.
 resort_clinics:
   enable: true
-  title: Soulspring Resort Clinics
-  subtitle: Expeirence in-patient expeirences with a full suite of biological medicine
-    therapies, holistic modalities and best-in-class amenities.
+  title: Soul Spring Resort Clinics
+  subtitle: In-patient experiences with a full suite of biological medicine therapies,
+    holistic modalities and best-in-class amenities.
   gallery:
   - images/soulspring-clinics/resort-clinics/01.jpg
   - images/soulspring-clinics/resort-clinics/02.jpg
