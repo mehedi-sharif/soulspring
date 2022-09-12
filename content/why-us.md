@@ -179,7 +179,7 @@ ancient_healing:
       more wholesome way!
   - author: Jeffrey Brown
     designation: Founder of Brownstone Research
-    image: images/ancient-healing/reviewer-02.jpg
+    image: "/images/ancient-healing/reviewer-01.jpg"
     content: There is no place on earth like it and it is a lens on the future, not
       only for our health but for the health of the industry.
 thrive_together:
