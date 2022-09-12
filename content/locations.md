@@ -4,7 +4,7 @@ description: All solutions
 layout: locations
 locations:
   enable: true
-  title: Soulspring Locations
+  title: Soul Spring Locations
   subtitle: We are a global network of holistic medicine clinics, resorts and wellness
     centers
 soulspring_clinics:
