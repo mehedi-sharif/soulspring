@@ -154,10 +154,9 @@ soulspring_therapies_and_treatments:
       of the larger cognitive systems. '
   - title: Bio Resonance Suite
     icon: images/therapies-and-treatments/icons/Bio-Resonance-Suite.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'Bio Resonance therapy stimulates self-healing by neutralizing toxins
+      already present in your body, restoring your body’s natural balance and allowing
+      your organs to function as they should.  '
   - title: Brain Entrainment
     icon: images/therapies-and-treatments/icons/Brain-Entrainment.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
