@@ -22,7 +22,7 @@ why_soulspring:
       subtitle: The latest advances in tech and wellness
     - title: Best MedTech
       image: images/why-soulspring/icon/02.svg
-      subtitle: Health progress you can feel and measure.
+      subtitle: Health progress you can feel and measure
     - title: 100% Individualized
       image: images/why-soulspring/icon/03.svg
       subtitle: Wellness made convenient & affordable
