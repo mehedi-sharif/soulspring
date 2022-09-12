@@ -159,10 +159,10 @@ soulspring_therapies_and_treatments:
       your organs to function as they should.  '
   - title: Brain Entrainment
     icon: images/therapies-and-treatments/icons/Brain-Entrainment.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: This modern practice uses neural synchronization to stimulate the brain
+      into altered state of consciousness by pulsing different sounds in your ears.
+      This results in increased energy levels, better sleep patterns, improved learning,
+      and increased focus.
   - title: Bio Impedance Suite
     icon: images/therapies-and-treatments/icons/Bio-Impedance-Suite.svg
     content: Using innovative medical technology, we conduct a detailed analysis to
