@@ -26,8 +26,8 @@ approach_steps:
     description: Before any therapeutic treatments are started, we work with you to
       reduce toxin loads as much as possible, using a mix of innovative modalities.
   - title: Regenerate
-    description: Before any therapeutic treatments are started, we work with you to
-      reduce toxin loads as much as possible using a mix of innovative modalities.
+    description: A repair protocol is then implemented to help enhance the body's
+      natural defense and healing capacity, for long-lasting wellness.
   - title: Upbuild
     description: Before any therapeutic treatments are started, we work with you to
       reduce toxin loads as much as possible using a mix of innovative modalities.
