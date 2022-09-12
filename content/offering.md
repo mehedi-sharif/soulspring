@@ -42,7 +42,7 @@ soulspring_solutions:
       - Scan muscle systems
       - Optimize training time
       - Prevent injury
-      - Dietary improvements
+      - Dietary recommendations
       - Pulse rate check
       button:
         label: See More Details
