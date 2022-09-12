@@ -16,7 +16,7 @@ soulspring_clinics:
   - image: images/soulspring-clinics/soulspring-clinics.jpg
     name: Minerva Clinic
     location: 25420 Kuykendahl Rd Ste D300, Tomball, TX 77375
-    phone: "+1832-521-1598"
+    phone: "+1 832-521-1598"
     opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
     button:
       label: Show Map
