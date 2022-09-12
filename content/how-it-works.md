@@ -129,7 +129,7 @@ wellness_id:
 call_to_action:
   enable: true
   title: Questions in mind? We're Ready
-  description: We'll help out if you're unsure which insurance you need.
+  description: We'll help you start your journey to wellness.
   bg_image: images/call-to-action.jpg
   button_label: Launch Chat Now
   button_link: "#!"
