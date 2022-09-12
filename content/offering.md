@@ -23,7 +23,6 @@ soulspring_solutions:
       title: Rejuvenated Skin
       lists:
       - Restores luster
-      - Relieves Spinal/Joint Pain
       - Reduces wrinkles
       - Smoothens complexion
       - Reduces lymphatic congestion
