@@ -99,8 +99,7 @@ soulspring_solutions:
         label: See More Details
         link: "#!"
   - title: Pain Relief
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+    subtitle: Live free of pain naturally, without harmful drugs or invasive procedures.
     icon: images/solutions/icons/pain-relief.svg
     image: images/solutions/pain-relief.jpg
     additional_info:
