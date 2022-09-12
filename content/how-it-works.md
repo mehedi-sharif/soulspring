@@ -114,10 +114,12 @@ wellness_id:
   subtitle: We match your one-of-a-kind “wellness” ID to an individualized treatment
     plan.
   content:
-    title: We use bio-individualized records used for your better treatments.
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    title: We are interested in YOU - Understanding the critical aspects of your life
+      helps us in supporting you to achieve your wellness goals.
+    description: 'We begin by understanding the cause rather than focusing on the
+      symptoms. Non-invasive diagnostic tests and assessments allow us to look for
+      stressors, toxins, dysregulations, and imbalances so that we can isolate the
+      root cause(s) of your health challenge(s).  '
     image: images/wellness-id/wellness-id.jpg
     features:
     - Bio Scanning and Therapeutic Modalities
