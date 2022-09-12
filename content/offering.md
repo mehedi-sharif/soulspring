@@ -165,34 +165,33 @@ soulspring_therapies_and_treatments:
       the autonomic nervous system and aiding in regulation of the circulatory system.
   - title: Bio Impedance Suite
     icon: images/therapies-and-treatments/icons/Bio-Impedance-Suite.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: Using innovative medical technology, we conduct a detailed analysis to
+      check the status of your overall health, the presence of acute and chronic inflammation
+      foci, allergens and toxins. These tests often take less than 30 mins and are
+      tremendously helpful in identifying root causes of different health conditions.
   - title: Detox Foot Bath
     icon: images/therapies-and-treatments/icons/Detox-Foot-Bath.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'Detox Footbath therapy detoxifies your whole body naturally by stimulating
+      and balancing the bio-energetic fields of the body to facilitate better organ
+      functioning. '
   - title: Heart Rate Variability
     icon: images/therapies-and-treatments/icons/Heart-Rate-Variability.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: Analyzing the exact changes between successive heartbeats can give valuable
+      insights into your nervous system, stress response, and recovery activity. Our
+      practitioners help you use these insights to make better health, nutrition,
+      training, and recovery decisions.
   - title: IV Nutrition
     icon: images/therapies-and-treatments/icons/IV-Nutrition.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'IV Nutrition therapy is an effective way of infusing essential nutrients
+      directly into the body. The composition of the IV drip is bio-individualized
+      - uniquely formulated and personalized - to your treatment requirements, thereby
+      enhancing absorption rates and improving bioavailability. '
   - title: Information Field Technology
     icon: images/therapies-and-treatments/icons/Information-Field-Technology.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: Using this emerging technology based on principles of Quantum Physics,
+      we are able to analyze and optimize the information field of the human body
+      – which in turn has the potential to significantly accelerate your progress
+      towards better health and wellness outcomes.
   - title: Mindfulness Programs
     icon: images/therapies-and-treatments/icons/Mindfulness-Programs.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
