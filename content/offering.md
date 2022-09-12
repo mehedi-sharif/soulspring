@@ -226,10 +226,10 @@ soulspring_therapies_and_treatments:
       rejuvenation and stress relief.
   - title: Voice Bio
     icon: images/therapies-and-treatments/icons/Voice-Bio.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: The sound and tone of your own voice is the key to understanding how
+      healthy you are. Voice Bio is technology that takes this understanding to a
+      completely new level providing details that enable us to help you balance overactive
+      tones with missing ones to achieve optimal health outcomes.
 call_to_action:
   enable: true
   title: Want Us to Open A Location Near You?
