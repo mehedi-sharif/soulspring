@@ -103,7 +103,7 @@ initially_expects:
       image: images/initially-expects/03.svg
       lists:
       - Assessment of your progress and response to therapies and treatment protocols.
-      - Any adjustment or additions to your therapy plan are made.
+      - Any necessary adjustments or additions to your therapy plan are made.
       - Personalized compounding prescriptions (for specific complex and/or chronic
         conditions) are discussed in this visit.
 medical_treatments:
