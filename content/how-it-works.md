@@ -94,7 +94,7 @@ world_of_wellbeing:
     manage the following conditions:'
   lists:
   - Gut Health
-  - Hormonal Balance
+  - Hormonal Imbalance
   - Toxic Load
   - Lymphatic Congestion
   - Tissue Inflammation
