@@ -63,8 +63,8 @@ unlock_power_of_biological_medicine:
   title: Unlock the power of biological medicine
   subtitle: The natural state of the body is health. Its regulatory systems maintain
     that wellness despite occasional threats. But those systems are often impaired
-    by outside factors. At Minerva Clinic, we help you rekindle your body's natural
-    power to heal and regenerate by combining the best of biological medicine, innovative
+    by outside factors. At Soul Spring, we help you rekindle your body's natural power
+    to heal and regenerate by combining the best of biological medicine, innovative
     medical technologies, and the wisdom of ancient holistic approaches.
   features:
   - title: Diagnosis of Root Causes
