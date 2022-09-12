@@ -26,6 +26,7 @@ soulspring_solutions:
       - Smoothen complexion
       - Release lymphatic congestion
       - Improve skin elasticity
+      - Reduce age spots
       button:
         label: See More Details
         link: "#!"
