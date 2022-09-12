@@ -15,6 +15,15 @@ name = "Privacy Policy"
 url = "#"
 weight = 4
 [[main]]
+name = "Why Us"
+parent = "About"
+url = "why-us/"
+weight = 10
+[[main]]
+name = "Offering"
+url = "offering/"
+weight = 5
+[[main]]
 name = "Get Started"
 url = "get-started/"
 weight = 1
@@ -22,10 +31,6 @@ weight = 1
 name = "How it Works"
 url = "how-it-works/"
 weight = 2
-[[main]]
-name = "Offering"
-url = "offering/"
-weight = 5
 [[main]]
 name = "Supplements"
 parent = "About"
@@ -44,11 +49,6 @@ name = "Locations"
 parent = "About"
 url = "locations/"
 weight = 25
-[[main]]
-name = "Why Us"
-parent = "About"
-url = "why-us/"
-weight = 10
 [[main]]
 name = "About Us"
 parent = "About"
