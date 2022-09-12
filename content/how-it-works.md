@@ -113,7 +113,7 @@ wellness_id:
   title: You Are Truly One-of-a-Kind
   subtitle: We specialize in discovering what makes you...you.
   content:
-    title: We are interested in You - understanding the critical aspects of your life
+    title: We are interested in you - understanding the critical aspects of your life
       helps us in supporting you to achieve your wellness goals.
     description: 'We begin by understanding the cause rather than focusing on the
       symptoms. Non-invasive diagnostic tests and assessments allow us to look for
