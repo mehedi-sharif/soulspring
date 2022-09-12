@@ -24,7 +24,7 @@ soulspring_solutions:
       - Restore luster
       - Reduce wrinkles
       - Smoothen complexion
-      - Reduce lymphatic congestion
+      - Release lymphatic congestion
       - Improve skin elasticity
       button:
         label: See More Details
