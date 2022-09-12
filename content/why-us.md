@@ -20,9 +20,9 @@ why_soulspring:
     - title: Top Doctors
       image: images/why-soulspring/icon/01.svg
       subtitle: The latest advances in tech and wellness
-    - title: Best Med-tech
+    - title: Best Med-Tech
       image: images/why-soulspring/icon/02.svg
-      subtitle: Health progress you can feel and measure
+      subtitle: Health progress you can feel and measure.
     - title: 100% Individualized
       image: images/why-soulspring/icon/03.svg
       subtitle: Wellness made convenient & affordable
