@@ -15,8 +15,7 @@ soulspring_experience:
 cause_of_problem:
   enable: true
   title: Reveal the Root Cause of the Problem
-  subtitle: Powered by transformative MedTech and proven protocols for bio-individualized
-    wellness.
+  subtitle: Powered by transformative med tech and 20+ years of clinical research.
   we_look_deeper:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
