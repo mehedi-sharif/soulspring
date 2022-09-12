@@ -36,7 +36,7 @@ soulspring_solutions:
     icon: images/solutions/icons/athelete-recovery.svg
     image: images/solutions/athelete-recovery.jpg
     additional_info:
-      title: Athletical Wellbeing
+      title: Optimize Athletic Performance and Recovery
       lists:
       - Reduces Stress
       - Improves Sleep Cycle
