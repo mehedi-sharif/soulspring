@@ -15,19 +15,19 @@ soulspring_experience:
 cause_of_problem:
   enable: true
   title: Reveal the Root Cause of the Problem
-  subtitle: Restore the natural balance of your body with bio-individualized therapies
-    uniquely designed for you.
+  subtitle: Powered by transformative MedTech and proven protocols for bio-individualized
+    wellness.
   we_look_deeper:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
     features:
-    - Food sensitivities
-    - Inflammation markers
-    - Genetic/immunological markers
-    - Insulin resistance
-    - Nutrient deficiencies
-    - Abnormal cellular signals
-    - Quality of cholesterol particles
+    - Food Sensitivities
+    - Inflammation Markers
+    - Genetic/Immunological Markers
+    - Insulin Resistance
+    - Nutrient Deficiencies
+    - Abnormal Cellular Signals
+    - Hormonal Imbalances
     - Neuralgia
     content: 'But more importantly we look for the inward signals that most other
       doctors miss. This is where our comprehensive and analytical profile of your
