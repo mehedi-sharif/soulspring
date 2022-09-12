@@ -19,7 +19,7 @@ soulspring_solutions:
     icon: images/solutions/icons/anti-ageing.svg
     image: images/solutions/anti-ageing.jpg
     additional_info:
-      title: Beautiful skin <br/> Effortlessly achieved
+      title: Revitalize Your Skin
       lists:
       - Restore luster
       - Reduce wrinkles
