@@ -47,11 +47,11 @@ individual_bio_wellness_solutions:
     image: images/individual-wellness-solutions/05.svg
 comparison_of_soulspring:
   enable: true
-  title: A Current Comparison of SoulSpring
+  title: A Current Comparison of Soul Spring
   subtitle: We provide holistic, integrative medical solutions that together make
     the difference.
   competitors:
-  - Soulspring
+  - Soul Spring
   - Conventional Medicine
   - Med Spa
   - Alternative Practitioner
