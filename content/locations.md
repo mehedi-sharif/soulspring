@@ -11,7 +11,7 @@ soulspring_clinics:
   enable: true
   title: Soul Spring Clinics
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
-    and a holistic approach to healing.
+    and a steadfast holistic approach to healing.
   clinics_lists:
   - image: images/soulspring-clinics/soulspring-clinics.jpg
     name: Minerva Clinic
