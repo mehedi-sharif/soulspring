@@ -31,11 +31,12 @@ soulspring_solutions:
         label: See More Details
         link: "#!"
   - title: Athletic Performance and Recovery
-    subtitle: A new level of fitness assessment for optimized training and recovery
+    subtitle: Innovative fitness assessments and specialized therapies for optimized
+      training and recovery
     icon: images/solutions/icons/athelete-recovery.svg
     image: images/solutions/athelete-recovery.jpg
     additional_info:
-      title: Optimize Your Athletic Performance and Recovery
+      title: Train smarter, recover faster
       lists:
       - Reduces Stress
       - Improves Sleep Cycle
