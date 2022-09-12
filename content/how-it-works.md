@@ -114,7 +114,7 @@ wellness_id:
   subtitle: We match your one-of-a-kind “wellness” ID to an individualized treatment
     plan.
   content:
-    title: We are interested in YOU - Understanding the critical aspects of your life
+    title: We are interested in You - understanding the critical aspects of your life
       helps us in supporting you to achieve your wellness goals.
     description: 'We begin by understanding the cause rather than focusing on the
       symptoms. Non-invasive diagnostic tests and assessments allow us to look for
