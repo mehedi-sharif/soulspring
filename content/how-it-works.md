@@ -111,8 +111,7 @@ world_of_wellbeing:
 wellness_id:
   enable: true
   title: You Are Truly One-of-a-Kind
-  subtitle: We match your one-of-a-kind “wellness” ID to an individualized treatment
-    plan.
+  subtitle: We specialize in discovering what make you...you.
   content:
     title: We are interested in You - understanding the critical aspects of your life
       helps us in supporting you to achieve your wellness goals.
