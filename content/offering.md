@@ -135,7 +135,7 @@ soulspring_solutions:
 soulspring_therapies_and_treatments:
   enable: true
   title: Biological Medicine Therapies & Treatments
-  title_details: Biological Medicine Therapies & Treatments Details
+  title_details: Our Therapies & Treatments Explained
   subtitle: Our deep therapeutic modalities combine the best of natural science and
     new-age technology to revive your inner healing strength.
   therapies_and_treatments:
