@@ -32,7 +32,7 @@ soulspring_solutions:
         link: "#!"
   - title: Athlete Recovery
     subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+      skin is the most revealing sign.
     icon: images/solutions/icons/athelete-recovery.svg
     image: images/solutions/athelete-recovery.jpg
     additional_info:
