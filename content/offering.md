@@ -16,7 +16,7 @@ soulspring_solutions:
   solutions:
   - title: Anti-Aging
     subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+      skin is the most revealing sign.
     icon: images/solutions/icons/anti-ageing.svg
     image: images/solutions/anti-ageing.jpg
     additional_info:
