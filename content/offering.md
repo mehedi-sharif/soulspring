@@ -30,13 +30,12 @@ soulspring_solutions:
       button:
         label: See More Details
         link: "#!"
-  - title: Athlete Recovery
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign.
+  - title: Athletic Performance and Recovery
+    subtitle: A new level of fitness assessment for optimized training and recovery
     icon: images/solutions/icons/athelete-recovery.svg
     image: images/solutions/athelete-recovery.jpg
     additional_info:
-      title: Optimize Athletic Performance and Recovery
+      title: Optimize Your Athletic Performance and Recovery
       lists:
       - Reduces Stress
       - Improves Sleep Cycle
