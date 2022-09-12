@@ -104,7 +104,7 @@ world_of_wellbeing:
   - Spinal and Joint Pain
   - Chronic Dental Pain
   - Recurrent Infections
-  - Food Sensitivities / Nutrient Deficiencies
+  - Food Sensitivity
   - Stress Management
   - Low Vitality and Energy
   - Complexion Issues
