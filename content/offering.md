@@ -15,18 +15,17 @@ soulspring_solutions:
   subtitle: Click on any of these popular wellness solutions to learn more.
   solutions:
   - title: Anti-Aging
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign.
+    subtitle: Stimulate, repair and revitalize your skin
     icon: images/solutions/icons/anti-ageing.svg
     image: images/solutions/anti-ageing.jpg
     additional_info:
-      title: Rejuvenated Skin
+      title: Beautiful skin, effortlessly achieved
       lists:
-      - Restores luster
-      - Reduces wrinkles
-      - Smoothens complexion
-      - Reduces lymphatic congestion
-      - Improves skin elasticity
+      - Restore luster
+      - Reduce wrinkles
+      - Smoothen complexion
+      - Reduce lymphatic congestion
+      - Improve skin elasticity
       button:
         label: See More Details
         link: "#!"
