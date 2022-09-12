@@ -115,8 +115,8 @@ medical_treatments:
 top_doctors:
   enable: true
   title: Top Medical Doctors & Expert Practioners
-  subtitle: Every Soul Spring clinic has a top board-certified Medical Doctor and
-    practioners who exist to bring balance your mind-body-soul
+  subtitle: Soul Spring bio-wellness and detox centers have top board-certified Medical
+    Doctors and practitioners to bring balance your mind-body-soul.
   image: images/banner/05.png
 holistic_health:
   enable: true
