@@ -94,20 +94,20 @@ world_of_wellbeing:
     manage the following conditions:'
   lists:
   - Gut Health
-  - Depression
-  - Disruptive Behavior Disorder
-  - Learning Disorder
-  - Methylation Imbalances
-  - Neurodegeneration (Early)
-  - Neuralgia
-  - Obsessive Compulsive Disorder
-  - Panic Attacks
-  - Pyrrole Disorder
-  - Sleep Concerns
-  - Schizophrenia
+  - Hormonal Balance
+  - Toxic Load
+  - Lymphatic Congestion
+  - Tissue Inflammation
+  - Weakened Immunity
+  - Poor Sleep
+  - Sciatica and Neuralgia
+  - Spinal and Joint Pain
+  - Chronic Dental Pain
+  - Recurrent Infections
   - Stress Management
-  - Disruptive Behavior Disorder
-  - Learning Disorder
+  - Stress Management
+  - Low Vitality and Energy
+  - Complexion Issues
 wellness_id:
   enable: true
   title: You Are Truly One-of-a-Kind
