@@ -53,7 +53,7 @@ power_of_biological_medicine:
   - title: Regeneration & Rejuvenation
     image: images/power-of-biological-medicine/03.svg
     description: Implement therapies and wellness programs to strengthen the natural
-      healing capacity of the body.
+      healing capacity of all major systems in the body.
   - title: Harmonization & Awareness
     image: images/power-of-biological-medicine/04.svg
     description: Encourage active participation across all programs to make wellness
