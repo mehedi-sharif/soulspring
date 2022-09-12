@@ -104,7 +104,7 @@ soulspring_solutions:
     icon: images/solutions/icons/pain-relief.svg
     image: images/solutions/pain-relief.jpg
     additional_info:
-      title: Pain Management
+      title: Pain free, naturally
       lists:
       - Reduces Stress
       - Improves Sleep Cycle
