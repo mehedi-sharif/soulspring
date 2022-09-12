@@ -94,7 +94,7 @@ world_of_wellbeing:
     dysregulation, gut infections, malabsorption, leaky gut, heavy metal exposure,
     air way assessment, environmental toxic overload, chronic infections, EMF stress,
     torsion fields, trauma, interference fields, nutrition, lifestyle, sleep and stress
-    assessme t etc. Our unique treatment methodologies are designed to help you heal
+    assessment, etc. Our unique treatment methodologies are designed to help you heal
     and manage the following conditions:'
   lists:
   - Anxiety
