@@ -10,8 +10,8 @@ locations:
 soulspring_clinics:
   enable: true
   title: Soul Spring Clinics
-  subtitle: We are a global network of holistic medicine clinics, resorts and wellness
-    centers.
+  subtitle: We are a global network of medical doctors and practitioners embracing
+    a holistic approach to healing.
   clinics_lists:
   - image: images/soulspring-clinics/soulspring-clinics.jpg
     name: Minerva Clinic
