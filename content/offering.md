@@ -137,7 +137,8 @@ soulspring_therapies_and_treatments:
   title: Soul Spring Therapies and Treatments
   title_details: Our Therapies & Treatments Explained
   subtitle: Our deep therapeutic modalities combine the best of natural science and
-    new-age technology to revive your inner healing strength.
+    new-age technology to revive your inner healing strength. Click on the therapy
+    or treatment to learn more.
   therapies_and_treatments:
   - title: Audio Color Therapy
     icon: images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg
