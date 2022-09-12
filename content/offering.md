@@ -104,14 +104,14 @@ soulspring_solutions:
     icon: images/solutions/icons/pain-relief.svg
     image: images/solutions/pain-relief.jpg
     additional_info:
-      title: Pain free, naturally
+      title: Rediscover life, pain free
       lists:
-      - Reduces Stress
-      - Improves Sleep Cycle
-      - Regulates Emotions
-      - Resolves Conduct Disorders
-      - Reduces Anxiety
-      - Resolves Eating Disorders
+      - Relieve joint pain
+      - Ease muscle stress
+      - Alleviate sciatica & neuralgia
+      - Reduce inflammation
+      - Regain flexibility/movement
+      - Treat chronic dental pain
       button:
         label: See More Details
         link: "#!"
