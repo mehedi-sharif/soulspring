@@ -221,10 +221,9 @@ soulspring_therapies_and_treatments:
       toxins from your home. '
   - title: Shirodhara
     icon: images/therapies-and-treatments/icons/Shirodhara.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: Shirodhara involves dripping various herbal oils and/or herbal decoctions
+      on the forehead in continuous rhythmic motion, resulting in deep mental relaxation,
+      rejuvenation and stress relief.
   - title: Voice Bio
     icon: images/therapies-and-treatments/icons/Voice-Bio.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
