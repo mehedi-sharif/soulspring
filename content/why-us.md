@@ -4,8 +4,8 @@ description: Discover how Soul Spring can elevate your health and wellness
 layout: why-us
 why_soulspring:
   enable: true
-  title: Why Choose Soulspring
-  subtitle: Discover how Soul Spring can elevate your health and wellness
+  title: Why Choose Soul Spring
+  subtitle: Discover how Soul Spring can elevate your health and wellness.
   image: images/why-soulspring/why-soulspring.jpg
   review_block:
     reviewer: "- Dr. Peter Mölleney, Wegamed"
