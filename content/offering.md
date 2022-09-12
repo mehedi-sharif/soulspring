@@ -82,12 +82,12 @@ soulspring_solutions:
         label: See More Details
         link: "#!"
   - title: Hormonal Balance
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+    subtitle: Achieve better hormonal balance by rejuvenating your body at the cellular
+      level using holistic and alternative techniques.
     icon: images/solutions/icons/hormonal-balance.svg
     image: images/solutions/hormonal-balance.jpg
     additional_info:
-      title: Optimized Hormone Levels
+      title: Optimize Hormone Levels
       lists:
       - Restores luster
       - Smoothens complexion
