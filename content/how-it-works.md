@@ -115,10 +115,10 @@ wellness_id:
   content:
     title: We are interested in YOU. <br/> Understanding the critical aspects of your
       life helps us in supporting you to achieve your wellness goals.
-    description: 'We begin by understanding the cause rather than focusing on the
-      symptoms. Non-invasive diagnostic tests and assessments allow us to look for
-      stressors, toxins, dysregulations, and imbalances so that we can isolate the
-      root cause(s) of your health challenge(s).  '
+    description: 'We begin by listening and understanding the cause rather than focusing
+      on the symptoms. Non-invasive diagnostic tests and assessments allow us to look
+      for stressors, toxins, dysregulations, and imbalances so that we can isolate
+      the root cause(s) of your health challenge(s).  '
     image: images/wellness-id/wellness-id.jpg
     features:
     - Advanced Bio Scanning and Therapeutic Modalities
