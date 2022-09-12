@@ -121,11 +121,11 @@ wellness_id:
       root cause(s) of your health challenge(s).  '
     image: images/wellness-id/wellness-id.jpg
     features:
-    - Bio Scanning and Therapeutic Modalities
+    - Advanced Bio Scanning and Therapeutic Modalities
     - Neuro-Regenerative Therapies
     - Bio-Individualized™ Formulations
-    - Bio Scanning and Therapeutic Modalities
-    - Bio Scanning and Therapeutic Modalities
+    - Advanced Detoxification, Rejuvenation and Regenerative Therapies
+    - Mind-Body Modalities
 call_to_action:
   enable: true
   title: Questions in mind? We're Ready
