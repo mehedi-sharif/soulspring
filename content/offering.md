@@ -138,12 +138,13 @@ soulspring_therapies_and_treatments:
   title_details: Biological Medicine Therapies & Treatments Details
   subtitle: ''
   therapies_and_treatments:
-  - title: Audio Colour Therapy
+  - title: Audio Color Therapy
     icon: images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'Audio Color is a non-invasive, real-time neurofeedback and self-therapy
+      device that utilizes harmonious color spectrum and sound vibrations to reinforce
+      the overall constitution of your body. It reduces susceptibility to environmental
+      pollution and stress factors by stimulating the autonomic nervous system and
+      aiding in the regulation of the circulatory system. '
   - title: Brain Entrainment Technology
     icon: images/therapies-and-treatments/icons/Brain-Entrainment-Technology.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
