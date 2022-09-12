@@ -147,10 +147,11 @@ soulspring_therapies_and_treatments:
       aiding in the regulation of the circulatory system. '
   - title: Brain Entrainment Technology
     icon: images/therapies-and-treatments/icons/Brain-Entrainment-Technology.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'This innovative technology produces similar therapeutic effects as regular
+      meditation and mindfulness-based practices and is an excellent therapy for brain
+      optimization and wellness. We use Brain Tap, LED Light Therapy, Audio Color
+      therapy, and real time neurofeedback devices to support and nurture the performance
+      of the larger cognitive systems. '
   - title: Bio Resonance Suite
     icon: images/therapies-and-treatments/icons/Bio-Resonance-Suite.svg
     content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
