@@ -24,7 +24,7 @@ approach_steps:
   steps:
   - title: Detoxify
     description: Before any therapeutic treatments are started, we work with you to
-      reduce toxin loads as much as possible using a mix of innovative modalities.
+      reduce toxin loads as much as possible, using a mix of innovative modalities.
   - title: Regenerate
     description: Before any therapeutic treatments are started, we work with you to
       reduce toxin loads as much as possible using a mix of innovative modalities.
