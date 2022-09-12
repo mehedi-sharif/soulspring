@@ -93,7 +93,7 @@ world_of_wellbeing:
   subtitle: 'Our unique treatment methodologies are designed to help you heal and
     manage the following conditions:'
   lists:
-  - Anxiety
+  - Gut Health
   - Depression
   - Disruptive Behavior Disorder
   - Learning Disorder
