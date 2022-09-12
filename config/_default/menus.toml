@@ -3,7 +3,7 @@ name = "About"
 url = "about/"
 weight = 1
 [[company]]
-name = "Press Relaases"
+name = "Press Releases"
 url = "about/"
 weight = 2
 [[company]]
