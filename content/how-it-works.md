@@ -123,7 +123,7 @@ wellness_id:
     features:
     - Advanced Bio Scanning and Therapeutic Modalities
     - Neuro-Regenerative Therapies
-    - Bio-Individualized™ Formulations
+    - Bio-Individualized Formulations
     - Advanced Detoxification, Rejuvenation and Regenerative Therapies
     - Mind-Body Modalities
 call_to_action:
