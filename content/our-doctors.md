@@ -72,13 +72,13 @@ meet_doctors:
     location: Mexico City, MX
     institute: ''
     internship: ''
-    bio: "With more than 15 years of clinical experience, Dr. Klever Bastar is passionate
+    bio: 'With more than 15 years of clinical experience, Dr. Klever Bastar is passionate
       about wellness. He believes actively seeking balance between your physical,
       mental, and emotional body will lead you to evolve and be more aware and empathetic
-      in your relationship with others and with nature.  \nIn his Soul Spring practice,
+      in your relationship with others and with nature. In his Soul Spring practice,
       Dr. Klever blends modern medical technology and alternative medicine therapies
       to help his clients achieve maximum health and a meaningful lifestyle with more
-      clarity, fullness, and joy. "
+      clarity, fullness, and joy. '
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I have always believed the level of support and care a patient receives
