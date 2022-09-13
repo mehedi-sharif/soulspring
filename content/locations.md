@@ -37,13 +37,13 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
       label: Show Map
-    content: 'At Soul Spring Woodlands, we are a healing community coming together
-      with a single intention: to awaken the body’s natural ability to heal itself.
+    content: "At Soul Spring Woodlands, we are a healing community coming together
+      with a single intention: \n\nto awaken the body’s natural ability to heal itself.
       We take the time to listen to every detail and let your body lead the way to
       healing. Our intuitive approach integrates the most advanced healing technology
       with powerful elements from the earth. By working cooperatively with the processes
       of body, mind, and spirit, we want to help you overcome frustrating illnesses
-      and achieve vibrant levels of health well beyond what you thought possible.'
+      and achieve vibrant levels of health well beyond what you thought possible."
 resort_clinics:
   enable: true
   title: Soul Spring Resort Clinics
