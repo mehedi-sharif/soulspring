@@ -22,40 +22,55 @@ meet_doctors:
   enable: true
   title: Meet Your Doctor
   doctors:
-  - name: Chesda Eng, MD
-    image: images/our-doctors/doctors/chesda.png
-    location: Brickell, Miami
-    institute: Albert Einstein College of Medicine
-    internship: Internal Medicine at NYU Langone
-    bio: Chesda has a special interest in preventive health and management of chronic
-      diseases, with a keen interest in smoking cessation. He values getting to know
-      his members on a personal level. Prior to Forward, Chesda practiced medicine
-      at Providence St Joseph.
+  - name: Richaritha Gundlapalli, MD
+    image: "/images/about/management/richa.png"
+    location: The Woodlands, TX
+    institute: University of Illinois, Chicago
+    internship: Family Medicine & Pediatrics
+    bio: "Dr. Richa Joy Gundlapalli, MD, ABIHM, AFMCP is a rare blend of Board-Certified
+      Integrative practitioner, expert on Bio Energetics and an internationally sought-after
+      speaker/thought leader. Dr. Joy studied Family Medicine & Pediatrics at University
+      of Illinois, Chicago where she was also the Chief Resident. She completed her
+      AFMCP Certification from Institute of Functional Medicine and received Advanced
+      Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.\n\nA
+      Certified Biological Medicine practitioner, Dr. Joy received her training in
+      Biological Medicine at Paracelsus Clinic, Switzerland under Dr. Thomas Rau.
+      She has further trained under Dr. Dietrich Klinghardt & Dr. Ralf Oettmeier for
+      specialized therapies. Dr. Joy is also Certified in Bio Energetics & Energy
+      medicine from Wegamed Academy, Germany where she was personally trained under
+      Dr. Peter Mölleney. "
     doctors_quote:
-      title: Why I practice at Soul Spring
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      title: Why I choose Soul Spring
+      content: 'Soul Spring modalities address so many different aspect of health...not
+        only physical health but also a person''s emotional and mental health, environmental
+        health as well as their bio-energy. '
     patients_quote:
-      rating: "2.5"
-      name: Jackie L, Newport Beach Member
-      content: Dr. Chesda was wonderful and listened to me carefully. He spent over
-        an hour going over my medical history and developed a care plan to meet my
-        personal needs.
-  - name: Abul kalam Azad
-    image: images/our-doctors/doctors/chesda.png
-    location: Brickell 2, Miami 2
-    institute: Albert Einstein College of Medicine
-    internship: Internal Medicine at NYU Langone
-    bio: He values getting to know his members on a personal level. Prior to Forward,
-      Chesda practiced medicine at Providence St Joseph. Chesda has a special interest
-      in preventive health and management of chronic diseases, with a keen interest
-      in smoking cessation.
+      rating: "5.0"
+      name: "- D.S."
+      content: Dr. Richa has been an incredible blessing and given us answers we could
+        not find anywhere else. She worked tirelessly to help us resolve many different
+        issues. Not just covering issues with medication but helping heal the whole
+        body. I would recommend her to anybody seeking medical help with any issue.
+  - name: Cheryl Perlis, MD
+    image: "/images/dr-cheryl-perlis_sept2022.png"
+    location: Highland Park, IL
+    institute: Chicago Medical School
+    internship: ''
+    bio: "Dr. Cheryl Perlis is a board-certified physician specializing in natural
+      hormone therapy, brain and body biochemistry, and aesthetic procedures.  \n\nTrained
+      as a conventional obstetrician gynecologist at Chicago Medical School, she found
+      her calling in functional/integrative medicine. Dr. Perlis has studied and trained
+      nationwide under top doctors and thought leaders and is constantly learning
+      cutting-edge medical information and procedures to benefit her patients. \n\nDr.
+      Perlis has been in private practice since 1990, helping hundreds of men and
+      women look and feel their best.  "
     doctors_quote:
-      title: Practice at Soul Spring
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      title: Why I choose Soul Spring
+      content: 'I am so excited to have Soul Spring as part of my practice because
+        the non-invasive techniques allow patients to feel the difference much quicker
+        than taking lots of hormones or prescription medications. My patients leave
+        the office feeling better right away. Soul Spring brings unique modalities
+        to my practice that have not been available in the past.  '
     patients_quote:
       rating: "5"
       name: Jackie L, Newport Beach Member
