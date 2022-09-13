@@ -18,17 +18,17 @@ banner:
     title: I'd like to find out
     placeholder: Why people choose Soul Spring?
     button:
-      link: why-soulspring/
+      link: "/why-us/"
       label: Learn more
     topics:
     - title: Why people choose Soul Spring?
       link: "/why-us/"
     - title: Who are the doctors?
-      link: ''
+      link: "/our-doctors/"
     - title: What will I experience?
-      link: what-will-i-experience/
+      link: "/how-it-works/"
     - title: Where are the locations?
-      link: location/
+      link: "/locations/"
     - title: How much does it cost?
       link: pricing/
 facts:
