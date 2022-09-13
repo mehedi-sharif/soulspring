@@ -102,7 +102,15 @@ meet_doctors:
   - name: Stephany González, MD
     institute: ''
     internship: ''
-    bio: ''
+    bio: 'Dr. Stephany González is internationally certified in Neural Therapy and
+      Regulative Medicine, with over 12 years of clinical experience in holistic and
+      integrative medicine. Dr. Stephany received her Bachelor of Medicine and Surgery
+      from Universidad Latinoamericana (ULA), Apollo Global Education Network, México
+      and completed her Master of Science in Molecular Medicine from Morelos State
+      University, Universidad Autónoma del Estado de Morelos (UAEM). She expanded
+      her studies in Neural Therapy and received both a Graduate Diploma in Neural
+      Therapy from the Mexican College of Neural Therapy as well as certification
+      by the NAANT North American Association of Neural Therapy. '
     doctors_quote:
       content: In Soul Spring, I found the physical space to perform both my life
         mission and my greatest passion. This is the place where the new world will
