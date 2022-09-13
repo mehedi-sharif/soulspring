@@ -175,15 +175,15 @@ our_locations:
     map_url: https://goo.gl/maps/StgA7vMfNAsKoA83A
     longitude: "-87.8018972948808"
     latitude: "42.184527277614855"
-  - title: SoulSpring Cuernavaca Center - Morelos, MEX
+  - title: Soul Spring Cuernavaca Center - Morelos, MEX
     map_url: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
     latitude: "18.73807359479751"
     longitude: "-99.24803271921293"
-  - title: SoulSpring Lomas CDMX Center - Mexico City, MEX
+  - title: Soul Spring Lomas CDMX Center - Mexico City, MEX
     map_url: https://goo.gl/maps/p2EFvXstwP5gR4yg8
     latitude: "19.423950469035198"
     longitude: "-99.20348454749812"
-  - title: SoulSpring Woodlands - Texas, USA
+  - title: Soul Spring Woodlands - Texas, USA
     map_url: https://goo.gl/maps/HXX78YCZpk6BJsBK6
     latitude: "30.130714432101545"
     longitude: "-95.55142833382124"
