@@ -1,6 +1,6 @@
 ---
 title: How it Works
-description: How Soulspring works
+description: How Soul Spring works
 layout: how-it-works
 wellness_journey:
   enable: true
