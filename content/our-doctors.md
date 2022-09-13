@@ -73,28 +73,29 @@ meet_doctors:
         to my practice that have not been available in the past.  '
     patients_quote:
       rating: "5"
-      name: Jackie L, Newport Beach Member
+      name: ''
       content: ''
   - name: Klever Bastar, MD
     image: "/images/dr-klevar-bastar.png"
-    location: Brickell 3, Miami 3
-    institute: Albert Einstein College of Medicine
-    internship: Internal Medicine at NYU Langone
+    location: Mexico City, MX
+    institute: ''
+    internship: ''
     bio: Prior to Forward, Chesda practiced medicine at Providence St Joseph. Chesda
       has a special interest in preventive health and management of chronic diseases,
       with a keen interest in smoking cessation. He values getting to know his members
       on a personal level.
     doctors_quote:
-      title: Why I practice
-      content: Wanted to be a part of rebuilding primary care from the ground up.
-        I believe in Forward's mission of providing high quality, cost effective care
-        as many people possible.
+      title: Why I choose Soul Spring
+      content: 'I have always believed the level of support and care a patient receives
+        – spiritually, mentally, and physically – has a deep impact on their wellness
+        journey. Soul Spring empowers me to help my clients achieve a meaningful lifestyle
+        with more clarity, fullness, and joy. Using our innovative detoxification
+        and regeneration therapies, I can help my patients heal, build resilience,
+        and improve their overall wellness. '
     patients_quote:
-      rating: "4.5"
-      name: Jackie L, Newport Beach Member
-      content: Dr. Chesda was wonderful and listened to me carefully. He spent over
-        an hour going over my medical history and developed a care plan to meet my
-        personal needs.
+      rating: "5"
+      name: ''
+      content: ''
 advisory_board:
   enable: true
   title: Medical Advisory Board
