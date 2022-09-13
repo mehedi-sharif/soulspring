@@ -208,10 +208,11 @@ soulspring_therapies_and_treatments:
       to locate and neutralize harmful toxins. '
   - title: Matrix Regeneration Therapy
     icon: images/therapies-and-treatments/icons/Matrix-Regeneration-Therapy.svg
-    content: Utilizing harmonious color spectrum and sound vibrations, this non- invasive
-      method is designed to reinforce the overall constitution of your body. It reduces
-      susceptibility to environmental pollution and stress factors by stimulating
-      the autonomic nervous system and aiding in regulation of the circulatory system.
+    content: 'To combat environmental toxins, it is essential to strengthen the soft
+      connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
+      three stages: 1) Direct current treatment to free the matrix from toxins, 2)
+      Petechial suction massage to repair damaged cells, and 3) Bio Resonance Therapy
+      to locate and neutralize harmful toxins. '
   - title: Nutrition & Lifestyle Coaching
     icon: images/therapies-and-treatments/icons/Nutrition-and-Lifestyle-Coaching.svg
     content: 'Build a less toxic and more nutritionally abundant life. By improving
