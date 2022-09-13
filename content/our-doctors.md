@@ -52,7 +52,7 @@ meet_doctors:
         issues. Not just covering issues with medication but helping heal the whole
         body. I would recommend her to anybody seeking medical help with any issue.
   - name: Cheryl Perlis, MD
-    image: "/images/dr-cheryl-perlis_sept2022.png"
+    image: "/images/dr-cheryl-perlis_sept2022_2.png"
     location: Highland Park, IL
     institute: Chicago Medical School
     internship: ''
@@ -75,7 +75,7 @@ meet_doctors:
       rating: "5"
       name: Jackie L, Newport Beach Member
       content: ''
-  - name: Rofiq Zobbar
+  - name: Klever Bastar, MD
     image: images/our-doctors/doctors/chesda.png
     location: Brickell 3, Miami 3
     institute: Albert Einstein College of Medicine
