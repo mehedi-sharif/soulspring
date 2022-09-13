@@ -27,18 +27,12 @@ meet_doctors:
     location: The Woodlands, TX
     institute: University of Illinois, Chicago
     internship: Family Medicine & Pediatrics
-    bio: "Dr. Richa Joy Gundlapalli, MD, ABIHM, AFMCP is a rare blend of Board-Certified
+    bio: Dr. Richa Joy Gundlapalli, MD, ABIHM, AFMCP is a rare blend of Board-Certified
       Integrative practitioner, expert on Bio Energetics and an internationally sought-after
       speaker/thought leader. Dr. Joy studied Family Medicine & Pediatrics at University
       of Illinois, Chicago where she was also the Chief Resident. She completed her
       AFMCP Certification from Institute of Functional Medicine and received Advanced
-      Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.\n\nA
-      Certified Biological Medicine practitioner, Dr. Joy received her training in
-      Biological Medicine at Paracelsus Clinic, Switzerland under Dr. Thomas Rau.
-      She has further trained under Dr. Dietrich Klinghardt & Dr. Ralf Oettmeier for
-      specialized therapies. Dr. Joy is also Certified in Bio Energetics & Energy
-      medicine from Wegamed Academy, Germany where she was personally trained under
-      Dr. Peter Mölleney. "
+      Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'Soul Spring modalities address so many different aspect of health...not
@@ -57,13 +51,11 @@ meet_doctors:
     institute: Chicago Medical School
     internship: ''
     bio: "Dr. Cheryl Perlis is a board-certified physician specializing in natural
-      hormone therapy, brain and body biochemistry, and aesthetic procedures.  \n\nTrained
+      hormone therapy, brain and body biochemistry, and aesthetic procedures.  \nTrained
       as a conventional obstetrician gynecologist at Chicago Medical School, she found
       her calling in functional/integrative medicine. Dr. Perlis has studied and trained
       nationwide under top doctors and thought leaders and is constantly learning
-      cutting-edge medical information and procedures to benefit her patients. \n\nDr.
-      Perlis has been in private practice since 1990, helping hundreds of men and
-      women look and feel their best.  "
+      cutting-edge medical information and procedures to benefit her patients. "
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I am so excited to have Soul Spring as part of my practice because
