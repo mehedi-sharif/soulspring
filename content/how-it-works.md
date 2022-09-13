@@ -4,7 +4,7 @@ description: How Soulspring works
 layout: how-it-works
 wellness_journey:
   enable: true
-  title: Your Whole Wellness Journey
+  title: Your Wellness Journey
   subtitle: Bio-individualized wellness solutions tailored just for you
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/how-it-works/thumb.jpg
