@@ -16,7 +16,7 @@ banner:
   quick_link:
     enanle: true
     title: I'd like to find out
-    placeholder: Why people choose SoulSpring?
+    placeholder: Why people choose Soul Spring?
     button:
       link: why-soulspring/
       label: Learn more
@@ -29,8 +29,6 @@ banner:
       link: what-will-i-experience/
     - title: Where are the locations?
       link: location/
-    - title: Why people choose Soul Spring?
-      link: why-choose-soulspring/
     - title: How much does it cost?
       link: pricing/
 facts:
