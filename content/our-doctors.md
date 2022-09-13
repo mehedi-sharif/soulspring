@@ -76,7 +76,7 @@ meet_doctors:
       name: Jackie L, Newport Beach Member
       content: ''
   - name: Klever Bastar, MD
-    image: images/our-doctors/doctors/chesda.png
+    image: "/images/dr-klevar-bastar.png"
     location: Brickell 3, Miami 3
     institute: Albert Einstein College of Medicine
     internship: Internal Medicine at NYU Langone
