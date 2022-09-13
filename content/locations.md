@@ -13,7 +13,7 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
-  - image: images/soulspring-clinics/soulspring-clinics.jpg
+  - image: "/images/mc-staff-photo.jpg"
     name: Minerva Clinic
     location: 25420 Kuykendahl Rd Ste D300, Tomball, TX 77375
     phone: "+1 832-521-1598"
