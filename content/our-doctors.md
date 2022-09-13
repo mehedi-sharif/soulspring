@@ -164,14 +164,14 @@ doctors_team:
 hiring:
   enable: true
   title: We Are Hiring
-  subtitle: Are you a board-certified MD frustrated ready to bring your practice to
-    the next level?
+  subtitle: Are you a board certified MD ready to bring your practice to the next
+    level?
   image: images/our-doctors/hiring.png
-  content: We actively recurit success Medical Doctors who have thriving practices
-    with their patients, but yearn for healing <br><br> Using a licensing model, we
-    offer physicians the opportunity to expand their practice with our propreitary
-    methodlogy along with a complete range of modalities, therapies, and supplments
-    and our medical-grade devices for diagnositcs and treatments.
+  content: We actively recruit successful Medical Doctors with thriving practices
+    and a passion for improving their patients' lives.<br><br> Using a licensing model,
+    we offer physicians the opportunity to expand their practice with our proprietary
+    diagnostic and therapeutic devices, along with a complete range of modalities,
+    therapies, and supplements.
   button:
     enable: true
     label: join soulspring now
