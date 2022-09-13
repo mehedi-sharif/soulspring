@@ -13,13 +13,6 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
-  - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
-    name: Soul Spring Woodlands
-    location: 25420 Kuykendahl Rd
-    phone: ''
-    opening_hour: ''
-    button: ''
-    content: ''
   - image: "/images/mc-staff-photo.jpg"
     name: Minerva Clinic
     location: 25420 Kuykendahl Rd Ste D300, Tomball, TX 77375
@@ -36,6 +29,13 @@ soulspring_clinics:
       the ailment and creating a unique treatment based on that root cause analysis.
       It's then implemented over a period of 3-6 months. Our therapies and wellness
       programs intend to make 360° wellness a habit.
+  - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
+    name: Soul Spring Woodlands
+    location: 25420 Kuykendahl Rd Ste D100, Tomball, TX 77375
+    phone: "+1 936-224-4948"
+    opening_hour: ''
+    button: ''
+    content: ''
 resort_clinics:
   enable: true
   title: Soul Spring Resort Clinics
