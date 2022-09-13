@@ -74,9 +74,7 @@ meet_doctors:
     patients_quote:
       rating: "5"
       name: Jackie L, Newport Beach Member
-      content: Dr. Chesda was wonderful and listened to me carefully. He spent over
-        an hour going over my medical history and developed a care plan to meet my
-        personal needs.
+      content: ''
   - name: Rofiq Zobbar
     image: images/our-doctors/doctors/chesda.png
     location: Brickell 3, Miami 3
