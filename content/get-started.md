@@ -79,9 +79,10 @@ initially_expects:
     for you.
   block:
     title: What Can You Expect When You Visit Soul Spring?
-    content: 'Our Medical Directors and staff will personally work with you to understand
-      your health concerns and design a comprehensive therapy plan. Although each
-      individual''s therapy plan is unique, it is broadly divided into 3 steps:'
+    content: 'Our Medical Directors and practitioners will personally work with you
+      to understand your health concerns and design a comprehensive therapy plan.
+      Although each individual''s therapy plan is unique, it is broadly divided into
+      3 steps:'
     clinic_features:
     - title: First / Initial Visit (60 mins)
       image: images/initially-expects/01.svg
