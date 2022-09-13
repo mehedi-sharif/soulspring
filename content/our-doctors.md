@@ -6,7 +6,7 @@ about_doctors:
   enable: true
   title: Doctors Who Do More
   subtitle: 
-  video_thumbnail: images/our-doctors/about-doctors.png
+  video_thumbnail: "/images/drjoy_homeopathics.jpg"
   video_link: https://www.youtube.com/embed/PRNniFMQvQg?autoplay=true
   content: We employ doctors from top universities like Harvard, Stanford and NYU.
     Supported by advanced technology, our doctors can connect with members through
