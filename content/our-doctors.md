@@ -8,8 +8,8 @@ about_doctors:
   subtitle: 
   video_thumbnail: "/images/drjoy_homeopathics.jpg"
   video_link: https://www.youtube.com/embed/PRNniFMQvQg?autoplay=true
-  content: Our board certified doctors are trained and certified in a variety of integrative
-    disciplines, including Biological Medicine, Ayurveda, Mind-Body Modalities, Bio-Energetics
+  content: Our board certified doctors are trained in a variety of integrative disciplines,
+    including Biological Medicine, Ayurveda, Mind-Body Modalities, Bio-Energetics
     and Neural Therapy.
   buttons:
   - label: Free consultation
