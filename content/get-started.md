@@ -21,7 +21,7 @@ cause_of_problem:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
     features:
-    - Food Sensitivities
+    - Toxic Load - Chemicals, Heavy Metals
     - Inflammation Markers
     - Genetic/Immunological Markers
     - Insulin Resistance
