@@ -75,15 +75,18 @@ meet_doctors:
       rating: "5"
       name: ''
       content: ''
-  - name: Klever Bastar, MD
+  - name: Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
     institute: ''
     internship: ''
-    bio: Prior to Forward, Chesda practiced medicine at Providence St Joseph. Chesda
-      has a special interest in preventive health and management of chronic diseases,
-      with a keen interest in smoking cessation. He values getting to know his members
-      on a personal level.
+    bio: "With more than 15 years of clinical experience, Dr. Klever Bastar is passionate
+      about wellness. He believes actively seeking balance between your physical,
+      mental, and emotional body will lead you to evolve and be more aware and empathetic
+      in your relationship with others and with nature.  \nIn his Soul Spring practice,
+      Dr. Klever blends modern medical technology and alternative medicine therapies
+      to help his clients achieve maximum health and a meaningful lifestyle with more
+      clarity, fullness, and joy. "
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I have always believed the level of support and care a patient receives
@@ -96,6 +99,20 @@ meet_doctors:
       rating: "5"
       name: ''
       content: ''
+  - name: Stephany González, MD
+    institute: ''
+    internship: ''
+    bio: ''
+    doctors_quote:
+      content: In Soul Spring, I found the physical space to perform both my life
+        mission and my greatest passion. This is the place where the new world will
+        heal from a place of light, with science and technology, on the shoulders
+        of ancestral wisdom and the beauty of healing with a purpose.
+      title: Why I choose Soul Spring
+    patients_quote:
+      rating: "5"
+    image: "/images/dr-stephany.png"
+    location: Morelos, MX
 advisory_board:
   enable: true
   title: Medical Advisory Board
