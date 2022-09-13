@@ -30,8 +30,8 @@ cause_of_problem:
     - Hormonal Imbalances
     - Neuralgia
     content: 'But more importantly we look for the inward signals that most other
-      doctors miss. This is where our comprehensive and analytical profile of your
-      vitals and blood work provide important markers for:'
+      doctors miss. This is where our non-invasive diagnostic tests and assessments
+      provide important markers for:'
 understanding_bio:
   enable: true
   title: Your Individualized Bio-Wellness Report
