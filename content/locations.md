@@ -20,7 +20,7 @@ soulspring_clinics:
     opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
     button:
       label: Show Map
-      link: "#"
+      link: https://goo.gl/maps/U6V7Lv3wXFw7GHPT8
     content: At Minerva Clinic, we help you rekindle your body's natural power to
       heal by combining the best of biological medicine, innovative medical technologies,
       and the wisdom of ancient holistic approaches. Our unique biological and functional
