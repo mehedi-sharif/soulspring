@@ -20,7 +20,7 @@ parent = "About"
 url = "why-us/"
 weight = 10
 [[main]]
-name = "Offering"
+name = "Offerings"
 url = "offering/"
 weight = 5
 [[main]]
@@ -63,7 +63,7 @@ name = "How It Works"
 url = "how-it-works/"
 weight = 2
 [[quick_links]]
-name = "Offering"
+name = "Offerings"
 url = "offering/"
 weight = 3
 [[quick_links]]
