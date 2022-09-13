@@ -8,9 +8,9 @@ about_doctors:
   subtitle: 
   video_thumbnail: "/images/drjoy_homeopathics.jpg"
   video_link: https://www.youtube.com/embed/PRNniFMQvQg?autoplay=true
-  content: We employ doctors from top universities like Harvard, Stanford and NYU.
-    Supported by advanced technology, our doctors can connect with members through
-    in-person & virtual visits and 24/7 remote care.
+  content: Our board certified doctors are trained and certified in a variety of integrative
+    disciplines, including Biological Medicine, Ayurveda, Mind-Body Modalities, Bio-Energetics
+    and Neural Therapy.
   buttons:
   - label: Free consultation
     link: "#"
