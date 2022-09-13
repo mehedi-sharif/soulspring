@@ -53,9 +53,9 @@ meet_doctors:
     bio: "Dr. Cheryl Perlis is a board-certified physician specializing in natural
       hormone therapy, brain and body biochemistry, and aesthetic procedures.  \nTrained
       as a conventional obstetrician gynecologist at Chicago Medical School, she found
-      her calling in functional/integrative medicine. Dr. Perlis has studied and trained
-      nationwide under top doctors and thought leaders and is constantly learning
-      cutting-edge medical information and procedures to benefit her patients. "
+      her calling in integrative medicine. Dr. Perlis has studied and trained nationwide
+      under top doctors and thought leaders and is constantly learning cutting-edge
+      medical information and procedures to benefit her patients. "
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I am so excited to have Soul Spring as part of my practice because
