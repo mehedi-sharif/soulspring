@@ -22,9 +22,9 @@ banner:
       label: Learn more
     topics:
     - title: Why people choose Soul Spring?
-      link: why-soulspring/
+      link: "/why-us/"
     - title: Who are the doctors?
-      link: doctors/
+      link: ''
     - title: What will I experience?
       link: what-will-i-experience/
     - title: Where are the locations?
