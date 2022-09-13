@@ -35,9 +35,9 @@ meet_doctors:
       Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.
     doctors_quote:
       title: Why I choose Soul Spring
-      content: 'Soul Spring modalities address so many different aspect of health...not
-        only physical health but also a person''s emotional and mental health, environmental
-        health as well as their bio-energy. '
+      content: 'Soul Spring modalities support the innate healing capacity of the
+        body by addressing so many different aspects of health...bio-energetic, physical,
+        mental, emotional and environmental. '
     patients_quote:
       rating: "5.0"
       name: "- D.S."
