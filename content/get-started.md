@@ -21,14 +21,14 @@ cause_of_problem:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
     features:
-    - Toxic Load - Chemicals, Heavy Metals
-    - Inflammation Markers
-    - Genetic/Immunological Markers
-    - Insulin Resistance
+    - Food Sensitivities
     - Nutrient Deficiencies
-    - Abnormal Cellular Signals
-    - Hormonal Imbalances
-    - Neuralgia
+    - Inflammation Markers
+    - System Dysregulation
+    - Emotional/Mental States
+    - Functional Disorders
+    - Genetic/Immunological Markers
+    - Toxic Load - Chemicals, Heavy Metals
     content: 'But more importantly we look for the inward signals that most other
       doctors miss. This is where our non-invasive diagnostic tests and assessments
       provide important markers for:'
