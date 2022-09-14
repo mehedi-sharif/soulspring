@@ -65,8 +65,8 @@ soulspring_solutions:
         label: See More Details
         link: "#!"
   - title: Brain Health
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+    subtitle: Transforming brain health with the wisdom of natural medicine and cutting-edge
+      technology
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health.png"
     additional_info:
