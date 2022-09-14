@@ -89,7 +89,7 @@ meet_doctors:
       content: ''
   - name: Stephany González, MD
     institute: Universidad Latinoamericana (ULA), Mexico
-    internship: ''
+    internship: Molecular Medicine & Neural Therapy
     bio: 'Dr. Stephany González is internationally certified in Neural Therapy and
       Regulative Medicine, with over 12 years of clinical experience in holistic and
       integrative medicine. Dr. Stephany received her Bachelor of Medicine and Surgery
