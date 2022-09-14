@@ -64,8 +64,9 @@ meet_doctors:
         to my practice that have not been available in the past.  '
     patients_quote:
       rating: "5"
-      name: ''
-      content: ''
+      name: Verified Patient of Dr. Perlis
+      content: Dr. Cheryl Perlis is a wonderful doctor. She has taken care of me for
+        the last 15 years and I believe she is intelligent and understands my needs.
   - name: Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
