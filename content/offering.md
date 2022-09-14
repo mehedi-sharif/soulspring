@@ -30,7 +30,7 @@ soulspring_solutions:
       button:
         label: See More Details
         link: "#!"
-  - title: Athletic Performance & Recovery
+  - title: Athletic Performance/Recovery
     subtitle: Innovative fitness assessments and specialized therapies for optimized
       training and recovery
     icon: images/solutions/icons/athelete-recovery.svg
