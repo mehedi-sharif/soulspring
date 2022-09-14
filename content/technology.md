@@ -56,8 +56,8 @@ medical_devices:
 diagnostic_devices:
   enable: true
   title: 'Diagnosis:  We Go Beyond Traditional Lab Testing'
-  subtitle: State-of-the-art technology enables insights normal lab tests may miss
-    to identify hidden causes of root causes of diseases.
+  subtitle: State-of-the-art technology identifies hidden root causes of disease normal
+    lab tests may miss.
   device_info:
   - title: Check Medical Sport
     image: images/technology/diagnostic-devices/check-medical-sport.jpg
