@@ -56,7 +56,7 @@ medical_devices:
 diagnostic_devices:
   enable: true
   title: 'Diagnosis: We Go Way Beyond Traditional Lab Testing'
-  subtitle: State-of-the-art techonlogy enables insightst normal lab tests may miss
+  subtitle: State-of-the-art technology enables insights normal lab tests may miss
     to identify hidden causes of root causes of diseases.
   device_info:
   - title: Check Medical Sport
