@@ -39,7 +39,7 @@ medical_devices:
   subtitle: Every Soulspring clinic applies proven protocols we developed for expert
     use of Wegemed Medtech.
   device_lists:
-  - title: Diagnostic devices
+  - title: Diagnostic Devices
     image: images/technology/medical-devices/01.jpg
     link:
       label: Read More
