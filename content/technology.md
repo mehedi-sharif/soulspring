@@ -118,10 +118,12 @@ therapeutic_devices:
   device_info:
   - title: Med Matrix
     image: images/technology/therapeutic-devices/med-matrix.png
-    content: The Med Matrix was named after the reason it was tissue known as matrix.
-      This device enables threefold metabolic stress, cell structures damaged by chronic
-      infection are repaired, and cells in the connective tissue and immune system
-      are re-mobilized.
+    content: 'To combat environmental toxins, it is essential to strengthen the soft
+      connecting tissue, or matrix, within the body. Med Matrix is the only medically
+      certified device that combines multiple therapeutic modalities in one session
+      for whole-body detoxification and regeneration. Direct current treatment designed
+      to free the matrix from toxins; petechial suction massage repairs damaged cells,
+      and bio resonance therapy neutralizes harmful toxins. '
     feature_lists:
     - title: Specialized regeneration & detoxification methods
       icon: images/technology/therapeutic-devices/med-matrix/01.svg
