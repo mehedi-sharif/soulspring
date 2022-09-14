@@ -48,7 +48,7 @@ meet_doctors:
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     location: Highland Park, IL
     institute: Chicago Medical School
-    internship: ''
+    internship: Obstetrics & Gynecology
     bio: "Dr. Cheryl Perlis is a board-certified physician specializing in natural
       hormone therapy, brain and body biochemistry, and aesthetic procedures.  \nTrained
       as a conventional obstetrician gynecologist at Chicago Medical School, she found
