@@ -4,7 +4,7 @@ description: Discover how Soul Spring can elevate your health and wellness
 layout: technology
 technology_banner:
   enable: true
-  title: Soul Spring Centers <br/> Powered by Wegamed Medical Technology
+  title: Soul Spring Centers <br/> <br/>Powered by Wegamed Medical Technology
   subtitle: Medically certified devices for whole body detoxification and regeneration
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/technology/thumb.jpg
