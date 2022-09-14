@@ -68,7 +68,7 @@ soulspring_solutions:
     subtitle: Transforming brain health with the wisdom of natural medicine and cutting-edge
       technology
     icon: images/solutions/icons/brain-health.svg
-    image: "/images/brain-health.png"
+    image: "/images/brain-health.jpg"
     additional_info:
       title: Improved Mental Well-Being
       lists:
