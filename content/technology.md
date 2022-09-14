@@ -67,7 +67,7 @@ diagnostic_devices:
     feature_lists:
     - title: Fully-automated diagnosis
       icon: images/technology/diagnostic-devices/check-medical-sport/01.svg
-    - title: Asses all major organ systems
+    - title: Assess all major organ systems
       icon: images/technology/diagnostic-devices/check-medical-sport/02.svg
     - title: Results in less than 8 minutes
       icon: images/technology/diagnostic-devices/check-medical-sport/03.svg
