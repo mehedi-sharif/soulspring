@@ -95,8 +95,8 @@ meet_doctors:
       Regulative Medicine, with over 12 years of clinical experience in holistic and
       integrative medicine. With a deep genuine interest in holistic healing, Dr.
       Stephany actively studies with local practitioners in the areas of Mexican herbal
-      medicine, temazcal, ancestral dances and healing sounds, using these lessons
-      and experiences to develop unique and individualized therapies for her patients. '
+      medicine, temazcal, ancestral dances and healing sounds to develop unique and
+      individualized therapies for her patients. '
     doctors_quote:
       content: In Soul Spring, I found the physical space to perform both my life
         mission and my greatest passion. This is the place where the new world will
