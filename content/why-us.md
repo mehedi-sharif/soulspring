@@ -33,7 +33,7 @@ individual_bio_wellness_solutions:
   enable: true
   title: Individualized Bio-Wellness Solutions
   subtitle: Healthy longevity is no longer reactive. Soul Spring is crafted to enable
-    wellness, detox, and rejuvenation at your cellular core.
+    regeneration, detoxification, and rejuvenation at your cellular core.
   solution_lists:
   - title: Advanced Bio Scanning and Therapeutic Modalities
     image: images/individual-wellness-solutions/01.svg
@@ -41,7 +41,7 @@ individual_bio_wellness_solutions:
     image: images/individual-wellness-solutions/02.svg
   - title: Bio- Individualized™ Formulations
     image: images/individual-wellness-solutions/03.svg
-  - title: Advanced Detoxifi -cation,Rejuve-nation & Regenerative Therapie
+  - title: Advanced Detoxification, Rejuvenation & Regenerative Therapie
     image: images/individual-wellness-solutions/04.svg
   - title: Mind-Body Modalities
     image: images/individual-wellness-solutions/05.svg
