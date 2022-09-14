@@ -68,7 +68,7 @@ soulspring_solutions:
     subtitle: While visible signs of aging can be witnessed throughout the body, your
       skin is the most revealing sign. Skin cells.
     icon: images/solutions/icons/brain-health.svg
-    image: images/solutions/brain-health.jpg
+    image: "/images/brain-health.png"
     additional_info:
       title: Improved Mental Wellbeing
       lists:
@@ -120,7 +120,7 @@ soulspring_solutions:
     icon: images/solutions/icons/post-covid-recovery.svg
     image: images/solutions/post-covid-recovery.jpg
     additional_info:
-      title: Better Immunity
+      title: ''
       lists:
       - Restores luster
       - Smoothens complexion
