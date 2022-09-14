@@ -49,7 +49,7 @@ medical_devices:
     link:
       label: Read More
       url: "#therapeutic-devices"
-  - title: Wellness devices
+  - title: Wellness Devices
     image: images/technology/medical-devices/03.jpg
     link:
       label: Read More
