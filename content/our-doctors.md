@@ -52,9 +52,9 @@ meet_doctors:
     bio: "Dr. Cheryl Perlis is a board-certified physician specializing in natural
       hormone therapy, brain and body biochemistry, and aesthetic procedures.  \nTrained
       as a conventional obstetrician gynecologist at Chicago Medical School, she found
-      her calling in integrative medicine. Dr. Perlis has studied and trained nationwide
-      under top doctors and thought leaders and is constantly learning cutting-edge
-      medical information and procedures to benefit her patients. "
+      her calling in integrative medicine. Dr. Perlis regularly studies and trains
+      nationwide under top doctors and thought leaders to learn cutting-edge medical
+      information and procedures to benefit her patients. "
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I am so excited to have Soul Spring as part of my practice because
@@ -72,12 +72,9 @@ meet_doctors:
     institute: ''
     internship: ''
     bio: 'With more than 15 years of clinical experience, Dr. Klever Bastar is passionate
-      about wellness. He believes actively seeking balance between your physical,
-      mental, and emotional body will lead you to evolve and be more aware and empathetic
-      in your relationship with others and with nature. In his Soul Spring practice,
-      Dr. Klever blends modern medical technology and alternative medicine therapies
-      to help his clients achieve maximum health and a meaningful lifestyle with more
-      clarity, fullness, and joy. '
+      about wellness. In his Soul Spring practice, Dr. Klever blends modern medical
+      technology and alternative medicine therapies to help his clients achieve maximum
+      health and a meaningful lifestyle with more clarity, fullness, and joy. '
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'I have always believed the level of support and care a patient receives
