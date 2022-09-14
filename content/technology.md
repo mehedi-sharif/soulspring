@@ -35,8 +35,8 @@ benefit_summary:
 medical_devices:
   enable: true
   title: Experience Our State-of-the-art Medical Devices
-  subtitle: Every Soulspring clinic applies proven protocols we developed for expert
-    use of Wegemed Medtech.
+  subtitle: Every Soul Spring center applies proven protocols we developed for expert
+    use of Wegamed Medtech.
   device_lists:
   - title: Diagnostic Devices
     image: images/technology/medical-devices/01.jpg
