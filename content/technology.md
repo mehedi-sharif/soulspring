@@ -149,10 +149,10 @@ therapeutic_devices:
       link: "#"
   - title: Med Audiocolor
     image: images/technology/therapeutic-devices/med-audiocolor.png
-    content: The first of its kind, the MED Audiocolor is a mobile self-therapy device
-      that provides a combination of benefits that explores both bio feedback and
-      neuro feedback therapy into an interactive projection of thoughts that activates
-      and trains both sides of the brain.
+    content: The first of its kind, Audiocolor is a self-therapy device that provides
+      a combination of benefits that explores both bio feedback and neuro feedback
+      therapy into an interactive projection of thoughts that activates and trains
+      both sides of the brain.
     feature_lists:
     - title: Real time neuro feedback therapy
       icon: images/technology/therapeutic-devices/med-audiocolor/01.svg
