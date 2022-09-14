@@ -31,11 +31,11 @@ why_soulspring:
       subtitle: A caring environment and relaxing experience you'll love
 individual_bio_wellness_solutions:
   enable: true
-  title: Individualized Bio-wellness Solutions
+  title: Individualized Bio-Wellness Solutions
   subtitle: Healthy longevity is no longer reactive. Soul Spring is crafted to enable
     wellness, detox, and rejuvenation at your cellular core.
   solution_lists:
-  - title: Advanced Bio scanning and Therapeutic Modalities
+  - title: Advanced Bio Scanning and Therapeutic Modalities
     image: images/individual-wellness-solutions/01.svg
   - title: Neuro-Regenerative Therapies
     image: images/individual-wellness-solutions/02.svg
