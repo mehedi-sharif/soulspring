@@ -70,14 +70,14 @@ soulspring_solutions:
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health.png"
     additional_info:
-      title: Improved Mental Wellbeing
+      title: Improved Mental Well-Being
       lists:
-      - Reduces Stress
-      - Improves Sleep Cycle
-      - Regulates Emotions
-      - Resolves Conduct Disorders
-      - Reduces Anxiety
-      - Resolves Eating Disorders
+      - Reduce Stress
+      - Improve Sleep Cycle
+      - Regulate Emotions
+      - Resolve Behavior Disorders
+      - Reduce Anxiety
+      - Address Eating Disorders
       button:
         label: See More Details
         link: "#!"
