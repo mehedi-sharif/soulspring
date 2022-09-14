@@ -188,7 +188,8 @@ our_locations:
 holistic_doctors:
   enable: true
   title: Holistic Doctors & Practitioners
-  subtitle: Meet the amazing practitioners handpicked for Soul Spring
+  subtitle: Meet the amazing medical doctors and practitioners handpicked for Soul
+    Spring
   doctors_list:
   - name: Dr. Cheryl Perlis
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
