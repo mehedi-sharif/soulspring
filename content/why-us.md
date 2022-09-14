@@ -207,10 +207,10 @@ thrive_together:
     image: images/thrive-together/08.svg
 call_to_action:
   enable: true
-  title: Want Us to Open A Location Near You?
-  description: Refer Soul Spring to Best-in-Class Hotels & Wellness Centers
+  title: Ready to Experience Our Difference?
+  description: Get a free consultation by filling out a 2-minute form online today.
   bg_image: images/call-to-action-2.jpg
-  button_label: Refer Soul Spring
+  button_label: Free Consultation
   button_link: "#!"
 
 ---

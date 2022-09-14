@@ -128,8 +128,7 @@ holistic_health:
 call_to_action:
   enable: true
   title: Ready to Experience Our Difference?
-  description: Get a free consultation by filling out a 2-minute form online or visit
-    a center in-person.
+  description: Get a free consultation by filling out a 2-minute form online.
   bg_image: images/call-to-action-2.jpg
   button_label: Free Consultation
   button_link: "#!"

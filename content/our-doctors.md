@@ -172,10 +172,10 @@ hiring:
     link: "#"
 call_to_action:
   enable: true
-  title: Questions in mind? We're Ready
-  description: We'll help you start your journey to wellness.
+  title: Ready to Experience Holistic BioMedicine Doctors?
+  description: We're here to guide your journey to holistic wellness and wellbeing.
   bg_image: images/call-to-action.jpg
-  button_label: Launch Chat Now
+  button_label: Make Appointment
   button_link: "#!"
 
 ---

@@ -61,9 +61,7 @@ diagnostic_devices:
   device_info:
   - title: Check Medical Sport
     image: images/technology/diagnostic-devices/check-medical-sport.jpg
-    content: This fully-automated device produces a full-body advisory analysis in
-      just one measurement. The Check Medical Sport displays defects in the body along
-      with suggestions for the right therapy.
+    content: A new era in holistic medicine and preventative diagnosis
     feature_lists:
     - title: Fully-automated diagnosis
       icon: images/technology/diagnostic-devices/check-medical-sport/01.svg
@@ -181,10 +179,10 @@ wegamed_and_soulspring:
       to develop new devices for effective diagnoses and non-invasive therapies. Backed by 25+ years of research and clinical trials, Wegamed's Diagnostic, Therapeutic and Wellness Devices are approved for medical use in Germany (DIMDI) and several other countries. **The devices are Class 2A CE-marked, clinically approved, FDA registered and MDSAP compliant.**
 call_to_action:
   enable: true
-  title: Want Us to Open A Location Near You?
-  description: Refer Soul Spring to Best-in-Class Hotels & Wellness Centers
+  title: Want To Learn More About Our Medical Technology?
+  description: Get a live demo by completing this online today.
   bg_image: images/call-to-action-2.jpg
-  button_label: Refer Soul Spring
+  button_label: Free Demo
   button_link: "#!"
 
 ---

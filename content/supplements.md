@@ -38,10 +38,10 @@ paramaceutical_grade:
     and faster results with no dangerous side effects.
 call_to_action:
   enable: true
-  title: Want Us to Open A Location Near You?
-  description: Refer Soul Spring to Best-in-Class Hotels & Wellness Centers
+  title: Interested in learning more about 100% personalized supplements?
+  description: Get a free consultation by filling out a 2-minute form online today.
   bg_image: images/call-to-action-2.jpg
-  button_label: Refer Soul Spring
+  button_label: Free consultation
   button_link: "#!"
 
 ---

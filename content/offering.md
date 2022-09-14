@@ -234,10 +234,10 @@ soulspring_therapies_and_treatments:
       tones with missing ones to achieve optimal health outcomes.
 call_to_action:
   enable: true
-  title: Want Us to Open A Location Near You?
-  description: Refer Soul Spring to Best-in-Class Hotels & Wellness Centers
+  title: Ready to Experience Our Offerings?
+  description: Get a free consultation by filling out a simple online form today.
   bg_image: images/call-to-action-2.jpg
-  button_label: Refer Soul Spring
+  button_label: Free Consultation
   button_link: "#!"
 
 ---
