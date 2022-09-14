@@ -112,7 +112,7 @@ investors:
     image: images/about/investors/dilip.png
     designation: President
     company: Montgomery and Harris General Partners
-    company_logo: images/about/company/mahagp.png
+    company_logo: "/images/maha-gp-logo_v2.png"
   - name: Prof. Srikant Datar
     image: images/about/investors/srikant.png
     designation: dean
