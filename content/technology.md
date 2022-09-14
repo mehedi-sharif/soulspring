@@ -44,7 +44,7 @@ medical_devices:
     link:
       label: Read More
       url: "#diagnostic-devices"
-  - title: Therapeutic devices
+  - title: Therapeutic Devices
     image: images/technology/medical-devices/02.jpg
     link:
       label: Read More
