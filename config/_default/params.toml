@@ -2,7 +2,7 @@ contact_form_action = "#"
 copyright = "© 2022 SoulSpring. All rights reserved."
 custom_script = ""
 favicon = "images/favicon.png"
-footer_content = "Soul Spring is a global network of bio-wellness and detox centers. Our mission is to make bio-individualized wellbeing a reality for humanity."
+footer_content = "Soul Spring is a global network of bio-wellness and detox centers. Our mission is to make bio-individualized well-being a reality for humanity."
 google_tag_manager = ""
 image_gallery = true
 logo = "images/logo.png"
@@ -23,7 +23,6 @@ button = "I Accept"
 content = "This site uses cookies. By continuing to use this website, you agree to their use."
 enable = false
 expire_days = 2
-
 [counter]
 enable = false
 username = ""
@@ -41,9 +40,9 @@ image = "images/favicon.png"
 keywords = ["Boilerplate", "Hugo", "Themefisher", "GetHugoThemes"]
 [navigation_button]
 enable = true
-label = "Free Consultation"
-hubspotPortalId = "21439971"
 hubspotFormId = "b5c47a27-5574-4611-a600-dc94aa6b18f3"
+hubspotPortalId = "21439971"
+label = "Free Consultation"
 [plausible]
 domain = ""
 enable = false
