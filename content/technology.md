@@ -36,7 +36,7 @@ medical_devices:
   enable: true
   title: Experience Our State-of-the-art Medical Devices
   subtitle: Every Soul Spring center applies proven protocols we developed for expert
-    use of Wegamed Medtech.
+    use of Wegamed medtech.
   device_lists:
   - title: Diagnostic Devices
     image: images/technology/medical-devices/01.jpg
