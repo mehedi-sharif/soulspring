@@ -55,7 +55,7 @@ medical_devices:
       url: "#wegamed-and-soulspring"
 diagnostic_devices:
   enable: true
-  title: 'Diagnosis: We Go Way Beyond Traditional Lab Testing'
+  title: 'Diagnosis:  We Go Beyond Traditional Lab Testing'
   subtitle: State-of-the-art technology enables insights normal lab tests may miss
     to identify hidden causes of root causes of diseases.
   device_info:
