@@ -116,7 +116,7 @@ therapeutic_devices:
   subtitle: We are thrilled to have brought the Wegamed legacy into our growing family
     for best-in-class bio-wellness solutions
   device_info:
-  - title: MED Matrix
+  - title: Med Matrix
     image: images/technology/therapeutic-devices/med-matrix.png
     content: The Med Matrix was named after the reason it was tissue known as matrix.
       This device enables threefold metabolic stress, cell structures damaged by chronic
@@ -132,7 +132,7 @@ therapeutic_devices:
     button:
       label: Know More
       link: "#"
-  - title: MED Select
+  - title: Med Select
     image: images/technology/therapeutic-devices/med-select.png
     content: This device is powered by homeopathy to activate the self-healing ability
       of the body, using its own vibrations, helping alleviate allergies, skin issues,
@@ -147,7 +147,7 @@ therapeutic_devices:
     button:
       label: Know More
       link: "#"
-  - title: MED Audiocolor
+  - title: Med Audiocolor
     image: images/technology/therapeutic-devices/med-audiocolor.png
     content: The first of its kind, the MED Audiocolor is a mobile self-therapy device
       that provides a combination of benefits that explores both bio feedback and
