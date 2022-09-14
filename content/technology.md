@@ -5,8 +5,7 @@ layout: technology
 technology_banner:
   enable: true
   title: Soul Spring Centers <br/> Powered by Wegamed Medical Technology
-  subtitle: Soul Spring clinics use a suite of medically proven wellness devices backed
-    by 20+ years of clinical research.
+  subtitle: Medically certified devices for whole body detoxification and regeneration
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/technology/thumb.jpg
 benefit_summary:
