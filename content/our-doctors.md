@@ -29,10 +29,9 @@ meet_doctors:
     internship: Family Medicine & Pediatrics
     bio: Dr. Richa Joy Gundlapalli, MD, ABIHM, AFMCP is a rare blend of Board-Certified
       Integrative practitioner, expert on Bio Energetics and an internationally sought-after
-      speaker/thought leader. Dr. Joy studied Family Medicine & Pediatrics at University
-      of Illinois, Chicago where she was also the Chief Resident. She completed her
-      AFMCP Certification from Institute of Functional Medicine and received Advanced
-      Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.
+      speaker/thought leader. She completed her AFMCP Certification from Institute
+      of Functional Medicine and received Advanced Nutrient Therapy (ANT) training
+      for Brain health under Dr. William Walsh.
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'Soul Spring modalities support the innate healing capacity of the
