@@ -187,7 +187,7 @@ our_locations:
     longitude: "-95.55142833382124"
 holistic_doctors:
   enable: true
-  title: Holistic Doctors
+  title: Holistic Doctors & Practitioners
   subtitle: Meet the amazing practitioners handpicked for Soul Spring
   doctors_list:
   - name: Dr. Cheryl Perlis
