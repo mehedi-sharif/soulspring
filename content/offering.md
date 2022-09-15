@@ -36,7 +36,7 @@ soulspring_solutions:
     icon: images/solutions/icons/athelete-recovery.svg
     image: "/images/athletic-performance.png"
     additional_info:
-      title: Train smarter, recover faster
+      title: Train Smarter - <br/>Recover Faster
       lists:
       - Assess fitness level
       - Scan muscle systems
