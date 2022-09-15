@@ -34,7 +34,7 @@ soulspring_solutions:
     subtitle: Innovative fitness assessments and specialized therapies for optimized
       training and recovery
     icon: images/solutions/icons/athelete-recovery.svg
-    image: images/solutions/athelete-recovery.jpg
+    image: "/images/athletic-performance.png"
     additional_info:
       title: Train smarter, recover faster
       lists:
