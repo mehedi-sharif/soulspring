@@ -19,7 +19,7 @@ soulspring_solutions:
     icon: images/solutions/icons/anti-ageing.svg
     image: "/images/anti-aging.jpg"
     additional_info:
-      title: Radiant Skin, Naturally
+      title: Radiant skin, naturally
       lists:
       - Restore luster
       - Reduce wrinkles
