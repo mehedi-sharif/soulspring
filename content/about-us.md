@@ -54,7 +54,7 @@ management_team:
   subtitle: Doctor-led, bio-individualized holistic wellness solutions
   members:
   - name: Dr. Leo Rastogi
-    image: "/images/leo.jpg"
+    image: "/images/about/management/leo.png"
     designation: Founder & CEO, Minerva Groupe
     about:
     - Serial Entrepreneur (3 exits)
