@@ -121,11 +121,11 @@ soulspring_solutions:
     additional_info:
       title: Rebuild immunity, <br/>strengthen resilience
       lists:
-      - Rebuild innate defenses
       - Prevent recurrent infections
       - Boost vitality and strength
       - Reduce toxic load
       - Remove sources of infection
+      - Rebuild innate defenses
       - Support natural healing capacity
       button:
         label: See More Details
