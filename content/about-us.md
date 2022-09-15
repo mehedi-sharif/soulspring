@@ -4,7 +4,7 @@ description: All solutions
 layout: about-us
 about_us:
   enable: true
-  title: Our Clients Tell Us We Are Live Savers
+  title: Our Clients Tell Us We Are Life Savers
   subtitle: We restore and upgrade the quality of life and aliveness for our clients
   video_thumbnail: images/about/about-us.png
   video_link: https://www.youtube.com/embed/PRNniFMQvQg?autoplay=true
