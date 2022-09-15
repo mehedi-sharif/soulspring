@@ -17,7 +17,7 @@ soulspring_solutions:
   - title: Anti-Aging
     subtitle: Stimulate, repair and revitalize your skin
     icon: images/solutions/icons/anti-ageing.svg
-    image: images/solutions/anti-ageing.jpg
+    image: "/images/anti-aging.jpg"
     additional_info:
       title: Radiant skin, naturally
       lists:
