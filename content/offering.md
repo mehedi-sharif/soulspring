@@ -235,7 +235,7 @@ soulspring_therapies_and_treatments:
 call_to_action:
   enable: true
   title: Ready to Experience Our Offerings?
-  description: Get a free consultation by filling out a simple online form today.
+  description: Get a free consultation today.
   bg_image: images/call-to-action-2.jpg
   button_label: Free Consultation
   button_link: "#!"
