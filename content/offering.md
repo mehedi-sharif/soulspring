@@ -117,7 +117,7 @@ soulspring_solutions:
   - title: Post Covid Recovery
     subtitle: Activate your body's natural ability to heal itself
     icon: images/solutions/icons/post-covid-recovery.svg
-    image: ''
+    image: "/images/post-covid.png"
     additional_info:
       title: Rebuild immunity, <br/>strengthen resilience
       lists:
