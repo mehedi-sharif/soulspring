@@ -5,7 +5,7 @@ layout: about-us
 about_us:
   enable: true
   title: Our Clients Tell Us We Are Life Savers
-  subtitle: We restore and upgrade the quality of life and aliveness for our clients
+  subtitle: We restore and upgrade the quality of life and well-being for our clients.
   video_thumbnail: images/about/about-us.png
   video_link: https://www.youtube.com/embed/PRNniFMQvQg?autoplay=true
   content: Together We Can Make A Healthier World
