@@ -96,7 +96,7 @@ management_team:
     - CEO of DTES Happiest Minds (NSE:HAPSTMNDS)
     - Alumnus of Harvard Business School, King's College and Oxford University
   - name: Rodrigo Salgado
-    image: ''
+    image: "/images/rodrigo_pic3.png"
     designation: Vice President (LATAM), Soul Spring
     about:
     - Conscious entrepreneur and experienced executive
