@@ -122,12 +122,12 @@ soulspring_solutions:
     additional_info:
       title: Rebuild immunity, strengthen resilience
       lists:
-      - Restores luster
-      - Smoothens complexion
-      - Relieves Spinal/Joint Pain
-      - Reduces lymphatic congestion
-      - Reduces wrinkles
-      - Improves skin elasticity
+      - Rebuild innate defenses
+      - Prevent recurrent infections
+      - Boost vitality and strength
+      - Reduce toxic load
+      - Remove sources of infection
+      - Support natural healing capacity
       button:
         label: See More Details
         link: "#!"
