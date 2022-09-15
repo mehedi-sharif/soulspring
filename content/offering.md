@@ -120,7 +120,7 @@ soulspring_solutions:
     icon: images/solutions/icons/post-covid-recovery.svg
     image: images/solutions/post-covid-recovery.jpg
     additional_info:
-      title: ''
+      title: Rebuild immunity, strengthen resilience
       lists:
       - Restores luster
       - Smoothens complexion
