@@ -85,7 +85,7 @@ soulspring_solutions:
     subtitle: Achieve hormonal balance by rejuvenating your body at the cellular level
       using holistic and alternative techniques.
     icon: images/solutions/icons/hormonal-balance.svg
-    image: images/solutions/hormonal-balance.jpg
+    image: "/images/hormone-balance_shutterstock_479891626.jpg"
     additional_info:
       title: Better balance, optimized health
       lists:
