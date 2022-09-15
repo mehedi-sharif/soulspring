@@ -78,6 +78,15 @@ management_team:
       Chicago
     - Trained in Biological Medicine at Paracelsus Clinic, Switzerland
     - Founder of Integrative Wellness
+  - name: Javi Razo
+    image: images/about/management/javi.png
+    designation: Managing Director (LATAM), Minerva Groupe
+    about:
+    - Globally recognized expert on Integrative Medicine
+    - Board Certified Integrative Practitioner, Alumni of University of Illinois,
+      Chicago
+    - Trained in Biological Medicine at Paracelsus Clinic, Switzerland
+    - Founder of Integrative Wellness Center
   - name: Barry Stamos
     image: images/about/management/barry.png
     designation: CMO, Minerva Groupe
@@ -94,15 +103,6 @@ management_team:
     - Creator of seven+ award-winning Bio Resonance and Bio Impedance based medical
       devices
     - Sixth generation in family of doctors
-  - name: Javi Razo
-    image: images/about/management/javi.png
-    designation: Managing Director (LATAM), Minerva Groupe
-    about:
-    - Globally recognized expert on Integrative Medicine
-    - Board Certified Integrative Practitioner, Alumni of University of Illinois,
-      Chicago
-    - Trained in Biological Medicine at Paracelsus Clinic, Switzerland
-    - Founder of Integrative Wellness Center
 investors:
   enable: true
   title: Our Investors & Advisors
