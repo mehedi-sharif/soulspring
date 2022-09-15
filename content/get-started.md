@@ -127,8 +127,8 @@ holistic_health:
   image: images/holistic-health/holistic-health.png
 call_to_action:
   enable: true
-  title: Ready to Experience Our Difference?
-  description: Get a free consultation today.
+  title: Ready to Get Started?
+  description: Get a free consultation today with Soul Spring.
   bg_image: images/call-to-action-2.jpg
   button_label: Free Consultation
   button_link: "#!"
