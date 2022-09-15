@@ -95,14 +95,15 @@ management_team:
     - Public Company Board Experience
     - CEO of DTES Happiest Minds (NSE:HAPSTMNDS)
     - Alumnus of Harvard Business School, King's College and Oxford University
-  - name: Chris Staley
-    image: images/about/management/chris.png
-    designation: CDO, Minerva Groupe
+  - name: Rodrigo Salgado
+    image: "/images/rodrigo-pic.jpg"
+    designation: Vice President (LATAM), Soul Spring
     about:
-    - Global expert on Biological Medicine and Bio Informatics Technology
-    - Creator of seven+ award-winning Bio Resonance and Bio Impedance based medical
-      devices
-    - Sixth generation in family of doctors
+    - Conscious entrepreneur and experienced executive
+    - Consultant Board Member, Citibanamex
+    - Singularity University Alum, TEDex speaker
+    - UN COP 25 distinguished speaker
+    - Master in Real Estate Development, Universidad de Las Americas Puebla
 investors:
   enable: true
   title: Our Investors & Advisors
