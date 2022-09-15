@@ -87,7 +87,7 @@ soulspring_solutions:
     icon: images/solutions/icons/hormonal-balance.svg
     image: "/images/hormone-balance_shutterstock_479891626.jpg"
     additional_info:
-      title: Better balance, optimized health
+      title: Better Balance - <br/>Optimized Health
       lists:
       - Reduce stress
       - Boost metabolic rates
