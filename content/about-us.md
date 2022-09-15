@@ -70,7 +70,7 @@ management_team:
       devices
     - Sixth generation in family of doctors
   - name: Richa Joy, MD
-    image: images/about/management/richa.png
+    image: "/images/richa.png"
     designation: Founder & Medical Director, Minerva Clinic
     about:
     - Globally recognized expert on Integrative Medicine
