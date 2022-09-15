@@ -128,10 +128,10 @@ wellness_id:
     - Mind-Body Modalities
 call_to_action:
   enable: true
-  title: Questions in mind? We're Ready
-  description: We'll help you start your journey to wellness.
+  title: Have Questions? We have Answers!
+  description: We’re here to guide your journey to holistic wellness and wellbeing.
   bg_image: images/call-to-action.jpg
-  button_label: Launch Chat Now
+  button_label: Free Consultation
   button_link: "#!"
 
 ---
