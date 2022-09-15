@@ -293,7 +293,8 @@ frequently_asked_questions:
 call_to_action:
   enable: true
   title: Ready To Get Started?
-  description: Get a free consultation today.
+  description: Get a free consultation today and start your journey to holistic health
+    and wellness.
   bg_image: images/soulspring-clinics/soulspring-clinics.jpg
   button_label: Free Consultation
   button_link: "#!"
