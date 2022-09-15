@@ -172,10 +172,10 @@ hiring:
     link: "#"
 call_to_action:
   enable: true
-  title: Ready to Experience Holistic BioMedicine Doctors?
+  title: Have Questions? We Have Answers!
   description: We're here to guide your journey to holistic wellness and wellbeing.
   bg_image: images/call-to-action.jpg
-  button_label: Make Appointment
+  button_label: Fee Consultation
   button_link: "#!"
 
 ---
