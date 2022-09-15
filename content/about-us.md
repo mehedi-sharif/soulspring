@@ -106,7 +106,7 @@ management_team:
     - Master in Real Estate Development, Universidad de Las Americas Puebla
 investors:
   enable: true
-  title: Our Investors & Advisors
+  title: Our Advisors
   subtitle: We are honored and grateful to have amazing backers and guides
   members:
   - name: Dilip Amin, JD
