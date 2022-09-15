@@ -119,7 +119,7 @@ soulspring_solutions:
     icon: images/solutions/icons/post-covid-recovery.svg
     image: "/images/post-covid.png"
     additional_info:
-      title: Rebuild immunity, improve resilience
+      title: Rebuild immunity, increase resilience
       lists:
       - Prevent recurrent infections
       - Boost vitality and strength
