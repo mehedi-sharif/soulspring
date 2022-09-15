@@ -36,7 +36,7 @@ soulspring_solutions:
     icon: images/solutions/icons/athelete-recovery.svg
     image: "/images/athletic-performance.png"
     additional_info:
-      title: Train Smarter - <br/>Recover Faster
+      title: Train smarter, recover faster
       lists:
       - Assess fitness level
       - Scan muscle systems
@@ -87,7 +87,7 @@ soulspring_solutions:
     icon: images/solutions/icons/hormonal-balance.svg
     image: "/images/hormone-balance_shutterstock_479891626.jpg"
     additional_info:
-      title: Better Balance - <br/>Optimized Health
+      title: Better balance, optimized health
       lists:
       - Reduce stress
       - Boost metabolic rates
@@ -119,7 +119,7 @@ soulspring_solutions:
     icon: images/solutions/icons/post-covid-recovery.svg
     image: "/images/post-covid.png"
     additional_info:
-      title: Rebuild Immunity - <br/>Strengthen resilience
+      title: Rebuild immunity, improve resilience
       lists:
       - Prevent recurrent infections
       - Boost vitality and strength
