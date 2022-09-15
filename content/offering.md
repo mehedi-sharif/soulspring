@@ -115,8 +115,7 @@ soulspring_solutions:
         label: See More Details
         link: "#!"
   - title: Post Covid Recovery
-    subtitle: While visible signs of aging can be witnessed throughout the body, your
-      skin is the most revealing sign. Skin cells.
+    subtitle: Activate your body's natural ability to heal itself
     icon: images/solutions/icons/post-covid-recovery.svg
     image: images/solutions/post-covid-recovery.jpg
     additional_info:
