@@ -203,7 +203,7 @@ thrive_together:
   - title: Does Not Address Root Problem Leading to Lifelong Drug Dependency & Major
       Side Effects
     image: images/thrive-together/07.svg
-  - title: Doctors Want to Go Beyond Reactive Care to Preven-tative Regenerative Care
+  - title: Doctors Want to Go Beyond Reactive Care to Preventative Regenerative Care
     image: images/thrive-together/08.svg
 call_to_action:
   enable: true
