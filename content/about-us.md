@@ -55,13 +55,13 @@ management_team:
   members:
   - name: Dr. Leo Rastogi
     image: "/images/about/management/leo.png"
-    designation: Founder & CEO, Minerva Groupe
+    designation: Founder & CEO, Soul Spring
     about:
     - Serial Entrepreneur (3 exits)
     - Public Company Board Experience
     - CEO of DTES Happiest Minds (NSE:HAPSTMNDS)
     - Alumnus of Harvard Business School, King's College and Oxford University
-  - name: Peter Molleney, MD
+  - name: Peter Mölleney, MD
     image: images/about/management/peter.png
     designation: Founder & CEO, Wegamed, Germany
     about:
@@ -71,7 +71,7 @@ management_team:
     - Sixth generation in family of doctors
   - name: Richa Joy, MD
     image: "/images/about/management/richa.png"
-    designation: Founder & Medical Director, Minerva Clinic
+    designation: Founder & Medical Director, Soul Spring
     about:
     - Globally recognized expert on Integrative Medicine
     - Board Certified Integrative Practitioner, Alumni of University of Illinois,
@@ -80,7 +80,7 @@ management_team:
     - Founder of Integrative Wellness
   - name: Javi Razo
     image: images/about/management/javi.png
-    designation: Managing Director (LATAM), Minerva Groupe
+    designation: Managing Director (LATAM), Soul Spring
     about:
     - Globally recognized expert on Integrative Medicine
     - Board Certified Integrative Practitioner, Alumni of University of Illinois,
@@ -89,12 +89,12 @@ management_team:
     - Founder of Integrative Wellness Center
   - name: Barry Stamos
     image: images/about/management/barry.png
-    designation: CMO, Minerva Groupe
+    designation: CMO, Soul Spring
     about:
-    - Serial Entrepreneur (3 exits)
-    - Public Company Board Experience
-    - CEO of DTES Happiest Minds (NSE:HAPSTMNDS)
-    - Alumnus of Harvard Business School, King's College and Oxford University
+    - EIR at 500 Global (#1 VC in exits worldwide)
+    - "Co-founder & Chief Heart Officer \nof 1heart.com"
+    - "Founding advisor to TN.com \n(merged with Serta Simmons Bedding)\n"
+    - "Founder of INBOX: Sold to Responsys \n(pre-IPO & Oracle exit for $1.6Bn)"
   - name: Rodrigo Salgado
     image: "/images/rodrigo_pic120x134.png"
     designation: Vice President (LATAM), Soul Spring
