@@ -70,7 +70,7 @@ soulspring_solutions:
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health_2.jpg"
     additional_info:
-      title: Innovative therapies, stronger mental health
+      title: Innovative therapies, <br/>stronger mental health
       lists:
       - Reduce Stress & Anxiety
       - Sleep Better
