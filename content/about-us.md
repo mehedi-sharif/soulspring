@@ -28,7 +28,7 @@ mission:
   subtitle: Bring bio-individualized well-being to humanity for health, vitality and
     longevity.
   image: images/about/mission.png
-  content: We are on a mission to bring bio-individualized wellbeing™ to humanity
+  content: We are on a mission to bring bio-individualized well-being to humanity
     for health, vitality and longevity. We do this by unlocking the power of biological
     medicine to stimulate the innate healing ability of the body. We also empower
     doctors with training and transformative medical technology.
