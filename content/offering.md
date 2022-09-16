@@ -166,8 +166,8 @@ soulspring_therapies_and_treatments:
     icon: images/therapies-and-treatments/icons/Bio-Impedance-Suite.svg
     content: Using innovative medical technology, we conduct a detailed analysis to
       check the status of your overall health, the presence of acute and chronic inflammation
-      foci, allergens and toxins. These tests often take less than 30 mins and are
-      tremendously helpful in identifying root causes of different health conditions.
+      foci, allergens and toxins. These tests often take less than 30 minutes and
+      are tremendously helpful in identifying root causes of different health conditions.
   - title: Detox Foot Bath
     icon: images/therapies-and-treatments/icons/Detox-Foot-Bath.svg
     content: 'Detox Footbath therapy detoxifies your whole body naturally by stimulating
