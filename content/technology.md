@@ -17,7 +17,7 @@ benefit_summary:
   video_thumbnail: images/technology/thumb.jpg
   benefit_lists:
   - icon: images/technology/benefit-summary/01.svg
-    title: Holistic Devices
+    title: Holistic devices
   - icon: images/technology/benefit-summary/02.svg
     title: Provides immediate relief
   - icon: images/technology/benefit-summary/03.svg
