@@ -70,13 +70,13 @@ soulspring_solutions:
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health_2.jpg"
     additional_info:
-      title: Improved Mental Wellbeing
+      title: Innovative therapies, stronger mental health
       lists:
-      - Reduce Stress
-      - Improve Sleep Cycle
+      - Reduce Stress & Anxiety
+      - Sleep Better
       - Regulate Emotions
       - Resolve Behavior Disorders
-      - Reduce Anxiety
+      - Improve Attention & Focus
       - Address Eating Disorders
       button:
         label: See More Details
