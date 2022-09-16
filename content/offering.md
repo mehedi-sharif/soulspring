@@ -70,7 +70,7 @@ soulspring_solutions:
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health_2.jpg"
     additional_info:
-      title: Improved Mental Well-Being
+      title: Improved Mental Wellbeing
       lists:
       - Reduce Stress
       - Improve Sleep Cycle
