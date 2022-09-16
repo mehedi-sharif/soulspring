@@ -168,7 +168,7 @@ hiring:
     therapies, and supplements.
   button:
     enable: true
-    label: join soulspring now
+    label: Join Soul Spring Now
     link: "#"
 call_to_action:
   enable: true
