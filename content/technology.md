@@ -34,7 +34,7 @@ benefit_summary:
     title: Applicable for all age groups including senior citizens
 medical_devices:
   enable: true
-  title: Experience Our State-of-the-art Medical Devices
+  title: Experience Our State-of-the-Art Medical Devices
   subtitle: Every Soul Spring center applies proven protocols we developed for expert
     use of Wegamed medtech.
   device_lists:
