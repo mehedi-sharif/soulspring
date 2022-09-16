@@ -292,7 +292,7 @@ frequently_asked_questions:
       Soul Spring’s personalized therapy plans include detoxification and regeneration treatments designed to eliminate toxins, stressors, and imbalances within the body, restoring and strengthening the body’s natural ability to heal itself.
 call_to_action:
   enable: true
-  title: Ready To Get Started?
+  title: Ready To Experience Soul Spring?
   description: Get a free consultation today and start your journey to holistic health
     and wellness.
   bg_image: images/soulspring-clinics/soulspring-clinics.jpg
