@@ -82,11 +82,12 @@ management_team:
     image: images/about/management/javi.png
     designation: Managing Director (LATAM), Soul Spring
     about:
-    - Globally recognized expert on Integrative Medicine
-    - Board Certified Integrative Practitioner, Alumni of University of Illinois,
-      Chicago
-    - Trained in Biological Medicine at Paracelsus Clinic, Switzerland
-    - Founder of Integrative Wellness Center
+    - Chairman & CEO of Prowell Group (successful exit)
+    - 'CoFounder of ayam '
+    - 'Endeavor Mentor & Thought Leader
+
+      '
+    - Board Member of multiple private companies
   - name: Barry Stamos
     image: images/about/management/barry.png
     designation: CMO, Soul Spring
