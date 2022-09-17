@@ -72,12 +72,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.soulspring_therapies_and_treatments }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.soulspring_therapies_and_treatments }}
-{{ if .enable }}
 <section class="section soulspring-solutions soulspring-therapies-and-treatments has-overlay">
   <div class="container">
     <div class="row">
@@ -110,12 +110,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.soulspring_solutions }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.soulspring_solutions }}
-{{ if .enable }}
 
 {{ range $i, $e := sort .solutions "title" }}
 {{ if gt $i 0 }}
@@ -175,12 +175,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.soulspring_therapies_and_treatments }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.soulspring_therapies_and_treatments }}
-{{ if .enable }}
 <section class="section soulspring-therapies-and-treatments has-overlay">
   <div class="container">
     <div class="row">
@@ -213,12 +213,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

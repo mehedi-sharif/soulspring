@@ -61,12 +61,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.individual_bio_wellness_solutions }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.individual_bio_wellness_solutions }}
-{{ if .enable }}
 <section class="section has-overlay has-overlay-bgi individual-bio-wellness-solutions overflow-hidden">
   <div class="container">
     <div class="row">
@@ -95,12 +95,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.comparison_of_soulspring }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.comparison_of_soulspring }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay comparison-of-soulspring overflow-hidden has-flower-between">
   <div class="container">
     <div class="row">
@@ -261,12 +261,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.superior_results }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.superior_results }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay has-overlay-bgi ancient-healing overflow-hidden">
   <div class="container">
     <div class="row">
@@ -376,12 +376,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.ancient_healing }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.ancient_healing }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay ancient-healing overflow-hidden">
   <div class="container">
     <div class="row">
@@ -444,12 +444,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.thrive_together }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.thrive_together }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay overflow-hidden">
   <div class="container">
     <div class="row">
@@ -531,13 +531,13 @@
 {{ end }}
 {{ end }}
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
-
 {{ with site.GetPage "/offering" }}
 {{ with .Params.soulspring_therapies_and_treatments }}
 {{ if .enable }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
 <section class="section soulspring-therapies-and-treatments has-overlay">
   <div class="container">
     <div class="row">
@@ -571,12 +571,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

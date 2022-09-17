@@ -31,12 +31,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.benefit_summary }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.benefit_summary }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
   <div class="container">
     <div class="row">
@@ -66,12 +66,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.medical_devices }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.medical_devices }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay overflow-hidden has-flower-between">
   <div class="container">
     <div class="row">
@@ -111,12 +111,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.diagnostic_devices }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.diagnostic_devices }}
-{{ if .enable }}
 <section id="diagnostic-devices" class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
   <div class="container">
     <div class="row">
@@ -178,12 +178,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.therapeutic_devices }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.therapeutic_devices }}
-{{ if .enable }}
 <section id="therapeutic-devices" class="section pb-4 has-overlay overflow-hidden">
   <div class="container">
     <div class="row">
@@ -248,12 +248,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.wegamed_and_soulspring }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.wegamed_and_soulspring }}
-{{ if .enable }}
 <section id="wegamed-and-soulspring" class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
   <div class="container">
     <div class="row">
@@ -290,12 +290,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

@@ -72,12 +72,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.we_belive }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.we_belive }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi overflow-hidden">
   <div class="container">
     <div class="row">
@@ -105,12 +106,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.mission }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.mission }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay overflow-hidden mission">
   <div class="container">
     <div class="row">
@@ -143,12 +145,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.purpose }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.purpose }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi purpose overflow-hidden">
   <div class="container">
     <div class="row">
@@ -188,12 +191,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.management_team }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.management_team }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay overflow-hidden has-flower-between">
   <div class="container">
     <div class="row">
@@ -237,12 +241,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.investors }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.investors }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi purpose overflow-hidden">
   <div class="container">
     <div class="row">
@@ -276,12 +281,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.community }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.community }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay overflow-hidden community">
   <div class="container">
     <div class="row">

@@ -70,12 +70,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.meet_doctors }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.meet_doctors }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem meet-doctors overflow-hidden">
   <div class="container">
     <div class="row">
@@ -194,13 +194,13 @@
 {{ end }}
 {{ end }}
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
-
 
 {{ with .Params.advisory_board }}
 {{ if .enable }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
 <section class="section pb-4 has-overlay overflow-hidden advisory-board">
   <div class="container">
     <div class="row">
@@ -241,12 +241,12 @@
 {{ end }}
 
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
 
 {{ with .Params.doctors_team }}
 {{ if .enable }}
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
 <section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem overflow-hidden">
   <div class="container">
     <div class="row">
@@ -280,13 +280,13 @@
 {{ end }}
 {{ end }}
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
-
 
 {{ with .Params.hiring }}
 {{ if .enable }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
 <section class="section pb-4 has-overlay hiring overflow-hidden">
   <div class="container">
     <div class="row">
@@ -322,13 +322,13 @@
 {{ end }}
 {{ end }}
 
-<!-- divider -->
-{{ partial "components/divider.html" . }}
-<!-- end divider -->
-
 
 {{ with .Params.call_to_action }}
 {{ if .enable }}
+
+<!-- divider -->
+{{ partial "components/divider.html" . }}
+<!-- end divider -->
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

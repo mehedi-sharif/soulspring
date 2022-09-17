@@ -36,12 +36,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.cause_of_problem }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.cause_of_problem }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi cause-of-problem overflow-hidden">
   <div class="container">
     <div class="row">
@@ -90,12 +91,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.understanding_bio }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.understanding_bio }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay understanding-bio overflow-hidden">
   <div class="container">
     <div class="row">
@@ -135,12 +137,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.wellness_report }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.wellness_report }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi wellness-report overflow-hidden">
   <div class="container">
     <div class="row">
@@ -186,12 +189,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.initially_expects }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.initially_expects }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay initially-expects overflow-hidden">
   <div class="container">
     <div class="row">
@@ -239,12 +243,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.medical_treatments }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.medical_treatments }}
-{{ if .enable }}
 <section class="section soulspring-solutions soulspring-therapies-and-treatments has-overlay has-overlay-bgi">
   <div class="container">
     <div class="row">
@@ -278,12 +283,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.top_doctors }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.top_doctors }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay overflow-hidden">
   <div class="container">
     <div class="row">
@@ -306,12 +312,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.holistic_health }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.holistic_health }}
-{{ if .enable }}
 <section class="section pb-0 holistic-health overflow-hidden">
   <div class="container">
     <div class="row g-0 align-items-center justify-content-center">
@@ -333,12 +340,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

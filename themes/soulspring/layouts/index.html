@@ -69,10 +69,6 @@
     </div>
   </div>
 
-  <div class="chakra position-absolute top-0 end-0 zindex-1">
-    {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
-  </div>
-
   {{ with .review_block }}
   <div class="review-block rounded text-white text-center d-none d-xl-block">
     <div class="rating" style="--rating: {{.rating}};" title="Rating is {{.rating}} out of 5"></div>
@@ -106,12 +102,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.wellness_solutions }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.wellness_solutions }}
-{{ if .enable }}
 <section class="section has-overlay wellness-solutions overflow-hidden">
   <div class="container">
     <div class="row">
@@ -145,12 +142,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.how_it_works }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.how_it_works }}
-{{ if .enable }}
 <section class="how-it-works has-overlay has-overlay-bgi section">
   <div class="container">
     <div class="row g-0">
@@ -245,12 +243,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.testimonials }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.testimonials }}
-{{ if .enable }}
 <section class="section has-overlay testimonials overflow-hidden">
   <div class="container position-relative">
     <div class="row">
@@ -307,12 +306,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.our_locations }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.our_locations }}
-{{ if .enable }}
 <section class="section pb-0 has-overlay has-overlay-bgi our-locations">
   <div class="container">
     <div class="row">
@@ -440,12 +440,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.holistic_doctors }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.holistic_doctors }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay holistic-doctors overflow-hidden">
   <div class="container">
     <div class="row">
@@ -504,12 +505,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.lifetime_of_wellness }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.lifetime_of_wellness }}
-{{ if .enable }}
 <section class="section pb-4 has-overlay has-overlay-bgi lifetime_of_wellness">
   <div class="container">
     <div class="row">
@@ -533,12 +535,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.frequently_asked_questions }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.frequently_asked_questions }}
-{{ if .enable }}
 <section class="section faq has-overlay overflow-hidden">
   <div class="container">
     <div class="row">
@@ -578,12 +581,13 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
 
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">

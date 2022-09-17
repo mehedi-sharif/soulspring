@@ -136,12 +136,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.soulspring_clinics }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.soulspring_clinics }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay has-overlay-bgi why-soulspring overflow-hidden">
   <div class="container">
     <div class="row">
@@ -180,12 +180,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.resort_clinics }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.resort_clinics }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay overflow-hidden has-flower-between">
   <div class="container">
     <div class="row">
@@ -221,12 +221,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.signature_wellness_centers }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.signature_wellness_centers }}
-{{ if .enable }}
 <section class="section pb-3 has-overlay has-overlay-bgi overflow-hidden">
   <div class="container">
     <div class="row">
@@ -252,12 +252,12 @@
 {{ end }}
 {{ end }}
 
+{{ with .Params.call_to_action }}
+{{ if .enable }}
+
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-
-{{ with .Params.call_to_action }}
-{{ if .enable }}
 <section class="section pb-0 call-to-action">
   <div class="container h-100">
     <div class="row h-100 align-items-center justify-content-center">
