@@ -178,8 +178,8 @@ ancient_healing:
       that ever since I started with the process l have enjoyed life in a completely
       more wholesome way!
   - author: Grant Hunter
-    designation: Founder of Brownstone Research
-    image: "/images/ancient-healing/reviewer-01.jpg"
+    designation: Co-Founder, Purpose & Impact Advisor, Syntropy Center
+    image: "/images/grant-hunter.png"
     content: There is no place on earth like it and it is a lens on the future, not
       only for our health but for the health of the bio-wellness industry.
 thrive_together:
