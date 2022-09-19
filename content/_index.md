@@ -192,7 +192,7 @@ holistic_doctors:
     Spring
   doctors_list:
   - name: Dr. Eneze Obuaya, MD
-    image: ''
+    image: "/images/dr-eneze_humble.png"
     qualifications:
     - Medical Director, Soul Spring Humble
     quote: ''
