@@ -50,7 +50,7 @@ purpose:
     image: images/ancient-healing/ancient-healing.png
 management_team:
   enable: true
-  title: Our Management Team
+  title: Our Leadership Team
   subtitle: Doctor-led, bio-individualized holistic wellness solutions
   members:
   - name: Dr. Leo Rastogi
