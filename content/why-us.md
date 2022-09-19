@@ -172,7 +172,7 @@ ancient_healing:
   leaf_rotate: images/ancient-healing/leaf-rotate.png
   reviews:
   - author: Carlos Rojas
-    designation: CEO of Rotoplas
+    designation: CEO, Grupo Rotoplas
     image: images/ancient-healing/reviewer-02.jpg
     content: Soul Spring has helped in such a big way in all aspects of my health,
       that ever since I started with the process l have enjoyed life in a completely
