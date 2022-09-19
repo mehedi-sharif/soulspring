@@ -112,9 +112,9 @@ diagnostic_devices:
       link: "#"
 therapeutic_devices:
   enable: true
-  title: 'Treatments: Immediate Results with Lasting Impact'
+  title: 'Therapies:  Immediate Results with Lasting Impact'
   subtitle: We are thrilled to have brought the Wegamed legacy into our growing family
-    for best-in-class bio-wellness solutions
+    for best-in-class bio-wellness solutions.
   device_info:
   - title: Med Matrix
     image: images/technology/therapeutic-devices/med-matrix.png
