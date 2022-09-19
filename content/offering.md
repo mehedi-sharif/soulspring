@@ -45,7 +45,7 @@ soulspring_solutions:
       - Check pulse rate
       - Improve your diet
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
   - title: Clean Beauty
     subtitle: Give your skin the love it deserves with Soul Spring natural skin care.
