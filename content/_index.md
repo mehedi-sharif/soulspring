@@ -191,12 +191,6 @@ holistic_doctors:
   subtitle: Meet the amazing medical doctors and practitioners handpicked for Soul
     Spring
   doctors_list:
-  - name: Dr. Eneze Obuaya, MD
-    image: "/images/dr-eneze_humble.png"
-    qualifications:
-    - Medical Director, Soul Spring Humble
-    quote:
-      title: Why I choose Soul Spring
   - name: Dr. Richa Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     qualifications:
@@ -214,6 +208,12 @@ holistic_doctors:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
         and live life fully, with more vitality and more energy.
+  - name: Dr. Eneze Obuaya, MD
+    image: "/images/dr-eneze_humble.png"
+    qualifications:
+    - Medical Director, Soul Spring Humble
+    quote:
+      title: Why I choose Soul Spring
   - name: Mike Riippa, R.N.
     image: "/images/mike-riippa_sept2022.png"
     qualifications:

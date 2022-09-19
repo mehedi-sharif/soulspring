@@ -47,7 +47,7 @@ soulspring_solutions:
       button:
         label: See More Details
         link: "#!"
-  - title: Beauty
+  - title: Clean Beauty
     subtitle: While visible signs of aging can be witnessed throughout the body, your
       skin is the most revealing sign. Skin cells.
     icon: images/solutions/icons/beauty.svg
