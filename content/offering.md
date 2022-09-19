@@ -51,7 +51,7 @@ soulspring_solutions:
     subtitle: While visible signs of aging can be witnessed throughout the body, your
       skin is the most revealing sign. Skin cells.
     icon: images/solutions/icons/beauty.svg
-    image: images/solutions/beauty.jpg
+    image: "/images/clean-beauty_matrix.JPG"
     additional_info:
       title: Beautiful Glowing Skin
       lists:
