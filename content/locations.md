@@ -13,22 +13,6 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
-  - image: "/images/mc-staff-photo.jpg"
-    name: Minerva Clinic
-    location: 25420 Kuykendahl Rd Ste D300, Tomball, TX 77375
-    phone: "+1 832-521-1598"
-    opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
-    button:
-      label: Show Map
-      link: https://goo.gl/maps/U6V7Lv3wXFw7GHPT8
-    content: At Minerva Clinic, we help you rekindle your body's natural power to
-      heal by combining the best of biological medicine, innovative medical technologies,
-      and the wisdom of ancient holistic approaches. Our unique biological and functional
-      medicine approach is designed to stimulate the innate regeneration abilities
-      of your body. We begin by understanding the cause rather than the symptoms of
-      the ailment and creating a unique treatment based on that root cause analysis.
-      It's then implemented over a period of 3-6 months. Our therapies and wellness
-      programs intend to make 360° wellness a habit.
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
     location: 25420 Kuykendahl Rd Ste D100, Tomball, TX 77375
