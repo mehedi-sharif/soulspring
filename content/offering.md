@@ -78,7 +78,7 @@ soulspring_solutions:
       - Improve Attention & Focus
       - Address Eating Disorders
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
   - title: Hormonal Balance
     subtitle: Achieve hormonal balance by rejuvenating your body at the cellular level
