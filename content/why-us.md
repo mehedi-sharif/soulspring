@@ -177,11 +177,11 @@ ancient_healing:
     content: Soul Spring has helped in such a big way in all aspects of my health,
       that ever since I started with the process l have enjoyed life in a completely
       more wholesome way!
-  - author: Jeffrey Brown
+  - author: Grant
     designation: Founder of Brownstone Research
     image: "/images/ancient-healing/reviewer-01.jpg"
     content: There is no place on earth like it and it is a lens on the future, not
-      only for our health but for the health of the industry.
+      only for our health but for the health of the bio-wellness industry.
 thrive_together:
   enable: true
   title: We Believe Now Is the Time to Thrive Together
