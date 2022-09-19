@@ -191,6 +191,11 @@ holistic_doctors:
   subtitle: Meet the amazing medical doctors and practitioners handpicked for Soul
     Spring
   doctors_list:
+  - name: Dr. Eneze Obuaya, MD
+    image: ''
+    qualifications:
+    - Medical Director, Soul Spring Humble
+    quote: ''
   - name: Dr. Richa Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     qualifications:
