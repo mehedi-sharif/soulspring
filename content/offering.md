@@ -28,7 +28,7 @@ soulspring_solutions:
       - Improve skin elasticity
       - Reduce age spots
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
   - title: Athletic Performance/Recovery
     subtitle: Innovative fitness assessments and specialized therapies for optimized
@@ -61,7 +61,7 @@ soulspring_solutions:
       - Reduces wrinkles
       - Improves skin elasticity
       button:
-        label: See More Details
+        label: Contact us
         link: "#!"
   - title: Brain Health
     subtitle: Revolutionizing brain health with the wisdom of natural medicine and
