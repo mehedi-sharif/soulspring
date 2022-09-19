@@ -95,7 +95,7 @@ soulspring_solutions:
       - Combat toxins
       - Improve sleep
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
   - title: Pain Relief
     subtitle: Live free of pain naturally, without harmful drugs or invasive procedures.
@@ -111,7 +111,7 @@ soulspring_solutions:
       - Regain flexibility/movement
       - Treat chronic dental pain
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
   - title: Post Covid Recovery
     subtitle: Activate your body's natural ability to heal itself
