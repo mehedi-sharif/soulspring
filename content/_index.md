@@ -208,26 +208,26 @@ holistic_doctors:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
         and live life fully, with more vitality and more energy.
-  - name: Mike Riippa
+  - name: Mike Riippa, R.N.
     image: "/images/mike-riippa_sept2022.png"
     qualifications:
-    - 'R.N. / Manager, Woodlands Natural Health (Soul Spring Woodlands) '
+    - Director of Wellness Programs, Soul Spring Woodlands
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring has elevated my practice and empowered me to change my
         clients’ lives by awakening the innate healing ability within their bodies.
-  - name: Dr. Klever Bastar
+  - name: Dr. Klever Bastar, MD
     image: "/images/dr-klevar-bastar.png"
     qualifications:
-    - Medical Director, Soul Spring Lomas CDMX Center
+    - Medical Director, Soul Spring Lomas CDMX
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring allows me to create a healing space that rejuvenates the
         emotional, physical, and mental well-being of my patients.
-  - name: Dr. Stephany González
+  - name: Dr. Stephany González, MD, PHD-C
     image: "/images/dr-stephany.png"
     qualifications:
-    - 'MSC PHD-C, Medical Director, Soul Spring Cuernavaca Center '
+    - Medical Director Soul Spring Cuernavaca
     quote:
       title: Why I choose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
