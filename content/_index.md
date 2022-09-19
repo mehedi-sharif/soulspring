@@ -195,7 +195,8 @@ holistic_doctors:
     image: "/images/dr-eneze_humble.png"
     qualifications:
     - Medical Director, Soul Spring Humble
-    quote: ''
+    quote:
+      title: Why I choose Soul Spring
   - name: Dr. Richa Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     qualifications:
