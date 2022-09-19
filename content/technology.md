@@ -133,7 +133,9 @@ therapeutic_devices:
       icon: images/technology/therapeutic-devices/med-matrix/03.svg
     button:
       label: Know More
-      link: https://www.youtube.com/v/n157w89Q0VA_pA?playlist=n157w89Q0VA_pA&autoplay=1&loop=1
+      link: <iframe width="560" height="315" src="https://www.youtube.com/embed/n157w89Q0VA?loop=1&autoplay=1&playlist=n157w89Q0VA"
+        title="YouTube video player" frameborder="0" allow="accelerometer; autoplay;
+        clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
   - title: Med Select
     image: images/technology/therapeutic-devices/med-select.png
     content: This device is powered by homeopathy to activate the self-healing ability
