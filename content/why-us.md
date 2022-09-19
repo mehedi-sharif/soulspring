@@ -179,7 +179,7 @@ ancient_healing:
       more wholesome way!
   - author: Grant Hunter
     designation: Co-Founder, Purpose & Impact Advisor, Syntropy Center
-    image: "/images/grant-hunter.png"
+    image: ''
     content: There is no place on earth like it and it is a lens on the future, not
       only for our health but for the health of the bio-wellness industry.
 thrive_together:
