@@ -203,7 +203,7 @@ holistic_doctors:
   - name: Dr. Cheryl Perlis, MD
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
-    - Medical Director, Soul Spring Chicago
+    - Medical Director, Soul Spring Chicago, IL
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
@@ -211,13 +211,13 @@ holistic_doctors:
   - name: Dr. Eneze Obuaya, MD
     image: "/images/dr-eneze_humble.png"
     qualifications:
-    - Medical Director, Soul Spring Humble
+    - Medical Director, Soul Spring Humble, TX
     quote:
       title: Why I choose Soul Spring
   - name: Mike Riippa, R.N.
     image: "/images/mike-riippa_sept2022.png"
     qualifications:
-    - Director of Wellness Programs, Soul Spring Woodlands
+    - Director of Wellness Programs, Soul Spring Woodlands, TX
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring has elevated my practice and empowered me to change my
@@ -225,7 +225,7 @@ holistic_doctors:
   - name: Dr. Klever Bastar, MD
     image: "/images/dr-klevar-bastar.png"
     qualifications:
-    - Medical Director, Soul Spring Lomas CDMX
+    - Medical Director, Soul Spring Lomas, MX
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring allows me to create a healing space that rejuvenates the
@@ -233,7 +233,7 @@ holistic_doctors:
   - name: Dr. Stephany González, MD, PhD-C
     image: "/images/dr-stephany.png"
     qualifications:
-    - Medical Director Soul Spring Cuernavaca
+    - Medical Director, Soul Spring Cuernavaca, MX
     quote:
       title: Why I choose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
