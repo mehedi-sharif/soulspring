@@ -194,7 +194,11 @@ holistic_doctors:
   - name: Dr. Richa Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     qualifications: ''
-    quote: ''
+    quote:
+      content: Soul Spring modalities support the innate healing capacity of the body
+        by addressing so many different aspects of health…bio-energetic, physical,
+        mental, emotional and environmental.
+      title: Why I choose Soul Spring
   - name: Dr. Cheryl Perlis
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
