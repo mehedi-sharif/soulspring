@@ -61,7 +61,7 @@ soulspring_solutions:
       - Reduces wrinkles
       - Improves skin elasticity
       button:
-        label: Contact us
+        label: Contact Us
         link: "#!"
   - title: Brain Health
     subtitle: Revolutionizing brain health with the wisdom of natural medicine and
