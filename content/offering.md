@@ -127,7 +127,7 @@ soulspring_solutions:
       - Rebuild innate defenses
       - Support natural healing capacity
       button:
-        label: See More Details
+        label: Contact Us
         link: "#!"
 soulspring_therapies_and_treatments:
   enable: true
