@@ -203,7 +203,7 @@ holistic_doctors:
   - name: Dr. Cheryl Perlis
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
-    - Founder and Medical Director, Perlis Wellness Center
+    - Medical Director, Soul Spring Chicago
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
