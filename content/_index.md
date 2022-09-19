@@ -230,7 +230,7 @@ holistic_doctors:
       title: Why I choose Soul Spring
       content: Soul Spring allows me to create a healing space that rejuvenates the
         emotional, physical, and mental well-being of my patients.
-  - name: Dr. Stephany González, MD, PHD-C
+  - name: Dr. Stephany González, MD, PhD-C
     image: "/images/dr-stephany.png"
     qualifications:
     - Medical Director Soul Spring Cuernavaca
