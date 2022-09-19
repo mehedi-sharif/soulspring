@@ -177,7 +177,7 @@ ancient_healing:
     content: Soul Spring has helped in such a big way in all aspects of my health,
       that ever since I started with the process l have enjoyed life in a completely
       more wholesome way!
-  - author: Grant
+  - author: Grant Hunter
     designation: Founder of Brownstone Research
     image: "/images/ancient-healing/reviewer-01.jpg"
     content: There is no place on earth like it and it is a lens on the future, not
