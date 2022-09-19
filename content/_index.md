@@ -200,7 +200,7 @@ holistic_doctors:
         by addressing so many different aspects of health…bio-energetic, physical,
         mental, emotional and environmental.
       title: Why I choose Soul Spring
-  - name: Dr. Cheryl Perlis
+  - name: Dr. Cheryl Perlis, MD
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
     - Medical Director, Soul Spring Chicago
