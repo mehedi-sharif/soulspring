@@ -55,10 +55,10 @@ soulspring_solutions:
     additional_info:
       title: Beautiful Glowing Skin
       lists:
-      - Restores luster
-      - Smoothens complexion
-      - Relieves Spinal/Joint Pain
-      - Reduces lymphatic congestion
+      - Restore luster
+      - Smoothen complexion
+      - 'Repair damaged cells '
+      - Visibly tone and lift skin
       - Reduces wrinkles
       - Improves skin elasticity
       button:
