@@ -191,6 +191,10 @@ holistic_doctors:
   subtitle: Meet the amazing medical doctors and practitioners handpicked for Soul
     Spring
   doctors_list:
+  - name: Dr. Richa Joy, MD, ABIHM
+    image: "/images/about/management/richa.png"
+    qualifications: ''
+    quote: ''
   - name: Dr. Cheryl Perlis
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
