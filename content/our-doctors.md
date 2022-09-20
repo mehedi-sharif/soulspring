@@ -30,7 +30,7 @@ meet_doctors:
     bio: |
       Dr. Richa Joy Gundlapalli, MD, ABIHM is a rare blend of Board-Certified Integrative practitioner and expert on Bio Energetics. Dr. Joy studied Family Medicine & Pediatrics at University of Illinois, Chicago where she was also the Chief Resident. She completed her AFMCP Certification from Institute of Functional Medicine and received Advanced Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.<br/>
       A Certified Biological Medicine practitioner, Dr. Joy received her training in Biological Medicine at Paracelsus Clinic, Switzerland under Dr. Thomas Rau. She has further trained under Dr. Dietrich Klinghardt & Dr. Ralf Oettmeier for specialized therapies. Dr. Joy is also Certified in Bio Energetics & Energy medicine from Wegamed Academy, Germany where she was personally trained under Dr. Peter Mölleney.<br/>
-      Her professional sabbaticals have included oriental trainings & study of Acupuncture, Ayurveda, Anthroposophical medicine & related Mind-Body modalities which she effectively blends into her practice
+      Her professional sabbaticals have included oriental trainings & study of Acupuncture, Ayurveda, Anthroposophical medicine & related Mind-Body modalities which she effectively blends into her practice.
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'Soul Spring modalities support the innate healing capacity of the
