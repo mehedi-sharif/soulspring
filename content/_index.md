@@ -221,7 +221,7 @@ holistic_doctors:
   - name: Mike Riippa, R.N.
     image: "/images/mike-riippa_sept2022.png"
     qualifications:
-    - "Director of Wellness Programs, Soul Spring \nWoodlands, TX"
+    - "Director of Wellness Programs\nSoul Spring \nWoodlands, TX"
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring has elevated my practice and empowered me to change my
