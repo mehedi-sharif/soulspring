@@ -22,7 +22,7 @@ meet_doctors:
   enable: true
   title: Meet Your Doctor
   doctors:
-  - name: Dr. Richaritha Gundlapalli, MD
+  - name: Dr. Richaritha Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     location: The Woodlands, TX
     institute: University of Illinois, Chicago
