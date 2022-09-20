@@ -194,7 +194,9 @@ holistic_doctors:
   - name: Dr. Richa Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
     qualifications:
-    - Founder & Chief Medical Director, Soul Spring
+    - |-
+      Founder & Chief Medical Director
+      Soul Spring
     quote:
       content: Soul Spring modalities support the innate healing capacity of the body
         by addressing so many different aspects of health…bio-energetic, physical,
