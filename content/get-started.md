@@ -92,7 +92,7 @@ initially_expects:
       - HRV testing for appropriate cases
       - Review of any past lab results and investigations. Special labs ordered if
         necessary.
-    - title: Second Visit / Consultation (45 mins)
+    - title: 'Initial Consultation:  Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
       - Lab results (old & new) are reviewed with insights, patient education and
