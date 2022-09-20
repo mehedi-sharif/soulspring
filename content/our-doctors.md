@@ -27,7 +27,9 @@ meet_doctors:
     location: Humble, TX
     institute: University of Connecticut; Baylor College of Medicine
     internship: Anesthesiology
-    bio: ''
+    bio: |
+      Dr. Eneze Obuaya, M.D. is a board-certified Medical Doctor and Anesthesiologist, functional medicine trained practitioner, certified medical intuitive, and energy medicine practitioner. She brings all her experience and expertise together to work harmoniously for health and healing of her patients.<br/>
+      Dr. Obuaya graduated medical school from the University of Connecticut and received her Anesthesiology specialty training at Baylor College of Medicine. She completed functional medicine training from the Institute of Functional Medicine and is also a certified medical intuitive from the International College of Medical Intuition. With her love for movement, and the innate intelligence of the physical body, she is a CrossFit trainer and certified yoga instructor, currently practicing Tai Chi and Qigong.
     doctors_quote:
       title: Why I choose Soul Spring
       content: Soul Spring supports the whole healing journey of the individual human
