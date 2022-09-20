@@ -72,7 +72,7 @@ management_team:
     - Sixth generation in family of doctors
   - name: Richa Joy, MD
     image: "/images/about/management/richa.png"
-    designation: Founder & Medical Director, Soul Spring
+    designation: Founder & Chief Medical Director, Soul Spring
     about:
     - Globally recognized expert on Integrative Medicine
     - Board Certified Integrative Practitioner, Alumni of University of Illinois,
