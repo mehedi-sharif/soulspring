@@ -195,7 +195,7 @@ holistic_doctors:
     image: "/images/about/management/richa.png"
     qualifications:
     - |-
-      Founder & Chief Medical Director
+      Founder & Chief Medical Director <br/>
       Soul Spring
     quote:
       content: Soul Spring modalities support the innate healing capacity of the body
