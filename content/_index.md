@@ -229,7 +229,9 @@ holistic_doctors:
   - name: Dr. Klever Bastar, MD
     image: "/images/dr-klevar-bastar.png"
     qualifications:
-    - Medical Director, Soul Spring Lomas, MX
+    - |-
+      Medical Director, Soul Spring Lomas
+      Mexico City, MX
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring allows me to create a healing space that rejuvenates the
@@ -237,7 +239,7 @@ holistic_doctors:
   - name: Dr. Stephany González, MD
     image: "/images/dr-stephany.png"
     qualifications:
-    - Medical Director, Soul Spring Cuernavaca, MX
+    - "Medical Director, Soul Spring \nCuernavaca, MX"
     quote:
       title: Why I choose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
