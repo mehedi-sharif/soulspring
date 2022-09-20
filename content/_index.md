@@ -245,7 +245,7 @@ holistic_doctors:
     image: "/images/dr-stephany.png"
     qualifications:
     - |-
-      Medical Director, Soul Spring Cuernavaca<br/>
+      Medical Director<br/>Soul Spring Cuernavaca<br/>
       Morelos, MX
     quote:
       title: Why I choose Soul Spring
