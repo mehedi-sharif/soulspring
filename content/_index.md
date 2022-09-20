@@ -215,7 +215,7 @@ holistic_doctors:
   - name: Dr. Eneze Obuaya, MD
     image: "/images/dr-eneze_humble.png"
     qualifications:
-    - "Medical Director, Soul Spring \nHumble, TX"
+    - "Medical Director, Soul Spring Humble \nHumble, TX"
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring supports the whole healing journey of the individual human
