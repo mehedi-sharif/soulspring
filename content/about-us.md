@@ -51,7 +51,8 @@ purpose:
 management_team:
   enable: true
   title: Our Leadership Team
-  subtitle: Doctor-led, bio-individualized holistic wellness solutions
+  subtitle: We are a highly experienced team of founders, doctors, technologists and
+    operators.
   members:
   - name: Dr. Leo Rastogi
     image: "/images/about/management/leo.png"
