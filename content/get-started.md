@@ -84,6 +84,9 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       4 steps:'
     clinic_features:
+    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
+      image: ''
+      lists: ''
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
