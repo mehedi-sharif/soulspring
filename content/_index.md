@@ -224,8 +224,8 @@ holistic_doctors:
     image: "/images/mike-riippa_sept2022.png"
     qualifications:
     - |-
-      Director of Wellness Programs
-      Soul Spring Woodlands
+      Director of Wellness Programs<br/>
+      Soul Spring Woodlands<br/>
       Woodlands, TX
     quote:
       title: Why I choose Soul Spring
