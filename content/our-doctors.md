@@ -25,10 +25,13 @@ meet_doctors:
   - name: Dr. Eneze Obuaya, MD
     image: "/images/dr-eneze_humble.png"
     location: Humble, TX
-    institute: 'University of Connecticut '
-    internship: ''
+    institute: University of Connecticut; Baylor College of Medicine
+    internship: Anesthesiology
     bio: ''
-    doctors_quote: ''
+    doctors_quote:
+      title: Why I choose Soul Spring
+      content: Soul Spring supports the whole healing journey of the individual human
+        being.
     patients_quote: ''
   - name: Dr. Richaritha Gundlapalli, MD
     image: "/images/about/management/richa.png"
