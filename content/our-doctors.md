@@ -82,8 +82,8 @@ meet_doctors:
   - name: Dr. Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
-    institute: ''
-    internship: ''
+    institute: Anáhuac University Medical School, Mexico
+    internship: 'Functional medicine '
     bio: 'With more than 15 years of clinical experience, Dr. Klever Bastar is passionate
       about wellness. In his Soul Spring practice, Dr. Klever blends modern medical
       technology and alternative medicine therapies to help his clients achieve maximum
