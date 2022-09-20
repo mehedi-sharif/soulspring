@@ -244,7 +244,9 @@ holistic_doctors:
   - name: Dr. Stephany González, MD
     image: "/images/dr-stephany.png"
     qualifications:
-    - "Medical Director, Soul Spring \nCuernavaca, MX"
+    - |-
+      Medical Director, Soul Spring Cuernavaca
+      Morelos, MX
     quote:
       title: Why I choose Soul Spring
       content: I’ve observed deep transformation in my patients....With Soul Spring,
