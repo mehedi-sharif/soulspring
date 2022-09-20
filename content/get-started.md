@@ -53,7 +53,7 @@ understanding_bio:
 wellness_report:
   enable: true
   title: Understanding Your Bio-Individuality
-  subtitle: In 8-minutes we will complete a comprehensive biological assessments using
+  subtitle: In 8-minutes we will complete a comprehensive biological assessment using
     innovative technology.
   image: images/wellness-report/wellness-report.jpg
   block:
