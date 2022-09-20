@@ -100,16 +100,16 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, a personalized detox therapy plan is made.
-    - title: 'The Therapy Journey:   Your Path to Wellness '
+    - title: 'The Therapy Journey:  Your Path to Wellness '
+      image: images/initially-expects/03.svg
+      lists: []
+    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
       image: images/initially-expects/03.svg
       lists:
       - Assessment of your progress and response to therapies and treatment protocols.
       - Any necessary adjustments or additions to your therapy plan are made.
       - Personalized compounding prescriptions (for specific complex and/or chronic
         conditions) are discussed in this visit.
-    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
-      image: ''
-      lists: ''
 medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
