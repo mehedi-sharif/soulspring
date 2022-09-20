@@ -84,9 +84,6 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       4 steps:'
     clinic_features:
-    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
-      image: ''
-      lists: ''
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
@@ -110,6 +107,9 @@ initially_expects:
       - Any necessary adjustments or additions to your therapy plan are made.
       - Personalized compounding prescriptions (for specific complex and/or chronic
         conditions) are discussed in this visit.
+    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
+      image: ''
+      lists: ''
 medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
