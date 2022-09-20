@@ -100,7 +100,7 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, a personalized detox therapy plan is made.
-    - title: Third Visit / Consultation
+    - title: 'The Therapy Journey:   Your Path to Wellness '
       image: images/initially-expects/03.svg
       lists:
       - Assessment of your progress and response to therapies and treatment protocols.
