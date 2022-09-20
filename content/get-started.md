@@ -40,8 +40,8 @@ understanding_bio:
     title: We are all Biochemically Unique
     image: images/footer-right.png
     button:
-      label: Read More Details
-      link: "#!"
+      label: ''
+      link: ''
     content: |-
       Simply stated, bio-individuality means we are all unique - biochemically, physically, emotionally, and mentally. So why would we accept a “universal” approach to addressing our own unique health and nutritional needs?
 
