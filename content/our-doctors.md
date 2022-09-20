@@ -100,7 +100,7 @@ meet_doctors:
         and regeneration therapies, I can help my patients heal, build resilience,
         and improve their overall wellness. '
     patients_quote:
-      rating: "5"
+      rating: ''
       name: ''
       content: ''
   - name: Dr. Stephany González, MD
