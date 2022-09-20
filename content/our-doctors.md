@@ -123,7 +123,7 @@ meet_doctors:
     image: "/images/dr-stephany.png"
     location: Morelos, MX
 advisory_board:
-  enable: true
+  enable: false
   title: Medical Advisory Board
   subtitle: We've sought out the brightest in the medical community for our Medical
     Board. We work closely with our advisors on product development and the latest
@@ -146,7 +146,7 @@ advisory_board:
     image: images/our-doctors/advisory-board/charlie.png
     designation: Cardiologist California Pacific Medical Center
 doctors_team:
-  enable: true
+  enable: false
   title: It Takes a Team, It Takes a Village
   subtitle: We work with top talent for integrative care inside our  trusted ecosystem
   members:
@@ -188,7 +188,7 @@ hiring:
 call_to_action:
   enable: true
   title: Have Questions? We Have Answers!
-  description: We're here to guide your journey to holistic wellness and wellbeing.
+  description: We're here to guide your journey to holistic wellness. and wellbeing.
   bg_image: images/call-to-action.jpg
   button_label: Fee Consultation
   button_link: "#!"
