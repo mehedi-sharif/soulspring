@@ -205,7 +205,7 @@ holistic_doctors:
   - name: Dr. Cheryl Perlis, MD
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
-    - Medical Director, Soul Spring Chicago, IL
+    - "Medical Director, Soul Spring \nChicago, IL"
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
@@ -213,7 +213,7 @@ holistic_doctors:
   - name: Dr. Eneze Obuaya, MD
     image: "/images/dr-eneze_humble.png"
     qualifications:
-    - Medical Director, Soul Spring Humble, TX
+    - "Medical Director, Soul Spring \nHumble, TX"
     quote:
       title: Why I choose Soul Spring
       content: Soul Spring supports the whole healing journey of the individual human
