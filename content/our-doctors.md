@@ -67,7 +67,7 @@ meet_doctors:
       name: "- Verified Patient of Dr. Perlis"
       content: Dr. Cheryl Perlis is a wonderful doctor. She has taken care of me for
         the last 15 years and I believe she is intelligent and understands my needs.
-  - name: Klever Bastar Castro, MD
+  - name: Dr. Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
     institute: ''
@@ -88,7 +88,7 @@ meet_doctors:
       rating: "5"
       name: ''
       content: ''
-  - name: Stephany González, MD
+  - name: Dr. Stephany González, MD
     institute: Universidad Latinoamericana (ULA), Mexico
     internship: Molecular Medicine & Neural Therapy
     bio: 'Dr. Stephany González is internationally certified in Neural Therapy and
