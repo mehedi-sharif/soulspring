@@ -22,29 +22,15 @@ meet_doctors:
   enable: true
   title: Meet Your Doctor
   doctors:
-  - name: Dr. Eneze Obuaya, MD
-    image: "/images/dr-eneze_humble.png"
-    location: Humble, TX
-    institute: University of Connecticut; Baylor College of Medicine
-    internship: Anesthesiology
-    bio: |
-      Dr. Eneze Obuaya, M.D. is a board-certified Medical Doctor and Anesthesiologist, functional medicine trained practitioner, certified medical intuitive, and energy medicine practitioner. She brings all her experience and expertise together to work harmoniously for health and healing of her patients.<br/>
-      Dr. Obuaya graduated medical school from the University of Connecticut and received her Anesthesiology specialty training at Baylor College of Medicine. With her love for movement and the innate intelligence of the physical body, she is a CrossFit trainer and certified yoga instructor, currently practicing Tai Chi and Qigong.
-    doctors_quote:
-      title: Why I choose Soul Spring
-      content: Soul Spring supports the whole healing journey of the individual human
-        being.
-    patients_quote: ''
   - name: Dr. Richaritha Gundlapalli, MD
     image: "/images/about/management/richa.png"
     location: The Woodlands, TX
     institute: University of Illinois, Chicago
     internship: Family Medicine & Pediatrics
-    bio: Dr. Richa Joy Gundlapalli, MD, ABIHM, AFMCP is a rare blend of Board-Certified
-      Integrative practitioner, expert on Bio Energetics and an internationally sought-after
-      speaker/thought leader. She completed her AFMCP Certification from Institute
-      of Functional Medicine and received Advanced Nutrient Therapy (ANT) training
-      for Brain health under Dr. William Walsh.
+    bio: |
+      Dr. Richa Joy Gundlapalli, MD, ABIHM is a rare blend of Board-Certified Integrative practitioner and expert on Bio Energetics. Dr. Joy studied Family Medicine & Pediatrics at University of Illinois, Chicago where she was also the Chief Resident. She completed her AFMCP Certification from Institute of Functional Medicine and received Advanced Nutrient Therapy (ANT) training for Brain health under Dr. William Walsh.<br/>
+      A Certified Biological Medicine practitioner, Dr. Joy received her training in Biological Medicine at Paracelsus Clinic, Switzerland under Dr. Thomas Rau. She has further trained under Dr. Dietrich Klinghardt & Dr. Ralf Oettmeier for specialized therapies. Dr. Joy is also Certified in Bio Energetics & Energy medicine from Wegamed Academy, Germany where she was personally trained under Dr. Peter Mölleney.<br/>
+      Her professional sabbaticals have included oriental trainings & study of Acupuncture, Ayurveda, Anthroposophical medicine & related Mind-Body modalities which she effectively blends into her practice
     doctors_quote:
       title: Why I choose Soul Spring
       content: 'Soul Spring modalities support the innate healing capacity of the
@@ -80,6 +66,19 @@ meet_doctors:
       name: "- Verified Patient of Dr. Perlis"
       content: Dr. Cheryl Perlis is a wonderful doctor. She has taken care of me for
         the last 15 years and I believe she is intelligent and understands my needs.
+  - name: Dr. Eneze Obuaya, MD
+    image: "/images/dr-eneze_humble.png"
+    location: Humble, TX
+    institute: University of Connecticut; Baylor College of Medicine
+    internship: Anesthesiology
+    bio: |
+      Dr. Eneze Obuaya, M.D. is a board-certified Medical Doctor and Anesthesiologist, functional medicine trained practitioner, certified medical intuitive, and energy medicine practitioner. She brings all her experience and expertise together to work harmoniously for health and healing of her patients.<br/>
+      Dr. Obuaya graduated medical school from the University of Connecticut and received her Anesthesiology specialty training at Baylor College of Medicine. With her love for movement and the innate intelligence of the physical body, she is a CrossFit trainer and certified yoga instructor, currently practicing Tai Chi and Qigong.
+    doctors_quote:
+      title: Why I choose Soul Spring
+      content: Soul Spring supports the whole healing journey of the individual human
+        being.
+    patients_quote: ''
   - name: Dr. Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
