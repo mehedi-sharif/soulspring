@@ -22,7 +22,7 @@ meet_doctors:
   enable: true
   title: Meet Your Doctor
   doctors:
-  - name: Richaritha Gundlapalli, MD
+  - name: Dr. Richaritha Gundlapalli, MD
     image: "/images/about/management/richa.png"
     location: The Woodlands, TX
     institute: University of Illinois, Chicago
@@ -44,7 +44,7 @@ meet_doctors:
         not find anywhere else. She worked tirelessly to help us resolve many different
         issues. Not just covering issues with medication but helping heal the whole
         body. I would recommend her to anybody seeking medical help with any issue.
-  - name: Cheryl Perlis, MD
+  - name: Dr. Cheryl Perlis, MD
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     location: Highland Park, IL
     institute: Chicago Medical School
