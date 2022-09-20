@@ -205,7 +205,9 @@ holistic_doctors:
   - name: Dr. Cheryl Perlis, MD
     image: "/images/dr-cheryl-perlis_sept2022_2.png"
     qualifications:
-    - "Medical Director, Soul Spring \nChicago, IL"
+    - |-
+      Medical Director, Soul Spring Chicago
+      Chicago, IL
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
