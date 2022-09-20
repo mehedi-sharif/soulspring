@@ -140,7 +140,7 @@ community:
   enable: true
   title: Our Community & Ecosystem
   subtitle: We are continually expanding our global circle of meaningful relationships
-    worldwide
+    worldwide.
   image: images/about/community.jpg
 
 ---
