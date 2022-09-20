@@ -22,6 +22,14 @@ meet_doctors:
   enable: true
   title: Meet Your Doctor
   doctors:
+  - name: Dr. Eneze Obuaya, MD
+    image: "/images/dr-eneze_humble.png"
+    location: Humble, TX
+    institute: 'University of Connecticut '
+    internship: ''
+    bio: ''
+    doctors_quote: ''
+    patients_quote: ''
   - name: Dr. Richaritha Gundlapalli, MD
     image: "/images/about/management/richa.png"
     location: The Woodlands, TX
