@@ -214,6 +214,8 @@ holistic_doctors:
     - Medical Director, Soul Spring Humble, TX
     quote:
       title: Why I choose Soul Spring
+      content: Soul Spring supports the whole healing journey of the individual human
+        being.
   - name: Mike Riippa, R.N.
     image: "/images/mike-riippa_sept2022.png"
     qualifications:
