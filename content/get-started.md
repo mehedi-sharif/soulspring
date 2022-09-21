@@ -121,7 +121,9 @@ initially_expects:
         conditions) are discussed in this visit.
     - title: Personalized Supplements, Remedies & Biologics
       image: "/images/initially-expects/01.svg"
-      lists: ''
+      lists:
+      - To support you in your wellness journey, personalized supplements, remedies
+        and biologics may be included in your Personalized Therapy Plan
     - title: Lifestyle Education
       image: "/images/initially-expects/03.svg"
       lists: ''
