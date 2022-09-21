@@ -84,6 +84,9 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       3 steps:'
     clinic_features:
+    - title: Lifestyle Education
+      image: "/images/initially-expects/03.svg"
+      lists: ''
     - title: Personalized Supplements, Remedies & Biologics
       image: "/images/initially-expects/01.svg"
       lists: ''
