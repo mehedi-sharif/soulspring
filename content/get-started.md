@@ -104,7 +104,7 @@ initially_expects:
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, an advanced therapy plan is made.
     - title: The Therapy Journey:<br/>Your Path to Wellness
-      image: "/images/initially-expects/02.svg"
+      image: "/images/initially-expects/03.svg"
       lists:
       - Personalized therapy plans include bio-individualized detoxification and regeneration
         therapies design to correct dysfunctional biological processes within the
