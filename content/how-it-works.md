@@ -73,11 +73,13 @@ unlock_power_of_biological_medicine:
       Non-invasive diagnostic tests and assessments allow us to look for stressors,
       toxins, dysregulations and imbalances so we can isolate the root cause of your
       health challenges.
-  - title: Purification & Release
+  - title: Personalized Therapy Plan
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    description: The results of the diagnostics and assessment provide a roadmap to
+      underlying imbalances and/or dysregulations and allow the Medical Director to
+      immediately start addressing your concerns. A personalized therapy plan is strategically
+      created from this roadmap to address root cause(s) and deliver an integrated
+      approach to your unique healing journey.
   - title: Regeneration & Rejuvenation
     image: images/power-of-biological-medicine/05.svg
     description: We begin by understanding the cause rather than the symptoms. Accounting
