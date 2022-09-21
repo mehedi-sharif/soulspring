@@ -120,7 +120,7 @@ initially_expects:
       - Personalized compounding prescriptions (for specific complex and/or chronic
         conditions) are discussed in this visit.
     - title: Personalized Supplements, Remedies & Biologics
-      image: "/images/initially-expects/01.svg"
+      image: "/images/initially-expects/02.svg"
       lists:
       - To support you in your wellness journey, personalized supplements, remedies
         and biologics may be included in your Personalized Therapy Plan
