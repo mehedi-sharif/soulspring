@@ -156,7 +156,7 @@ superior_results:
       lists:
       - 20+ years of research and application of proprietary clinical protocols
       - Environmental and lifestyle solutions optimizing holistic wellbeing
-    - title: Bio Wellness Centers
+    - title: Bio Wellness Clinics
       image: images/superior-results/04.svg
       lists:
       - In-patient experiences with a full suite of biological medicine therapies,
