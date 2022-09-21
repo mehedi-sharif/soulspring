@@ -52,7 +52,7 @@ soulspring_solutions:
     icon: images/solutions/icons/beauty.svg
     image: "/images/clean-beauty_matrix.JPG"
     additional_info:
-      title: Beautiful skin, achieved naturally
+      title: Beautiful skin,<br/> without chemicals
       lists:
       - Restore luster
       - Smoothen complexion
