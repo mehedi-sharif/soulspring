@@ -126,7 +126,10 @@ initially_expects:
         and biologics may be included in your Personalized Therapy Plan
     - title: Lifestyle Education
       image: "/images/initially-expects/03.svg"
-      lists: ''
+      lists:
+      - We want to help you achieve balance between mind, body and soul.
+      - 'Enhance your wellness journey with our mindfulness and meditation tools,
+        nutrition consultations and life coaching '
 medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
