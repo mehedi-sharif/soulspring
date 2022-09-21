@@ -142,7 +142,7 @@
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-<section class="section pb-3 has-overlay has-overlay-bgi why-soulspring overflow-hidden">
+<section class="section pb-3 has-overlay has-overlay-bgi why-soulspring soulspring-clinics overflow-hidden">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
@@ -152,30 +152,45 @@
       </div>
     </div>
     <div class="row gy-5 justify-content-center align-content-center">
-      {{ range .clinics_lists }}
-      <div class="col-12 text-center">
-        {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm") }}
-        <div class="soulspring-features {{ if or (not (fileExists (add `assets/` (string .image)))) (eq .image ``) }}mt-0{{end}} bg-white rounded-sm shadow">
-          <h3 class="h4 text-black">{{.name | markdownify}}</h3>
-          <p class="mb-2">{{.location | markdownify}}</p>
-          <p class="mb-4"><a class="text-primary hover-underline fw-medium" href="tel:{{.phone | markdownify}}">{{.phone | markdownify}}</a></p>
-
-          <hr class="text-light opacity-100 mx-auto" style="height:1px;">
-          <div class="content my-4">{{.content | markdownify}}</div>
-          <hr class="text-light opacity-100 mx-auto" style="height:1px;">
-
-          <h3 class="h4 mt-4">Hours</h3>
-          <p>{{.opening_hour | markdownify}}</p>
-          {{ with .button }}
-          <a class="btn btn-primary px-5" target="_blank" href="{{.link}}">{{.label}}</a>
-          {{ end }}
+      <div class="col-12">
+        <div class="swiper swiper-soulspring-clinics">
+          <div class="swiper-wrapper pb-5 mb-2">
+            {{ range .clinics_lists }}
+            <div class="swiper-slide text-center">
+              {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm") }}
+              <div class="soulspring-features {{ if or (not (fileExists (add `assets/` (string .image)))) (eq .image ``) }}mt-0{{end}} bg-white rounded-sm shadow">
+                <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
+                <p class="mb-2">{{.location | markdownify}}</p>
+                <p class="mb-4">
+                  <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
+                </p>
+      
+                <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+                <div class="content my-4">{{.content | markdownify}}</div>
+                <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+      
+                <p class="h6 mt-4">Hours</p>
+                <p>{{.opening_hour | markdownify}}</p>
+                {{ with .button }}
+                <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+                {{ end }}
+              </div>
+            </div>
+            {{ end }}
+          </div>
+          
+          <div class="swiper-pagination"></div>
+          
+          <div class="d-none d-lg-block">
+            <div class="swiper-button-prev button-prev rounded-circle shadow"><i class="fas fa-chevron-left"></i></div>
+            <div class="swiper-button-next button-next rounded-circle shadow"><i class="fas fa-chevron-right"></i></div>
+          </div>
         </div>
       </div>
-      {{ end }}
     </div>
   </div>
 
-  <div class="overlay-block" style="max-height:550px"></div>
+  <div class="overlay-block" style="max-height:60%"></div>
 </section>
 {{ end }}
 {{ end }}
@@ -186,7 +201,7 @@
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-<section class="section pb-3 has-overlay overflow-hidden has-flower-between">
+<section class="section pb-3 has-overlay overflow-hidden has-flower-between why-soulspring">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
@@ -211,9 +226,28 @@
         {{ end }}
       </div>
     </div>
+    {{ with .clinic_info }}
+    <div class="soulspring-features bg-white rounded-sm shadow text-center">
+      <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
+      <p class="mb-2">{{.location | markdownify}}</p>
+      <p class="mb-4">
+        <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
+      </p>
+
+      <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+      <div class="content my-4">{{.content | markdownify}}</div>
+      <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+
+      <p class="h6 mt-4">Hours</p>
+      <p>{{.opening_hour | markdownify}}</p>
+      {{ with .button }}
+      <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+      {{ end }}
+    </div>
+    {{ end }}
   </div>
 
-  <div class="overlay-block" style="height:60%">
+  <div class="overlay-block" style="height:70%">
     {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
     {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
   </div>
@@ -227,7 +261,7 @@
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-<section class="section pb-3 has-overlay has-overlay-bgi overflow-hidden">
+<section class="section pb-3 has-overlay has-overlay-bgi overflow-hidden why-soulspring">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
@@ -238,10 +272,27 @@
         </div>
       </div>
     </div>
-    <div class="row gy-4 justify-content-center align-content-center">
-      {{ range .gallery }}
+    <div class="row gy-5 justify-content-center align-content-center">
+      {{ range .welness_center_lists }}
         <div class="col-md-12">
-        {{ partial "image.html" (dict `Src` . `alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
+        {{ partial "image.html" (dict `Src` .image `alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
+        <div class="soulspring-features bg-white rounded-sm shadow text-center">
+          <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
+          <p class="mb-2">{{.location | markdownify}}</p>
+          <p class="mb-4">
+            <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
+          </p>
+    
+          <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+          <div class="content my-4">{{.content | markdownify}}</div>
+          <hr class="text-light opacity-100 mx-auto" style="height:1px;">
+    
+          <p class="h6 mt-4">Hours</p>
+          <p>{{.opening_hour | markdownify}}</p>
+          {{ with .button }}
+          <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+          {{ end }}
+        </div>
         </div>
       {{ end }}
     </div>

@@ -21,6 +21,7 @@ about_doctors:
 meet_doctors:
   enable: true
   title: Meet Your Doctor
+  subtitle: "Learn More About Our Doctors"
   doctors:
   - name: Dr. Richaritha Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
@@ -171,7 +172,7 @@ doctors_team:
     designation: Chair of the Department of Medicine University of California, San
       Francisco
 hiring:
-  enable: true
+  enable: false
   title: We Are Hiring
   subtitle: Are you a board certified MD ready to bring your practice to the next
     level?

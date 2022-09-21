@@ -93,6 +93,32 @@
         },
       },
     });
+
+    // swiper-soulspring-clinics
+    new Swiper(".swiper.swiper-soulspring-clinics", {
+      slidesPerView: 1,
+      loop: false,
+      spaceBetween: 24,
+      speed: 500,
+      grabCursor: true,
+      // autoplay: {
+      //   delay: 4000,
+      // },
+      navigation: {
+        nextEl: ".button-next",
+        prevEl: ".button-prev",
+      },
+      pagination: {
+        el: ".swiper-pagination",
+        type: "bullets",
+        clickable: true,
+      },
+      breakpoints: {
+        1200: {
+          slidesPerView: 2,
+        },
+      },
+    });
   };
 
   // Video Modal

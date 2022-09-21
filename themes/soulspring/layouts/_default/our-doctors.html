@@ -82,13 +82,12 @@
       <div class="col-lg-9 mx-auto text-center mb-4">
         <h2 class="h3 fw-bold mb-4">{{.title | markdownify}}</h2>
         <hr class="text-primary opacity-100 mb-4 mx-auto" style="width:48px;height:2px;">
-        {{ with .subtitle}}<p>{{. | markdownify}}</p> {{ end }}
       </div>
     </div>
     <div class="block bg-white rounded shadow">
       <div class="row">
         <div class="col-lg-8 mx-auto text-center">
-          <h3 class="h6 fw-medium font-secondary">Serach Here For Doctors</h3>
+          {{ with .subtitle}}<h3 class="h6 fw-medium font-secondary">{{. | markdownify}}</h3>{{ end }}
           <hr class="text-default opacity-100 mb-4 mx-auto" style="width:18px;height:2px;">
 
           <select id="selectLocation" name="doctors" class="form-select location-form-select shadow-none rounded-pill mb-5">
@@ -113,15 +112,15 @@
                       <div class="flex-shrink-0 me-2 lh-sm" >
                         {{ partial "image.html" (dict "Src" "images/institute.svg" ) }}
                       </div>
-                      <p class="flex-grow-1 mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                      <div class="flex-grow-1 mb-0 text-dark fw-medium">{{. | markdownify }}</div>
                     </div>
                     {{ end }}
                     {{ with .internship }}
                     <div class="d-flex mb-3 pb-3 border-bottom border-light align-items-center">
                       <div class="flex-shrink-0 me-2 align-self-start">
                       {{ partial "image.html" (dict "Src" "images/internship.svg" ) }}
-                    </div>
-                      <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                      </div>
+                      <div class="mb-0 text-dark fw-medium">{{. | markdownify }}</div>
                     </div>
                     {{ end }}
                     {{ with .bio }}
@@ -129,7 +128,7 @@
                       <div class="flex-shrink-0 me-2 align-self-start">
                         {{ partial "image.html" (dict "Src" "images/user.svg" ) }}
                       </div>
-                      <p class="mb-0 text-dark fw-medium">{{. | markdownify }}</p>
+                      <div class="mb-0 text-dark fw-medium">{{. | markdownify }}</div>
                     </div>
                     {{ end }}
                   </div>
