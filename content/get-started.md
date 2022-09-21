@@ -87,9 +87,9 @@ initially_expects:
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
-      - Detailed biological/functional assessment, advanced biofeedback/neurofeedback
-        testing
-      - HRV testing for appropriate cases
+      - We begin by understanding the cause rather than focusing on the symptoms
+      - Detailed, non-invasive diagnostic testing and assessments allow us to look
+        for stressors, toxins, and imbalances
       - Review of any past lab results and investigations. Special labs ordered if
         necessary.
     - title: 'Initial Consultation:  Development of a Personalized Therapy Plan '
