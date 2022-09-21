@@ -61,7 +61,7 @@ wellness_report:
       sample we will immediately report:'
     links:
     - label: Brain & Behavioral Health
-      link: "/images/01-brain-behavioral_us.pdf"
+      link: ''
     - label: Biological Age
       link: "#"
     - label: Food Sensitivity
