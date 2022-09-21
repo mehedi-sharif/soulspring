@@ -39,7 +39,7 @@ individual_bio_wellness_solutions:
     image: images/individual-wellness-solutions/01.svg
   - title: Neuro-Regenerative Therapies
     image: images/individual-wellness-solutions/02.svg
-  - title: Bio- Individualized™ Formulations
+  - title: Bio-Individualized™ Formulations
     image: images/individual-wellness-solutions/03.svg
   - title: Advanced Detoxification, Rejuvenation & Regenerative Therapie
     image: images/individual-wellness-solutions/04.svg
