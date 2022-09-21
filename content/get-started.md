@@ -131,9 +131,9 @@ initially_expects:
         nutrition consultations and life coaching '
 medical_treatments:
   enable: true
-  title: Sample Menu of Medical Treatments
-  subtitle: Bio-individualized wellness solutions, therapies and treatments tailored
-    just for you.
+  title: Sample Menu of Therapies
+  subtitle: Bio-individualized wellness solutions and therapies tailored just for
+    you.
   section: "/offering"
 top_doctors:
   enable: true
