@@ -134,9 +134,9 @@ superior_results:
     the difference.
   features:
     title: Soul Spring is a global network of wellness clinics
-    subtitle: Led by board certified medical doctors
+    subtitle: Led by board-certified medical doctors
     image: images/superior-results/superior-results.png
-    content: Powered by tranformative medtech and proven protocols for bio-individualized
+    content: Powered by transformative medtech and proven protocols for bio-individualized
       wellness
     features_lists:
     - title: Third visit/Consultation
