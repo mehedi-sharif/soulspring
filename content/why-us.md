@@ -156,12 +156,12 @@ superior_results:
       lists:
       - 20+ years of research and application of proprietary clinical protocols
       - Environmental and lifestyle solutions optimizing holistic wellbeing
-    - title: Innovative Business Model
+    - title: Bio Wellness Centers
       image: images/superior-results/04.svg
       lists:
-      - Leverages doctors existing medical office and patient base for fast growth
-        and profitability
-      - Co-ownership model with MDs
+      - In-patient experiences with a full suite of biological medicine therapies,
+        holistic modalities and best-in-class amenities
+      - Serving inpatient and outpatient
 ancient_healing:
   enable: true
   title: Blending the Best of Modern & Ancient Healing
