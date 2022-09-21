@@ -80,11 +80,13 @@ unlock_power_of_biological_medicine:
       immediately start addressing your concerns. A personalized therapy plan is strategically
       created from this roadmap to address root cause(s) and deliver an integrated
       approach to your unique healing journey.
-  - title: Regeneration & Rejuvenation
+  - title: Path to Wellness
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    description: Your personalized therapy plan will include bio-individualized detoxification
+      and regeneration therapies designed to correct dysfunctional biological processes
+      within the body, restoring and strengthening the natural healing capacity of
+      the body's cells and organs. Additionally, emotional-mental harmonization, self-therapy
+      and integration programs may also be included in your therapy plan.
   - title: Harmonization & Awareness
     image: images/power-of-biological-medicine/05.svg
     description: We begin by understanding the cause rather than the symptoms. Accounting
