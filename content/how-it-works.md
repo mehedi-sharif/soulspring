@@ -95,8 +95,8 @@ unlock_power_of_biological_medicine:
       therapy plan.
 world_of_wellbeing:
   enable: true
-  title: A Whole New World of Well-Being
-  subtitle: 'Our unique treatment methodologies are designed to help you heal and
+  title: A Whole New World of Wellbeing
+  subtitle: 'Our unique therapies and modalities are designed to help you heal and
     manage the following conditions:'
   lists:
   - Gut Health
