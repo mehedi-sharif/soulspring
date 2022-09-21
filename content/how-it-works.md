@@ -67,11 +67,12 @@ unlock_power_of_biological_medicine:
     to heal and regenerate by combining the best of biological medicine, innovative
     medical technologies, and the wisdom of ancient holistic approaches.
   features:
-  - title: Diagnosis of Root Causes
+  - title: Holistic Diagnostics & Assessment
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    description: We begin by understanding the cause rather than focusing on the symptoms.
+      Non-invasive diagnostic tests and assessments allow us to look for stressors,
+      toxins, dysregulations and imbalances so we can isolate the root cause of your
+      health challenges.
   - title: Purification & Release
     image: images/power-of-biological-medicine/05.svg
     description: We begin by understanding the cause rather than the symptoms. Accounting
