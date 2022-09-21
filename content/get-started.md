@@ -90,7 +90,7 @@ initially_expects:
       - We begin by understanding the cause rather than focusing on the symptoms
       - Detailed, non-invasive diagnostic testing and assessments allow us to look
         for stressors, toxins, and imbalances
-      - Past lab results are reviewed and special labs ordered if necessary.
+      - Past lab results are reviewed and special labs ordered if necessary
     - title: 'Initial Consultation:<br/>Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
