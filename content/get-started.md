@@ -114,10 +114,10 @@ initially_expects:
     - title: 'Mid-Journey Revisit:<br/>Assessment for any Adjustment '
       image: "/images/initially-expects/01.svg"
       lists:
-      - Assessment of your progress and response to therapies and treatment protocols.
-      - Any necessary adjustments or additions to your therapy plan are made.
+      - Assessment of your progress and response to therapies and treatment protocols
+      - Any necessary adjustments or additions to your therapy plan are made
       - Personalized compounding prescriptions (for specific complex and/or chronic
-        conditions) are discussed in this visit.
+        conditions) are discussed in this visit
     - title: Personalized Supplements, Remedies & Biologics
       image: "/images/initially-expects/02.svg"
       lists:
