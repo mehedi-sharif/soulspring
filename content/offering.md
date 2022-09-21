@@ -99,7 +99,7 @@ soulspring_solutions:
         link: "#!"
   - title: Pain Relief
     subtitle: Live free of pain naturally, without harmful drugs or invasive procedures.
-    icon: images/solutions/icons/pain-relief.svg
+    icon: "/images/pain-relief_matrix.jpg"
     image: "/images/pain-free.jpg"
     additional_info:
       title: Rediscover life, pain free
