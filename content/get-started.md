@@ -82,7 +82,7 @@ initially_expects:
     content: 'Our Medical Directors and practitioners will personally work with you
       to understand your health concerns and design a comprehensive therapy plan.
       Although each individual''s therapy plan is unique, it is broadly divided into
-      3 steps:'
+      the following steps:'
     clinic_features:
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
