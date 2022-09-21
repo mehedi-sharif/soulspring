@@ -106,7 +106,7 @@ initially_expects:
       image: "/images/initially-expects/03.svg"
       lists:
       - Personalized therapy plans include bio-individualized detoxification and regeneration
-        therapies design to correct dysfunctional biological processes within the
+        therapies designed to correct dysfunctional biological processes within the
         body, restoring and strengthening the natural healing capacity of the body's
         cells and organs
       - Emotional-mental harmonization, self-therapy and integration programs may
