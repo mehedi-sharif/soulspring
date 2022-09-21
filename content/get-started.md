@@ -103,7 +103,7 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, an advanced therapy plan is made.
-    - title: 'The Therapy Journey:  Your Path to Wellness'
+    - title: The Therapy Journey:<br/>Your Path to Wellness
       image: "/images/initially-expects/02.svg"
       lists:
       - Personalized therapy plans include bio-individualized detoxification and regeneration
