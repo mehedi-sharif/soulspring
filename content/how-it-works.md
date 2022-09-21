@@ -87,11 +87,11 @@ unlock_power_of_biological_medicine:
       within the body, restoring and strengthening the natural healing capacity of
       the body's cells and organs. Additionally, emotional-mental harmonization, self-therapy
       and integration programs may also be included in your therapy plan.
-  - title: Revisit and Assess
+  - title: Mid-Journey Revisit
     image: images/power-of-biological-medicine/05.svg
     description: As your wellness partner, it is important for us to stay in touch.
-      A personalized follow-up consultation will be scheduled for you to revisit and
-      assess your progress mid-journey and make any necessary adjustments to your
+      A personalized follow-up consultation will be scheduled with you to revisit
+      and assess your progress mid-journey and make any necessary adjustments to your
       therapy plan.
 world_of_wellbeing:
   enable: true
