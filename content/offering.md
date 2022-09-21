@@ -132,7 +132,7 @@ soulspring_solutions:
 soulspring_therapies_and_treatments:
   enable: true
   title: Soul Spring Therapies and Treatments
-  title_details: Our Therapies & Treatments Explained
+  title_details: Our Therapies Explained
   subtitle: 'Our deep therapeutic modalities combine the best of natural science and
     new-age technology to revive your inner healing strength. '
   therapies_and_treatments:
