@@ -87,11 +87,12 @@ unlock_power_of_biological_medicine:
       within the body, restoring and strengthening the natural healing capacity of
       the body's cells and organs. Additionally, emotional-mental harmonization, self-therapy
       and integration programs may also be included in your therapy plan.
-  - title: Harmonization & Awareness
+  - title: Revisit and Assess
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    description: As your wellness partner, it is important for us to stay in touch.
+      A personalized follow-up consultation will be scheduled for you to revisit and
+      assess your progress mid-journey and make any necessary adjustments to your
+      therapy plan.
 world_of_wellbeing:
   enable: true
   title: A Whole New World of Well-Being
