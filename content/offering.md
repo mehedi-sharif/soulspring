@@ -48,7 +48,7 @@ soulspring_solutions:
         label: Contact Us
         link: "#!"
   - title: Clean Beauty
-    subtitle: Give your skin the love it deserves with Soul Spring natural skin care.
+    subtitle: Give your skin the love it deserves with Soul Spring natural skin care
     icon: images/solutions/icons/beauty.svg
     image: "/images/clean-beauty_matrix.JPG"
     additional_info:
