@@ -95,11 +95,14 @@ initially_expects:
     - title: 'Initial Consultation:  Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
-      - Lab results (old & new) are reviewed with insights, patient education and
-        necessary handouts provided by the Medical Director.
+      - The Medical Director creates a personalized therapy plan from the roadmap
+        to address root cause(s) and deliver an integrative approach to your healing
+        journey
+      - Results of the diagnostic testing provide a roadmap to underlying imbalances
+        and/or dysregulations
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
-        conditions, a personalized detox therapy plan is made.
+        conditions, an advanced therapy plan is made.
     - title: 'The Therapy Journey:  Your Path to Wellness'
       image: "/images/initially-expects/02.svg"
       lists: ''
