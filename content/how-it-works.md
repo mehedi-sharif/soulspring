@@ -19,8 +19,8 @@ approach_steps:
   enable: true
   title: Supporting the Body to Heal Naturally - Our 3 Step Approach
   subtitle: After analyzing the organ systems that are not working at optimum capacity,
-    our practitioners evaluate the results and design a highly personalized treatment
-    and therapy program to help detoxify and revitalize the entire body.
+    our practitioners evaluate the results and design a highly personalized therapy
+    program to help detoxify and revitalize the entire body.
   steps:
   - title: Detoxify
     description: Before any therapeutic treatments are started, we work with you to
