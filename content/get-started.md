@@ -84,6 +84,9 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       3 steps:'
     clinic_features:
+    - title: 'The Therapy Journey:  Your Path to Wellness'
+      image: "/images/initially-expects/02.svg"
+      lists: ''
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
