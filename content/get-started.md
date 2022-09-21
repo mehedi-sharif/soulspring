@@ -122,11 +122,11 @@ initially_expects:
       image: "/images/initially-expects/02.svg"
       lists:
       - To support you in your wellness journey, personalized supplements, remedies
-        and biologics may be included in your Personalized Therapy Plan
+        and biologics may be included in your personalized therapy plan
     - title: Lifestyle Education
       image: "/images/initially-expects/03.svg"
       lists:
-      - We want to help you achieve balance between mind, body and soul.
+      - We want to help you achieve balance between mind, body and soul
       - 'Enhance your wellness journey with our mindfulness and meditation tools,
         nutrition consultations and life coaching '
 medical_treatments:
