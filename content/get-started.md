@@ -84,7 +84,7 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       the following steps:'
     clinic_features:
-    - title: 'Onboarding<br/>Holistic Diagnostics and Assessment '
+    - title: 'Onboarding:<br/>Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
       - We begin by understanding the cause rather than focusing on the symptoms
@@ -92,7 +92,7 @@ initially_expects:
         for stressors, toxins, and imbalances
       - Review of any past lab results and investigations. Special labs ordered if
         necessary.
-    - title: 'Initial Consultation:  Development of a Personalized Therapy Plan '
+    - title: 'Initial Consultation:<br/>Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
       - The Medical Director creates a personalized therapy plan from the roadmap
