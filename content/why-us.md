@@ -41,7 +41,7 @@ individual_bio_wellness_solutions:
     image: images/individual-wellness-solutions/02.svg
   - title: Bio-Individualized™ Formulations
     image: images/individual-wellness-solutions/03.svg
-  - title: Advanced Detoxification, Rejuvenation & Regenerative Therapie
+  - title: Advanced Detoxification, Rejuvenation & Regenerative Therapies
     image: images/individual-wellness-solutions/04.svg
   - title: Mind-Body Modalities
     image: images/individual-wellness-solutions/05.svg
