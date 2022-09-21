@@ -94,11 +94,11 @@ initially_expects:
     - title: 'Initial Consultation:<br/>Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
-      - The Medical Director creates a personalized therapy plan from the roadmap
-        to address root cause(s) and deliver an integrative approach to your healing
-        journey
       - Results of the diagnostic testing provide a roadmap to underlying imbalances
         and/or dysregulations
+      - The Medical Director creates a personalized therapy plan from the roadmap
+        to address root cause(s) and deliver an integrative approach to your unique
+        healing journey
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, an advanced therapy plan is made.
