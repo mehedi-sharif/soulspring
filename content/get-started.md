@@ -113,7 +113,7 @@ initially_expects:
       - Emotional-mental harmonization, self-therapy and integration programs may
         also be included in your therapy journey
     - title: 'Mid-Journey Revisit:<br/>Assessment for any Adjustment '
-      image: images/initially-expects/03.svg
+      image: "/images/initially-expects/01.svg"
       lists:
       - Assessment of your progress and response to therapies and treatment protocols.
       - Any necessary adjustments or additions to your therapy plan are made.
