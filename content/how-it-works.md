@@ -60,7 +60,7 @@ power_of_biological_medicine:
       a 360° habit.
 unlock_power_of_biological_medicine:
   enable: true
-  title: Unlock the power of biological medicine
+  title: The Patient Journey
   subtitle: The natural state of the body is health. Its regulatory systems maintain
     that wellness despite occasional threats. But those systems are often impaired
     by outside factors. At Soul Spring, we help you rekindle your body's natural power
