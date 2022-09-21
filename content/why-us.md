@@ -139,7 +139,7 @@ superior_results:
     content: Powered by transformative medtech and proven protocols for bio-individualized
       wellness
     features_lists:
-    - title: Third visit/Consultation
+    - title: Clinical Expertise
       image: images/superior-results/01.svg
       lists:
       - Top physicians (board -certified MDs)
