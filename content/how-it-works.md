@@ -40,7 +40,7 @@ body_cell:
   image: images/body-cell.svg
 power_of_biological_medicine:
   enable: true
-  title: Unlock the power of biological medicine
+  title: Unlock the Power of Biological Medicine
   features:
   - title: Diagnosis of Root Causes
     image: images/power-of-biological-medicine/01.svg
