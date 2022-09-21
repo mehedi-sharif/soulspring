@@ -30,7 +30,7 @@ banner:
     - title: Where are the locations?
       link: "/locations/"
     - title: How much does it cost?
-      link: "#/pages/content"
+      link: ''
 facts:
   enable: true
   blocks:
