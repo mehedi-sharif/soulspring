@@ -71,12 +71,12 @@ soulspring_solutions:
     additional_info:
       title: Innovative therapies, <br/>stronger mental health
       lists:
-      - Reduce Stress & Anxiety
-      - Sleep Better
-      - Regulate Emotions
-      - Resolve Behavior Disorders
-      - Improve Attention & Focus
-      - Address Eating Disorders
+      - Reduce stress & anxiety
+      - Sleep better
+      - Regulate emotions
+      - Resolve behavior disorders
+      - Improve attention & focus
+      - Address eating disorders
       button:
         label: Contact Us
         link: "#!"
