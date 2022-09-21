@@ -84,15 +84,6 @@ initially_expects:
       Although each individual''s therapy plan is unique, it is broadly divided into
       3 steps:'
     clinic_features:
-    - title: Lifestyle Education
-      image: "/images/initially-expects/03.svg"
-      lists: ''
-    - title: Personalized Supplements, Remedies & Biologics
-      image: "/images/initially-expects/01.svg"
-      lists: ''
-    - title: 'The Therapy Journey:  Your Path to Wellness'
-      image: "/images/initially-expects/02.svg"
-      lists: ''
     - title: 'Onboarding:  Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
@@ -109,6 +100,9 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, a personalized detox therapy plan is made.
+    - title: 'The Therapy Journey:  Your Path to Wellness'
+      image: "/images/initially-expects/02.svg"
+      lists: ''
     - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
       image: images/initially-expects/03.svg
       lists:
@@ -116,6 +110,12 @@ initially_expects:
       - Any necessary adjustments or additions to your therapy plan are made.
       - Personalized compounding prescriptions (for specific complex and/or chronic
         conditions) are discussed in this visit.
+    - title: Personalized Supplements, Remedies & Biologics
+      image: "/images/initially-expects/01.svg"
+      lists: ''
+    - title: Lifestyle Education
+      image: "/images/initially-expects/03.svg"
+      lists: ''
 medical_treatments:
   enable: true
   title: Sample Menu of Medical Treatments
