@@ -91,7 +91,7 @@ initially_expects:
       - Detailed, non-invasive diagnostic testing and assessments allow us to look
         for stressors, toxins, and imbalances
       - Past lab results are reviewed and special labs ordered if necessary
-    - title: 'Initial Consultation:<br/>Development of a Personalized Therapy Plan '
+    - title: 'Initial Consultation - <br/>Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
       - Results of the diagnostic testing provide a roadmap to underlying imbalances
@@ -102,7 +102,7 @@ initially_expects:
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
         conditions, an advanced therapy plan is made.
-    - title: The Therapy Journey:<br/>Your Path to Wellness
+    - title: The Therapy Journey - <br/>Your Path to Wellness
       image: "/images/initially-expects/03.svg"
       lists:
       - Personalized therapy plans include bio-individualized detoxification and regeneration
