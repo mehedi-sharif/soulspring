@@ -76,7 +76,7 @@ initially_expects:
   enable: true
   title: What You Can Initially Expect
   subtitle: We listen, learn and begin treatments to quickly recalibrate what’s best
-    for you.
+    for you
   block:
     title: What Can You Expect When You Visit Soul Spring?
     content: 'Our Medical Directors and practitioners will personally work with you
