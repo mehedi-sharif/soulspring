@@ -30,14 +30,14 @@ supplement_feature:
 paramaceutical_grade:
   enable: true
   title: Why Pharmaceutical Grade?
-  image: images/supplements/grade.jpg
-  content: We insist on only using the highest-quality, pharmaceutical grade nutrients
-    proven to be effective and safe. Pharmaceutical grade ingredients are over 99%
-    in purity and contain no binders, fillers, excipients (substances used to dilute
-    drugs), dyes or unknown additives. Pharmaceutical grade vitamins are also formulated
-    to yield a higher degree of bioavailability – the degree at which it is absorbed
-    into the body’s system. What does this mean for our patients? Maximum health benefits
-    and faster results with no dangerous side effects.
+  image: "/images/drjoy_microscope.jpg"
+  content: We insist on only using the highest-quality, pharmaceutical grade Ayurvedic
+    ingredients proven to be effective and safe. Pharmaceutical grade ingredients
+    are over 99% in purity and contain no binders, fillers, excipients (substances
+    used to dilute drugs), dyes or unknown additives. Pharmaceutical grade vitamins
+    are also formulated to yield a higher degree of bioavailability – the degree at
+    which it is absorbed into the body’s system. What does this mean for our patients?
+    Maximum health benefits and faster results with no dangerous side effects.
 call_to_action:
   enable: true
   title: Interested in learning more about 100% personalized supplements?
