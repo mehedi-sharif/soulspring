@@ -133,7 +133,7 @@ medical_treatments:
   enable: true
   title: Sample Menu of Therapies
   subtitle: Bio-individualized wellness solutions and therapies tailored just for
-    you.
+    you
   section: "/offering"
 top_doctors:
   enable: true
