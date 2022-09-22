@@ -109,7 +109,7 @@ diagnostic_devices:
       icon: images/technology/diagnostic-devices/test-expert-plus/04.svg
     button:
       label: Know More
-      link: https://youtu.be/eITOtkZR0mw
+      link: https://youtube.com/embed/eITOtkZR0mw?autoplay=true
 therapeutic_devices:
   enable: true
   title: 'Therapies:   Immediate Results with Lasting Impact'
