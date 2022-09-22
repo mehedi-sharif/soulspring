@@ -5,8 +5,8 @@ layout: supplements
 personalized_supplement:
   enable: true
   title: Bio-Individualized Supplements <br/> Formulated for You
-  subtitle: MD’s prescribe the perfect combination of natural supplements specially
-    formulated for you
+  subtitle: The perfect combination of natural supplements specially formulated for
+    you
   image: images/supplements/supplements.jpg
   content: "Soul Spring has created carefully formulated supplements designed to support
     your bio-individuality. \n<hr/>\n●  Medical directors provide personalized recommendations
