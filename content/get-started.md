@@ -122,7 +122,7 @@ initially_expects:
       image: "/images/initially-expects/02.svg"
       lists:
       - To support you in your wellness journey, personalized supplements, remedies
-        and biologics may be included in your personalized therapy plan
+        and biologics may be included in your therapy plan
     - title: Lifestyle Education
       image: "/images/initially-expects/03.svg"
       lists:
