@@ -111,7 +111,7 @@ initially_expects:
         cells and organs
       - Emotional-mental harmonization, self-therapy and integration programs may
         also be included in your therapy journey
-    - title: 'Mid-Journey Revisit:<br/>Assessment for Any Adjustment '
+    - title: 'Mid-Journey Revisit - <br/>Assessment for Any Adjustment '
       image: "/images/initially-expects/01.svg"
       lists:
       - Assessment of your progress and response to therapies and treatment protocols
