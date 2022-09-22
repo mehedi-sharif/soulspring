@@ -16,7 +16,7 @@ cause_of_problem:
   enable: true
   title: Reveal the Root Cause of the Problem
   subtitle: Getting healthier begins with understanding and addressing the root causes
-    rather than the symptoms.
+    rather than the symptoms
   we_look_deeper:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
