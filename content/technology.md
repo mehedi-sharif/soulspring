@@ -73,7 +73,7 @@ diagnostic_devices:
       icon: images/technology/diagnostic-devices/check-medical-sport/04.svg
     button:
       label: Know More
-      link: https://youtu.be/embed/Lor3rnYg8c0?autoplay=true
+      link: https://youtube.com/embed/Lor3rnYg8c0?autoplay=true
   - title: Prefit Bodyscan
     image: images/technology/diagnostic-devices/prefit-bodyscan.png
     content: This unique product gathers in-depth insights through scanning into an
