@@ -144,8 +144,8 @@ top_doctors:
 holistic_health:
   enable: true
   title: This Is the Way of Holistic Health.
-  subtitle: Soul Spring bio-wellness and detox centers have top board-certified Medical
-    Doctors and practitioners to bring balance to your mind-body-soul.
+  subtitle: Soul Spring bio-wellness centers have top board-certified Medical Doctors
+    and practitioners to bring balance to your mind-body-soul.
   image: images/holistic-health/holistic-health.png
 call_to_action:
   enable: true
