@@ -58,7 +58,7 @@ wellness_report:
   image: images/wellness-report/wellness-report.jpg
   block:
     title: 'Without drawing a single drop of blood or asking for a urine or stool
-      sample we will immediately report:'
+      sample, we will immediately report:'
     links:
     - label: Brain & Behavioral Health
       link: ''
