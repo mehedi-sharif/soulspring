@@ -22,9 +22,10 @@ supplement_bottle:
   image: "/images/supplements-2.png"
 supplement_feature:
   enable: true
-  title: Your Ideal Mix Changes Over Time as You Change
-  subtitle: Instead of buying dozens of vitamins and subscriptions we customize an
-    all-in-one for you
+  title: Your Personalized Supplements Change as You Change
+  subtitle: As your body’s healing capacity improves, your supplement needs will change.
+    During your wellness journey, we check your progress regularly and make any necessary
+    adjustments to your recommended supplements.
   image: "/images/drjoy_homeopathics.jpg"
 paramaceutical_grade:
   enable: true
