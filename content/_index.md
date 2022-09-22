@@ -52,7 +52,7 @@ facts:
 wellness_solutions:
   enable: true
   title: Doctor-Led, Bio-Individualized Wellness Solutions
-  subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare.
+  subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare
   solutions:
   - title: Energy
     link: "#!"
@@ -91,7 +91,7 @@ how_it_works:
     video: images/how-it-works/video-01.mp4
     quote:
       enable: true
-      content: Onboarding  <br/> Holistic Diagnostics and Assessment
+      content: Onboarding - <br/> Holistic Diagnostics and Assessment
       description: The journey begins by understanding the cause rather than focusing
         on the symptoms. Non-invasive diagnostic tests and assessments allow us to
         look for stressors, toxins, dysregulations, and imbalances so that we can
