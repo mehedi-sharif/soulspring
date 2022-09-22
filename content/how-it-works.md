@@ -96,8 +96,8 @@ unlock_power_of_biological_medicine:
 world_of_wellbeing:
   enable: true
   title: A Whole New World of Wellbeing
-  subtitle: 'Our unique therapies and modalities are designed to help you heal and
-    manage the following conditions:'
+  subtitle: 'Our unique therapies and modalities are designed to help you manage and
+    heal the following conditions:'
   lists:
   - Gut Health
   - Hormonal Imbalance
