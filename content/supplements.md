@@ -22,10 +22,10 @@ supplement_bottle:
   image: "/images/supplements-2.png"
 supplement_feature:
   enable: true
-  title: Your Ideal Mix Changes as You Do Over Time
+  title: Your Ideal Mix Changes Over Time as You Change
   subtitle: Instead of buying dozens of vitamins and subscriptions we customize an
     all-in-one for you
-  image: images/supplements/supplements-3.jpg
+  image: "/images/drjoy_homeopathics.jpg"
 paramaceutical_grade:
   enable: true
   title: Why Pharmaceutical Grade?
