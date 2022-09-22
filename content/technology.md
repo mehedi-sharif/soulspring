@@ -91,7 +91,7 @@ diagnostic_devices:
       icon: images/technology/diagnostic-devices/prefit-bodyscan/04.svg
     button:
       label: Know More
-      link: "#"
+      link: https://youtu.be/Lor3rnYg8c0
   - title: Test Expert Plus
     image: images/technology/diagnostic-devices/test-expert-plus.png
     content: The star attraction in the Wegamed range, the Test Expert Plus gives
