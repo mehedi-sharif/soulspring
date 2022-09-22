@@ -4,15 +4,16 @@ description: Personalized Supplements
 layout: supplements
 personalized_supplement:
   enable: true
-  title: Personalized Supplements Formulated for You
+  title: Bio-Individualized Supplements Formulated for You
   subtitle: MD’s prescribe the perfect combination of natural supplements specially
     formulated for you
   image: images/supplements/supplements.jpg
   content: "Soul Spring has created carefully formulated supplements designed to support
-    your bio-individuality. \n<hr/>\n+ MD’s provide personalized recommendations based
-    on your detailed biological/functional assessment.  <br/> + All products are third-party
-    tested for purity and potency  <br/> + Vegan, non-GMO, gluten-free, and sugar-free
-    <br/> + All-in-one bottle supplement blends "
+    your bio-individuality. \n<hr/>\n●  Medical directors provide personalized recommendations
+    based on your detailed diagnostic assessment.  <br/> ●  Ayurvedic formulas provide
+    detoxification and rejuvenation at the cellular level <br/>  ●  All products are
+    vegan, non-GMO, gluten-free, sugar free and third-party tested for purity and
+    potency"
 supplement_bottle:
   enable: true
   title: One Soul Spring Supplement Bottle for Am & Pm
