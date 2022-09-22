@@ -10,10 +10,10 @@ personalized_supplement:
   image: images/supplements/supplements.jpg
   content: "Soul Spring has created carefully formulated supplements designed to support
     your bio-individuality. \n<hr/>\n●  Medical directors provide personalized recommendations
-    based on your detailed <br/>diagnostic assessment.  <br/> ●  Ayurvedic formulas
-    provide detoxification and rejuvenation at the cellular level.<br/>  ●  All products
-    are vegan, non-GMO, gluten-free, sugar free and third-party tested for purity
-    and potency."
+    based on your detailed diagnostic assessment.  <br/> ●  Ayurvedic formulas provide
+    detoxification and rejuvenation at the cellular level.<br/>  ●  All products are
+    vegan, non-GMO, gluten-free, sugar free and third-party tested for purity and
+    potency."
 supplement_bottle:
   enable: true
   title: Highly Innovative Supplements <br/>to Support Holistic Wellbeing
