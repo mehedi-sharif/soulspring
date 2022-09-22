@@ -164,7 +164,7 @@ therapeutic_devices:
       icon: images/technology/therapeutic-devices/med-audiocolor/03.svg
     button:
       label: Know More
-      link: https://youtu.be/H76IdT1tE78
+      link: https://youtube.com/embed/H76IdT1tE78?autoplay=true
 wegamed_and_soulspring:
   enable: true
   title: 'Wegamed and Soul Spring Have Partnered since 2019 '
