@@ -16,9 +16,9 @@ personalized_supplement:
     potency"
 supplement_bottle:
   enable: true
-  title: One Soul Spring Supplement Bottle for Am & Pm
-  subtitle: Instead of buying dozens of vitamins and subscriptions, we customize an
-    all-in-one for you.
+  title: Highly Innovative Supplements to Support Holistic Wellbeing
+  subtitle: Soul Spring supplements complement your therapy plan, supporting the detoxification
+    of your body and opening the pathways to healing.
   image: images/supplements/supplements-2.jpg
 supplement_feature:
   enable: true
