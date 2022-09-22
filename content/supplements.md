@@ -4,7 +4,7 @@ description: Personalized Supplements
 layout: supplements
 personalized_supplement:
   enable: true
-  title: Bio-Individualized Supplements Formulated for You
+  title: Bio-Individualized Supplements<br/>Formulated for You
   subtitle: MD’s prescribe the perfect combination of natural supplements specially
     formulated for you
   image: images/supplements/supplements.jpg
