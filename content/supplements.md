@@ -19,7 +19,7 @@ supplement_bottle:
   title: Highly Innovative Supplements to Support Holistic Wellbeing
   subtitle: Soul Spring supplements complement your therapy plan, supporting the detoxification
     of your body and opening the pathways to healing.
-  image: images/supplements/supplements-2.jpg
+  image: "/images/supplements.png"
 supplement_feature:
   enable: true
   title: Your Ideal Mix Changes as You Do Over Time
