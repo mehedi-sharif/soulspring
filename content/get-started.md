@@ -6,7 +6,7 @@ soulspring_experience:
   enable: true
   title: Welcome to the Soul Spring Experience
   subtitle: Restore the natural balance of your body with bio-individualized therapies
-    uniquely designed for you.
+    uniquely designed for you
   image: images/get-started/soulspring-experience.jpg
   review_block:
     reviewer: Dr. Peter Mölleney, Wegamed
