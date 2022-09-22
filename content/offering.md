@@ -12,7 +12,7 @@ wellness_approach:
 soulspring_solutions:
   enable: true
   title: Most Popular Wellness Solutions
-  subtitle: Click any of these popular wellness solutions to learn more.
+  subtitle: Click any of these popular wellness solutions to learn more
   solutions:
   - title: Anti-Aging
     subtitle: Stimulate, repair and revitalize your skin
