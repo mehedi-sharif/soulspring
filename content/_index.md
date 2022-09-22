@@ -207,7 +207,7 @@ holistic_doctors:
     qualifications:
     - |-
       Medical Director, Soul Spring Chicago
-      Chicago, IL
+      Highland Park, IL
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health
