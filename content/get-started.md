@@ -35,7 +35,7 @@ cause_of_problem:
 understanding_bio:
   enable: true
   title: Your Individualized Bio-Wellness Report
-  subtitle: We design bio-individualized therapies around you.
+  subtitle: We design bio-individualized therapies around you
   block:
     title: We are all Biochemically Unique
     image: images/footer-right.png
