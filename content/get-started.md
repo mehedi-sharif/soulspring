@@ -139,7 +139,7 @@ top_doctors:
   enable: true
   title: Top Medical Doctors & Expert Practitioners
   subtitle: Empowered doctors and practitioners with holistic training and transformative
-    medical technology.
+    medical technology
   image: images/banner/05.png
 holistic_health:
   enable: true
