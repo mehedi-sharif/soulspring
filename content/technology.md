@@ -148,7 +148,7 @@ therapeutic_devices:
       icon: images/technology/therapeutic-devices/med-select/03.svg
     button:
       label: Know More
-      link: https://youtu.be/bkP53NhfSbE
+      link: https://youtube.com/embed/bkP53NhfSbE?autoplay=true
   - title: Med Audiocolor
     image: images/technology/therapeutic-devices/med-audiocolor.png
     content: The first of its kind, Audiocolor is a self-therapy device that provides
