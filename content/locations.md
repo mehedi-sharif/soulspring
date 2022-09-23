@@ -40,7 +40,7 @@ soulspring_clinics:
     name: Soul Spring Woodlands
     location: 25420 Kuykendahl Rd, Suite D100 Tomball, TX 77375
     phone: "+1 936 224 4948"
-    opening_hour: 'Monday - Thursday: 8:45am - 6:00pm; Friday: 8:45am - 3:00pm'
+    opening_hour: 'Monday - Thursday: 8:45am - 6:00pm<br/> Friday: 8:45am - 3:00pm'
     button:
       link: https://goo.gl/maps/TbVV1H2ydEqLjrVN7
       label: Show Map
