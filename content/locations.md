@@ -51,10 +51,7 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/StgA7vMfNAsKoA83A
       label: Show Map
-    content: "At Perlis MedSpa & Wellness Center, we emphasize preventative care,
-      natural medicine, patient education, and achieving lifelong health. \n\nBy utilizing
-      the latest advances in cosmetic and wellness procedures, we can help you feel
-      the way you should – young, refreshed and energized!"
+    content: ''
   - image: "/images/humble-clinic-photo-2.jpg"
     name: Ez-LivingMD/DPT
     location: '9701 North Sam Houston Pkwy E. Suite #250 <br/> Humble, TX 77396-4482'
