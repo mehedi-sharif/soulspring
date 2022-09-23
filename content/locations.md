@@ -9,7 +9,7 @@ locations:
     centers.
 soulspring_clinics:
   enable: true
-  title: Locations <br/> Soul Spring Clinics
+  title: Soul Spring Locations <hr/> <br/>Soul Spring Clinics
   subtitle: We are a global network of wellness centers led by medical doctors and
     practitioners empowered by transformative medtech and a steadfast holistic approach
     to healing.
