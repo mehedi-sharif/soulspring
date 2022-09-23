@@ -100,7 +100,8 @@ resort_clinics:
   - images/soulspring-clinics/resort-clinics/03.jpg
   clinic_info:
     name: Casa Soul Spring - Cuernavaca
-    location: ''
+    location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
+      Morelos
     phone: "+52 777-233-3926"
     opening_hour: 'Monday - Friday: 9:00am - 5:00pm'
     button:
