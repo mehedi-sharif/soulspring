@@ -13,6 +13,14 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
+  - image: "/images/soulspring-clinics/signature-wellness-centers/01.jpg"
+    name: Soul Spring Cuernavaca
+    location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
+      Morelos
+    phone: "+52 777 233 3926"
+    opening_hour: 'Monday - Friday:  9:00am - 5:00pm'
+    button: ''
+    content: ''
   - image: "/images/sslomas-staff_drjoy.jpeg"
     name: Soul Spring Lomas
     location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
