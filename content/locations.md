@@ -78,7 +78,7 @@ soulspring_clinics:
     phone: "+1 832 263 3229"
     opening_hour: 'Monday - Saturday: 8:00am - 5:00pm'
     button:
-      link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
+      link: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
       label: Show Map
     content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
       heal by combining the best of biological medicine, holistic approaches. Our
