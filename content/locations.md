@@ -6,12 +6,12 @@ locations:
   enable: true
   title: Soul Spring Locations
   subtitle: We are a global network of holistic medicine clinics, resorts and wellness
-    centers
+    centers.
 soulspring_clinics:
   enable: true
   title: Soul Spring Clinics
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
-    and a steadfast holistic approach to healing.
+    <br/> and a steadfast holistic approach to healing
   clinics_lists:
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
