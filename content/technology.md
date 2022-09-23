@@ -176,7 +176,8 @@ wegamed_and_soulspring:
     content: |-
       Following his career as a semi-professional soccer player and swimmer, Dr. Peter Mölleney merged his passion for sports with his family legacy in the field of medicine to create Wegamed GmbH, headquartered in Essen.
 
-      A fifth-generation physician with his own naturopathic practice, Dr. Mölleney utilized his training in traditional and alternative medicine, along with psychotherapy, to develop Wegamed's innovative med tech devices specializing in detoxification and regeneration therapies at the cellular level. Under the direction of Dr. Mölleney, Wegamed carries on the tradition of Vega Grieshaber KG collaborating with engineers and research institutions to develop new devices for effective diagnoses and non-invasive therapies.<br/>
+      A fifth-generation physician with his own naturopathic practice, Dr. Mölleney utilized his training in traditional and alternative medicine, along with psychotherapy, to develop Wegamed's innovative med tech devices specializing in detoxification and regeneration therapies at the cellular level. Under the direction of Dr. Mölleney, Wegamed carries on the tradition of Vega Grieshaber KG collaborating with engineers and research institutions to develop new devices for effective diagnoses and non-invasive therapies.
+
       Backed by 25+ years of research and clinical trials, Wegamed's Diagnostic, Therapeutic and Wellness Devices are approved for medical use in Germany (DIMDI) and several other countries. The devices are Class 2A CE-marked, clinically approved and FDA registered.
 call_to_action:
   enable: true
