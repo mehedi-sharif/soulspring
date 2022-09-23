@@ -61,14 +61,14 @@ soulspring_clinics:
       link: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
       label: Show Map
     content: ''
-  - image: "/images/houston-coming-soon.png"
+  - image: "/images/houston-coming-soon-2.png"
     name: Soul Spring Houston
     location: Houston, Texas
     phone: ''
     opening_hour: Coming soon....
     button: ''
     content: ''
-  - image: "/images/madrid-coming-soon.png"
+  - image: "/images/madrid-coming-soon-2.png"
     name: Soul Spring Madrid
     location: Madrid, Spain
     phone: ''
