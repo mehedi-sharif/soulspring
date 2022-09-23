@@ -47,7 +47,7 @@ soulspring_clinics:
     location: 1780 Green Bay Road, Suite 204 <br/>Highland Park, IL 60035
     phone: "+1 847 295 5997"
     opening_hour: 'Monday, Tuesday, Thursday:  9:00am - 5:00pm <br/> Wednesday:  11:00am
-      - 7:00pm; Friday:  8:00am - 2:00pm'
+      - 7:00pm <br/> Friday:  8:00am - 2:00pm'
     button:
       link: https://goo.gl/maps/StgA7vMfNAsKoA83A
       label: Show Map
