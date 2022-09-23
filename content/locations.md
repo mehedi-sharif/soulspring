@@ -14,8 +14,8 @@ soulspring_clinics:
     and a steadfast holistic approach to healing.
   clinics_lists:
   - image: "/images/ss-coming-soon_web.png"
-    name: Soul Spring Houston
-    location: ''
+    name: Soul Spring Madrid
+    location: Madrid, Spain
     phone: ''
     opening_hour: ''
     button: ''
@@ -91,6 +91,13 @@ soulspring_clinics:
       heal by combining the best of biological medicine, holistic approaches. Our
       unique biological and functional medicine approach is designed to stimulate
       the innate '
+  - image: "/images/ss-coming-soon_web.png"
+    name: Soul Spring Houston
+    location: ''
+    phone: ''
+    opening_hour: ''
+    button: ''
+    content: ''
 resort_clinics:
   enable: true
   title: Soul Spring Resort Clinics
