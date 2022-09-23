@@ -82,7 +82,7 @@ soulspring_clinics:
     opening_hour: Coming soon....
     button: ''
     content: ''
-  - image: "/images/los-cabos-coming-soon.png"
+  - image: "/images/los-cabos-coming-soon-2.png"
     name: Soul Spring Los Cabos
     location: Los Cabos, Mexico
     phone: ''
