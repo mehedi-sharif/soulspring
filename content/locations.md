@@ -70,7 +70,7 @@ soulspring_clinics:
       We emphasize preventative care, natural medicine, patient education, and achieving lifelong health because how you feel is reflected in how you look. We offer many services that each work to return you to the level of health and beauty you once had.
   - image: "/images/humble-clinic-photo-2.jpg"
     name: Ez-LivingMD/DPT
-    location: '9701 North Sam Houston Pkwy E. Suite #250, Humble, TX 77396-4482'
+    location: '9701 North Sam Houston Pkwy E. Suite #250 <br/> Humble, TX 77396-4482'
     phone: "+1 832 263 3229"
     opening_hour: 'Monday - Saturday: 8:00am - 5:00pm'
     button:
