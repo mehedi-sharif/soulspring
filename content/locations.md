@@ -31,10 +31,7 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/H9TyHjZtdKrGbR3v5
       label: Show Map
-    content: |-
-      At Soul Spring Lomas, our unique holistic approach addresses your individual needs and provides a pathway for your body to experience healing and rejuvenation. Combining innovative technology with advanced modalities, we create detoxification and regenerative therapies to stimulate your body’s natural ability to heal itself.
-
-      Our center is conveniently located downtown, making it easy for you to integrate our revitalizing therapies into your regular routine. Let us create a bio-individualized wellness program for you today.
+    content: ''
   - image: "/images/soulspring-clinics/signature-wellness-centers/01.jpg"
     name: Soul Spring Cuernavaca
     location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
