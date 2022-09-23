@@ -89,9 +89,9 @@ soulspring_clinics:
     opening_hour: ''
     button: ''
     content: ''
-  - image: "/images/ss-coming-soon-2.png"
-    name: Soul Spring Los Cabos
-    location: Los Cabos, Mexico
+  - image: "/images/madrid-coming-soon.png"
+    name: Soul Spring Madrid
+    location: Madrid, Spain
     phone: ''
     opening_hour: ''
     button: ''
@@ -104,8 +104,8 @@ soulspring_clinics:
     button: ''
     content: ''
   - image: "/images/ss-coming-soon-2.png"
-    name: Soul Spring Madrid
-    location: Madrid, Spain
+    name: Soul Spring Los Cabos
+    location: Los Cabos, Mexico
     phone: ''
     opening_hour: ''
     button: ''
