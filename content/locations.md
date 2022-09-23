@@ -76,10 +76,12 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
       label: Show Map
-    content: |-
-      At EzLivingMD, we believe all health conditions are the result of imbalances in the body’s unique self-regulatory system. When the human body is functioning optimally, it is a magnificent, self-regulating bio-system of mind, body, and spirit.
-
-      Our philosophy is to support the whole healing journey of the individual human being. Let us collaborate with you to understand and address the imbalances and guide you to truly living and enjoying life fully.
+    content: "At EzLivingMD, we believe all health conditions are the result of imbalances
+      in the body’s unique self-regulatory system. When the human body is functioning
+      optimally, it is a magnificent, self-regulating bio-system of mind, body, and
+      spirit. Our philosophy is to support the whole healing journey of the individual
+      human being. \n\nLet us collaborate with you to understand and address the imbalances
+      and guide you to truly living and enjoying life fully."
   - image: "/images/ss-coming-soon-2.png"
     name: Soul Spring Houston
     location: Houston, Texas
