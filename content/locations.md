@@ -10,8 +10,9 @@ locations:
 soulspring_clinics:
   enable: true
   title: Locations <br/> Soul Spring Clinics
-  subtitle: Led by medical doctors and practitioners empowered by transformative medtech
-    <br/> and a steadfast holistic approach to healing
+  subtitle: We are a global network of wellness centers led by medical doctors and
+    practitioners empowered by transformative medtech and a steadfast holistic approach
+    to healing.
   clinics_lists:
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
