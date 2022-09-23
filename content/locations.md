@@ -90,15 +90,15 @@ soulspring_clinics:
     button: ''
     content: ''
   - image: "/images/athens-coming-soon.png"
-    name: Soul Spring Madrid
-    location: Madrid, Spain
+    name: Soul Spring Athens
+    location: Athens, Greece
     phone: ''
     opening_hour: ''
     button: ''
     content: ''
-  - image: "/images/athens-coming-soon.png"
-    name: Soul Spring Athens
-    location: Athens, Greece
+  - image: "/images/madrid-coming-soon.png"
+    name: Soul Spring Madrid
+    location: Madrid, Spain
     phone: ''
     opening_hour: ''
     button: ''
