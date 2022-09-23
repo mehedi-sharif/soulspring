@@ -125,7 +125,7 @@ signature_wellness_centers:
     content: ''
   - image: "/images/miami-coming-soon.png"
     name: Soul Spring Miami
-    location: "/images/miami-coming-soon.png"
+    location: ''
     phone: ''
     opening_hour: ''
     button:
