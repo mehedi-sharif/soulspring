@@ -99,17 +99,14 @@ resort_clinics:
   - images/soulspring-clinics/resort-clinics/02.jpg
   - images/soulspring-clinics/resort-clinics/03.jpg
   clinic_info:
-    name: Minerva Clinic Texas, USA
-    location: 25420 Kuykendahl Rd, Suite D300 Tomball, TX 77375
-    phone: "+1832-521-1598"
-    opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
+    name: Casa Soul Spring - Cuernavaca
+    location: ''
+    phone: "+52 777-233-3926"
+    opening_hour: 'Monday - Friday: 9:00am - 5:00pm'
     button:
       link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
       label: Show Map
-    content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
-      heal by combining the best of biological medicine, innovative medical technologies,
-      and the wisdom of ancient holistic approaches. Our unique biological and functional
-      medicine approach is designed to stimulate the innate '
+    content: ''
 signature_wellness_centers:
   enable: true
   title: Soul Spring Signature Wellness Centers
