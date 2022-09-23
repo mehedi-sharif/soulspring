@@ -82,7 +82,7 @@ soulspring_clinics:
       spirit. Our philosophy is to support the whole healing journey of the individual
       human being. \n\nLet us collaborate with you to understand and address the imbalances
       and guide you to truly living and enjoying life fully."
-  - image: "/images/ss-coming-soon-2.png"
+  - image: "/images/houston-coming-soon.png"
     name: Soul Spring Houston
     location: Houston, Texas
     phone: ''
