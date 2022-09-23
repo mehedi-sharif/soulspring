@@ -41,10 +41,7 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
       label: Show Map
-    content: |-
-      Soul Spring Cuernavaca is ready to take your wellbeing and healing journey to the ultimate experience. Located in beautiful Morelos, Mexico, we are pleased to offer you the best weather and facilities for your absolute comfort.
-
-      We offer daily treatments as well as full day experiences for you to take that necessary break to reboot and reconnect with yourself.
+    content: ''
   - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
     name: Perlis MedSpa & Wellness Center
     location: 1780 Green Bay Road, Suite 204 <br/>Highland Park, IL 60035
