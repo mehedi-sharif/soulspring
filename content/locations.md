@@ -101,7 +101,7 @@ soulspring_clinics:
     opening_hour: ''
     button: ''
     content: ''
-  - image: "/images/ss-coming-soon_web.png"
+  - image: "/images/ss-coming-soon-2.png"
     name: Soul Spring Madrid
     location: Madrid, Spain
     phone: ''
