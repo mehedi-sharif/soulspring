@@ -60,7 +60,7 @@ soulspring_clinics:
       illnesses and achieve vibrant levels of health well beyond what most thought
       possible. "
   - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
-    name: Perlis MedSpa & Wellness Center Illinois, USA
+    name: Perlis MedSpa & Wellness Center
     location: 1780 Green Bay Road, Suite 204 Highland Park, IL 60035
     phone: "+1 847 295 5997"
     opening_hour: 'Monday, Tuesday, Thursday:  9:00am - 5:00pm <br/> Wednesday:  11:00am
@@ -68,10 +68,10 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/StgA7vMfNAsKoA83A
       label: Show Map
-    content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
-      heal by combining the best of biological medicine, holistic approaches. Our
-      unique biological and functional medicine approach is designed to stimulate
-      the innate '
+    content: |-
+      Perlis Medspa & Wellness is Chicago North Shore’s premier location for optimal health and beauty services. If it’s been some time since you loved your reflection in the mirror, then it’s time to do something about it. By utilizing the latest advances in cosmetic and wellness procedures, we can help you feel the way you should – young, refreshed and energized!
+
+      We emphasize on preventative care, natural medicine, patient education, and achieving lifelong health because how you feel is reflected in how you look. We offer many services that each work to return you to the level of health and beauty you once had.
   - image: "/images/humble-clinic-photo-2.jpg"
     name: Ez-LivingMD/DPT
     location: '9701 North Sam Houston Pkwy E. Suite #250, Humble, TX 77396-4482'
