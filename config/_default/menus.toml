@@ -1,6 +1,6 @@
 [[company]]
 name = "About"
-url = "about/"
+url = "https://tf-soulspring.netlify.app/about-us/"
 weight = 1
 [[company]]
 name = "Press Releases"
