@@ -13,6 +13,16 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
+  - image: "/images/sslomas-staff_drjoy.jpeg"
+    name: Soul Spring Lomas
+    location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
+      11000 Ciudad de México, CDMX
+    phone: "+52 553 144 9475"
+    opening_hour: 'Monday - Friday: 9:00am - 6:00pm <br/> Saturday: 9:00am - 2:00pm'
+    button:
+      link: https://goo.gl/maps/H9TyHjZtdKrGbR3v5
+      label: Show Map
+    content: ''
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
     location: 25420 Kuykendahl Rd, Suite D100 Tomball, TX 77375
