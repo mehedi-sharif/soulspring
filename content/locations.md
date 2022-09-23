@@ -79,14 +79,14 @@ soulspring_clinics:
     name: Soul Spring Athens
     location: Athens, Greece
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button: ''
     content: ''
   - image: "/images/los-cabos-coming-soon.png"
     name: Soul Spring Los Cabos
     location: Los Cabos, Mexico
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button: ''
     content: ''
 resort_clinics:
