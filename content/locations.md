@@ -14,8 +14,8 @@ soulspring_clinics:
     and a steadfast holistic approach to healing.
   clinics_lists:
   - image: "/images/ss-coming-soon_web.png"
-    name: Soul Spring Athens
-    location: Athens, Greece
+    name: Soul Spring Los Cabos
+    location: Los Cabos, Mexico
     phone: ''
     opening_hour: ''
     button: ''
@@ -93,7 +93,14 @@ soulspring_clinics:
       the innate '
   - image: "/images/ss-coming-soon_web.png"
     name: Soul Spring Houston
-    location: Houston, TX
+    location: Houston, Texas
+    phone: ''
+    opening_hour: ''
+    button: ''
+    content: ''
+  - image: "/images/ss-coming-soon_web.png"
+    name: Soul Spring Athens
+    location: Athens, Greece
     phone: ''
     opening_hour: ''
     button: ''
