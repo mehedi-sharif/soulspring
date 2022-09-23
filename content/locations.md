@@ -22,7 +22,12 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/H9TyHjZtdKrGbR3v5
       label: Show Map
-    content: ''
+    content: |-
+      At Soul Spring Lomas, we are committed to helping you achieve a lifestyle with more clarity, fullness, and joy. Our unique holistic approach addresses your individual needs and provides a pathway for your body to experience healing and rejuvenation. Combining innovative technology with advanced modalities, we create detoxification and regenerative therapies to stimulate your body’s natural ability to heal itself.
+
+      Our center is conveniently located downtown, making it easy for you to integrate our revitalizing therapies into your regular routine. Let us create a bio-individualized wellness program for you today.
+
+      Find your way to improved emotional, physical, and mental well-being with Soul Spring Lomas.
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
     location: 25420 Kuykendahl Rd, Suite D100 Tomball, TX 77375
