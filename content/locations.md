@@ -15,7 +15,7 @@ soulspring_clinics:
   clinics_lists:
   - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
-    location: 25420 Kuykendahl Rd <br/> Suite D100 <br/>Tomball, TX 77375
+    location: 25420 Kuykendahl Rd, Suite D100 <br/>Tomball, TX 77375
     phone: "+1 936 224 4948"
     opening_hour: 'Monday - Thursday: 8:45am - 6:00pm<br/> Friday: 8:45am - 3:00pm'
     button:
