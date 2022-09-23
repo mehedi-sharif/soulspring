@@ -132,18 +132,15 @@ signature_wellness_centers:
       link: ''
       label: ''
     content: ''
-  - image: images/soulspring-clinics/signature-wellness-centers/03.jpg
-    name: Minerva Clinic Texas, USA
-    location: 25420 Kuykendahl Rd, Suite D300 Tomball, TX 77375
-    phone: "+1832-521-1598"
-    opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
+  - image: "/images/lisbon-coming-soon.png"
+    name: Soul Spring Lisbon
+    location: Lisbon, Portugal
+    phone: ''
+    opening_hour: ''
     button:
-      link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
-      label: Show Map
-    content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
-      heal by combining the best of biological medicine, innovative medical technologies,
-      and the wisdom of ancient holistic approaches. Our unique biological and functional
-      medicine approach is designed to stimulate the innate '
+      link: ''
+      label: ''
+    content: ''
 call_to_action:
   enable: true
   title: Want Us to Open A Location Near You?
