@@ -57,7 +57,7 @@ soulspring_clinics:
       We offer daily treatments as well as full day experiences for you to take that necessary break to reboot and reconnect with yourself.
   - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
     name: Perlis MedSpa & Wellness Center
-    location: 1780 Green Bay Road, Suite 204 Highland Park, IL 60035
+    location: 1780 Green Bay Road, Suite 204 <br/>Highland Park, IL 60035
     phone: "+1 847 295 5997"
     opening_hour: 'Monday, Tuesday, Thursday:  9:00am - 5:00pm <br/> Wednesday:  11:00am
       - 7:00pm <br/> Friday:  8:00am - 2:00pm'
