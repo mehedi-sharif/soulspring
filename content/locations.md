@@ -6,7 +6,7 @@ locations:
   enable: true
   title: Soul Spring Locations
   subtitle: We are a global network of holistic medicine clinics, resorts and wellness
-    centers.
+    centers
 soulspring_clinics:
   enable: true
   title: Soul Spring Clinics
