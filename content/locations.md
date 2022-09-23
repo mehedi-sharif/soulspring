@@ -89,13 +89,6 @@ soulspring_clinics:
     opening_hour: ''
     button: ''
     content: ''
-  - image: "/images/athens-coming-soon.png"
-    name: Soul Spring Athens
-    location: Athens, Greece
-    phone: ''
-    opening_hour: ''
-    button: ''
-    content: ''
   - image: "/images/madrid-coming-soon.png"
     name: Soul Spring Madrid
     location: Madrid, Spain
@@ -103,7 +96,14 @@ soulspring_clinics:
     opening_hour: ''
     button: ''
     content: ''
-  - image: "/images/ss-coming-soon-2.png"
+  - image: "/images/athens-coming-soon.png"
+    name: Soul Spring Athens
+    location: Athens, Greece
+    phone: ''
+    opening_hour: ''
+    button: ''
+    content: ''
+  - image: "/images/los-cabos-coming-soon.png"
     name: Soul Spring Los Cabos
     location: Los Cabos, Mexico
     phone: ''
