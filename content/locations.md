@@ -21,14 +21,7 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/TbVV1H2ydEqLjrVN7
       label: Show Map
-    content: "At Soul Spring Woodlands, we take the time to listen to every detail
-      and let your body lead the way to healing. Our intuitive approach integrates
-      the most advanced healing technology with powerful elements from the earth.
-      We are a healing community coming together with a single intention -  to awaken
-      the body’s natural ability to heal itself. \n\nBy working cooperatively with
-      the processes of body, mind, and spirit, we have been able to help patients
-      overcome frustrating illnesses and achieve vibrant levels of health well beyond
-      what most thought possible. "
+    content: ''
   - image: "/images/sslomas-staff_drjoy.jpeg"
     name: Soul Spring Lomas
     location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
