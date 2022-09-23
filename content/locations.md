@@ -65,9 +65,9 @@ soulspring_clinics:
       link: https://goo.gl/maps/StgA7vMfNAsKoA83A
       label: Show Map
     content: |-
-      Perlis Medspa & Wellness is Chicago North Shore’s premier location for optimal health and beauty services. If it’s been some time since you loved your reflection in the mirror, then it’s time to do something about it. By utilizing the latest advances in cosmetic and wellness procedures, we can help you feel the way you should – young, refreshed and energized!
+      Perlis MedSpa & Wellness is Chicago North Shore’s premier location for optimal health and beauty services. By utilizing the latest advances in cosmetic and wellness procedures, we can help you feel the way you should – young, refreshed and energized!
 
-      We emphasize on preventative care, natural medicine, patient education, and achieving lifelong health because how you feel is reflected in how you look. We offer many services that each work to return you to the level of health and beauty you once had.
+      We emphasize preventative care, natural medicine, patient education, and achieving lifelong health because how you feel is reflected in how you look. We offer many services that each work to return you to the level of health and beauty you once had.
   - image: "/images/humble-clinic-photo-2.jpg"
     name: Ez-LivingMD/DPT
     location: '9701 North Sam Houston Pkwy E. Suite #250, Humble, TX 77396-4482'
