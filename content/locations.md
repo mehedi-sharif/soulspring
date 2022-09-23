@@ -19,7 +19,9 @@ soulspring_clinics:
       Morelos
     phone: "+52 777 233 3926"
     opening_hour: 'Monday - Friday:  9:00am - 5:00pm'
-    button: ''
+    button:
+      link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
+      label: Show Map
     content: ''
   - image: "/images/sslomas-staff_drjoy.jpeg"
     name: Soul Spring Lomas
