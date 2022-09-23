@@ -197,15 +197,8 @@ soulspring_therapies_and_treatments:
       change in your life. With our mindfulness programs, you will experience a shift
       in many areas of your life, like coping with stress, handling negative emotions,
       combating sleep disorders, and improving focus. '
-  - title: Matrix Regeneration
+  - title: Matrix Detoxification & Regeneration
     icon: images/therapies-and-treatments/icons/Matrix-Regeneration.svg
-    content: 'To combat environmental toxins, it is essential to strengthen the soft
-      connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
-      three stages: 1) Direct current treatment to free the matrix from toxins, 2)
-      Petechial suction massage to repair damaged cells, and 3) Bio Resonance Therapy
-      to locate and neutralize harmful toxins. '
-  - title: Matrix Regeneration Therapy
-    icon: images/therapies-and-treatments/icons/Matrix-Regeneration-Therapy.svg
     content: 'To combat environmental toxins, it is essential to strengthen the soft
       connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
       three stages: 1) Direct current treatment to free the matrix from toxins, 2)
