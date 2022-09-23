@@ -87,10 +87,12 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
       label: Show Map
-    content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
-      heal by combining the best of biological medicine, holistic approaches. Our
-      unique biological and functional medicine approach is designed to stimulate
-      the innate '
+    content: |-
+      At EzLivingMD, we believe all health conditions are the result of imbalances in the body’s unique self-regulatory system. We believe human beings are a living system of interconnected physical, spiritual, mental, emotional, and energetic dimensions. When the human body is functioning optimally, it is a magnificent, self-regulating bio-system of mind, body, and spirit.
+
+      Our philosophy is that to support such an intelligent dynamic system, illness cannot be treated simply by suppressing symptoms; rather, the focus must be to supportthe whole healing journey of the individual human being.
+
+      Let us collaborate with you to understand and address the imbalances and guide you to truly living and enjoying life fully.
   - image: "/images/ss-coming-soon_web.png"
     name: Soul Spring Houston
     location: Houston, Texas
