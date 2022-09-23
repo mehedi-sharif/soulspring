@@ -65,14 +65,14 @@ soulspring_clinics:
     name: Soul Spring Houston
     location: Houston, Texas
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button: ''
     content: ''
   - image: "/images/madrid-coming-soon.png"
     name: Soul Spring Madrid
     location: Madrid, Spain
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button: ''
     content: ''
   - image: "/images/athens-coming-soon.png"
