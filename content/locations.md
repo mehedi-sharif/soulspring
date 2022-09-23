@@ -42,7 +42,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
       label: Show Map
     content: ''
-  - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
+  - image: "/i/images/perlis-wellness-center.JPEG"
     name: Perlis MedSpa & Wellness Center
     location: 1780 Green Bay Road, Suite 204 <br/>Highland Park, IL 60035
     phone: "+1 847 295 5997"
