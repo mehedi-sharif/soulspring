@@ -72,11 +72,11 @@ soulspring_clinics:
       heal by combining the best of biological medicine, holistic approaches. Our
       unique biological and functional medicine approach is designed to stimulate
       the innate '
-  - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
-    name: Perlis MedSpa & Wellness Center Illinois, USA
-    location: 1780 Green Bay Road, Suite 204 Highland Park, IL 60035
-    phone: "+1 936-224-4948"
-    opening_hour: 'Monday - Friday: 9:00am - 3:00pm'
+  - image: "/images/humble-clinic-photo-2.jpg"
+    name: Ez-LivingMD/DPT
+    location: '9701 North Sam Houston Pkwy E. Suite #250, Humble, TX 77396-4482'
+    phone: "+1 832 263 3229"
+    opening_hour: 'Monday - Saturday: 8:00am - 5:00pm'
     button:
       link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
       label: Show Map
