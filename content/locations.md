@@ -13,7 +13,7 @@ soulspring_clinics:
   subtitle: Led by medical doctors and practitioners empowered by transformative medtech
     and a steadfast holistic approach to healing.
   clinics_lists:
-  - image: "/images/soulspring-clinics/minerva-clinic.jpg"
+  - image: "/images/soulspring-clinics/soulspring-clinics.jpg"
     name: Soul Spring Woodlands
     location: 25420 Kuykendahl Rd, Suite D100 Tomball, TX 77375
     phone: "+1 936 224 4948"
@@ -21,10 +21,14 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/TbVV1H2ydEqLjrVN7
       label: Show Map
-    content: 'At Minerva Clinic, we help you rekindle your body''s natural power to
-      heal by combining the best of biological medicine, innovative medical technologies,
-      and the wisdom of ancient holistic approaches. Our unique biological and functional
-      medicine approach is designed to stimulate the innate '
+    content: "At Soul Spring Woodlands, we take the time to listen to every detail
+      and let your body lead the way to healing. Our intuitive approach integrates
+      the most advanced healing technology with powerful elements from the earth.\n\nWe
+      are a healing community coming together with a single intention, to awaken the
+      body’s natural ability to heal itself. By working cooperatively with the processes
+      of body, mind, and spirit, we have been able to help patients overcome frustrating
+      illnesses and achieve vibrant levels of health well beyond what most thought
+      possible. "
   - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
     name: Perlis MedSpa & Wellness Center Illinois, USA
     location: 1780 Green Bay Road, Suite 204 Highland Park, IL 60035
