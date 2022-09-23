@@ -105,7 +105,7 @@ resort_clinics:
     phone: "+52 777-233-3926"
     opening_hour: 'Monday - Friday: 9:00am - 5:00pm'
     button:
-      link: https://goo.gl/maps/HXX78YCZpk6BJsBK6
+      link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
       label: Show Map
     content: ''
 signature_wellness_centers:
