@@ -22,7 +22,12 @@ soulspring_clinics:
     button:
       link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
       label: Show Map
-    content: ''
+    content: |-
+      Soul Spring Cuernavaca is ready to take your wellbeing and healing journey to the ultimate experience. Located in the beautiful Morelos, Mexico, we are pleased to offer you the best weather and facilities for your absolute comfort.
+
+      Our complex shares space with Compañía de Especias, a 5-star boutique hotel with unique style that sparkles with a mix of exquisite Asian pieces, signature architecture and stunning tropical gardens.
+
+      We offer daily treatments as well as full day experiences for you to take that necessary break to reboot and reconnect with yourself.
   - image: "/images/sslomas-staff_drjoy.jpeg"
     name: Soul Spring Lomas
     location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
