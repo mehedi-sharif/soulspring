@@ -52,9 +52,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
       label: Show Map
     content: |-
-      Soul Spring Cuernavaca is ready to take your wellbeing and healing journey to the ultimate experience. Located in the beautiful Morelos, Mexico, we are pleased to offer you the best weather and facilities for your absolute comfort.
-
-      Our complex shares space with Compañía de Especias, a 5-star boutique hotel with unique style that sparkles with a mix of exquisite Asian pieces, signature architecture and stunning tropical gardens.
+      Soul Spring Cuernavaca is ready to take your wellbeing and healing journey to the ultimate experience. Located in beautiful Morelos, Mexico, we are pleased to offer you the best weather and facilities for your absolute comfort.
 
       We offer daily treatments as well as full day experiences for you to take that necessary break to reboot and reconnect with yourself.
   - image: "/images/soulspring-clinics/perlis-medspa-wellness-center.jpg"
