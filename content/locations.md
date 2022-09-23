@@ -123,7 +123,7 @@ signature_wellness_centers:
       link: ''
       label: ''
     content: ''
-  - image: images/soulspring-clinics/signature-wellness-centers/02.jpg
+  - image: "/images/miami-coming-soon.png"
     name: Soul Spring Miami
     location: ''
     phone: ''
