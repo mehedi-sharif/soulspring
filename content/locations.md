@@ -136,7 +136,7 @@ signature_wellness_centers:
     name: Soul Spring Lisbon
     location: Lisbon, Portugal
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button:
       link: ''
       label: ''
