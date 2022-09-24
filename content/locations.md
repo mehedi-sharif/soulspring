@@ -114,7 +114,7 @@ signature_wellness_centers:
   subtitle: Transformative wellness centers with a full suite of bio-individualized
     treatments and therapies.
   welness_center_lists:
-  - image: "/images/athens-coming-soon-3.png"
+  - image: "/images/athens-coming-soon-2.png"
     name: Soul Spring Athens
     location: ''
     phone: ''
