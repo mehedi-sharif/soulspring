@@ -120,7 +120,7 @@ meet_doctors:
         of ancestral wisdom and the beauty of healing with a purpose.
       title: Why I choose Soul Spring
     patients_quote:
-      rating: ''
+      rating: "5"
     image: "/images/dr-stephany.png"
     location: Morelos, MX
 advisory_board:
