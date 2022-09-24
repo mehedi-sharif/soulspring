@@ -118,7 +118,7 @@ signature_wellness_centers:
     name: Soul Spring Athens
     location: ''
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button:
       link: ''
       label: ''
@@ -127,7 +127,7 @@ signature_wellness_centers:
     name: Soul Spring Miami
     location: ''
     phone: ''
-    opening_hour: ''
+    opening_hour: Coming soon....
     button:
       link: ''
       label: ''
