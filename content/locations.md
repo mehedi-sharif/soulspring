@@ -61,7 +61,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
       label: Show Map
     content: ''
-  - image: "/images/houston-coming-soon-2.png"
+  - image: "/images/houston-coming-soon-3.png"
     name: Soul Spring Houston
     location: Houston, Texas
     phone: ''
