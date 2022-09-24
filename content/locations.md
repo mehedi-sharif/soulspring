@@ -32,7 +32,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/H9TyHjZtdKrGbR3v5
       label: Show Map
     content: ''
-  - image: "/images/perlis-wellness-ctr.png"
+  - image: "/images/soulspring-clinics/signature-wellness-centers/01.jpg"
     name: Soul Spring Cuernavaca
     location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
       Morelos
