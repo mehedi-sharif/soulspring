@@ -22,7 +22,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/TbVV1H2ydEqLjrVN7
       label: Show Map
     content: ''
-  - image: "/images/sslomas-staff_drjoy.png"
+  - image: "/images/sslomas-staff_drjoy.jpeg"
     name: Soul Spring Lomas
     location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
       11000 Ciudad de México, CDMX
