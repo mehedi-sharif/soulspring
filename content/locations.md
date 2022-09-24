@@ -75,7 +75,7 @@ soulspring_clinics:
     opening_hour: Coming soon....
     button: ''
     content: ''
-  - image: "/images/athens-coming-soon-3.png"
+  - image: "/images/athens-coming-soon-2.png"
     name: Soul Spring Athens
     location: Athens, Greece
     phone: ''
