@@ -52,7 +52,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/StgA7vMfNAsKoA83A
       label: Show Map
     content: ''
-  - image: "/images/humble-clinic-photo.jpg"
+  - image: "/images/humble-clinic-photo.png"
     name: Ez-LivingMD/DPT
     location: '9701 North Sam Houston Pkwy E. Suite #250 <br/> Humble, TX 77396-4482'
     phone: "+1 832 263 3229"
