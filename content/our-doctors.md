@@ -82,7 +82,8 @@ meet_doctors:
       title: Why I choose Soul Spring
       content: Soul Spring supports the whole healing journey of the individual human
         being.
-    patients_quote: ''
+    patients_quote:
+      rating: "5"
   - name: Dr. Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
