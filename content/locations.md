@@ -68,7 +68,7 @@ soulspring_clinics:
     opening_hour: Coming soon....
     button: ''
     content: ''
-  - image: "/images/madrid-coming-soon-2.png"
+  - image: "/images/madrid-coming-soon-3.png"
     name: Soul Spring Madrid
     location: Madrid, Spain
     phone: ''
