@@ -72,8 +72,8 @@ diagnostic_devices:
     - title: Expert recommendations to athletes
       icon: images/technology/diagnostic-devices/check-medical-sport/04.svg
     button:
-      label: Know More
-      link: https://youtube.com/embed/Lor3rnYg8c0?autoplay=true
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Prefit Bodyscan
     image: images/technology/diagnostic-devices/prefit-bodyscan.png
     content: This unique product gathers in-depth insights through scanning into an
@@ -90,8 +90,8 @@ diagnostic_devices:
     - title: Offers unique insights & medical advice
       icon: images/technology/diagnostic-devices/prefit-bodyscan/04.svg
     button:
-      label: Know More
-      link: https://youtube.com/embed/Lor3rnYg8c0?autoplay=true
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Test Expert Plus
     image: images/technology/diagnostic-devices/test-expert-plus.png
     content: The star attraction in the Wegamed range, the Test Expert Plus gives
