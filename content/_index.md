@@ -55,27 +55,27 @@ wellness_solutions:
   subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare
   solutions:
   - title: Energy
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/energy.svg
     image_active: images/wellness-solutions/energy-active.svg
   - title: Gut
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/gut.svg
     image_active: images/wellness-solutions/gut-active.svg
   - title: Heart
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/heart.svg
     image_active: images/wellness-solutions/heart-active.svg
   - title: Sleep
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/sleep.svg
     image_active: images/wellness-solutions/sleep-active.svg
   - title: Mind
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/mind.svg
     image_active: images/wellness-solutions/mind-active.svg
   - title: Mood
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/mood.svg
     image_active: images/wellness-solutions/mood-active.svg
 how_it_works:
