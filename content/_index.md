@@ -179,11 +179,11 @@ our_locations:
     latitude: "18.73807359479751"
     longitude: "-99.24803271921293"
   - title: Soul Spring Lomas CDMX Center - Mexico City, MEX
-    map_url: https://goo.gl/maps/p2EFvXstwP5gR4yg8
+    map_url: https://soulspringwellness.com/locations/
     latitude: "19.423950469035198"
     longitude: "-99.20348454749812"
   - title: Soul Spring Woodlands - Texas, USA
-    map_url: https://goo.gl/maps/HXX78YCZpk6BJsBK6
+    map_url: https://soulspringwellness.com/locations/
     latitude: "30.130714432101545"
     longitude: "-95.55142833382124"
 holistic_doctors:
