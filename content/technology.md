@@ -163,8 +163,8 @@ therapeutic_devices:
     - title: Increases life enjoyment for a range of patients
       icon: images/technology/therapeutic-devices/med-audiocolor/03.svg
     button:
-      label: Know More
-      link: https://youtube.com/embed/H76IdT1tE78?autoplay=true
+      label: Learn More
+      link: https://www.wegamedusa.com/
 wegamed_and_soulspring:
   enable: true
   title: 'Wegamed and Soul Spring Have Partnered since 2019 '
