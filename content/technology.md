@@ -108,8 +108,8 @@ diagnostic_devices:
     - title: Safe and applicable for a wide range of customers
       icon: images/technology/diagnostic-devices/test-expert-plus/04.svg
     button:
-      label: Know More
-      link: https://youtube.com/embed/eITOtkZR0mw?autoplay=true
+      label: Learn More
+      link: https://www.wegamedusa.com/
 therapeutic_devices:
   enable: true
   title: 'Therapies:   Immediate Results with Lasting Impact'
@@ -132,8 +132,8 @@ therapeutic_devices:
     - title: Long term results and benefits
       icon: images/technology/therapeutic-devices/med-matrix/03.svg
     button:
-      label: Know More
-      link: https://youtube.com/embed/n157w89Q0VA?autoplay=true
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Med Select
     image: images/technology/therapeutic-devices/med-select.png
     content: This device is powered by homeopathy to activate the self-healing ability
