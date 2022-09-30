@@ -163,7 +163,7 @@ our_locations:
   map_marker: images/map-marker.png
   locations:
   - title: Minerva Clinic - Texas, USA
-    map_url: https://goo.gl/maps/U6V7Lv3wXFw7GHPT8
+    map_url: https://minervaclinic.us/
     latitude: "30.130875848634997"
     longitude: "-95.55194714916402"
   - title: Ez-Living M.D./DPT - Texas, USA
