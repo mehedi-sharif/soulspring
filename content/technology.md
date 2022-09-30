@@ -41,12 +41,12 @@ medical_devices:
   - title: Diagnostic Devices
     image: images/technology/medical-devices/01.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#diagnostic-devices"
   - title: Therapeutic Devices
     image: images/technology/medical-devices/02.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#therapeutic-devices"
   - title: Wellness Devices
     image: images/technology/medical-devices/03.jpg
