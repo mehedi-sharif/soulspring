@@ -51,7 +51,7 @@ medical_devices:
   - title: Wellness Devices
     image: images/technology/medical-devices/03.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#wegamed-and-soulspring"
 diagnostic_devices:
   enable: true
