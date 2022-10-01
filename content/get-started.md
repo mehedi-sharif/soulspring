@@ -6,7 +6,7 @@ soulspring_experience:
   enable: true
   title: Welcome to the Soul Spring Experience
   subtitle: Restore the natural balance of your body with bio-individualized therapies
-    uniquely designed for you.
+    uniquely designed for you
   image: images/get-started/soulspring-experience.jpg
   review_block:
     reviewer: Dr. Peter Mölleney, Wegamed
@@ -16,7 +16,7 @@ cause_of_problem:
   enable: true
   title: Reveal the Root Cause of the Problem
   subtitle: Getting healthier begins with understanding and addressing the root causes
-    rather than the symptoms.
+    rather than the symptoms
   we_look_deeper:
     title: We Look Deeper
     image: images/get-started/couse-of-problem.svg
@@ -35,7 +35,7 @@ cause_of_problem:
 understanding_bio:
   enable: true
   title: Your Individualized Bio-Wellness Report
-  subtitle: We design bio-individualized therapies around you.
+  subtitle: We design bio-individualized therapies around you
   block:
     title: We are all Biochemically Unique
     image: images/footer-right.png
@@ -54,14 +54,14 @@ wellness_report:
   enable: true
   title: Understanding Your Bio-Individuality
   subtitle: In 8-minutes we will complete a comprehensive biological assessment using
-    innovative technology.
+    innovative technology
   image: images/wellness-report/wellness-report.jpg
   block:
     title: 'Without drawing a single drop of blood or asking for a urine or stool
-      sample we will immediately report:'
+      sample, we will immediately report:'
     links:
     - label: Brain & Behavioral Health
-      link: "#"
+      link: ''
     - label: Biological Age
       link: "#"
     - label: Food Sensitivity
@@ -76,54 +76,76 @@ initially_expects:
   enable: true
   title: What You Can Initially Expect
   subtitle: We listen, learn and begin treatments to quickly recalibrate what’s best
-    for you.
+    for you
   block:
     title: What Can You Expect When You Visit Soul Spring?
     content: 'Our Medical Directors and practitioners will personally work with you
       to understand your health concerns and design a comprehensive therapy plan.
       Although each individual''s therapy plan is unique, it is broadly divided into
-      3 steps:'
+      the following steps:'
     clinic_features:
-    - title: 'Onboarding:  Holistic Diagnostics and Assessment '
+    - title: 'Onboarding - <br/>Holistic Diagnostics and Assessment '
       image: images/initially-expects/01.svg
       lists:
-      - Detailed biological/functional assessment, advanced biofeedback/neurofeedback
-        testing
-      - HRV testing for appropriate cases
-      - Review of any past lab results and investigations. Special labs ordered if
-        necessary.
-    - title: 'Initial Consultation:  Development of a Personalized Therapy Plan '
+      - We begin by understanding the cause rather than focusing on the symptoms
+      - Detailed, non-invasive diagnostic testing and assessments allow us to look
+        for stressors, toxins, and imbalances
+      - Past lab results are reviewed and special labs ordered if necessary
+    - title: 'Initial Consultation - <br/>Development of a Personalized Therapy Plan '
       image: images/initially-expects/02.svg
       lists:
-      - Lab results (old & new) are reviewed with insights, patient education and
-        necessary handouts provided by the Medical Director.
+      - Results of the diagnostic testing provide a roadmap to underlying imbalances
+        and/or dysregulations
+      - The Medical Director creates a personalized therapy plan from the roadmap
+        to address root cause(s) and deliver an integrative approach to your unique
+        healing journey
       - Emphasis on nutrients, herbal remedies, nutrition, lifestyle, sleep hygiene,
         stress management, mindfulness practices, etc. For chronic and/or complex
-        conditions, a personalized detox therapy plan is made.
-    - title: 'Mid-Journey Revisit:  Assessment for any Adjustment '
-      image: images/initially-expects/03.svg
+        conditions, an advanced therapy plan is made.
+    - title: The Therapy Journey - <br/>Your Path to Wellness
+      image: "/images/initially-expects/03.svg"
       lists:
-      - Assessment of your progress and response to therapies and treatment protocols.
-      - Any necessary adjustments or additions to your therapy plan are made.
+      - Personalized therapy plans include bio-individualized detoxification and regeneration
+        therapies designed to correct dysfunctional biological processes within the
+        body, restoring and strengthening the natural healing capacity of the body's
+        cells and organs
+      - Emotional-mental harmonization, self-therapy and integration programs may
+        also be included in your therapy journey
+    - title: 'Mid-Journey Revisit - <br/>Assessment for Any Adjustment '
+      image: "/images/initially-expects/01.svg"
+      lists:
+      - Assessment of your progress and response to therapies and treatment protocols
+      - Any necessary adjustments or additions to your therapy plan are made
       - Personalized compounding prescriptions (for specific complex and/or chronic
-        conditions) are discussed in this visit.
+        conditions) are discussed in this visit
+    - title: Personalized Supplements, Remedies & Biologics
+      image: "/images/initially-expects/02.svg"
+      lists:
+      - To support you in your wellness journey, personalized supplements, remedies
+        and biologics may be included in your therapy plan
+    - title: Lifestyle Education
+      image: "/images/initially-expects/03.svg"
+      lists:
+      - We want to help you achieve balance between mind, body and soul
+      - 'Enhance your wellness journey with our mindfulness and meditation tools,
+        nutrition consultations and life coaching '
 medical_treatments:
   enable: true
-  title: Sample Menu of Medical Treatments
-  subtitle: Bio-individualized wellness solutions, therapies and treatments tailored
-    just for you.
+  title: Sample Menu of Therapies
+  subtitle: Bio-individualized wellness solutions and therapies tailored just for
+    you
   section: "/offering"
 top_doctors:
   enable: true
   title: Top Medical Doctors & Expert Practitioners
   subtitle: Empowered doctors and practitioners with holistic training and transformative
-    medical technology.
+    medical technology
   image: images/banner/05.png
 holistic_health:
   enable: true
   title: This Is the Way of Holistic Health.
-  subtitle: Soul Spring bio-wellness and detox centers have top board-certified Medical
-    Doctors and practitioners to bring balance to your mind-body-soul.
+  subtitle: Soul Spring bio-wellness centers have top board-certified Medical Doctors
+    and practitioners to bring balance to your mind-body-soul.
   image: images/holistic-health/holistic-health.png
 call_to_action:
   enable: true

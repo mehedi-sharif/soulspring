@@ -21,7 +21,7 @@ about_doctors:
 meet_doctors:
   enable: true
   title: Meet Your Doctor
-  subtitle: "Learn More About Our Doctors"
+  subtitle: Learn More About Our Doctors
   doctors:
   - name: Dr. Richaritha Joy, MD, ABIHM
     image: "/images/about/management/richa.png"
@@ -82,7 +82,8 @@ meet_doctors:
       title: Why I choose Soul Spring
       content: Soul Spring supports the whole healing journey of the individual human
         being.
-    patients_quote: ''
+    patients_quote:
+      rating: "5"
   - name: Dr. Klever Bastar Castro, MD
     image: "/images/dr-klevar-bastar.png"
     location: Mexico City, MX
@@ -101,7 +102,7 @@ meet_doctors:
         and regeneration therapies, I can help my patients heal, build resilience,
         and improve their overall wellness. '
     patients_quote:
-      rating: ''
+      rating: "5"
       name: ''
       content: ''
   - name: Dr. Stephany González, MD

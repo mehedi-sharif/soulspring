@@ -39,9 +39,9 @@ individual_bio_wellness_solutions:
     image: images/individual-wellness-solutions/01.svg
   - title: Neuro-Regenerative Therapies
     image: images/individual-wellness-solutions/02.svg
-  - title: Bio- Individualized™ Formulations
+  - title: Bio-Individualized™ Formulations
     image: images/individual-wellness-solutions/03.svg
-  - title: Advanced Detoxification, Rejuvenation & Regenerative Therapie
+  - title: Advanced Detoxification, Rejuvenation & Regenerative Therapies
     image: images/individual-wellness-solutions/04.svg
   - title: Mind-Body Modalities
     image: images/individual-wellness-solutions/05.svg
@@ -134,12 +134,12 @@ superior_results:
     the difference.
   features:
     title: Soul Spring is a global network of wellness clinics
-    subtitle: Led by board certified medical doctors
+    subtitle: Led by board-certified medical doctors
     image: images/superior-results/superior-results.png
-    content: Powered by tranformative medtech and proven protocols for bio-individualized
+    content: Powered by transformative medtech and proven protocols for bio-individualized
       wellness
     features_lists:
-    - title: Third visit/Consultation
+    - title: Clinical Expertise
       image: images/superior-results/01.svg
       lists:
       - Top physicians (board -certified MDs)
@@ -156,12 +156,12 @@ superior_results:
       lists:
       - 20+ years of research and application of proprietary clinical protocols
       - Environmental and lifestyle solutions optimizing holistic wellbeing
-    - title: Innovative Business Model
+    - title: Bio Wellness Clinics
       image: images/superior-results/04.svg
       lists:
-      - Leverages doctors existing medical office and patient base for fast growth
-        and profitability
-      - Co-ownership model with MDs
+      - In-patient experiences with a full suite of biological medicine therapies,
+        holistic modalities and best-in-class amenities
+      - Serving inpatient and outpatient
 ancient_healing:
   enable: true
   title: Blending the Best of Modern & Ancient Healing

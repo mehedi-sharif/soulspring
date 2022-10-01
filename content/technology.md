@@ -4,7 +4,7 @@ description: Discover how Soul Spring can elevate your health and wellness
 layout: technology
 technology_banner:
   enable: true
-  title: Soul Spring Centers <br/> <br/>Powered by Wegamed Medical Technology
+  title: Soul Spring Centers <hr> Powered by Wegamed Medical Technology
   subtitle: Medically certified devices for whole body detoxification and regeneration
   video: images/how-it-works/video-01.mp4
   video_thumbnail: images/technology/thumb.jpg
@@ -41,17 +41,17 @@ medical_devices:
   - title: Diagnostic Devices
     image: images/technology/medical-devices/01.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#diagnostic-devices"
   - title: Therapeutic Devices
     image: images/technology/medical-devices/02.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#therapeutic-devices"
   - title: Wellness Devices
     image: images/technology/medical-devices/03.jpg
     link:
-      label: Read More
+      label: Learn More
       url: "#wegamed-and-soulspring"
 diagnostic_devices:
   enable: true
@@ -72,8 +72,8 @@ diagnostic_devices:
     - title: Expert recommendations to athletes
       icon: images/technology/diagnostic-devices/check-medical-sport/04.svg
     button:
-      label: Know More
-      link: https://youtu.be/Lor3rnYg8c0?playlist=Lor3rnYg8c0&autoplay=1&loop=1
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Prefit Bodyscan
     image: images/technology/diagnostic-devices/prefit-bodyscan.png
     content: This unique product gathers in-depth insights through scanning into an
@@ -90,8 +90,8 @@ diagnostic_devices:
     - title: Offers unique insights & medical advice
       icon: images/technology/diagnostic-devices/prefit-bodyscan/04.svg
     button:
-      label: Know More
-      link: "#"
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Test Expert Plus
     image: images/technology/diagnostic-devices/test-expert-plus.png
     content: The star attraction in the Wegamed range, the Test Expert Plus gives
@@ -108,8 +108,8 @@ diagnostic_devices:
     - title: Safe and applicable for a wide range of customers
       icon: images/technology/diagnostic-devices/test-expert-plus/04.svg
     button:
-      label: Know More
-      link: "#"
+      label: Learn More
+      link: https://www.wegamedusa.com/
 therapeutic_devices:
   enable: true
   title: 'Therapies:   Immediate Results with Lasting Impact'
@@ -132,8 +132,8 @@ therapeutic_devices:
     - title: Long term results and benefits
       icon: images/technology/therapeutic-devices/med-matrix/03.svg
     button:
-      label: Know More
-      link: https://youtu.be/n157w89Q0VA?playlist=n157w89Q0VA&autoplay=1
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Med Select
     image: images/technology/therapeutic-devices/med-select.png
     content: This device is powered by homeopathy to activate the self-healing ability
@@ -147,8 +147,8 @@ therapeutic_devices:
     - title: Targets a wide range of issues
       icon: images/technology/therapeutic-devices/med-select/03.svg
     button:
-      label: Know More
-      link: https://youtu.be/bkP53NhfSbE?playlist=bkP53NhfSbE&autoplay=1&loop=1
+      label: Learn More
+      link: https://www.wegamedusa.com/
   - title: Med Audiocolor
     image: images/technology/therapeutic-devices/med-audiocolor.png
     content: The first of its kind, Audiocolor is a self-therapy device that provides
@@ -163,8 +163,8 @@ therapeutic_devices:
     - title: Increases life enjoyment for a range of patients
       icon: images/technology/therapeutic-devices/med-audiocolor/03.svg
     button:
-      label: Know More
-      link: https://youtu.be/H76IdT1tE78?playlist=H76IdT1tE78&autoplay=1&loop=1
+      label: Learn More
+      link: https://www.wegamedusa.com/
 wegamed_and_soulspring:
   enable: true
   title: 'Wegamed and Soul Spring Have Partnered since 2019 '
@@ -176,15 +176,15 @@ wegamed_and_soulspring:
     content: |-
       Following his career as a semi-professional soccer player and swimmer, Dr. Peter Mölleney merged his passion for sports with his family legacy in the field of medicine to create Wegamed GmbH, headquartered in Essen.
 
-      A fifth-generation physician with his own naturopathic practice, Dr. Mölleney utilized his training in traditional and alternative medicine, along with psychotherapy, to develop Wegamed's innovative med tech devices specializing in detoxification and regeneration therapies at the cellular level. Under the direction of Dr. Mölleney, Wegamed carries on the tradition of Vega Grieshaber KG collaborating with engineers and research institutions
+      A fifth-generation physician with his own naturopathic practice, Dr. Mölleney utilized his training in traditional and alternative medicine, along with psychotherapy, to develop Wegamed's innovative med tech devices specializing in detoxification and regeneration therapies at the cellular level. Under the direction of Dr. Mölleney, Wegamed carries on the tradition of Vega Grieshaber KG collaborating with engineers and research institutions to develop new devices for effective diagnoses and non-invasive therapies.
 
-      to develop new devices for effective diagnoses and non-invasive therapies. Backed by 25+ years of research and clinical trials, Wegamed's Diagnostic, Therapeutic and Wellness Devices are approved for medical use in Germany (DIMDI) and several other countries. **The devices are Class 2A CE-marked, clinically approved, FDA registered and MDSAP compliant.**
+      Backed by 25+ years of research and clinical trials, Wegamed's Diagnostic, Therapeutic and Wellness Devices are approved for medical use in Germany (DIMDI) and several other countries. The devices are Class 2A CE-marked, clinically approved and FDA registered.
 call_to_action:
   enable: true
   title: Want To Learn More About Our Medical Technology?
   description: Get a live demo by completing this online today.
   bg_image: images/call-to-action-2.jpg
   button_label: Free Demo
-  button_link: "#!"
+  button_link: https://www.wegamedusa.com/
 
 ---

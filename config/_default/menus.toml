@@ -1,19 +1,15 @@
 [[company]]
 name = "About"
-url = "about/"
+url = "https://tf-soulspring.netlify.app/about-us/"
 weight = 1
 [[company]]
-name = "Press Releases"
-url = "about/"
+name = "Doctors"
+url = "https://tf-soulspring.netlify.app/our-doctors/"
 weight = 2
 [[company]]
-name = "Environment"
-url = "#"
+name = "Technology"
+url = "https://tf-soulspring.netlify.app/technology/"
 weight = 3
-[[company]]
-name = "Privacy Policy"
-url = "#"
-weight = 4
 [[main]]
 name = "Why Us"
 parent = "About"
@@ -66,11 +62,3 @@ weight = 2
 name = "Offerings"
 url = "offering/"
 weight = 3
-[[quick_links]]
-name = "Doctors"
-url = "doctors/"
-weight = "4"
-[[quick_links]]
-name = "About"
-url = "why-us/"
-weight = "5"

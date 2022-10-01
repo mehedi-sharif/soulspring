@@ -19,8 +19,8 @@ approach_steps:
   enable: true
   title: Supporting the Body to Heal Naturally - Our 3 Step Approach
   subtitle: After analyzing the organ systems that are not working at optimum capacity,
-    our practitioners evaluate the results and design a highly personalized treatment
-    and therapy program to help detoxify and revitalize the entire body.
+    our practitioners evaluate the results and design a highly personalized therapy
+    program to help detoxify and revitalize the entire body.
   steps:
   - title: Detoxify
     description: Before any therapeutic treatments are started, we work with you to
@@ -40,7 +40,7 @@ body_cell:
   image: images/body-cell.svg
 power_of_biological_medicine:
   enable: true
-  title: Unlock the power of biological medicine
+  title: Unlock the Power of Biological Medicine
   features:
   - title: Diagnosis of Root Causes
     image: images/power-of-biological-medicine/01.svg
@@ -60,38 +60,44 @@ power_of_biological_medicine:
       a 360° habit.
 unlock_power_of_biological_medicine:
   enable: true
-  title: Unlock the power of biological medicine
+  title: The Patient Journey
   subtitle: The natural state of the body is health. Its regulatory systems maintain
     that wellness despite occasional threats. But those systems are often impaired
     by outside factors. At Soul Spring, we help you rekindle your body's natural power
     to heal and regenerate by combining the best of biological medicine, innovative
     medical technologies, and the wisdom of ancient holistic approaches.
   features:
-  - title: Diagnosis of Root Causes
+  - title: Holistic Diagnostics & Assessment
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
-  - title: Purification & Release
+    description: We begin by understanding the cause rather than focusing on the symptoms.
+      Non-invasive diagnostic tests and assessments allow us to look for stressors,
+      toxins, dysregulations and imbalances so we can isolate the root cause of your
+      health challenges.
+  - title: Personalized Therapy Plan
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
-  - title: Regeneration & Rejuvenation
+    description: The results of the diagnostics and assessment provide a roadmap to
+      underlying imbalances and/or dysregulations and allow the Medical Director to
+      immediately start addressing your concerns. A personalized therapy plan is strategically
+      created from this roadmap to address root cause(s) and deliver an integrated
+      approach to your unique healing journey.
+  - title: Path to Wellness
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
-  - title: Harmonization & Awareness
+    description: Your personalized therapy plan will include bio-individualized detoxification
+      and regeneration therapies designed to correct dysfunctional biological processes
+      within the body, restoring and strengthening the natural healing capacity of
+      the body's cells and organs. Additionally, emotional-mental harmonization, self-therapy
+      and integration programs may also be included in your therapy plan.
+  - title: Mid-Journey Revisit
     image: images/power-of-biological-medicine/05.svg
-    description: We begin by understanding the cause rather than the symptoms. Accounting
-      for stressors, toxins, and source of dysregulation & imbalance, we identify
-      and isolate the cause.
+    description: As your wellness partner, it is important for us to stay in touch.
+      A personalized follow-up consultation will be scheduled with you to revisit
+      and assess your progress mid-journey and make any necessary adjustments to your
+      therapy plan.
 world_of_wellbeing:
   enable: true
-  title: A Whole New World of Well-Being
-  subtitle: 'Our unique treatment methodologies are designed to help you heal and
-    manage the following conditions:'
+  title: A Whole New World of Wellbeing
+  subtitle: 'Our unique therapies and modalities are designed to help you manage and
+    heal the following conditions:'
   lists:
   - Gut Health
   - Hormonal Imbalance
@@ -111,7 +117,7 @@ world_of_wellbeing:
 wellness_id:
   enable: true
   title: You Are Truly One-of-a-Kind
-  subtitle: We specialize in discovering what makes you...you.
+  subtitle: We specialize in discovering what makes you...you
   content:
     title: We are interested in YOU. <br/> Understanding the critical aspects of your
       life helps us in supporting you to achieve your wellness goals.

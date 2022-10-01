@@ -30,7 +30,7 @@ banner:
     - title: Where are the locations?
       link: "/locations/"
     - title: How much does it cost?
-      link: pricing/
+      link: "/about-us/"
 facts:
   enable: true
   blocks:
@@ -52,30 +52,30 @@ facts:
 wellness_solutions:
   enable: true
   title: Doctor-Led, Bio-Individualized Wellness Solutions
-  subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare.
+  subtitle: Bringing you the best of modern and ancient modalities for holistic healthcare
   solutions:
   - title: Energy
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/energy.svg
     image_active: images/wellness-solutions/energy-active.svg
   - title: Gut
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/gut.svg
     image_active: images/wellness-solutions/gut-active.svg
   - title: Heart
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/heart.svg
     image_active: images/wellness-solutions/heart-active.svg
   - title: Sleep
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/sleep.svg
     image_active: images/wellness-solutions/sleep-active.svg
   - title: Mind
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/mind.svg
     image_active: images/wellness-solutions/mind-active.svg
   - title: Mood
-    link: "#!"
+    link: https://soulspringwellness.com/offering/
     image: images/wellness-solutions/mood.svg
     image_active: images/wellness-solutions/mood-active.svg
 how_it_works:
@@ -91,7 +91,7 @@ how_it_works:
     video: images/how-it-works/video-01.mp4
     quote:
       enable: true
-      content: Onboarding  <br/> Holistic Diagnostics and Assessment
+      content: Onboarding - <br/> Holistic Diagnostics and Assessment
       description: The journey begins by understanding the cause rather than focusing
         on the symptoms. Non-invasive diagnostic tests and assessments allow us to
         look for stressors, toxins, dysregulations, and imbalances so that we can
@@ -100,7 +100,8 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: Initial Consultation <br/> Development of a Personalized Therapy Plan
+      content: Initial Consultation - <br/> Development of a Personalized Therapy
+        Plan
       description: 'The results of the diagnostics and assessment provide a roadmap
         to underlying imbalances and/or dysregulations and allow the Medical Doctor
         to immediately start addressing your concerns. A personalized therapy plan
@@ -110,7 +111,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: The Therapy Journey <br/> Your Path to Wellness
+      content: The Therapy Journey - <br/> Your Path to Wellness
       description: 'Your Personalized Therapy Plan will include bio-individualized
         detoxification and regeneration therapies designed to correct dysfunctional
         biological processes within the body, restoring and strengthening the natural
@@ -121,7 +122,7 @@ how_it_works:
     video: ''
     quote:
       enable: true
-      content: Mid-Journey Revisit <br/> Assessment for Any Adjustment
+      content: Mid-Journey Revisit - <br/> Assessment for Any Adjustment
       description: 'As your wellness partner, it is important for us to stay in touch.
         A personalized follow-up consultation will be scheduled for you to revisit
         and assess your progress mid-journey and make any necessary adjustments to
@@ -162,27 +163,27 @@ our_locations:
   map_marker: images/map-marker.png
   locations:
   - title: Minerva Clinic - Texas, USA
-    map_url: https://goo.gl/maps/U6V7Lv3wXFw7GHPT8
+    map_url: https://minervaclinic.us/
     latitude: "30.130875848634997"
     longitude: "-95.55194714916402"
   - title: Ez-Living M.D./DPT - Texas, USA
-    map_url: https://goo.gl/maps/hCqc7hBWSUaNwN7K6
+    map_url: https://soulspringwellness.com/locations/
     latitude: "29.936497540185822"
     longitude: "-95.24526254916817"
   - title: Perlis MedSpa & Wellness Center - Illinois, USA
-    map_url: https://goo.gl/maps/StgA7vMfNAsKoA83A
+    map_url: https://soulspringwellness.com/locations/
     longitude: "-87.8018972948808"
     latitude: "42.184527277614855"
   - title: Soul Spring Cuernavaca Center - Morelos, MEX
-    map_url: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
+    map_url: https://soulspringwellness.com/locations/
     latitude: "18.73807359479751"
     longitude: "-99.24803271921293"
   - title: Soul Spring Lomas CDMX Center - Mexico City, MEX
-    map_url: https://goo.gl/maps/p2EFvXstwP5gR4yg8
+    map_url: https://soulspringwellness.com/locations/
     latitude: "19.423950469035198"
     longitude: "-99.20348454749812"
   - title: Soul Spring Woodlands - Texas, USA
-    map_url: https://goo.gl/maps/HXX78YCZpk6BJsBK6
+    map_url: https://soulspringwellness.com/locations/
     latitude: "30.130714432101545"
     longitude: "-95.55142833382124"
 holistic_doctors:
@@ -207,7 +208,7 @@ holistic_doctors:
     qualifications:
     - |-
       Medical Director, Soul Spring Chicago
-      Chicago, IL
+      Highland Park, IL
     quote:
       title: Why I choose Soul Spring
       content: With Soul Spring, I can help my patients reach another level of health

@@ -12,7 +12,7 @@ wellness_approach:
 soulspring_solutions:
   enable: true
   title: Most Popular Wellness Solutions
-  subtitle: Click any of these popular wellness solutions to learn more.
+  subtitle: Click any of these popular wellness solutions to learn more
   solutions:
   - title: Anti-Aging
     subtitle: Stimulate, repair and revitalize your skin
@@ -48,11 +48,11 @@ soulspring_solutions:
         label: Contact Us
         link: "#!"
   - title: Clean Beauty
-    subtitle: Give your skin the love it deserves with Soul Spring natural skin care.
+    subtitle: Give your skin the love it deserves with Soul Spring natural skin care
     icon: images/solutions/icons/beauty.svg
     image: "/images/clean-beauty_matrix.JPG"
     additional_info:
-      title: Beautiful Glowing Skin
+      title: Real beauty, achieved naturally
       lists:
       - Restore luster
       - Smoothen complexion
@@ -65,24 +65,24 @@ soulspring_solutions:
         link: "#!"
   - title: Brain Health
     subtitle: Revolutionizing brain health with the wisdom of natural medicine and
-      cutting-edge technology.
+      cutting-edge technology
     icon: images/solutions/icons/brain-health.svg
     image: "/images/brain-health_2.jpg"
     additional_info:
       title: Innovative therapies, <br/>stronger mental health
       lists:
-      - Reduce Stress & Anxiety
-      - Sleep Better
-      - Regulate Emotions
-      - Resolve Behavior Disorders
-      - Improve Attention & Focus
-      - Address Eating Disorders
+      - Reduce stress & anxiety
+      - Sleep better
+      - Regulate emotions
+      - Resolve behavior disorders
+      - Improve attention & focus
+      - Address eating disorders
       button:
         label: Contact Us
         link: "#!"
   - title: Hormonal Balance
     subtitle: Achieve hormonal balance by rejuvenating your body at the cellular level
-      using holistic and alternative techniques.
+      using holistic and alternative techniques
     icon: images/solutions/icons/hormonal-balance.svg
     image: "/images/hormone-balance_shutterstock_479891626.jpg"
     additional_info:
@@ -98,9 +98,9 @@ soulspring_solutions:
         label: Contact Us
         link: "#!"
   - title: Pain Relief
-    subtitle: Live free of pain naturally, without harmful drugs or invasive procedures.
-    icon: images/solutions/icons/pain-relief.svg
-    image: "/images/pain-free.jpg"
+    subtitle: Live free of pain naturally, without harmful drugs or invasive procedures
+    icon: "/images/solutions/icons/holistic-health.svg"
+    image: "/images/pain-relief_matrix.jpg"
     additional_info:
       title: Rediscover life, pain free
       lists:
@@ -131,10 +131,10 @@ soulspring_solutions:
         link: "#!"
 soulspring_therapies_and_treatments:
   enable: true
-  title: Soul Spring Therapies and Treatments
-  title_details: Our Therapies & Treatments Explained
-  subtitle: 'Our deep therapeutic modalities combine the best of natural science and
-    new-age technology to revive your inner healing strength. '
+  title: 'Soul Spring Therapies '
+  title_details: Our Therapies Explained
+  subtitle: Our deep therapeutic modalities combine the best of natural science and
+    new-age technology to revive your inner healing strength
   therapies_and_treatments:
   - title: Audio Color Therapy
     icon: images/therapies-and-treatments/icons/Audio-Colour-Therapy.svg
@@ -197,15 +197,8 @@ soulspring_therapies_and_treatments:
       change in your life. With our mindfulness programs, you will experience a shift
       in many areas of your life, like coping with stress, handling negative emotions,
       combating sleep disorders, and improving focus. '
-  - title: Matrix Regeneration
+  - title: Matrix Detoxification & Regeneration
     icon: images/therapies-and-treatments/icons/Matrix-Regeneration.svg
-    content: 'To combat environmental toxins, it is essential to strengthen the soft
-      connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
-      three stages: 1) Direct current treatment to free the matrix from toxins, 2)
-      Petechial suction massage to repair damaged cells, and 3) Bio Resonance Therapy
-      to locate and neutralize harmful toxins. '
-  - title: Matrix Regeneration Therapy
-    icon: images/therapies-and-treatments/icons/Matrix-Regeneration-Therapy.svg
     content: 'To combat environmental toxins, it is essential to strengthen the soft
       connecting tissue, or matrix, within the body. Matrix regeneration therapy comprises
       three stages: 1) Direct current treatment to free the matrix from toxins, 2)
