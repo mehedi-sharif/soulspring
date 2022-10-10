@@ -513,14 +513,26 @@
       height: calc(100% - (5.5rem + 25%));
     }
   }
-  .map-block {
-    padding: 80px;
-    @include tablet {
-      padding: 40px;
-    }
+  .locations-block {
+    padding: 40px;
     @include mobile {
       padding: 40px 20px;
     }
+  }
+  .soulspring-features {
+    padding-top: 15px;
+    padding-bottom: 0;
+    max-width: 100% !important;
+  }
+  .button-prev,
+  .button-next {
+    top: calc(50% - 50px);
+  }
+  .button-prev {
+    left: -25px;
+  }
+  .button-next {
+    right: -25px;
   }
 }
 #chartdiv {
