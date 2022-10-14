@@ -166,11 +166,11 @@ our_locations:
     map_url: https://minervaclinic.us/
     latitude: "30.130875848634997"
     longitude: "-95.55194714916402"
-  - title: Ez-Living M.D./DPT - Texas, USA
+  - title: Soul Spring Humble
     map_url: https://soulspringwellness.com/locations/
     latitude: "29.936497540185822"
     longitude: "-95.24526254916817"
-  - title: Perlis MedSpa & Wellness Center - Illinois, USA
+  - title: Soul Spring Chicago
     map_url: https://soulspringwellness.com/locations/
     longitude: "-87.8018972948808"
     latitude: "42.184527277614855"
