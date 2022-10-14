@@ -43,7 +43,7 @@ soulspring_clinics:
       label: Show Map
     content: ''
   - image: "/images/perlis-wellness-ctr.png"
-    name: Perlis MedSpa & Wellness Center
+    name: Soul Spring Chicago
     location: 1780 Green Bay Road, Suite 204 <br/>Highland Park, IL 60035
     phone: "+1 847 295 5997"
     opening_hour: 'Monday, Tuesday, Thursday:  9:00am - 5:00pm <br/> Wednesday:  11:00am
@@ -53,7 +53,7 @@ soulspring_clinics:
       label: Show Map
     content: ''
   - image: "/images/humble-clinic-photo.jpg"
-    name: Ez-LivingMD/DPT
+    name: Soul Spring Humble
     location: '9701 North Sam Houston Pkwy E. Suite #250 <br/> Humble, TX 77396-4482'
     phone: "+1 832 263 3229"
     opening_hour: 'Monday - Saturday: 8:00am - 5:00pm'
