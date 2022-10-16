@@ -7,7 +7,7 @@
     <div class="swiper h-100">
       <div class="swiper-wrapper">
         {{ range . }}
-        <div class="swiper-slide bg-white" {{ partial `bg-image.html` (dict `Src` . `Webp` true `Resize` false ) | safeHTMLAttr }}></div>
+        <div class="swiper-slide bg-white" {{ partial `bg-image.html` (dict `Src` . `Webp` true `Size` `1000x q95` ) | safeHTMLAttr }}></div>
         {{ end }}
       </div>
       <div class="swiper-pagination pagination-light"></div>
@@ -134,9 +134,9 @@
   </div>
 
   <div class="overlay-block">
-    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-1.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-2.svg" "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-1.svg" `Size` `300x301` "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/wellness-solutions/chakra-2.svg" `Size` `139x280` "Alt" "*" "Class" "position-absolute top-50 translate-middle-y end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" `Size` `131x90` "Alt" "*" "Class" "leaf position-absolute" ) }}
   </div>
 </section>
 {{ end }}
@@ -196,7 +196,7 @@
                   </svg>
                 </div>
                 {{ end }}
-                {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` true `Resize` false `Class` "w-100 rounded" )}}
+                {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` true `Size` `860x q50` `Class` "w-100 rounded" )}}
               </div>
 
               {{ with .quote }}
@@ -295,12 +295,12 @@
         </div>
       </div>
     </div>
-    {{ partial "image.html" (dict "Src" "images/testimonials/leaf.svg" "Alt" "*" "Class" "leaf position-absolute zindex-1" ) }}
+    {{ partial "image.html" (dict "Src" "images/testimonials/leaf.svg" "Size" "86x107" "Alt" "*" "Class" "leaf position-absolute zindex-1" ) }}
   </div>
 
   <div class="overlay-block">
-    {{ partial "image.html" (dict "Src" "images/testimonials/chakra-1.svg" "Alt" "*" "Class" "position-absolute top-0 start-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/testimonials/chakra-2.svg" "Alt" "*" "Class" "position-absolute bottom-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/testimonials/chakra-1.svg" "Size" "199x200" "Alt" "*" "Class" "position-absolute top-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/testimonials/chakra-2.svg" "Size" "331x331" "Alt" "*" "Class" "position-absolute bottom-0 end-0" ) }}
   </div>
 </section>
 {{ end }}
@@ -332,7 +332,7 @@
               {{ range .clinics_lists }}
               <div class="swiper-slide text-center shadow rounded-sm">
                 <div class="p-3">
-                  {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm") }}
+                  {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm" "Size" "460x q50") }}
                 </div>
                 <div class="soulspring-features pt-2 mt-0 w-100 px-2">
                   {{ partial "image.html" (dict `Src` "images/location-pin.svg" `alt` .title "Class" "rounded-sm mb-3" "Size" "25x36") }}
@@ -430,9 +430,9 @@
   </div>
 
   <div class="overlay-block">
-    {{ partial "image.html" (dict "Src" "images/holistic-doctors/chakra-1.svg" "Alt" "*" "Class" "chakra-1 position-absolute" ) }}
-    {{ partial "image.html" (dict "Src" "images/holistic-doctors/chakra-2.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/holistic-doctors/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
+    {{ partial "image.html" (dict "Src" "images/holistic-doctors/chakra-1.svg" "Size" "199x200" "Alt" "*" "Class" "chakra-1 position-absolute" ) }}
+    {{ partial "image.html" (dict "Src" "images/holistic-doctors/chakra-2.svg" "Size" "331x331" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/holistic-doctors/leaf.svg" "Size" "86x107" "Alt" "*" "Class" "leaf position-absolute" ) }}
   </div>
 </section>
 {{ end }}
@@ -456,7 +456,7 @@
     </div>
     <div class="row gy-4">
       <div class="col-12">
-        <div class="block rounded shadow" {{ partial `bg-image.html` (dict `Src` .lifetime_of_wellness_background ) | safeHTMLAttr }}>
+        <div class="block rounded shadow" {{ partial `bg-image.html` (dict `Src` .lifetime_of_wellness_background `Size` `1200x q25` ) | safeHTMLAttr }}>
           {{ partial "image.html" (dict "Src" .lifetime_of_wellness_image "Alt" "image" "Webp" true "Resize" false "Class" "w-100 rounded") }}
         </div>
       </div>
@@ -505,10 +505,10 @@
   </div>
 
   <div class="overlay-block">
-    {{ partial "image.html" (dict "Src" "images/faq/chakra-1.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/faq/chakra-2.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
-    {{ partial "image.html" (dict "Src" "images/faq/flower-1.svg" "Alt" "*" "Class" "flower-1 position-absolute" ) }}
-    {{ partial "image.html" (dict "Src" "images/faq/flower-2.svg" "Alt" "*" "Class" "flower-2 position-absolute" ) }}
+    {{ partial "image.html" (dict "Src" "images/faq/chakra-1.svg" "Size" "380x381" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/faq/chakra-2.svg" "Size" "270x270" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
+    {{ partial "image.html" (dict "Src" "images/faq/flower-1.svg" "Size" "53x55" "Alt" "*" "Class" "flower-1 position-absolute" ) }}
+    {{ partial "image.html" (dict "Src" "images/faq/flower-2.svg" "Size" "128x125" "Alt" "*" "Class" "flower-2 position-absolute" ) }}
   </div>
 </section>
 {{ end }}
