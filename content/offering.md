@@ -34,7 +34,7 @@ soulspring_solutions:
     subtitle: Innovative fitness assessments and specialized therapies for optimized
       training and recovery
     icon: images/solutions/icons/athelete-recovery.svg
-    image: "/images/athletic-performance.png"
+    image: "/images/athletic-performance.jpg"
     additional_info:
       title: Train smarter, recover faster
       lists:
@@ -116,7 +116,7 @@ soulspring_solutions:
   - title: Post Covid Recovery
     subtitle: Activate your body's natural ability to heal itself
     icon: images/solutions/icons/post-covid-recovery.svg
-    image: "/images/post-covid.png"
+    image: "/images/post-covid.jpg"
     additional_info:
       title: Rebuild immunity, increase resilience
       lists:

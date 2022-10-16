@@ -2,8 +2,8 @@
   <div class="container">
     <div class="row">
       <div class="col-12 text-center">
-        {{ partial "image.html" (dict "Src" "images/divider.svg" "Alt" "divider" "Class" "d-none d-md-block mx-auto" ) }}
-        {{ partial "image.html" (dict "Src" "images/divider-sm.svg" "Alt" "divider" "Class" "d-block d-md-none mx-auto" ) }}
+        <img src="{{(resources.Get `images/divider.svg`).RelPermalink}}" alt="divider" class="d-none d-md-block mx-auto" width="758" height="56">
+        <img src="{{(resources.Get `images/divider-sm.svg`).RelPermalink}}" alt="divider" class="d-block d-md-none mx-auto" width="360" height="46">
       </div>
     </div>
   </div>
