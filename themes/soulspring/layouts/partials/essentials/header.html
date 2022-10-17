@@ -62,7 +62,7 @@
 
         {{ if site.Params.navigation_button.enable }}
         <!-- navigation btn -->
-        <button class="btn btn-primary ms-lg-4 mt-2 mt-lg-0 mb-3 mb-lg-0" type="button" data-bs-toggle="modal" data-bs-target="#hubspotModal">
+        <button class="btn btn-primary ms-lg-4 mt-2 mt-lg-0 mb-3 mb-lg-0" type="button" id="hubspotModalBtn" data-bs-toggle="modal" data-bs-target="#hubspotModal" onclick="loadHbspt()">
           {{- site.Params.navigation_button.label -}}
         </button>
         {{ end }}
@@ -76,16 +76,55 @@
 <div class="modal fade" id="hubspotModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
   <div class="modal-dialog modal-dialog-centered modal-dialog-scrollable">
     <div class="modal-content">
-      <div class="modal-body">
+      <div class="modal-body position-relative" style="z-index:1">
         <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-        <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2.js"></script>
+        <div id="hubspotScriptEl"></div>
+
+        <div class="text-center position-absolute translate-middle top-50 start-50" style="z-index:-1">
+          <svg width="50" height="50" class="mx-auto" viewBox="0 0 100 100" style="background: none;">
+            <circle cx="75" cy="50" fill="#363a3c" r="6.39718">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.875s"></animate>
+            </circle>
+            <circle cx="67.678" cy="67.678" fill="#363a3c" r="4.8">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.75s"></animate>
+            </circle>
+            <circle cx="50" cy="75" fill="#363a3c" r="4.8">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.625s"></animate>
+            </circle>
+            <circle cx="32.322" cy="67.678" fill="#363a3c" r="4.8">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.5s"></animate>
+            </circle>
+            <circle cx="25" cy="50" fill="#363a3c" r="4.8">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.375s"></animate>
+            </circle>
+            <circle cx="32.322" cy="32.322" fill="#363a3c" r="4.80282">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.25s"></animate>
+            </circle>
+            <circle cx="50" cy="25" fill="#363a3c" r="6.40282">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="-0.125s"></animate>
+            </circle>
+            <circle cx="67.678" cy="32.322" fill="#363a3c" r="7.99718">
+              <animate attributeName="r" values="4.8;4.8;8;4.8;4.8" times="0;0.1;0.2;0.3;1" dur="1s" repeatCount="indefinite" begin="0s"></animate>
+            </circle>
+          </svg>
+        </div>
+
         <script>
-          hbspt.forms.create({
-            region: "na1",
-            portalId: "{{.hubspotPortalId}}",
-            formId: "{{.hubspotFormId}}",
-            version: "V2_PRERELEASE"
+          window.addEventListener('load', (event) => {
+            let hubspotScriptEl = document.getElementById("hubspotScriptEl");
+            let script = document.createElement("script");
+            script.type = "text/javascript";
+            script.src = "//js.hsforms.net/forms/v2.js";
+            hubspotScriptEl.appendChild(script);
           });
+          function loadHbspt() {
+            hbspt.forms.create({
+              region: "na1",
+              portalId: "{{.hubspotPortalId}}",
+              formId: "{{.hubspotFormId}}",
+              version: "V2_PRERELEASE"
+            });
+          }
         </script>
       </div>
     </div>
