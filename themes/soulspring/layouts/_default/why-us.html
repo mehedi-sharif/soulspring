@@ -81,7 +81,7 @@
       <div class="col-6 col-md-4 col-xl">
         <div class="block rounded bg-white h-100 overflow-hidden shadow">
           <div class="image text-center py-4">
-            {{ partial "image.html" (dict `Src` .image `alt` .title) }}
+            {{ partial "image.html" (dict `Src` .image `Alt` .title) }}
           </div>
           <p class="p-4 mb-0 text-black">{{.title | markdownify}}</p>
         </div>
@@ -127,7 +127,7 @@
             {{ range .competitors}}
             <div class="c-column lh-base text-center text-black">
               {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-              <span class="px-2 px-xl-4">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+              <span class="px-2 px-xl-4">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
               {{else}}{{.}}{{end}}
             </div>
             {{ end }}
@@ -149,7 +149,7 @@
                   {{ if eq $i 0 }}
                   <div class="lh-base text-black me-2">
                     {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
                     {{else}}{{.}}{{end}}
                   </div>
                   {{ end }}
@@ -170,7 +170,7 @@
                   {{ if eq $i 1 }}
                   <div class="lh-base text-black me-2">
                     {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
                     {{else}}{{.}}{{end}}
                   </div>
                   {{ end }}
@@ -191,7 +191,7 @@
                   {{ if eq $i 2 }}
                   <div class="lh-base text-black me-2">
                     {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
                     {{else}}{{.}}{{end}}
                   </div>
                   {{ end }}
@@ -212,7 +212,7 @@
                   {{ if eq $i 3 }}
                   <div class="lh-base text-black me-2">
                     {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
                     {{else}}{{.}}{{end}}
                   </div>
                   {{ end }}
@@ -233,7 +233,7 @@
                   {{ if eq $i 4 }}
                   <div class="lh-base text-black me-2">
                     {{if or (eq . "Soulspring") (eq . "soulspring") (eq . "SoulSpring") (eq . "Soul spring") (eq . "Soul Spring") }}
-                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `alt` site.Params.logo_text) }}</span>
+                    <span class="pe-2">{{ partial "image.html" (dict `Src` site.Params.logo `Alt` site.Params.logo_text) }}</span>
                     {{else}}{{.}}{{end}}
                   </div>
                   {{ end }}
@@ -597,7 +597,7 @@
           </div>
 
           <div class="position-absolute top-0 end-0 zindex-1">
-            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" `Alt` "chakra" )}}
           </div>
         </div>
       </div>

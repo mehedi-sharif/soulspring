@@ -18,7 +18,7 @@
           <div class="swiper-wrapper pb-5 mb-2">
             {{ range .clinics_lists }}
             <div class="swiper-slide text-center">
-              {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm") }}
+              {{ partial "image.html" (dict `Src` .image `Alt` .title "Class" "rounded-sm") }}
               <div class="soulspring-features {{ if or (not (fileExists (add `assets/` (string .image)))) (eq .image ``) }}mt-0{{end}} bg-white rounded-sm shadow">
                 <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
                 <p class="mb-2">{{.location | markdownify}}</p>
@@ -76,13 +76,13 @@
     <div class="row gy-4 justify-content-center align-content-center">
       {{ range first 1 .gallery }}
         <div class="col-md-6">
-        {{ partial "image.html" (dict `Src` . `alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
+        {{ partial "image.html" (dict `Src` . `Alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
         </div>
       {{ end }}
       <div class="col-md-6">
         {{ range $i, $e:= .gallery }}
         {{ if gt $i 0 }}
-        {{ partial "image.html" (dict `Src` . `alt` "Resort Clinic" "Class" "rounded-sm w-100 mb-4 mt-1") }}
+        {{ partial "image.html" (dict `Src` . `Alt` "Resort Clinic" "Class" "rounded-sm w-100 mb-4 mt-1") }}
         {{ end }}
         {{ end }}
       </div>
@@ -136,7 +136,7 @@
     <div class="row gy-5 justify-content-center align-content-center">
       {{ range .welness_center_lists }}
         <div class="col-md-12">
-        {{ partial "image.html" (dict `Src` .image `alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
+        {{ partial "image.html" (dict `Src` .image `Alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
         <div class="soulspring-features bg-white rounded-sm shadow text-center">
           <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
           <p class="mb-2">{{.location | markdownify}}</p>
@@ -190,7 +190,7 @@
           </div>
 
           <div class="position-absolute top-0 end-0 zindex-1">
-            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" `Alt` "chakra" )}}
           </div>
         </div>
       </div>

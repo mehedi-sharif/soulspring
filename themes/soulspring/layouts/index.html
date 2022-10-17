@@ -123,8 +123,8 @@
       <div class="col-6 col-sm-4 col-md-3 col-lg-2">
         <a href="{{.link | relURL}}" class="block text-center rounded-sm d-block mx-auto p-4 bg-white">
           <div class="image position-relative">
-            {{ partial "image.html" (dict `Src` .image `alt` .title `Class` `image-fade position-absolute top-50 start-50 translate-middle` `Size` `120x120`) }}
-            {{ partial "image.html" (dict `Src` .image_active `alt` .title `Class` `image-active` `Size` `120x120`) }}
+            {{ partial "image.html" (dict `Src` .image `Alt` "wellness solutions" `Class` `image-fade position-absolute top-50 start-50 translate-middle` `Size` `120x120`) }}
+            {{ partial "image.html" (dict `Src` .image_active `Alt` "wellness solutions" `Class` `image-active` `Size` `120x120`) }}
           </div>
           <p class="mb-0 text-capitalize text-muted">{{.title | markdownify}}</p>
         </a>
@@ -281,7 +281,7 @@
                     {{ end }}
                   </div>
                   <div class="flex-shrink-0 reviewer-image">
-                    {{ partial "image.html" (dict `Src` .reviewer_image `alt` .name `Class` `img-fluid` `Size` `208x208`) }}
+                    {{ partial "image.html" (dict `Src` .reviewer_image `Alt` .name `Class` `img-fluid` `Size` `208x208`) }}
                   </div>
                 </div>
               </div>
@@ -332,10 +332,10 @@
               {{ range .clinics_lists }}
               <div class="swiper-slide text-center shadow rounded-sm">
                 <div class="p-3">
-                  {{ partial "image.html" (dict `Src` .image `alt` .title "Class" "rounded-sm" "Size" "460x q50") }}
+                  {{ partial "image.html" (dict `Src` .image `Alt` .title "Class" "rounded-sm" "Size" "460x q50") }}
                 </div>
                 <div class="soulspring-features pt-2 mt-0 w-100 px-2">
-                  {{ partial "image.html" (dict `Src` "images/location-pin.svg" `alt` .title "Class" "rounded-sm mb-3" "Size" "25x36") }}
+                  {{ partial "image.html" (dict `Src` "images/location-pin.svg" `Alt` .title "Class" "rounded-sm mb-3" "Size" "25x36") }}
                   <h3 class="h5 mb-1 text-black lh-base">{{.name | markdownify}}</h3>
                   <p class="mb-2">{{.location | markdownify}}</p>
                   <p class="mb-4">
@@ -541,7 +541,7 @@
           </div>
 
           <div class="position-absolute top-0 end-0 zindex-1">
-            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" )}}
+            {{ partial "image.html" (dict `Src` "images/banner/chakra.svg" `Alt` "chakra" )}}
           </div>
         </div>
       </div>

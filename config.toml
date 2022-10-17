@@ -68,14 +68,11 @@ link = "plugins/odometer/odometer.css"
 link = "plugins/swiper/swiper-bundle.js"
 [[params.plugins.js]]
 link = "plugins/webfont/webfont-loader-2.js"
-[[params.plugins.js]]
-link = "plugins/glightbox.js"
+# [[params.plugins.js]]
+# link = "plugins/glightbox.js"
 [[params.plugins.js]]
 link = "plugins/odometer/odometer.js"
 [[params.plugins.js]]
 link = "plugins/cookie.js"
-[[params.plugins.js]]
-link = "plugins/lazy-loader.js"
-[[params.plugins.js]]
-link = "https://cpwebassets.codepen.io/assets/embed/ei.js"
-attributes = "async"
+# [[params.plugins.js]]
+# link = "plugins/lazy-loader.js"
