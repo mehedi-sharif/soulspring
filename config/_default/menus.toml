@@ -1,10 +1,10 @@
 [[company]]
 name = "About"
-url = "https://tf-soulspring.netlify.app/about-us/"
+url = "/about-us/"
 weight = 1
 [[company]]
 name = "Doctors"
-url = "https://tf-soulspring.netlify.app/our-doctors/"
+url = "/our-doctors/"
 weight = 2
 [[company]]
 name = "Technology"
