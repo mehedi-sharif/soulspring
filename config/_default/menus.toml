@@ -8,7 +8,7 @@ url = "/our-doctors/"
 weight = 2
 [[company]]
 name = "Technology"
-url = "https://tf-soulspring.netlify.app/technology/"
+url = "/technology/"
 weight = 3
 [[main]]
 name = "Why Us"
