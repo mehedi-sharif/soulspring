@@ -14,10 +14,9 @@
     <div class="row gy-4 justify-content-center">
       <div class="col-lg-12">
         <div class="position-relative">
-          {{ $image := resources.Get .video_thumbnail }}
-          <video poster="{{ with $image }}{{ .RelPermalink }}{{ end }}" src="{{(resources.Get .video).RelPermalink}}" controls autoplay muted loop class="ratio ratio-16x9 rounded-sm overflow-hidden">
-            Your browser does not support the video tag.
-          </video>
+          <div class="ratio ratio-16x9 rounded overflow-hidden">
+            <iframe src="{{.video}}" title="YouTube video" allowfullscreen></iframe>
+          </div>
         </div>
       </div>
     </div>
@@ -111,6 +110,8 @@
 {{ end }}
 {{ end }}
 
+{{ $videoPath := "" }}
+
 {{ with .Params.diagnostic_devices }}
 {{ if .enable }}
 
@@ -144,24 +145,52 @@
           <div class="tab-content border-0" id="pills-tabContent">
             {{ range $i, $e:= . }}
             <div class="tab-pane fade {{if eq $i 0}}show active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}" role="tabpanel" aria-labelledby="pills-{{.title|markdownify|lower|urlize}}-tab" tabindex="0">
-              <div class="row align-items-center gy-4">
-                <div class="col-lg-6">
-                  <div class="content mb-4">{{.content | markdownify}}</div>
-                  {{ range .feature_lists }}
-                  <div class="d-flex align-items-center mt-2">
-                    <div class="flex-shrink-0 me-3">
-                      {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+              <div class="how-it-works w-auto m-0">
+                <div class="row gy-4">
+                  <div class="col-lg-6">
+                    <div class="content mb-4">{{.content | markdownify}}</div>
+                    {{ range .feature_lists }}
+                    <div class="d-flex align-items-center mt-2">
+                      <div class="flex-shrink-0 me-3">
+                        {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+                      </div>
+                      <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
                     </div>
-                    <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
-                  </div>
-                  {{ end }}
+                    {{ end }}
 
-                  {{ with .button }}
-                  <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
-                  {{ end }}
-                </div>
-                <div class="col-lg-6">
-                  {{ partial "image.html" (dict `Src` .image `Alt` .title `Class` `rounded-sm` )}}
+                    {{ with .button }}
+                    <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+                    {{ end }}
+                  </div>
+                  <div class="col-lg-6">
+                    {{ with .video }}
+                      {{ $videoPath = . }}
+                      {{ if hasPrefix $videoPath "http" }}
+                        {{ $videoPath = $videoPath }}
+                      {{ else if fileExists (add `assets/` $videoPath) }}
+                        {{ $videoPath = (resources.Get $videoPath).RelPermalink }}
+                      {{ else }}
+                        {{ $videoPath = (print "/" $videoPath) }}
+                      {{ end }}
+                    {{ end }}
+
+                    <div class="image-block position-relative" style="z-index:1">
+                      {{ with .video }}
+                      <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{.}}">
+                        <svg class="text-white" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle class="animate" cx="65" cy="65" r="56" fill="currentColor" fill-opacity="0.2"/>
+                          <circle class="animate" cx="65" cy="65" r="55.5" stroke="currentColor" stroke-opacity="0.5"/>
+                          <circle class="animate" cx="65" cy="65" r="48" fill="currentColor" fill-opacity="0.2"/>
+                          <circle class="animate" cx="65" cy="65" r="47.5" stroke="currentColor" stroke-opacity="0.5"/>
+                          <circle cx="65" cy="65" r="40" fill="currentColor"/>
+                          <path class="text-primary" d="M81 63.2679C82.3333 64.0377 82.3333 65.9623 81 66.7321L58.5 79.7224C57.1667 80.4922 55.5 79.53 55.5 77.9904L55.5 52.0096C55.5 50.47 57.1667 49.5078 58.5 50.2776L81 63.2679Z" fill="currentColor"/>
+                        </svg>
+                      </div>
+                      {{ end }}
+                      {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` true `Size` `500x q70` `Class` "rounded-sm w-100" )}}
+                    </div>
+
+                  </div>
                 </div>
               </div>
             </div>
@@ -175,7 +204,23 @@
 
   <div class="overlay-block overflow-hidden" style="height:61%"></div>
 </section>
+
 {{ end }}
+{{ end }}
+
+{{ if $videoPath }}
+<div class="modal fade" id="videoModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg modal-dialog-centered">
+    <div class="modal-content bg-transparent border-0">
+      <button id="modalClose" type="button" class="btn-close position-absolute end-0 shadow-none" style="top:-35px" data-bs-dismiss="modal" aria-label="Close"></button>
+      <div class="modal-body p-0">
+        <div class="ratio ratio-16x9">
+          <iframe id="modalVideo"  title="YouTube video" allowfullscreen></iframe>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
 {{ end }}
 
 {{ with .Params.therapeutic_devices }}
@@ -211,24 +256,51 @@
           <div class="tab-content border-0" id="pills-tabContent">
             {{ range $i, $e:= . }}
             <div class="tab-pane fade {{if eq $i 0}}show active{{end}}" id="pills-{{.title|markdownify|lower|urlize}}" role="tabpanel" aria-labelledby="pills-{{.title|markdownify|lower|urlize}}-tab" tabindex="0">
-              <div class="row align-items-center gy-4">
-                <div class="col-lg-6">
-                  <div class="content mb-4">{{.content | markdownify}}</div>
-                  {{ range .feature_lists }}
-                  <div class="d-flex align-items-center mt-2">
-                    <div class="flex-shrink-0 me-3">
-                      {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+              <div class="how-it-works w-auto m-0">
+                <div class="row gy-4">
+                  <div class="col-lg-6">
+                    <div class="content mb-4">{{.content | markdownify}}</div>
+                    {{ range .feature_lists }}
+                    <div class="d-flex align-items-center mt-2">
+                      <div class="flex-shrink-0 me-3">
+                        {{ partial "image.html" (dict `Src` .icon `Alt` "icon" )}}
+                      </div>
+                      <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
                     </div>
-                    <span class="flex-grow-1 text-black">{{.title | markdownify}}</span>
-                  </div>
-                  {{ end }}
+                    {{ end }}
 
-                  {{ with .button }}
-                  <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
-                  {{ end }}
-                </div>
-                <div class="col-lg-6">
-                  {{ partial "image.html" (dict `Src` .image `Alt` .title `Class` `rounded-sm` )}}
+                    {{ with .button }}
+                    <a class="btn btn-primary mt-4" href="{{.link | safeURL}}">{{.label | markdownify}}</a>
+                    {{ end }}
+                  </div>
+                  <div class="col-lg-6">
+                    {{ with .video }}
+                      {{ $videoPath = . }}
+                      {{ if hasPrefix $videoPath "http" }}
+                        {{ $videoPath = $videoPath }}
+                      {{ else if fileExists (add `assets/` $videoPath) }}
+                        {{ $videoPath = (resources.Get $videoPath).RelPermalink }}
+                      {{ else }}
+                        {{ $videoPath = (print "/" $videoPath) }}
+                      {{ end }}
+                    {{ end }}
+
+                    <div class="image-block position-relative" style="z-index:1">
+                      {{ with .video }}
+                      <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{.}}">
+                        <svg class="text-white" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
+                          <circle class="animate" cx="65" cy="65" r="56" fill="currentColor" fill-opacity="0.2"/>
+                          <circle class="animate" cx="65" cy="65" r="55.5" stroke="currentColor" stroke-opacity="0.5"/>
+                          <circle class="animate" cx="65" cy="65" r="48" fill="currentColor" fill-opacity="0.2"/>
+                          <circle class="animate" cx="65" cy="65" r="47.5" stroke="currentColor" stroke-opacity="0.5"/>
+                          <circle cx="65" cy="65" r="40" fill="currentColor"/>
+                          <path class="text-primary" d="M81 63.2679C82.3333 64.0377 82.3333 65.9623 81 66.7321L58.5 79.7224C57.1667 80.4922 55.5 79.53 55.5 77.9904L55.5 52.0096C55.5 50.47 57.1667 49.5078 58.5 50.2776L81 63.2679Z" fill="currentColor"/>
+                        </svg>
+                      </div>
+                      {{ end }}
+                      {{ partial "image.html" (dict `Src` .image `Alt` `image` `Webp` true `Size` `500x q70` `Class` "rounded-sm w-100" )}}
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>

@@ -29,7 +29,6 @@ soulspring_solutions:
       - Reduce age spots
       button:
         label: Contact Us
-        link: "#!"
   - title: Athletic Performance/Recovery
     subtitle: Innovative fitness assessments and specialized therapies for optimized
       training and recovery
@@ -46,7 +45,6 @@ soulspring_solutions:
       - Improve your diet
       button:
         label: Contact Us
-        link: "#!"
   - title: Clean Beauty
     subtitle: Give your skin the love it deserves with Soul Spring natural skin care
     icon: images/solutions/icons/beauty.svg
@@ -62,7 +60,6 @@ soulspring_solutions:
       - Improves skin elasticity
       button:
         label: Contact Us
-        link: "#!"
   - title: Brain Health
     subtitle: Revolutionizing brain health with the wisdom of natural medicine and
       cutting-edge technology
@@ -79,7 +76,6 @@ soulspring_solutions:
       - Address eating disorders
       button:
         label: Contact Us
-        link: "#!"
   - title: Hormonal Balance
     subtitle: Achieve hormonal balance by rejuvenating your body at the cellular level
       using holistic and alternative techniques
@@ -96,7 +92,6 @@ soulspring_solutions:
       - Improve sleep
       button:
         label: Contact Us
-        link: "#!"
   - title: Pain Relief
     subtitle: Live free of pain naturally, without harmful drugs or invasive procedures
     icon: "/images/solutions/icons/holistic-health.svg"
@@ -112,7 +107,6 @@ soulspring_solutions:
       - Treat chronic dental pain
       button:
         label: Contact Us
-        link: "#!"
   - title: Post Covid Recovery
     subtitle: Activate your body's natural ability to heal itself
     icon: images/solutions/icons/post-covid-recovery.svg
@@ -128,7 +122,6 @@ soulspring_solutions:
       - Support natural healing capacity
       button:
         label: Contact Us
-        link: "#!"
 soulspring_therapies_and_treatments:
   enable: true
   title: 'Soul Spring Therapies '

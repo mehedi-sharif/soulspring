@@ -26,14 +26,20 @@
                   <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
                 </p>
       
+                {{with .content}}
                 <hr class="text-light opacity-100 mx-auto" style="height:1px;">
-                <div class="content my-4">{{.content | markdownify}}</div>
+                <div class="content my-4">{{. | markdownify}}</div>
+                {{end}}
                 <hr class="text-light opacity-100 mx-auto" style="height:1px;">
       
+                {{with .opening_hour}}
                 <p class="h6 mt-4">Hours</p>
-                <p>{{.opening_hour | markdownify}}</p>
+                <p>{{. | markdownify}}</p>
+                {{end}}
                 {{ with .button }}
+                {{ if and .label .link }}
                 <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+                {{ end }}
                 {{ end }}
               </div>
             </div>
@@ -73,7 +79,8 @@
         </div>
       </div>
     </div>
-    <div class="row gy-4 justify-content-center align-content-center">
+    {{ range $i, $e:= .resort_clinic_lists}}
+    <div class="row gy-4 justify-content-center align-content-center {{if gt $i 0}}mt-5{{end}}">
       {{ range first 1 .gallery }}
         <div class="col-md-6">
         {{ partial "image.html" (dict `Src` . `Alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
@@ -87,28 +94,38 @@
         {{ end }}
       </div>
     </div>
+
+    {{ $galleryLength := len .gallery}}
+    
     {{ with .clinic_info }}
-    <div class="soulspring-features bg-white rounded-sm shadow text-center">
+    <div class="soulspring-features bg-white rounded-sm shadow text-center {{if eq $galleryLength 0 }}mt-auto{{end}}">
       <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
       <p class="mb-2">{{.location | markdownify}}</p>
       <p class="mb-4">
         <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
       </p>
 
+      {{with .content}}
       <hr class="text-light opacity-100 mx-auto" style="height:1px;">
-      <div class="content my-4">{{.content | markdownify}}</div>
+      <div class="content my-4">{{. | markdownify}}</div>
+      {{end}}
       <hr class="text-light opacity-100 mx-auto" style="height:1px;">
 
+      {{with .opening_hour}}
       <p class="h6 mt-4">Hours</p>
-      <p>{{.opening_hour | markdownify}}</p>
+      <p>{{. | markdownify}}</p>
+      {{end}}
       {{ with .button }}
+      {{ if and .label .link }}
       <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+      {{ end }}
       {{ end }}
     </div>
     {{ end }}
+    {{ end }}
   </div>
 
-  <div class="overlay-block" style="height:70%">
+  <div class="overlay-block" style="height:80%">
     {{ partial "image.html" (dict "Src" "images/chakra-lg-left.svg" "Alt" "*" "Class" "position-absolute bottom-0 start-0" ) }}
     {{ partial "image.html" (dict "Src" "images/chakra-sm-right.svg" "Alt" "*" "Class" "position-absolute top-0 end-0" ) }}
   </div>
@@ -122,7 +139,7 @@
 <!-- divider -->
 {{ partial "components/divider.html" . }}
 <!-- end divider -->
-<section class="section pb-3 has-overlay has-overlay-bgi overflow-hidden why-soulspring">
+<section class="section pb-3 has-overlay has-overlay-bgi overflow-hidden why-soulspring wellness-centers">
   <div class="container">
     <div class="row">
       <div class="col-lg-9 mx-auto text-center mb-4">
@@ -135,7 +152,7 @@
     </div>
     <div class="row gy-5 justify-content-center align-content-center">
       {{ range .welness_center_lists }}
-        <div class="col-md-12">
+        <div class="col-md-6">
         {{ partial "image.html" (dict `Src` .image `Alt` "Resort Clinic" "Class" "rounded-sm w-100") }}
         <div class="soulspring-features bg-white rounded-sm shadow text-center">
           <h3 class="h5 text-black lh-base">{{.name | markdownify}}</h3>
@@ -144,14 +161,20 @@
             <a class="text-primary hover-underline fw-medium" href="tel:{{ replace (replace .phone `-` `` 20) ` ` `` 20 }}">{{.phone | markdownify}}</a>
           </p>
     
+          {{with .content}}
           <hr class="text-light opacity-100 mx-auto" style="height:1px;">
-          <div class="content my-4">{{.content | markdownify}}</div>
+          <div class="content my-4">{{. | markdownify}}</div>
+          {{end}}
           <hr class="text-light opacity-100 mx-auto" style="height:1px;">
     
+          {{with .opening_hour}}
           <p class="h6 mt-4">Hours</p>
-          <p>{{.opening_hour | markdownify}}</p>
+          <p>{{. | markdownify}}</p>
+          {{end}}
           {{ with .button }}
+          {{ if and .label .link }}
           <a class="btn p-2 btn-primary px-4" target="_blank" href="{{.link}}">{{.label}}</a>
+          {{ end }}
           {{ end }}
         </div>
         </div>

@@ -1254,6 +1254,23 @@
   }
 }
 
+// wellness-centers
+.wellness-centers {
+  .soulspring-features {
+    position: relative;
+    z-index: 5;
+    padding: 30px;
+    max-width: calc(100% - 50px);
+    margin: 0 auto;
+    margin-top: -40px;
+    transition: 0.25s;
+    @include desktop-lg {
+      margin-top: 10px;
+      max-width: 100%;
+    }
+  }
+}
+
 // individual-bio-wellness-solutions
 .individual-bio-wellness-solutions {
   .block {

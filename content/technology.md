@@ -6,8 +6,7 @@ technology_banner:
   enable: true
   title: Soul Spring Centers <hr> Powered by Wegamed Medical Technology
   subtitle: Medically certified devices for whole body detoxification and regeneration
-  video: images/how-it-works/video-01.mp4
-  video_thumbnail: images/technology/thumb.jpg
+  video: https://www.youtube.com/embed/eITOtkZR0mw
 benefit_summary:
   enable: true
   title: At-a-Glance Benefit Summary
@@ -61,6 +60,7 @@ diagnostic_devices:
   device_info:
   - title: Check Medical Sport
     image: images/technology/diagnostic-devices/check-medical-sport.jpg
+    video: "https://www.youtube.com/embed/Lor3rnYg8c0"
     content: A new era in holistic medicine and preventative diagnosis
     feature_lists:
     - title: Fully-automated diagnosis
@@ -76,6 +76,7 @@ diagnostic_devices:
       link: https://www.wegamedusa.com/
   - title: Prefit Bodyscan
     image: images/technology/diagnostic-devices/prefit-bodyscan.png
+    video: "https://www.youtube.com/embed/Lor3rnYg8c0"
     content: This unique product gathers in-depth insights through scanning into an
       athlete’s body and recording reactions to stimuli, thereby identifying weaknesses.
       The Prefit Bodycan also uses a comprehensive muscle analysis to accurately determine
@@ -94,6 +95,7 @@ diagnostic_devices:
       link: https://www.wegamedusa.com/
   - title: Test Expert Plus
     image: images/technology/diagnostic-devices/test-expert-plus.png
+    video: "https://www.youtube.com/embed/eITOtkZR0mw"
     content: The star attraction in the Wegamed range, the Test Expert Plus gives
       a detailed analysis of the root cause of illnesses in a quick and effective
       manner. This device can sense allergies, study organ functionality and find
@@ -112,12 +114,13 @@ diagnostic_devices:
       link: https://www.wegamedusa.com/
 therapeutic_devices:
   enable: true
-  title: 'Therapies:   Immediate Results with Lasting Impact'
+  title: 'Therapies: Immediate Results with Lasting Impact'
   subtitle: We are thrilled to have brought the Wegamed legacy into our growing family
     for best-in-class bio-wellness solutions.
   device_info:
   - title: Med Matrix
     image: images/technology/therapeutic-devices/med-matrix.png
+    video: "https://www.youtube.com/embed/n157w89Q0VA"
     content: 'To combat environmental toxins, it is essential to strengthen the soft
       connecting tissue, or matrix, within the body. Med Matrix is the only medically
       certified device that combines multiple therapeutic modalities in one session
@@ -136,6 +139,7 @@ therapeutic_devices:
       link: https://www.wegamedusa.com/
   - title: Med Select
     image: images/technology/therapeutic-devices/med-select.png
+    video: "https://www.youtube.com/embed/bkP53NhfSbE"
     content: This device is powered by homeopathy to activate the self-healing ability
       of the body, using its own vibrations, helping alleviate allergies, skin issues,
       circulation problems and pain.
@@ -151,6 +155,7 @@ therapeutic_devices:
       link: https://www.wegamedusa.com/
   - title: Med Audiocolor
     image: images/technology/therapeutic-devices/med-audiocolor.png
+    video: "https://www.youtube.com/embed/H76IdT1tE78"
     content: The first of its kind, Audiocolor is a self-therapy device that provides
       a combination of benefits that explores both bio feedback and neuro feedback
       therapy into an interactive projection of thoughts that activates and trains

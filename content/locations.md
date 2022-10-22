@@ -22,7 +22,7 @@ soulspring_clinics:
       link: https://goo.gl/maps/TbVV1H2ydEqLjrVN7
       label: Show Map
     content: ''
-  - image: "/images/sslomas-staff_drjoy-2.jpeg"
+  - image: "/images/sslomas-staff_drjoy-2.jpg"
     name: Soul Spring Lomas
     location: Pedregal 51, Lomas - Virreyes, Lomas de Chapultepec IV Secc Miguel Hidalgo,
       11000 Ciudad de México, CDMX
@@ -94,20 +94,31 @@ resort_clinics:
   title: Soul Spring Resort Clinics
   subtitle: In-patient experiences with a full suite of biological medicine therapies,
     holistic modalities and best-in-class amenities.
-  gallery:
-  - images/soulspring-clinics/resort-clinics/01.jpg
-  - images/soulspring-clinics/resort-clinics/02.jpg
-  - "/images/ss_cuerna_30.jpg"
-  clinic_info:
-    name: Casa Soul Spring - Cuernavaca
-    location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
-      Morelos
-    phone: "+52 777-233-3926"
-    opening_hour: 'Monday - Friday: 9:00am - 5:00pm'
-    button:
-      link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
-      label: Show Map
-    content: ''
+  resort_clinic_lists:
+    - gallery:
+      - images/soulspring-clinics/resort-clinics/01.jpg
+      - images/soulspring-clinics/resort-clinics/02.jpg
+      - "/images/ss_cuerna_30.jpg"
+      clinic_info:
+        name: Casa Soul Spring - Cuernavaca
+        location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
+          Morelos
+        phone: "+52 777-233-3926"
+        opening_hour: 'Monday - Friday: 9:00am - 5:00pm'
+        button:
+          link: https://goo.gl/maps/vrJdRzAgQkpgUGaL9
+          label: Show Map
+        content: ''
+    - gallery: []
+      clinic_info:
+        name: "Coming Soon: Los Cabos & Cancun"
+        location: 
+        phone: ""
+        opening_hour: 'Coming soon….'
+        button:
+          link: 
+          label: Show Map
+        content: ''
 signature_wellness_centers:
   enable: true
   title: Soul Spring Signature Wellness Centers
@@ -116,18 +127,18 @@ signature_wellness_centers:
   welness_center_lists:
   - image: "/images/athens-coming-soon-2.png"
     name: Soul Spring Athens
-    location: ''
+    location: 'Athens, Greece'
     phone: ''
-    opening_hour: Coming soon....
+    opening_hour: ""
     button:
       link: ''
       label: ''
     content: ''
   - image: "/images/miami-coming-soon.png"
     name: Soul Spring Miami
-    location: ''
+    location: 'Miami, Florida'
     phone: ''
-    opening_hour: Coming soon....
+    opening_hour: ""
     button:
       link: ''
       label: ''
@@ -136,7 +147,7 @@ signature_wellness_centers:
     name: Soul Spring Lisbon
     location: Lisbon, Portugal
     phone: ''
-    opening_hour: Coming soon....
+    opening_hour: ""
     button:
       link: ''
       label: ''
