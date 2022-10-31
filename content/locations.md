@@ -98,7 +98,7 @@ resort_clinics:
   - gallery:
     - images/soulspring-clinics/resort-clinics/01.jpg
     - "/images/ss_cuerna_iv.jpg"
-    - "/images/ss_cuerna_41.jpg"
+    - "/images/about/mission.png"
     clinic_info:
       name: Casa Soul Spring - Cuernavaca
       location: Hotel Compañía de Especias Avenida Club de Golf Santa Fe 1. Xochitepec
