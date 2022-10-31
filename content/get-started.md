@@ -9,7 +9,7 @@ soulspring_experience:
     uniquely designed for you
   image: images/get-started/soulspring-experience.jpg
   review_block:
-    reviewer: Dr. Peter Mölleney, Founder & CEO, Wegamed
+    reviewer: Dr. Peter Mölleney, Founder & CEO Wegamed
     content: "“We offer the ability to understand the Human Being, not as a set of
       problems to fix, but as a system.”"
 cause_of_problem:
