@@ -9,7 +9,7 @@ soulspring_experience:
     uniquely designed for you
   image: images/get-started/soulspring-experience.jpg
   review_block:
-    reviewer: Dr. Peter Mölleney, Wegamed
+    reviewer: Dr. Peter Mölleney, Founder & CEO, Wegamed
     content: "“We offer the ability to understand the Human Being, not as a set of
       problems to fix, but as a system.”"
 cause_of_problem:
@@ -58,7 +58,7 @@ wellness_report:
       sample, we will immediately report:'
     links:
     - label: Brain & Behavioral Health
-      link: '/offering/#brain-health'
+      link: "/offering/#brain-health"
     - label: Biological Age
       link: "/offering"
     - label: Food Sensitivity
