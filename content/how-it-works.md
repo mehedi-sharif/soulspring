@@ -6,7 +6,8 @@ wellness_journey:
   enable: true
   title: Your Wellness Journey
   subtitle: Bio-individualized wellness solutions tailored just for you
-  video: images/how-it-works/video-01.mp4
+  video: images/how-it-works/video.mp4
+  video_sm: images/how-it-works/video-sm.mp4
   video_thumbnail: images/how-it-works/thumb.jpg
   journey_steps:
   - title: Move from reactive to preventative care

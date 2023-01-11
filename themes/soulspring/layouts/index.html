@@ -184,8 +184,8 @@
               {{ end }}
 
               <div class="image-block position-relative">
-                {{ with .video }}
-                <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{.}}">
+                {{ if or .video .video_sm }}
+                <div class="play-btn position-absolute start-50 top-50 translate-middle" type="button" data-bs-toggle="modal" data-bs-target="#videoModal" data-video-url="{{.video}}" data-video-url-sm="{{.video_sm}}">
                   <svg class="text-white" width="130" height="130" viewBox="0 0 130 130" fill="none" xmlns="http://www.w3.org/2000/svg">
                     <circle class="animate" cx="65" cy="65" r="56" fill="currentColor" fill-opacity="0.2"/>
                     <circle class="animate" cx="65" cy="65" r="55.5" stroke="currentColor" stroke-opacity="0.5"/>
@@ -232,7 +232,7 @@
     <div class="modal-content bg-transparent border-0">
       <button id="modalClose" type="button" class="btn-close position-absolute end-0 shadow-none" style="top:-35px" data-bs-dismiss="modal" aria-label="Close"></button>
       <div class="modal-body p-0">
-        <video id="modalVideo" controls autoplay class="ratio ratio-16x9">
+        <video id="modalVideo" controls autoplay class="ratio ratio-16x9 bg-light rounded-sm">
           Your browser does not support the video tag.
         </video>
       </div>

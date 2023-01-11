@@ -88,7 +88,8 @@ how_it_works:
     link: how-it-works/
   slider:
   - image: images/how-it-works/01.jpg
-    video: images/how-it-works/video-01.mp4
+    video: images/how-it-works/video.mp4
+    video_sm: images/how-it-works/video-sm.mp4
     quote:
       enable: true
       content: Onboarding - <br/> Holistic Diagnostics and Assessment

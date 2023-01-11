@@ -15,9 +15,15 @@
       <div class="col-lg-12">
         <div class="position-relative">
           {{ $image := resources.Get .video_thumbnail }}
-          <video poster="{{ with $image }}{{ .RelPermalink }}{{ end }}" src="{{(resources.Get .video).RelPermalink}}" autoplay muted loop class="ratio ratio-16x9 rounded-sm overflow-hidden" style="pointer-events:none">
+          <video poster="{{ with $image }}{{ .RelPermalink }}{{ end }}" src="{{(resources.Get .video_sm).RelPermalink}}" autoplay muted loop class="ratio ratio-16x9 rounded-sm overflow-hidden change-src" style="pointer-events:none">
             Your browser does not support the video tag.
           </video>
+          <script>
+            let srcLg = document.querySelector(".change-src");
+            if (networkStatus == "4g" && mobileDevice == false) {
+              srcLg.setAttribute("src", "{{(resources.Get .video).RelPermalink}}");
+            }
+          </script>
           {{ partial "image.html" (dict "Src" "images/wellness-solutions/leaf.svg" "Alt" "*" "Class" "leaf position-absolute" ) }}
         </div>
 

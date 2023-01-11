@@ -157,14 +157,23 @@
   let videoModalBtn = document.querySelectorAll(
     '[data-bs-target="#videoModal"]'
   );
-  let videoSrc;
+  let videoSrc, videoSrcSm;
   if (modalEl) {
     videoModalBtn.forEach(function (modalBtn) {
       modalBtn.addEventListener("click", function () {
         videoSrc = this.getAttribute("data-video-url");
+        videoSrcSm = this.getAttribute("data-video-url-sm");
         modalEl.addEventListener("shown.bs.modal", function () {
           modalClose.classList.remove("opacity-0");
-          modalVideo.setAttribute("src", videoSrc);
+          if (videoSrcSm) {
+            if (networkStatus != "4g" || mobileDevice == true) {
+              modalVideo.setAttribute("src", videoSrcSm);
+            } else {
+              modalVideo.setAttribute("src", videoSrc);
+            }
+          } else {
+            modalVideo.setAttribute("src", videoSrc);
+          }
         });
       });
     });

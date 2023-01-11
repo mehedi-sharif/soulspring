@@ -12,8 +12,6 @@ benefit_summary:
   title: At-a-Glance Benefit Summary
   subtitle: State-of-the-art medical technology identifies hidden root causes of disease
     traditional lab tests may miss.
-  video: images/how-it-works/video-01.mp4
-  video_thumbnail: images/technology/thumb.jpg
   benefit_lists:
   - icon: images/technology/benefit-summary/01.svg
     title: Holistic devices
