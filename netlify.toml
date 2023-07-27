@@ -6,6 +6,11 @@ command = "hugo --minify --gc"
 HUGO_VERSION = "0.104.1"
 HUGO_BASEURL = "/"
 
+[[redirects]]
+  from = "/"
+  to = "https://soulspring.world/"
+  force = true
+
 [[headers]]
 for = "/*" # This defines which paths this specific [[headers]] block will cover.
 
